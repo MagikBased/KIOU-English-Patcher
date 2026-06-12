@@ -1,134 +1,40 @@
-# Kiou English APK Patcher
+# Kiou English Patcher
 
-This patcher applies the current English text patch to a user-provided Kiou APK and signs the result with a local debug patch key. It does not include or redistribute the APK or downloaded game assets.
+Desktop patcher for applying the current English patch to a user-provided Kiou Android APK and its downloaded Unity data cache.
 
-## Requirements
+This project does not include, distribute, or download the original game APK, patched APKs, downloaded game assets, or extracted game files. You must provide your own legally obtained APK.
 
-- Python 3
-- Tkinter for Python. This is included with the standard Windows and macOS Python installers. Some Linux distros package it separately as `python3-tk`.
-- Android platform/build tools: `adb`, `zipalign`, `apksigner`, `keytool`
-- A legally obtained Kiou APK matching the tested build
+## Download
 
-The GUI and Python backend work on Linux, macOS, and Windows. The shell scripts are still useful on Linux/macOS, but Windows users should use the Python GUI.
-
-The patcher looks for Android tools in `PATH`, `ANDROID_HOME`, `ANDROID_SDK_ROOT`, and common Android SDK install paths. On Windows, installing Android Studio and the Android SDK Build-Tools is usually enough.
-
-Set up Python dependencies from this repository:
-
-```bash
-python3 -m venv .venv
-.venv/bin/pip install -r requirements.txt
-```
-
-On Windows PowerShell:
-
-```powershell
-py -3 -m venv .venv
-.\.venv\Scripts\python -m pip install -r requirements.txt
-```
-
-## GUI
-
-Launch the cross-platform GUI:
-
-```bash
-.venv/bin/python scripts/patcher_gui.py
-```
-
-On Windows PowerShell:
-
-```powershell
-.\.venv\Scripts\python scripts\patcher_gui.py
-```
-
-The GUI walks through the normal patching flow:
-
-1. Patch APK
-2. Install Patched APK
-3. Launch Game
-4. Check Downloaded Data
-5. Patch Downloaded Data
-
-After launching the game, let the forced additional-data download finish inside the emulator or phone. Then use `Check Downloaded Data`. When all required bundles are found, run `Patch Downloaded Data`.
-
-If more than one phone or emulator is connected, choose the intended target from the `Target` dropdown before installing, launching, checking downloaded data, or patching downloaded data.
-
-## Native Desktop Builds
-
-The project includes PyInstaller build helpers for native desktop artifacts:
-
-- Windows: `dist\KiouEnglishPatcher.exe`
-- macOS: `dist/KiouEnglishPatcher.app`
-- Linux: `dist/KiouEnglishPatcher/KiouEnglishPatcher`
-
-PyInstaller builds for the OS it is running on. Build the Windows `.exe` on Windows, and build the macOS `.app` on macOS.
-
-On Windows PowerShell or Command Prompt:
-
-```bat
-build_windows.bat
-```
-
-On macOS:
-
-```bash
-chmod +x build_macos.command
-./build_macos.command
-```
-
-On Linux:
-
-```bash
-chmod +x build_linux.sh
-./build_linux.sh
-```
-
-The packaged app still expects Android SDK tools to be installed on the user's machine. It searches `PATH`, `ANDROID_HOME`, `ANDROID_SDK_ROOT`, and common Android SDK install locations.
-
-These local builds are unsigned. Windows may show a SmartScreen warning, and macOS Gatekeeper may require right-clicking the app and choosing Open unless you later sign and notarize the app with an Apple Developer account.
-
-There is also a GitHub Actions workflow at `.github/workflows/build-desktop.yml`. It can produce downloadable Windows, macOS, and Linux artifacts from GitHub-hosted native runners.
-
-## GitHub Releases
-
-To publish a release with desktop builds, commit and push the patcher files, then create and push a version tag:
-
-```bash
-git tag v0.1.0
-git push origin v0.1.0
-```
-
-The `Build Desktop Patcher` workflow will build and attach these release assets:
-
-- `KiouEnglishPatcher.exe`
-- `KiouEnglishPatcher-macOS.zip`
-- `KiouEnglishPatcher-Linux-x86_64.tar.gz`
-
-You can also run the workflow manually from the GitHub Actions tab. Leave `release_tag` blank to only build downloadable workflow artifacts. Set `release_tag` to a tag such as `v0.1.0` to create or update that GitHub Release.
-
-The release assets are patchers only. Do not attach the original APK, patched APKs, downloaded game assets, or extracted game files.
-
-Packaged app state, reports, temporary files, and the local signing key are written to:
+Most users should download the latest desktop patcher from:
 
 ```text
-~/.kiou-english-patcher
+https://github.com/MagikBased/KIOU-English-Patcher/releases/latest
 ```
 
-## Patch the APK
+Choose the file for your computer:
 
-Run the patcher with your original APK path:
+- Windows: `KiouEnglishPatcher.exe`
+- macOS: `KiouEnglishPatcher-macOS.zip`
+- Linux: `KiouEnglishPatcher-Linux-x86_64.tar.gz`
 
-```bash
-scripts/patch_apk.sh /path/to/KIOU_RELEASE.apk output/KIOU_RELEASE_english.apk
-```
+These builds are unsigned. Windows may show a SmartScreen warning, and macOS Gatekeeper may require right-clicking the app and choosing `Open`.
 
-The script will:
+## Before You Start
 
-- verify the APK hash against the tested build
-- patch bundled Unity UI text using `translations/local_ui.csv`
-- remove stale APK signatures
-- rebuild, zipalign, and sign the patched APK
-- write a report to `output/local_ui_patch_report.json`
+You need:
+
+- A legally obtained Kiou APK.
+- Android Studio or Android SDK Platform Tools installed.
+- USB debugging enabled if patching a phone.
+- An emulator or phone visible to ADB.
+
+The patcher looks for Android tools in `PATH`, `ANDROID_HOME`, `ANDROID_SDK_ROOT`, and common Android SDK install locations. It needs:
+
+- `adb`
+- `zipalign`
+- `apksigner`
+- `keytool`
 
 The tested APK SHA256 is:
 
@@ -136,59 +42,124 @@ The tested APK SHA256 is:
 c23f77caacf7cb988bcbf1b9d91ec5708eef6cc6056faee38f0d8ea778ec898f
 ```
 
-To try an untested APK build anyway:
+Untested APK builds may fail or patch only partially if the game files changed.
+
+## Running the Patcher
+
+### Windows
+
+Download `KiouEnglishPatcher.exe`, then double-click it.
+
+If Windows blocks it, choose `More info`, then `Run anyway`.
+
+### macOS
+
+Download `KiouEnglishPatcher-macOS.zip`, unzip it, then open `KiouEnglishPatcher.app`.
+
+If macOS blocks it, right-click the app and choose `Open`.
+
+### Linux
+
+Download `KiouEnglishPatcher-Linux-x86_64.tar.gz`, then run:
 
 ```bash
-ALLOW_UNKNOWN=1 scripts/patch_apk.sh /path/to/KIOU_RELEASE.apk output/KIOU_RELEASE_english.apk
+tar -xzf KiouEnglishPatcher-Linux-x86_64.tar.gz
+./KiouEnglishPatcher/KiouEnglishPatcher
 ```
 
-Untested builds may fail to patch or may patch only partially if Unity bundle contents changed.
+## Guided Patch Flow
 
-## Install the Patched APK
+The GUI walks through the normal patch process:
 
-Install with ADB:
+1. Select your original APK with `Browse`.
+2. Click `Patch APK`.
+3. Choose the target emulator or phone from the `Target` dropdown.
+4. Click `Install Patched APK`.
+5. Click `Launch Game`.
+6. Let the game finish its forced additional-data download.
+7. Return to the patcher and click `Check Downloaded Data`.
+8. When all required bundles are found, click `Patch Downloaded Data`.
+
+If more than one phone or emulator is connected, you must choose the intended target from the `Target` dropdown. Otherwise ADB cannot know where to install or patch.
+
+The downloaded-data step is required because some English text lives outside the APK in Unity bundles that the game downloads after first launch. A fresh install, emulator reset, app data clear, or game asset update may require running `Patch Downloaded Data` again after the game finishes downloading.
+
+## Install Notes
+
+If Android reports a signature mismatch, uninstall the existing original app first, then install the patched APK from the GUI.
+
+Uninstalling the app removes its local data.
+
+## Where Files Are Written
+
+Packaged desktop builds write temporary files, reports, and the local patch signing key to:
+
+```text
+~/.kiou-english-patcher
+```
+
+## Developer Setup
+
+To run the GUI from source:
 
 ```bash
-adb install -r output/KIOU_RELEASE_english.apk
+python3 -m venv .venv
+.venv/bin/pip install -r requirements.txt
+.venv/bin/python scripts/patcher_gui.py
 ```
 
-If Android reports a signature mismatch, uninstall the existing original app first, then install the patched APK:
+On Windows PowerShell:
+
+```powershell
+py -3 -m venv .venv
+.\.venv\Scripts\python -m pip install -r requirements.txt
+.\.venv\Scripts\python scripts\patcher_gui.py
+```
+
+## Local Desktop Builds
+
+PyInstaller builds for the OS it is running on. Build the Windows `.exe` on Windows, and build the macOS `.app` on macOS.
+
+Windows:
+
+```bat
+build_windows.bat
+```
+
+macOS:
 
 ```bash
-adb uninstall com.neconome.shogi
-adb install output/KIOU_RELEASE_english.apk
+chmod +x build_macos.command
+./build_macos.command
 ```
 
-Uninstalling removes the app's local data. Keep that in mind before replacing an existing install.
-
-## Patch Downloaded Remote Data
-
-Some UI text lives in Unity bundles downloaded after first launch. After installing the patched APK, launch the game once and let the additional data download finish. Then connect the device with USB debugging enabled and run:
+Linux:
 
 ```bash
-scripts/patch_remote_cache.sh
+chmod +x build_linux.sh
+./build_linux.sh
 ```
 
-That script will:
+## Publishing Releases
 
-- stop the app
-- pull the downloaded remote bundles needed by `reports/remote_patch_report.json`
-- patch them using `translations/remote_ui.csv`
-- push patched `__data` files plus matching YooAsset cache metadata
-- relaunch the app
-- write a report to `output/remote_cache_patch_report.json`
-
-If the script says required bundles are missing, launch the game, finish the additional data download, then retry.
-
-The default package is `com.neconome.shogi`. To patch a different package name:
+GitHub Actions builds release assets when a version tag is pushed:
 
 ```bash
-scripts/patch_remote_cache.sh com.example.package
+git tag v0.1.2
+git push origin v0.1.2
 ```
+
+The workflow attaches:
+
+- `KiouEnglishPatcher.exe`
+- `KiouEnglishPatcher-macOS.zip`
+- `KiouEnglishPatcher-Linux-x86_64.tar.gz`
+
+Release assets should contain the patcher only. Do not attach the original APK, patched APKs, downloaded game assets, or extracted game files.
 
 ## Current Limitations
 
-- The APK patch is version-locked to the tested APK hash above unless `ALLOW_UNKNOWN=1` is used.
-- The remote cache patch targets the current known downloaded bundle hash set in `reports/remote_patch_report.json`.
+- The APK patch is version-locked to the tested APK hash unless `Try untested APK build` is enabled.
+- The downloaded-data patch targets the currently known remote bundle hash set in `reports/remote_patch_report.json`.
 - A future game update may require rebuilding the translation CSVs and remote patch report.
-- Image/icon text is not replaced by this APK patcher yet; exported atlases are available separately for manual editing work.
+- Image/icon text is not replaced by this patcher yet.
