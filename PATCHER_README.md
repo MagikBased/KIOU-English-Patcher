@@ -77,7 +77,26 @@ The packaged app still expects Android SDK tools to be installed on the user's m
 
 These local builds are unsigned. Windows may show a SmartScreen warning, and macOS Gatekeeper may require right-clicking the app and choosing Open unless you later sign and notarize the app with an Apple Developer account.
 
-There is also a GitHub Actions workflow at `.github/workflows/build-desktop.yml`. Run the `Build Desktop Patcher` workflow to produce downloadable Windows and macOS artifacts from GitHub-hosted native runners.
+There is also a GitHub Actions workflow at `.github/workflows/build-desktop.yml`. It can produce downloadable Windows, macOS, and Linux artifacts from GitHub-hosted native runners.
+
+## GitHub Releases
+
+To publish a release with desktop builds, commit and push the patcher files, then create and push a version tag:
+
+```bash
+git tag v0.1.0
+git push origin v0.1.0
+```
+
+The `Build Desktop Patcher` workflow will build and attach these release assets:
+
+- `KiouEnglishPatcher.exe`
+- `KiouEnglishPatcher-macOS.zip`
+- `KiouEnglishPatcher-Linux-x86_64.tar.gz`
+
+You can also run the workflow manually from the GitHub Actions tab. Leave `release_tag` blank to only build downloadable workflow artifacts. Set `release_tag` to a tag such as `v0.1.0` to create or update that GitHub Release.
+
+The release assets are patchers only. Do not attach the original APK, patched APKs, downloaded game assets, or extracted game files.
 
 Packaged app state, reports, temporary files, and the local signing key are written to:
 
