@@ -1,0 +1,85 @@
+source,target
+"メッセージ
+メッセージ2","Message
+Message 2"
+アカウント復元,Account Recovery
+アカウント削除,Delete Account
+アカウント初期化,Reset Account
+設定,Settings
+キャッシュクリア,Clear Cache
+お問い合わせ,Contact
+お知らせ,News
+メニュー,Menu
+"データのダウンロードが必要です。
+ダウンロードを開始しますか？","Additional data is required.
+Start download?"
+サイズ：{0:F2} MB,Size: {0:F2} MB
+確認,Confirm
+サイズ：0.00MB,Size: 0.00 MB
+テキスト,Text
+選択,Select
+不具合,Issues
+アップデート,Updates
+新着,New
+その他,Other
+お知らせはありません。,No news available.
+タイトル,Title
+最終ログイン時刻:,Last login:
+名前: {0},Name: {0}
+最終ログイン時刻: {0},Last login: {0}
+名前:,Name:
+すでに下記のアカウントが連携されています。\n上書きしますか？,The account below is already linked.\nOverwrite it?
+メッセージが表示されます。,A message will be shown.
+項目,Item
+"以下のサービスと連携済のアカウントを
+復元することができます。","You can restore an account linked with the following services."
+音声,Voice
+有効,On
+対局,Match
+観戦時の装飾品適用,Apply cosmetics while spectating
+移動アニメーション,Move animation
+演出,Effects
+画面モード,Display Mode
+なし,None
+一般,General
+対局者の装飾品,Player cosmetics
+通常,Normal
+解像度,Resolution
+省エフェクト,Reduced Effects
+音量,Volume
+ウィンドウモード,Windowed Mode
+駒を画面スワイプで移動,Move pieces by swiping
+フレームレート,Frame Rate
+自分の装飾品,My cosmetics
+全画面モード,Fullscreen Mode
+無効,Off
+配信者モード,Streamer Mode
+"利用規約とプライバシーポリシーに
+同意しますか？","Do you agree to the Terms of Service and Privacy Policy?"
+利用規約,Terms of Service
+プライバシーポリシー,Privacy Policy
+以下の名前でよろしいですか？,Use this name?
+ユーザー名,Username
+詳細,Details
+内容,Content
+コピーライト,Copyright
+"名前を入力してください。
+（2～12文字）","Enter a name.
+(2-12 characters)"
+"名前を入力してください。
+（{0}～{1}文字）","Enter a name.
+({0}-{1} characters)"
+名前入力,Enter Name
+ID: タップで表示＆コピー,ID: Tap to show and copy
+"アカウントを完全に削除しますか？
+
+<color=#FF5779>削除後は復元することができません。</color>","Permanently delete this account?
+
+<color=#FF5779>It cannot be restored after deletion.</color>"
+"現在のアカウントを初期化しますか？
+（アカウントを端末上でのみ削除します）
+
+<color=#FFC560>外部サービスと連携済であれば「データ復元」で\n後から復元することができます。</color>","Reset the current account?
+(This only removes the account from this device.)
+
+<color=#FFC560>If it is linked to an external service, you can restore it later with Data Restore.</color>"

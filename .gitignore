@@ -32,6 +32,28 @@ MANIFEST
 *.manifest
 *.spec
 
+# Kiou patcher local/generated files
+*.apk
+*.apk.idsig
+*.aab
+android-studio/
+downloaded/
+extracted/
+output/
+patched/
+work/
+build/
+dist/
+reports/*.csv
+reports/*.jsonl
+reports/*_scan/
+reports/bundle_inventory.json
+reports/local_ui_patch_report.json
+reports/remote_bundle_map.json
+reports/remote_local_ui_patch_report.json
+reports/remote_target_bundles.json
+translations/remote_ui_template.csv
+
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt

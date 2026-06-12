@@ -1,0 +1,4042 @@
+[
+  {
+    "bundle_file": "0189ec9280e98fda4ae9787862d61e40__remote_assets__project__menu_prefab_overlay_kifulistpopup_kifulistpopupview.bundle",
+    "replacements": 11,
+    "changed_objects": [
+      {
+        "path_id": -8785517259636738279,
+        "replacements": 1
+      },
+      {
+        "path_id": -8673095820188584167,
+        "replacements": 1
+      },
+      {
+        "path_id": -6193377970334861543,
+        "replacements": 1
+      },
+      {
+        "path_id": -5250570784181389543,
+        "replacements": 1
+      },
+      {
+        "path_id": -2468941940860651751,
+        "replacements": 1
+      },
+      {
+        "path_id": -2133410577606838503,
+        "replacements": 1
+      },
+      {
+        "path_id": -539673893542824167,
+        "replacements": 1
+      },
+      {
+        "path_id": 3110438148323079961,
+        "replacements": 1
+      },
+      {
+        "path_id": 3154923779785357081,
+        "replacements": 1
+      },
+      {
+        "path_id": 6970918781974148889,
+        "replacements": 1
+      },
+      {
+        "path_id": 8257578920734750489,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "021926a95e4f68e9106a29246c24be49__remote_assets__project_composition_prefab_ui_overlay_implement_characterintimacylevelupoverlayview.bundle",
+    "replacements": 2,
+    "changed_objects": [
+      {
+        "path_id": -6988102040925722962,
+        "replacements": 1
+      },
+      {
+        "path_id": -6462313213446216018,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "022a8e4015322d79de2b5f29a3292699__remote_assets__project_composition_prefab_ui_overlay_implement_kifudetail_tsumepopupview.bundle",
+    "replacements": 8,
+    "changed_objects": [
+      {
+        "path_id": -6642230072894821653,
+        "replacements": 1
+      },
+      {
+        "path_id": -5872474021843637525,
+        "replacements": 1
+      },
+      {
+        "path_id": -5129022462177580309,
+        "replacements": 1
+      },
+      {
+        "path_id": 1031025729987144427,
+        "replacements": 1
+      },
+      {
+        "path_id": 2306590106142173931,
+        "replacements": 1
+      },
+      {
+        "path_id": 3485316178112932587,
+        "replacements": 1
+      },
+      {
+        "path_id": 3651174286696114923,
+        "replacements": 1
+      },
+      {
+        "path_id": 7854991726406200043,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "0357bee9da05287fb11143adfbf61f5e__remote_assets__project__menu_prefab_page_lobbymatchroompage_lobbymatchroompage.bundle",
+    "replacements": 49,
+    "changed_objects": [
+      {
+        "path_id": -8990667945711235228,
+        "replacements": 1
+      },
+      {
+        "path_id": -8990113664009826460,
+        "replacements": 2
+      },
+      {
+        "path_id": -7653672697450066076,
+        "replacements": 1
+      },
+      {
+        "path_id": -7340614701220688028,
+        "replacements": 1
+      },
+      {
+        "path_id": -7288288502520148124,
+        "replacements": 1
+      },
+      {
+        "path_id": -6499275419604742300,
+        "replacements": 1
+      },
+      {
+        "path_id": -6345413994172313756,
+        "replacements": 1
+      },
+      {
+        "path_id": -6037471017520001180,
+        "replacements": 1
+      },
+      {
+        "path_id": -4755825229210316956,
+        "replacements": 1
+      },
+      {
+        "path_id": -4356142075284549788,
+        "replacements": 2
+      },
+      {
+        "path_id": -3836162316713193628,
+        "replacements": 1
+      },
+      {
+        "path_id": -2970655121924092060,
+        "replacements": 1
+      },
+      {
+        "path_id": -2743024004195348636,
+        "replacements": 1
+      },
+      {
+        "path_id": -2569837596722065564,
+        "replacements": 1
+      },
+      {
+        "path_id": -2410307025570361500,
+        "replacements": 1
+      },
+      {
+        "path_id": -1965425063872622748,
+        "replacements": 1
+      },
+      {
+        "path_id": -1801482996426600604,
+        "replacements": 1
+      },
+      {
+        "path_id": -213757520106352796,
+        "replacements": 1
+      },
+      {
+        "path_id": 40730303526014820,
+        "replacements": 1
+      },
+      {
+        "path_id": 89395614103375716,
+        "replacements": 1
+      },
+      {
+        "path_id": 1386792801263751012,
+        "replacements": 1
+      },
+      {
+        "path_id": 1412538977846169444,
+        "replacements": 1
+      },
+      {
+        "path_id": 1413334799174340452,
+        "replacements": 1
+      },
+      {
+        "path_id": 1724515500073750372,
+        "replacements": 1
+      },
+      {
+        "path_id": 2719146659495808868,
+        "replacements": 1
+      },
+      {
+        "path_id": 3167920785146908516,
+        "replacements": 1
+      },
+      {
+        "path_id": 3332023743648894820,
+        "replacements": 1
+      },
+      {
+        "path_id": 3365508603215744868,
+        "replacements": 1
+      },
+      {
+        "path_id": 3865973530720341860,
+        "replacements": 1
+      },
+      {
+        "path_id": 3969817868579901284,
+        "replacements": 1
+      },
+      {
+        "path_id": 4028788196004794212,
+        "replacements": 2
+      },
+      {
+        "path_id": 4088261352227344228,
+        "replacements": 1
+      },
+      {
+        "path_id": 4324093006260735844,
+        "replacements": 1
+      },
+      {
+        "path_id": 4346710024226738020,
+        "replacements": 1
+      },
+      {
+        "path_id": 6028527142325653348,
+        "replacements": 1
+      },
+      {
+        "path_id": 6430238690459193188,
+        "replacements": 1
+      },
+      {
+        "path_id": 6636089070642138980,
+        "replacements": 1
+      },
+      {
+        "path_id": 6757320712794607460,
+        "replacements": 2
+      },
+      {
+        "path_id": 6799495543938158436,
+        "replacements": 1
+      },
+      {
+        "path_id": 7068441479760777060,
+        "replacements": 1
+      },
+      {
+        "path_id": 7250543421939584868,
+        "replacements": 1
+      },
+      {
+        "path_id": 7553085232999173988,
+        "replacements": 1
+      },
+      {
+        "path_id": 7925006669090459492,
+        "replacements": 1
+      },
+      {
+        "path_id": 9146617576514195300,
+        "replacements": 1
+      },
+      {
+        "path_id": 9193154765787893604,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "04ae8448d68c147efe3e8d494f3013fa__remote_assets__project_composition_prefab_ui_overlay_implement_characterdetailoverlayview.bundle",
+    "replacements": 16,
+    "changed_objects": [
+      {
+        "path_id": -8137762001956510936,
+        "replacements": 1
+      },
+      {
+        "path_id": -8039785433482861784,
+        "replacements": 1
+      },
+      {
+        "path_id": -7244232711933467864,
+        "replacements": 1
+      },
+      {
+        "path_id": -7167403780983758040,
+        "replacements": 1
+      },
+      {
+        "path_id": -6248799963328683224,
+        "replacements": 1
+      },
+      {
+        "path_id": -4603894687991733464,
+        "replacements": 1
+      },
+      {
+        "path_id": -4351533126573628632,
+        "replacements": 1
+      },
+      {
+        "path_id": -1224472094161116376,
+        "replacements": 1
+      },
+      {
+        "path_id": -90404447708585176,
+        "replacements": 1
+      },
+      {
+        "path_id": 3131704182733529896,
+        "replacements": 1
+      },
+      {
+        "path_id": 3158545262612570920,
+        "replacements": 1
+      },
+      {
+        "path_id": 3799941280482714408,
+        "replacements": 1
+      },
+      {
+        "path_id": 6619809855645410088,
+        "replacements": 1
+      },
+      {
+        "path_id": 6658599705583936296,
+        "replacements": 1
+      },
+      {
+        "path_id": 6871169959561061160,
+        "replacements": 1
+      },
+      {
+        "path_id": 7720306088780161832,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "05119b96ce1ac417ec1a741bb8d26596__remote_assets__project__menu_prefab_overlay_lobbymatchroommemberlistpopup_lobbymatchroommemberlistpopupview.bundle",
+    "replacements": 5,
+    "changed_objects": [
+      {
+        "path_id": -6532356120364669713,
+        "replacements": 1
+      },
+      {
+        "path_id": -4126503783171054353,
+        "replacements": 1
+      },
+      {
+        "path_id": 4851528528845645039,
+        "replacements": 1
+      },
+      {
+        "path_id": 7003072191559804143,
+        "replacements": 1
+      },
+      {
+        "path_id": 8689948739145409775,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "086648afc7dfafa85ff3a8d583df21f6__remote_assets__project_composition_prefab_ui_overlay_implement_creditpopupview.bundle",
+    "replacements": 1,
+    "changed_objects": [
+      {
+        "path_id": -1946755003451973487,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "0a89a350e644e0540c74b38e899f9c57__remote_share_assets__project_composition_prefab_ui_overlay_implement_tsumeselectionpopup.bundle",
+    "replacements": 2,
+    "changed_objects": [
+      {
+        "path_id": -6425466151339628071,
+        "replacements": 1
+      },
+      {
+        "path_id": -5706520217566254631,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "0c90af8baf09f4179a63486e6cbf39bc__remote_assets__project__game_prefab_overlay_gameresulteffectoverlayview.bundle",
+    "replacements": 10,
+    "changed_objects": [
+      {
+        "path_id": -6364130640672972660,
+        "replacements": 1
+      },
+      {
+        "path_id": -5986360260286603124,
+        "replacements": 3
+      },
+      {
+        "path_id": -5791941869899865972,
+        "replacements": 1
+      },
+      {
+        "path_id": -1491840230421815156,
+        "replacements": 1
+      },
+      {
+        "path_id": -270750706205515636,
+        "replacements": 1
+      },
+      {
+        "path_id": -245966671033786228,
+        "replacements": 1
+      },
+      {
+        "path_id": 1603536097289445516,
+        "replacements": 1
+      },
+      {
+        "path_id": 8229566286972330124,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "0e221d6d81ca41e3526ce343e89fa022__remote_assets__project__menu_prefab_overlay_lobbymatchroomsettingspopup_lobbymatchroomsettingspopupview.bundle",
+    "replacements": 16,
+    "changed_objects": [
+      {
+        "path_id": -8419727604934925721,
+        "replacements": 1
+      },
+      {
+        "path_id": -4797000654824758681,
+        "replacements": 1
+      },
+      {
+        "path_id": -3957628612866432409,
+        "replacements": 1
+      },
+      {
+        "path_id": -2858533956317502873,
+        "replacements": 1
+      },
+      {
+        "path_id": -2760614379614985625,
+        "replacements": 1
+      },
+      {
+        "path_id": -1014200839681301913,
+        "replacements": 1
+      },
+      {
+        "path_id": -946445867394948505,
+        "replacements": 1
+      },
+      {
+        "path_id": 525405693205324391,
+        "replacements": 1
+      },
+      {
+        "path_id": 1001859269842739815,
+        "replacements": 1
+      },
+      {
+        "path_id": 2419349857362027111,
+        "replacements": 1
+      },
+      {
+        "path_id": 2926579279268389479,
+        "replacements": 1
+      },
+      {
+        "path_id": 3716505167970607719,
+        "replacements": 1
+      },
+      {
+        "path_id": 5540609044611572327,
+        "replacements": 1
+      },
+      {
+        "path_id": 7506100863150695015,
+        "replacements": 1
+      },
+      {
+        "path_id": 7644396488437572199,
+        "replacements": 1
+      },
+      {
+        "path_id": 8708908935260709479,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "14623184c47340eb37b403f93f5c0106__remote_assets__project_composition_prefab_ui_overlay_implement_charactercontractpopupview.bundle",
+    "replacements": 9,
+    "changed_objects": [
+      {
+        "path_id": -8484058351652512841,
+        "replacements": 1
+      },
+      {
+        "path_id": -7615809711322440777,
+        "replacements": 1
+      },
+      {
+        "path_id": -6169118893277258825,
+        "replacements": 1
+      },
+      {
+        "path_id": -1649566188609807433,
+        "replacements": 1
+      },
+      {
+        "path_id": 2770868463310920631,
+        "replacements": 1
+      },
+      {
+        "path_id": 4101240357855026103,
+        "replacements": 1
+      },
+      {
+        "path_id": 4217827540972919735,
+        "replacements": 1
+      },
+      {
+        "path_id": 5660111510311394231,
+        "replacements": 1
+      },
+      {
+        "path_id": 9022659499030010807,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "15e7eae02bada9b0f130aa2e0027342b__remote_assets__project_composition_prefab_ui_overlay_implement_itemrewardconfirmationpopup_itemrewardconfirmationpopupview.bundle",
+    "replacements": 3,
+    "changed_objects": [
+      {
+        "path_id": -8691727397926553178,
+        "replacements": 1
+      },
+      {
+        "path_id": -7060345874730141274,
+        "replacements": 1
+      },
+      {
+        "path_id": 8998875853019068838,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "1b505217c8e42773ffb158e119c7a549__remote_assets__project_composition_prefab_ui_overlay_implement_havingcurrencylistpopupview.bundle",
+    "replacements": 2,
+    "changed_objects": [
+      {
+        "path_id": -2451213915893350500,
+        "replacements": 1
+      },
+      {
+        "path_id": 490998495709216668,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "1db6ceb7a425909a28b406411567aefd__remote_share_assets__project_composition_prefab_ui_overlay_implement_directmessage.bundle",
+    "replacements": 2,
+    "changed_objects": [
+      {
+        "path_id": 1702712185733419321,
+        "replacements": 1
+      },
+      {
+        "path_id": 2440150518390296889,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "2124dda7a7ad889e4ae6cf5477bf61c7__remote_assets__project_composition_prefab_ui_overlay_implement_userprofilepopup_userprofilepopupview.bundle",
+    "replacements": 28,
+    "changed_objects": [
+      {
+        "path_id": -8852537784977957892,
+        "replacements": 1
+      },
+      {
+        "path_id": -8651879069402702852,
+        "replacements": 1
+      },
+      {
+        "path_id": -3384077764859831300,
+        "replacements": 1
+      },
+      {
+        "path_id": -3145025073933755396,
+        "replacements": 1
+      },
+      {
+        "path_id": -2937326105668264964,
+        "replacements": 4
+      },
+      {
+        "path_id": -1811866497667605508,
+        "replacements": 1
+      },
+      {
+        "path_id": -1391384967057679364,
+        "replacements": 1
+      },
+      {
+        "path_id": -1024391171139937284,
+        "replacements": 1
+      },
+      {
+        "path_id": -855506321650852868,
+        "replacements": 1
+      },
+      {
+        "path_id": -704596775105307652,
+        "replacements": 1
+      },
+      {
+        "path_id": 425465361998109692,
+        "replacements": 1
+      },
+      {
+        "path_id": 490771899076467708,
+        "replacements": 1
+      },
+      {
+        "path_id": 866674350462884860,
+        "replacements": 1
+      },
+      {
+        "path_id": 1257483365807512572,
+        "replacements": 1
+      },
+      {
+        "path_id": 1577169236084677628,
+        "replacements": 1
+      },
+      {
+        "path_id": 2721504249290841084,
+        "replacements": 1
+      },
+      {
+        "path_id": 3109575968165157884,
+        "replacements": 1
+      },
+      {
+        "path_id": 3342508091907595260,
+        "replacements": 1
+      },
+      {
+        "path_id": 3511700717528570876,
+        "replacements": 1
+      },
+      {
+        "path_id": 6806047947059256316,
+        "replacements": 1
+      },
+      {
+        "path_id": 6830303490729335804,
+        "replacements": 1
+      },
+      {
+        "path_id": 6988434574336023548,
+        "replacements": 4
+      }
+    ]
+  },
+  {
+    "bundle_file": "21f1b7ad22c5661f10403bd837d9c209__remote_share_assets__project_composition_prefab_ui_overlay_implement_giftboxpopup.bundle",
+    "replacements": 5,
+    "changed_objects": [
+      {
+        "path_id": -8317334344328105486,
+        "replacements": 1
+      },
+      {
+        "path_id": 922181348878823922,
+        "replacements": 1
+      },
+      {
+        "path_id": 1417393871852974578,
+        "replacements": 1
+      },
+      {
+        "path_id": 7614912610571432434,
+        "replacements": 1
+      },
+      {
+        "path_id": 8135439220536226290,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "2209afa4fe857538deee7c1de8cd2798__remote_share_assets__project__menu_prefab_page_gachatoppage.bundle",
+    "replacements": 3,
+    "changed_objects": [
+      {
+        "path_id": -8813842142467413634,
+        "replacements": 1
+      },
+      {
+        "path_id": 2735095570537425278,
+        "replacements": 1
+      },
+      {
+        "path_id": 8929686878037453182,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "24ee079078469fa0d83d32be42e14ede__remote_assets__project__game_gamescene.bundle",
+    "replacements": 38,
+    "changed_objects": [
+      {
+        "path_id": 1604,
+        "replacements": 1
+      },
+      {
+        "path_id": 1606,
+        "replacements": 1
+      },
+      {
+        "path_id": 1607,
+        "replacements": 1
+      },
+      {
+        "path_id": 1608,
+        "replacements": 1
+      },
+      {
+        "path_id": 1609,
+        "replacements": 1
+      },
+      {
+        "path_id": 1611,
+        "replacements": 1
+      },
+      {
+        "path_id": 1612,
+        "replacements": 1
+      },
+      {
+        "path_id": 1614,
+        "replacements": 1
+      },
+      {
+        "path_id": 1616,
+        "replacements": 1
+      },
+      {
+        "path_id": 1617,
+        "replacements": 1
+      },
+      {
+        "path_id": 1618,
+        "replacements": 1
+      },
+      {
+        "path_id": 1619,
+        "replacements": 1
+      },
+      {
+        "path_id": 1620,
+        "replacements": 1
+      },
+      {
+        "path_id": 1621,
+        "replacements": 1
+      },
+      {
+        "path_id": 1623,
+        "replacements": 1
+      },
+      {
+        "path_id": 1624,
+        "replacements": 1
+      },
+      {
+        "path_id": 1625,
+        "replacements": 1
+      },
+      {
+        "path_id": 1626,
+        "replacements": 1
+      },
+      {
+        "path_id": 1627,
+        "replacements": 1
+      },
+      {
+        "path_id": 1629,
+        "replacements": 1
+      },
+      {
+        "path_id": 1632,
+        "replacements": 1
+      },
+      {
+        "path_id": 1633,
+        "replacements": 1
+      },
+      {
+        "path_id": 1640,
+        "replacements": 1
+      },
+      {
+        "path_id": 1641,
+        "replacements": 1
+      },
+      {
+        "path_id": 1643,
+        "replacements": 1
+      },
+      {
+        "path_id": 1644,
+        "replacements": 1
+      },
+      {
+        "path_id": 1645,
+        "replacements": 1
+      },
+      {
+        "path_id": 1646,
+        "replacements": 1
+      },
+      {
+        "path_id": 1647,
+        "replacements": 1
+      },
+      {
+        "path_id": 1648,
+        "replacements": 1
+      },
+      {
+        "path_id": 1650,
+        "replacements": 1
+      },
+      {
+        "path_id": 1651,
+        "replacements": 1
+      },
+      {
+        "path_id": 1652,
+        "replacements": 1
+      },
+      {
+        "path_id": 1653,
+        "replacements": 1
+      },
+      {
+        "path_id": 1681,
+        "replacements": 4
+      }
+    ]
+  },
+  {
+    "bundle_file": "29a5033c80904db52a00fc226b0b40b3__remote_assets__project_composition_prefab_ui_overlay_implement_accountlinkconfirmationpopupview.bundle",
+    "replacements": 3,
+    "changed_objects": [
+      {
+        "path_id": 2197331811727860588,
+        "replacements": 1
+      },
+      {
+        "path_id": 5922926290337620844,
+        "replacements": 1
+      },
+      {
+        "path_id": 7968093956926563180,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "2d176d2f64bfb7ffe1b680cdb43d1504__remote_share_assets__project__menu_prefab_page_collection__component.bundle",
+    "replacements": 3,
+    "changed_objects": [
+      {
+        "path_id": -7052532549854364376,
+        "replacements": 1
+      },
+      {
+        "path_id": 610137225321678270,
+        "replacements": 1
+      },
+      {
+        "path_id": 6036351209665331003,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "2dc27a3142492d2652aaca819cb4999b__remote_assets__project_composition_prefab_ui_overlay_implement_gacharatepopup_gacharatepopupview.bundle",
+    "replacements": 10,
+    "changed_objects": [
+      {
+        "path_id": -8727692460010703761,
+        "replacements": 1
+      },
+      {
+        "path_id": -5678117500972895121,
+        "replacements": 1
+      },
+      {
+        "path_id": -1548000908838898577,
+        "replacements": 1
+      },
+      {
+        "path_id": -606399245541510033,
+        "replacements": 1
+      },
+      {
+        "path_id": -341159449052253073,
+        "replacements": 1
+      },
+      {
+        "path_id": 89984451380442223,
+        "replacements": 1
+      },
+      {
+        "path_id": 944397667030922351,
+        "replacements": 1
+      },
+      {
+        "path_id": 1474266428289774703,
+        "replacements": 1
+      },
+      {
+        "path_id": 4986524175334962287,
+        "replacements": 1
+      },
+      {
+        "path_id": 7082725206155064431,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "3109ded3c70048a277e28c1592354a68__remote_assets__project_composition_prefab_ui_overlay_implement_bunreportpopupview.bundle",
+    "replacements": 7,
+    "changed_objects": [
+      {
+        "path_id": -7390679998998801520,
+        "replacements": 1
+      },
+      {
+        "path_id": -1995511936551578736,
+        "replacements": 1
+      },
+      {
+        "path_id": 255518086826660752,
+        "replacements": 1
+      },
+      {
+        "path_id": 724763590543184784,
+        "replacements": 1
+      },
+      {
+        "path_id": 2374391269634249616,
+        "replacements": 1
+      },
+      {
+        "path_id": 5254908840160498576,
+        "replacements": 1
+      },
+      {
+        "path_id": 6909497962832892816,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "346b8d9230036c89c66542a123d26069__remote_assets__project__menu_menuscene.bundle",
+    "replacements": 1,
+    "changed_objects": [
+      {
+        "path_id": 43,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "34d0b043808f84e7eac11ddac031f72f__remote_assets__project_composition_prefab_ui_overlay_implement_itemdecompositionconfirmationpopupview.bundle",
+    "replacements": 4,
+    "changed_objects": [
+      {
+        "path_id": 1182634850730217950,
+        "replacements": 1
+      },
+      {
+        "path_id": 6539851713800999390,
+        "replacements": 1
+      },
+      {
+        "path_id": 7653310224243855838,
+        "replacements": 1
+      },
+      {
+        "path_id": 8132306982848270814,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "393219dbc14c17501fbd6a432a9003e4__remote_assets__project_composition_prefab_ui_overlay_implement_monthlywinratepopup_monthlywinratepopupview.bundle",
+    "replacements": 2,
+    "changed_objects": [
+      {
+        "path_id": -8707955237203764624,
+        "replacements": 1
+      },
+      {
+        "path_id": -8680375887394596240,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "3a506b511bce471076b5903f559bdfdb__remote_share_assets__project_composition_prefab_ui_overlay_implement_gacharatepopup_gacharatescroller.bundle",
+    "replacements": 3,
+    "changed_objects": [
+      {
+        "path_id": 858145834098395007,
+        "replacements": 1
+      },
+      {
+        "path_id": 4984717986785953663,
+        "replacements": 1
+      },
+      {
+        "path_id": 6608408625682351999,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "3b41a9d16c1027db2ffd78b19450c3c2__remote_assets__project_composition_prefab_ui_overlay_implement_shop_extrashoppopupview.bundle",
+    "replacements": 8,
+    "changed_objects": [
+      {
+        "path_id": -8546982187853446627,
+        "replacements": 1
+      },
+      {
+        "path_id": -4848805911645552099,
+        "replacements": 1
+      },
+      {
+        "path_id": -2561122727603568099,
+        "replacements": 1
+      },
+      {
+        "path_id": 1057071509516288541,
+        "replacements": 3
+      },
+      {
+        "path_id": 1665645768341226013,
+        "replacements": 1
+      },
+      {
+        "path_id": 9013468739578200605,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "43f78b79b31b2510dc6aafbeadd5dd72__remote_assets__project__menu_prefab_overlay_lobbymatchroomjoinpopup_lobbymatchroomjoinpopupview.bundle",
+    "replacements": 2,
+    "changed_objects": [
+      {
+        "path_id": -6685668445085726843,
+        "replacements": 1
+      },
+      {
+        "path_id": 2906912814870136709,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "4494f605b77138f7bca2bb835ae8b7b5__remote_assets__project__menu_prefab_overlay_charactercollectionselectionpopup_charactercollectionselectionpopupview.bundle",
+    "replacements": 3,
+    "changed_objects": [
+      {
+        "path_id": -829569269381365665,
+        "replacements": 1
+      },
+      {
+        "path_id": 863169915135033439,
+        "replacements": 1
+      },
+      {
+        "path_id": 2346387613333880927,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "451081e78ac244d3b6926e4a46367645__remote_assets__project_composition_prefab_ui_overlay_implement_itemdetailpopupview.bundle",
+    "replacements": 6,
+    "changed_objects": [
+      {
+        "path_id": -7690346164766403426,
+        "replacements": 1
+      },
+      {
+        "path_id": -3966670643346893666,
+        "replacements": 1
+      },
+      {
+        "path_id": -2830745043592047458,
+        "replacements": 1
+      },
+      {
+        "path_id": -2238067785050778466,
+        "replacements": 1
+      },
+      {
+        "path_id": 719570716538672286,
+        "replacements": 1
+      },
+      {
+        "path_id": 4437732751923844254,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "47507f280fa0dbb5db02323069f28647__remote_assets__project_composition_prefab_ui_overlay_implement_havingsupplychangepopupview.bundle",
+    "replacements": 6,
+    "changed_objects": [
+      {
+        "path_id": -4975288425320122601,
+        "replacements": 1
+      },
+      {
+        "path_id": -4060970309251729641,
+        "replacements": 1
+      },
+      {
+        "path_id": -3447578128667347177,
+        "replacements": 1
+      },
+      {
+        "path_id": -1724551590927436009,
+        "replacements": 1
+      },
+      {
+        "path_id": 744111603851097879,
+        "replacements": 2
+      }
+    ]
+  },
+  {
+    "bundle_file": "48f5ca195b5586474b8f60e1c5904335__remote_share_assets__project_composition_prefab_ui_uibutton.bundle",
+    "replacements": 5,
+    "changed_objects": [
+      {
+        "path_id": -1203561204155660124,
+        "replacements": 1
+      },
+      {
+        "path_id": 620396644534456261,
+        "replacements": 1
+      },
+      {
+        "path_id": 2024339900307651415,
+        "replacements": 1
+      },
+      {
+        "path_id": 3614583745105219907,
+        "replacements": 1
+      },
+      {
+        "path_id": 6969564146490351273,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "4d04c150deadaa88b252a9255972886a__remote_share_assets__project_composition_prefab_ui_overlay_implement_loginbonusoverlay.bundle",
+    "replacements": 2,
+    "changed_objects": [
+      {
+        "path_id": -1451373937665598106,
+        "replacements": 1
+      },
+      {
+        "path_id": -647143302668111400,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "4d297f9bd7072770b52a6dc1b5ca8473__remote_assets__project_composition_prefab_ui_overlay_implement_pullgachaconfirmationpopupview.bundle",
+    "replacements": 5,
+    "changed_objects": [
+      {
+        "path_id": -930775787049311016,
+        "replacements": 1
+      },
+      {
+        "path_id": 1069216469460329688,
+        "replacements": 1
+      },
+      {
+        "path_id": 1956357920238150872,
+        "replacements": 1
+      },
+      {
+        "path_id": 2389609917981009112,
+        "replacements": 1
+      },
+      {
+        "path_id": 4214796680951964888,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "4fcbcff8f247a6846cfff12e4c83d01d__remote_assets__project_composition_prefab_ui_overlay_implement_charactercontractcompleteoverlayview.bundle",
+    "replacements": 2,
+    "changed_objects": [
+      {
+        "path_id": -3964172548599459596,
+        "replacements": 1
+      },
+      {
+        "path_id": 2557074074887114996,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "50804b8325793df28fe8af853490d8ab__remote_share_assets__project__menu_prefab.bundle",
+    "replacements": 1,
+    "changed_objects": [
+      {
+        "path_id": -1085949455229149447,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "51e91c802307c357d99af185e97611fb__remote_assets__project_composition_prefab_ui_overlay_implement_gacharewardconfirmationpopup_gacharewardconfirmationpopupview.bundle",
+    "replacements": 1,
+    "changed_objects": [
+      {
+        "path_id": 3296039168457477935,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "535a50999867f203d2835f63f0b9bba1__remote_assets__project_composition_prefab_ui_overlay_implement_characterskinchangepopupview.bundle",
+    "replacements": 3,
+    "changed_objects": [
+      {
+        "path_id": 4384011332162979044,
+        "replacements": 1
+      },
+      {
+        "path_id": 5956703624738538724,
+        "replacements": 1
+      },
+      {
+        "path_id": 7808720916567786724,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "56bfed27701f03a8ecff89c4003696bd__remote_share_assets__project__menu_prefab_overlay_friendlistpopup.bundle",
+    "replacements": 2,
+    "changed_objects": [
+      {
+        "path_id": 4306942567245341275,
+        "replacements": 1
+      },
+      {
+        "path_id": 7045368109899768411,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "5a0691338685d1ad20d2e760482c2f25__remote_share_assets__project__menu_prefab_overlay_lobbymatchroompreparationpopup.bundle",
+    "replacements": 4,
+    "changed_objects": [
+      {
+        "path_id": -4297761301898845379,
+        "replacements": 1
+      },
+      {
+        "path_id": -2899808373978094787,
+        "replacements": 1
+      },
+      {
+        "path_id": -2445833748701109443,
+        "replacements": 1
+      },
+      {
+        "path_id": 6076647839312519997,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "5c062d392cecf25431f8d609f5328034__remote_assets__project_composition_prefab_ui_overlay_implement_howtoplaypopupview.bundle",
+    "replacements": 1,
+    "changed_objects": [
+      {
+        "path_id": 7303659697510236281,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "5ce234f32088baba3f9cf450fddc4f39__remote_assets__project_composition_prefab_ui_overlay_implement_shopproductexchangepopupview.bundle",
+    "replacements": 4,
+    "changed_objects": [
+      {
+        "path_id": 2723669224272905143,
+        "replacements": 1
+      },
+      {
+        "path_id": 6072938240738280375,
+        "replacements": 1
+      },
+      {
+        "path_id": 7218573136207954871,
+        "replacements": 1
+      },
+      {
+        "path_id": 8402151971878618039,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "5f459fdc841915e258f2e833a8aab85e__remote_share_assets__project__game_prefab.bundle",
+    "replacements": 42,
+    "changed_objects": [
+      {
+        "path_id": -8695007631284376948,
+        "replacements": 1
+      },
+      {
+        "path_id": -7888174376231158281,
+        "replacements": 1
+      },
+      {
+        "path_id": -6536981632093984116,
+        "replacements": 1
+      },
+      {
+        "path_id": -6063637532189222534,
+        "replacements": 1
+      },
+      {
+        "path_id": -5848527563903329958,
+        "replacements": 1
+      },
+      {
+        "path_id": -5022260905992811781,
+        "replacements": 1
+      },
+      {
+        "path_id": -4474107308953560742,
+        "replacements": 1
+      },
+      {
+        "path_id": -4155618855227483814,
+        "replacements": 1
+      },
+      {
+        "path_id": -4147903924553479429,
+        "replacements": 1
+      },
+      {
+        "path_id": -4078460914165028212,
+        "replacements": 1
+      },
+      {
+        "path_id": -3545044173641868966,
+        "replacements": 1
+      },
+      {
+        "path_id": -3278295237388452361,
+        "replacements": 1
+      },
+      {
+        "path_id": -3163621927578288649,
+        "replacements": 1
+      },
+      {
+        "path_id": -3067072439181951497,
+        "replacements": 1
+      },
+      {
+        "path_id": -2443517713686926708,
+        "replacements": 1
+      },
+      {
+        "path_id": -2294908761967105396,
+        "replacements": 1
+      },
+      {
+        "path_id": -1864784616303978118,
+        "replacements": 1
+      },
+      {
+        "path_id": -1299451929554679045,
+        "replacements": 1
+      },
+      {
+        "path_id": -617293661878556020,
+        "replacements": 1
+      },
+      {
+        "path_id": -478581367354582662,
+        "replacements": 1
+      },
+      {
+        "path_id": -113594227946910981,
+        "replacements": 1
+      },
+      {
+        "path_id": -77099723505297030,
+        "replacements": 1
+      },
+      {
+        "path_id": 494806019436517722,
+        "replacements": 1
+      },
+      {
+        "path_id": 515347548839602828,
+        "replacements": 1
+      },
+      {
+        "path_id": 613419292846713484,
+        "replacements": 1
+      },
+      {
+        "path_id": 808006125526117004,
+        "replacements": 1
+      },
+      {
+        "path_id": 1489522087027796620,
+        "replacements": 1
+      },
+      {
+        "path_id": 1696625040060914010,
+        "replacements": 1
+      },
+      {
+        "path_id": 2290892874560772442,
+        "replacements": 1
+      },
+      {
+        "path_id": 4026205399304837466,
+        "replacements": 1
+      },
+      {
+        "path_id": 4161326635908995418,
+        "replacements": 1
+      },
+      {
+        "path_id": 4228959423603949047,
+        "replacements": 1
+      },
+      {
+        "path_id": 4825234488620915066,
+        "replacements": 1
+      },
+      {
+        "path_id": 5562374108417854203,
+        "replacements": 1
+      },
+      {
+        "path_id": 5933932644470888794,
+        "replacements": 1
+      },
+      {
+        "path_id": 6557429513002740364,
+        "replacements": 1
+      },
+      {
+        "path_id": 7369558535642581755,
+        "replacements": 1
+      },
+      {
+        "path_id": 7634021211116542298,
+        "replacements": 1
+      },
+      {
+        "path_id": 7827939316517800699,
+        "replacements": 1
+      },
+      {
+        "path_id": 8368982121711241979,
+        "replacements": 1
+      },
+      {
+        "path_id": 8787088395450706572,
+        "replacements": 1
+      },
+      {
+        "path_id": 8952783144453019994,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "5f61cede6fc41e83888a50d512111a5e__remote_share_assets__project_composition_prefab_ui_shop.bundle",
+    "replacements": 14,
+    "changed_objects": [
+      {
+        "path_id": -6120626948149938404,
+        "replacements": 1
+      },
+      {
+        "path_id": -5654777042051000268,
+        "replacements": 1
+      },
+      {
+        "path_id": -5408202835162228684,
+        "replacements": 2
+      },
+      {
+        "path_id": -3170930689313466316,
+        "replacements": 1
+      },
+      {
+        "path_id": -2230809581081528548,
+        "replacements": 1
+      },
+      {
+        "path_id": -1899505293932423116,
+        "replacements": 2
+      },
+      {
+        "path_id": 1721533624413124380,
+        "replacements": 1
+      },
+      {
+        "path_id": 3342399897680681012,
+        "replacements": 1
+      },
+      {
+        "path_id": 4968284189648418588,
+        "replacements": 3
+      },
+      {
+        "path_id": 8364915326680692508,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "5fe90708494883e34fe04cdff22b8edd__remote_share_assets__project__menu_prefab_page_matchselectionpage_lobbymatch.bundle",
+    "replacements": 1,
+    "changed_objects": [
+      {
+        "path_id": -8325537976059747519,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "601a86126b2f2e425f4abd0216cd0ebb__remote_assets__project__menu_prefab_overlay_friendlistpopup_friendlistpopupview.bundle",
+    "replacements": 3,
+    "changed_objects": [
+      {
+        "path_id": -1573897129258397009,
+        "replacements": 1
+      },
+      {
+        "path_id": 581588810070151855,
+        "replacements": 1
+      },
+      {
+        "path_id": 5187473249022366383,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "6070bb5b71cef122434cba30dd8fee4d__remote_assets__project__menu_prefab_page_home_homepage.bundle",
+    "replacements": 5,
+    "changed_objects": [
+      {
+        "path_id": -3778878500278688770,
+        "replacements": 1
+      },
+      {
+        "path_id": -846820035755432962,
+        "replacements": 1
+      },
+      {
+        "path_id": -58631784183946242,
+        "replacements": 1
+      },
+      {
+        "path_id": 3565493437015991294,
+        "replacements": 1
+      },
+      {
+        "path_id": 7628807924817470462,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "60f950f344ca820ebb7c3875e6ad3465__remote_assets__project_composition_prefab_ui_overlay_implement_luckybagdecompositionpopupview.bundle",
+    "replacements": 3,
+    "changed_objects": [
+      {
+        "path_id": 5153242798257132250,
+        "replacements": 1
+      },
+      {
+        "path_id": 6329746848160273114,
+        "replacements": 1
+      },
+      {
+        "path_id": 7663402811690439386,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "618c1fd68d710d9d7f2ed23c1eb18edf__remote_assets__project__menu_prefab_page_matchselectionpage_matchselectionpage.bundle",
+    "replacements": 18,
+    "changed_objects": [
+      {
+        "path_id": -7002438135361041665,
+        "replacements": 1
+      },
+      {
+        "path_id": -6964020490581439745,
+        "replacements": 1
+      },
+      {
+        "path_id": -6465649099985515777,
+        "replacements": 1
+      },
+      {
+        "path_id": -4357441051317761281,
+        "replacements": 1
+      },
+      {
+        "path_id": -3848289660566500609,
+        "replacements": 1
+      },
+      {
+        "path_id": -3547680662118724865,
+        "replacements": 1
+      },
+      {
+        "path_id": -1979849606414333185,
+        "replacements": 1
+      },
+      {
+        "path_id": -1803237448760685825,
+        "replacements": 1
+      },
+      {
+        "path_id": -870835919366780161,
+        "replacements": 1
+      },
+      {
+        "path_id": 950187050350807807,
+        "replacements": 1
+      },
+      {
+        "path_id": 3173022838314961663,
+        "replacements": 1
+      },
+      {
+        "path_id": 6995003701452540671,
+        "replacements": 1
+      },
+      {
+        "path_id": 7719806887312034559,
+        "replacements": 1
+      },
+      {
+        "path_id": 7956635041435355903,
+        "replacements": 1
+      },
+      {
+        "path_id": 8624964359304579839,
+        "replacements": 4
+      }
+    ]
+  },
+  {
+    "bundle_file": "61f8865f913adf1e5732b475d07fa7b9__remote_share_assets__project_orchestration_prefab_ui.bundle",
+    "replacements": 1,
+    "changed_objects": [
+      {
+        "path_id": 8939879859855016911,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "6456e8e196dccc6cee4067ec1029fa2b__remote_share_assets__project_composition_prefab_ui_profile.bundle",
+    "replacements": 1,
+    "changed_objects": [
+      {
+        "path_id": -5478559861631137877,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "658bdadc765d094e0135508d3aa1e3da__remote_share_assets__project_composition_prefab_ui.bundle",
+    "replacements": 1,
+    "changed_objects": [
+      {
+        "path_id": -6528820556627140762,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "66af4bb5824c9b570111385364ce201d__remote_assets__project_composition_prefab_ui_overlay_implement_shop_passpurchaseshoppopupview.bundle",
+    "replacements": 17,
+    "changed_objects": [
+      {
+        "path_id": -8690902768790427530,
+        "replacements": 1
+      },
+      {
+        "path_id": -7806475573310478218,
+        "replacements": 2
+      },
+      {
+        "path_id": -2912389935284901770,
+        "replacements": 1
+      },
+      {
+        "path_id": -2676636194906527626,
+        "replacements": 2
+      },
+      {
+        "path_id": 391408956543707254,
+        "replacements": 2
+      },
+      {
+        "path_id": 543422478210082934,
+        "replacements": 1
+      },
+      {
+        "path_id": 1021119023521572982,
+        "replacements": 2
+      },
+      {
+        "path_id": 1282055391084456054,
+        "replacements": 1
+      },
+      {
+        "path_id": 4801374055361194102,
+        "replacements": 1
+      },
+      {
+        "path_id": 5402010694856648822,
+        "replacements": 1
+      },
+      {
+        "path_id": 5734517191893035126,
+        "replacements": 1
+      },
+      {
+        "path_id": 6489922805094918262,
+        "replacements": 1
+      },
+      {
+        "path_id": 8086130748460673142,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "6729717aed8068bb1888fdbb65e1619e__remote_assets__project_composition_prefab_ui_overlay_implement_shop_dailyshoppopupview.bundle",
+    "replacements": 11,
+    "changed_objects": [
+      {
+        "path_id": -8084837859689035404,
+        "replacements": 1
+      },
+      {
+        "path_id": -6729070940959340172,
+        "replacements": 1
+      },
+      {
+        "path_id": -3954504742349567628,
+        "replacements": 1
+      },
+      {
+        "path_id": -1340666347058689676,
+        "replacements": 3
+      },
+      {
+        "path_id": -818641917855594124,
+        "replacements": 1
+      },
+      {
+        "path_id": 85212163487304052,
+        "replacements": 1
+      },
+      {
+        "path_id": 2172969918558046580,
+        "replacements": 1
+      },
+      {
+        "path_id": 3930002830170065268,
+        "replacements": 1
+      },
+      {
+        "path_id": 7674839707425573236,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "691dd5c9024c3434f7f3e41c6dd0a08c__remote_share_assets__project_composition_prefab_ui_overlay_implement_userprofilepopup_section.bundle",
+    "replacements": 30,
+    "changed_objects": [
+      {
+        "path_id": -8398944224707346111,
+        "replacements": 1
+      },
+      {
+        "path_id": -8377118927747019048,
+        "replacements": 4
+      },
+      {
+        "path_id": -7992139080184155041,
+        "replacements": 1
+      },
+      {
+        "path_id": -7151653271896897336,
+        "replacements": 1
+      },
+      {
+        "path_id": -7142073404609186721,
+        "replacements": 1
+      },
+      {
+        "path_id": -6264417906560912289,
+        "replacements": 1
+      },
+      {
+        "path_id": -5747094300796645672,
+        "replacements": 1
+      },
+      {
+        "path_id": -1238001473448984390,
+        "replacements": 1
+      },
+      {
+        "path_id": -918799947955499304,
+        "replacements": 1
+      },
+      {
+        "path_id": 50678715954011216,
+        "replacements": 1
+      },
+      {
+        "path_id": 635615959828809928,
+        "replacements": 1
+      },
+      {
+        "path_id": 1447492436090883800,
+        "replacements": 1
+      },
+      {
+        "path_id": 1906602101037072705,
+        "replacements": 1
+      },
+      {
+        "path_id": 2374101241286702175,
+        "replacements": 1
+      },
+      {
+        "path_id": 3002651221653402719,
+        "replacements": 1
+      },
+      {
+        "path_id": 4037303053293427792,
+        "replacements": 1
+      },
+      {
+        "path_id": 4280193995420873823,
+        "replacements": 1
+      },
+      {
+        "path_id": 5764417818999131864,
+        "replacements": 1
+      },
+      {
+        "path_id": 6203341026281590488,
+        "replacements": 1
+      },
+      {
+        "path_id": 6518685719740268730,
+        "replacements": 1
+      },
+      {
+        "path_id": 7699551283018877128,
+        "replacements": 4
+      },
+      {
+        "path_id": 7784368399093121210,
+        "replacements": 1
+      },
+      {
+        "path_id": 9007746294999325776,
+        "replacements": 1
+      },
+      {
+        "path_id": 9207658939141983960,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "6bfd9d0f47ef19b17d2fce1705671305__remote_assets__project_composition_prefab_ui_overlay_implement_shop_diapurchaseshoppopupview.bundle",
+    "replacements": 10,
+    "changed_objects": [
+      {
+        "path_id": -4920435240526720031,
+        "replacements": 1
+      },
+      {
+        "path_id": -4408374792820075551,
+        "replacements": 1
+      },
+      {
+        "path_id": -2509543653789641759,
+        "replacements": 1
+      },
+      {
+        "path_id": -2022348243658451999,
+        "replacements": 1
+      },
+      {
+        "path_id": -1661062274358619167,
+        "replacements": 1
+      },
+      {
+        "path_id": 815723045792863201,
+        "replacements": 1
+      },
+      {
+        "path_id": 5946347423359718369,
+        "replacements": 3
+      },
+      {
+        "path_id": 8932799703653307361,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "77570c79e7bfd6ea9160a5fbae826a70__remote_assets__project_composition_prefab_ui_overlay_implement_shogirulepopup_shogirulepopupview.bundle",
+    "replacements": 9,
+    "changed_objects": [
+      {
+        "path_id": -9022771021332575262,
+        "replacements": 1
+      },
+      {
+        "path_id": -6958080871320220702,
+        "replacements": 1
+      },
+      {
+        "path_id": -4168307421804655646,
+        "replacements": 1
+      },
+      {
+        "path_id": 2043164241982557154,
+        "replacements": 1
+      },
+      {
+        "path_id": 2144259400536525794,
+        "replacements": 1
+      },
+      {
+        "path_id": 2743196888460659682,
+        "replacements": 1
+      },
+      {
+        "path_id": 3643513120946555874,
+        "replacements": 1
+      },
+      {
+        "path_id": 4809286247762332642,
+        "replacements": 1
+      },
+      {
+        "path_id": 6241250625733495778,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "7860793eebd95dfe85f3f19b02a61437__remote_share_assets__project__menu_prefab_overlay_lobbymatchroommemberlistpopup.bundle",
+    "replacements": 4,
+    "changed_objects": [
+      {
+        "path_id": -6657227374371144822,
+        "replacements": 1
+      },
+      {
+        "path_id": -4326592814669300854,
+        "replacements": 1
+      },
+      {
+        "path_id": -2742988260086056054,
+        "replacements": 1
+      },
+      {
+        "path_id": 5705849890524232586,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "79a8d7171a6ff908381a152bf23f2c02__remote_assets__project_composition_prefab_ui_overlay_implement_characterdetailpopupview.bundle",
+    "replacements": 8,
+    "changed_objects": [
+      {
+        "path_id": -8712078835631277468,
+        "replacements": 1
+      },
+      {
+        "path_id": -8384488006943458716,
+        "replacements": 1
+      },
+      {
+        "path_id": -2893215969859421596,
+        "replacements": 1
+      },
+      {
+        "path_id": -265905279390336412,
+        "replacements": 1
+      },
+      {
+        "path_id": 1928971704297437796,
+        "replacements": 1
+      },
+      {
+        "path_id": 3817844244714142308,
+        "replacements": 1
+      },
+      {
+        "path_id": 3842840832235715172,
+        "replacements": 1
+      },
+      {
+        "path_id": 7470708253501471332,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "79cdfa1928511336f7a2e19e81bdce13__remote_assets__project_composition_prefab_ui_overlay_implement_directmessage_directmessagedetailpopupview.bundle",
+    "replacements": 2,
+    "changed_objects": [
+      {
+        "path_id": -7246165128967832662,
+        "replacements": 1
+      },
+      {
+        "path_id": -2130179244569019478,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "84240522fde9141b666ca300be173eb2__remote_share_assets__project_data_howtoplay.bundle",
+    "replacements": 12,
+    "changed_objects": [
+      {
+        "path_id": -3695494684994178456,
+        "replacements": 3
+      },
+      {
+        "path_id": -2320277987613804724,
+        "replacements": 2
+      },
+      {
+        "path_id": -1180791326810330779,
+        "replacements": 2
+      },
+      {
+        "path_id": 3131151712273775665,
+        "replacements": 3
+      },
+      {
+        "path_id": 6786292825478924536,
+        "replacements": 2
+      }
+    ]
+  },
+  {
+    "bundle_file": "8443e3cffaa6cc034b138ea7e10255e6__remote_assets__project_composition_prefab_ui_overlay_implement_tsumeselectionpopup_tsumeselectionpopupview.bundle",
+    "replacements": 10,
+    "changed_objects": [
+      {
+        "path_id": -7203561107975673899,
+        "replacements": 1
+      },
+      {
+        "path_id": -7196220792557312043,
+        "replacements": 1
+      },
+      {
+        "path_id": -5734386869477283883,
+        "replacements": 1
+      },
+      {
+        "path_id": -5016903661079795755,
+        "replacements": 1
+      },
+      {
+        "path_id": -4357806831273941035,
+        "replacements": 1
+      },
+      {
+        "path_id": 2448161425034930133,
+        "replacements": 1
+      },
+      {
+        "path_id": 3616329058326046677,
+        "replacements": 1
+      },
+      {
+        "path_id": 5243898287726815189,
+        "replacements": 1
+      },
+      {
+        "path_id": 6153610336136947669,
+        "replacements": 1
+      },
+      {
+        "path_id": 6814850389968054229,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "8af57eb504e5cd658777f16dfb3c0ab8__remote_assets__project__menu_prefab_overlay_homemenupopup_homemenupopupview.bundle",
+    "replacements": 13,
+    "changed_objects": [
+      {
+        "path_id": -7002301072897496875,
+        "replacements": 1
+      },
+      {
+        "path_id": -5079385396619401003,
+        "replacements": 1
+      },
+      {
+        "path_id": -4885224838779655979,
+        "replacements": 1
+      },
+      {
+        "path_id": -4272620124366198571,
+        "replacements": 1
+      },
+      {
+        "path_id": -3915615859185112875,
+        "replacements": 1
+      },
+      {
+        "path_id": -3484908049100265259,
+        "replacements": 1
+      },
+      {
+        "path_id": -291744815922042667,
+        "replacements": 1
+      },
+      {
+        "path_id": -75471379260331819,
+        "replacements": 1
+      },
+      {
+        "path_id": 2358179748771834069,
+        "replacements": 1
+      },
+      {
+        "path_id": 3746110718462240981,
+        "replacements": 1
+      },
+      {
+        "path_id": 4301931830779488469,
+        "replacements": 1
+      },
+      {
+        "path_id": 6087794304433367253,
+        "replacements": 1
+      },
+      {
+        "path_id": 8494495872506308821,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "8bed493b98cebab6d71cccba40cdf1a9__remote_assets__project_composition_prefab_ui_overlay_implement_directmessage_directmessagebrieflistpopupview.bundle",
+    "replacements": 3,
+    "changed_objects": [
+      {
+        "path_id": -7563433645025771171,
+        "replacements": 1
+      },
+      {
+        "path_id": -3259268653807681187,
+        "replacements": 1
+      },
+      {
+        "path_id": 4972969829501256029,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "8d86f0d1c853c26ee30b2e6164fca37b__remote_assets__project_composition_prefab_ui_overlay_implement_kifudetail_boardsequencepopupview.bundle",
+    "replacements": 7,
+    "changed_objects": [
+      {
+        "path_id": -8815248010558389241,
+        "replacements": 1
+      },
+      {
+        "path_id": -5240373874884951033,
+        "replacements": 1
+      },
+      {
+        "path_id": -4950356156141747193,
+        "replacements": 1
+      },
+      {
+        "path_id": -2667421667396762617,
+        "replacements": 1
+      },
+      {
+        "path_id": -2537724597310733305,
+        "replacements": 1
+      },
+      {
+        "path_id": 3872126745433588743,
+        "replacements": 1
+      },
+      {
+        "path_id": 6557522303200183303,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "8db4053898b265da9bc0c55150e33e79__remote_share_assets__project_composition_prefab_ui_tutorial.bundle",
+    "replacements": 6,
+    "changed_objects": [
+      {
+        "path_id": -8360534116168707529,
+        "replacements": 1
+      },
+      {
+        "path_id": -2244655589899447753,
+        "replacements": 1
+      },
+      {
+        "path_id": 2053893745439461943,
+        "replacements": 1
+      },
+      {
+        "path_id": 2055912404022386552,
+        "replacements": 1
+      },
+      {
+        "path_id": 2413246591535800184,
+        "replacements": 1
+      },
+      {
+        "path_id": 7095338241083170680,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "8e80721529cf6faf8d37fc8ef578a16d__remote_share_assets__project_orchestration_prefab_ui_overlay_notificationlistpopup.bundle",
+    "replacements": 3,
+    "changed_objects": [
+      {
+        "path_id": -5130393892787267588,
+        "replacements": 1
+      },
+      {
+        "path_id": 6904805342442805244,
+        "replacements": 1
+      },
+      {
+        "path_id": 8981971411085678588,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "9064dbe2e368fb767d6f45f8640acaf5__remote_assets__project__menu_prefab_overlay_lobbymatchroommemberdetailpopup_lobbymatchroommemberdetailpopupview.bundle",
+    "replacements": 6,
+    "changed_objects": [
+      {
+        "path_id": -6131500817186275877,
+        "replacements": 1
+      },
+      {
+        "path_id": -5039233114308002341,
+        "replacements": 1
+      },
+      {
+        "path_id": -2967794407507149349,
+        "replacements": 1
+      },
+      {
+        "path_id": -2004428203471258149,
+        "replacements": 1
+      },
+      {
+        "path_id": 2284717943360536027,
+        "replacements": 1
+      },
+      {
+        "path_id": 2428008182251404763,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "908e01f759d1792d84fee711ba781a5e__remote_share_assets__project_composition_prefab_ui_overlay_implement_paymentpointdashboardoverlay.bundle",
+    "replacements": 2,
+    "changed_objects": [
+      {
+        "path_id": -5379043893376663287,
+        "replacements": 1
+      },
+      {
+        "path_id": 9146104156714680585,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "92b62997cf1ca85568ba4ff2dc9a3a20__remote_assets__project_composition_prefab_ui_overlay_implement_friend_friendactionpopupview.bundle",
+    "replacements": 2,
+    "changed_objects": [
+      {
+        "path_id": -5679420078438530540,
+        "replacements": 1
+      },
+      {
+        "path_id": 6792202276286120468,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "93ef08464aa43b4b6212a6bc148ba4d4__remote_assets__project__menu_prefab_page_collection_collectiontoppage.bundle",
+    "replacements": 3,
+    "changed_objects": [
+      {
+        "path_id": -8807787424244577996,
+        "replacements": 1
+      },
+      {
+        "path_id": -2742685862969685708,
+        "replacements": 1
+      },
+      {
+        "path_id": -992770023364179660,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "95aec8fc3cfa18d5a327b3dafb7e3008__remote_assets__project_composition_prefab_ui_overlay_implement_loginbonusoverlay_loginbonusoverlayview.bundle",
+    "replacements": 3,
+    "changed_objects": [
+      {
+        "path_id": -5229473866246830473,
+        "replacements": 1
+      },
+      {
+        "path_id": -1020471915238832521,
+        "replacements": 1
+      },
+      {
+        "path_id": 2285842124832196215,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "96961493cd35146c7e1a0bacdc604733__remote_share_assets__project_composition_prefab_ui_supply.bundle",
+    "replacements": 29,
+    "changed_objects": [
+      {
+        "path_id": -9013534137475084891,
+        "replacements": 1
+      },
+      {
+        "path_id": -7758208285465539312,
+        "replacements": 1
+      },
+      {
+        "path_id": -7576208419515602678,
+        "replacements": 1
+      },
+      {
+        "path_id": -7041559672664568411,
+        "replacements": 1
+      },
+      {
+        "path_id": -6968839385034076763,
+        "replacements": 1
+      },
+      {
+        "path_id": -6350831695310886646,
+        "replacements": 2
+      },
+      {
+        "path_id": -6221416494672982619,
+        "replacements": 1
+      },
+      {
+        "path_id": -6213537879470715483,
+        "replacements": 1
+      },
+      {
+        "path_id": -5670217012511781467,
+        "replacements": 1
+      },
+      {
+        "path_id": -4933673254982464091,
+        "replacements": 1
+      },
+      {
+        "path_id": -4844122412517962331,
+        "replacements": 1
+      },
+      {
+        "path_id": -4586116176331354715,
+        "replacements": 1
+      },
+      {
+        "path_id": -2485121815434172150,
+        "replacements": 1
+      },
+      {
+        "path_id": -1553443379599979099,
+        "replacements": 1
+      },
+      {
+        "path_id": -665289327723491931,
+        "replacements": 1
+      },
+      {
+        "path_id": 944332934755831205,
+        "replacements": 1
+      },
+      {
+        "path_id": 1872576682823699877,
+        "replacements": 1
+      },
+      {
+        "path_id": 2176208330302524688,
+        "replacements": 1
+      },
+      {
+        "path_id": 3478833155407924645,
+        "replacements": 1
+      },
+      {
+        "path_id": 3813672333583682832,
+        "replacements": 1
+      },
+      {
+        "path_id": 4227027845141351845,
+        "replacements": 1
+      },
+      {
+        "path_id": 4939029735537298853,
+        "replacements": 1
+      },
+      {
+        "path_id": 5421114484173957386,
+        "replacements": 1
+      },
+      {
+        "path_id": 6602796299263987109,
+        "replacements": 2
+      },
+      {
+        "path_id": 7906656937632910757,
+        "replacements": 1
+      },
+      {
+        "path_id": 8106501808673836453,
+        "replacements": 1
+      },
+      {
+        "path_id": 8926659416739204517,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "9bf1be9d63c319d2b454bb1817fc87fc__remote_assets__project_composition_prefab_ui_overlay_implement_sortfilterpopup_sortfilterpopupview.bundle",
+    "replacements": 5,
+    "changed_objects": [
+      {
+        "path_id": -8812452088448116906,
+        "replacements": 1
+      },
+      {
+        "path_id": -4626789414524577962,
+        "replacements": 1
+      },
+      {
+        "path_id": -2548938276644219050,
+        "replacements": 1
+      },
+      {
+        "path_id": 5932641939119314774,
+        "replacements": 1
+      },
+      {
+        "path_id": 7883905992441829206,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "9f65a501edeb35212687b775b569b2d2__remote_assets__project_composition_prefab_ui_overlay_implement_gachagetcharacter_getcharacteroverlayview.bundle",
+    "replacements": 3,
+    "changed_objects": [
+      {
+        "path_id": -3593805046034271106,
+        "replacements": 1
+      },
+      {
+        "path_id": -750224854441921410,
+        "replacements": 1
+      },
+      {
+        "path_id": -506388207098137474,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "9f69e467d37b41ed282f4d38dbac548a__remote_assets__project__menu_prefab_overlay_lobbymatchroompreparationpopup_lobbymatchroompreparationpopupview.bundle",
+    "replacements": 11,
+    "changed_objects": [
+      {
+        "path_id": -6314984115354288433,
+        "replacements": 1
+      },
+      {
+        "path_id": -4415072150883287345,
+        "replacements": 1
+      },
+      {
+        "path_id": -4171349862761185585,
+        "replacements": 1
+      },
+      {
+        "path_id": -3657386036760690993,
+        "replacements": 1
+      },
+      {
+        "path_id": -3059905942436266289,
+        "replacements": 1
+      },
+      {
+        "path_id": -2238541287624753457,
+        "replacements": 1
+      },
+      {
+        "path_id": -513749242488832305,
+        "replacements": 1
+      },
+      {
+        "path_id": 2266490105314393807,
+        "replacements": 1
+      },
+      {
+        "path_id": 2867668400023781071,
+        "replacements": 1
+      },
+      {
+        "path_id": 6768843556973952719,
+        "replacements": 1
+      },
+      {
+        "path_id": 7965729851077410511,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "9f79d55f79eef2f276be4acdd590f9ae__remote_assets__project_composition_prefab_ui_overlay_implement_accountlinkpopupview.bundle",
+    "replacements": 2,
+    "changed_objects": [
+      {
+        "path_id": -726106173529567809,
+        "replacements": 1
+      },
+      {
+        "path_id": 9020487720697810367,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "a3e167fd5e73de5a726ef130e4d9c3de__remote_assets__project_composition_prefab_ui_overlay_implement_itemexchangeamountselectionpopupview.bundle",
+    "replacements": 3,
+    "changed_objects": [
+      {
+        "path_id": -7669231531378846709,
+        "replacements": 1
+      },
+      {
+        "path_id": -7284150169463204853,
+        "replacements": 1
+      },
+      {
+        "path_id": -6340077536535358453,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "a42d2e7c328863ba339a8c5dd49227e2__remote_share_assets__project__menu_prefab_page_matchselectionpage_cpumatch.bundle",
+    "replacements": 9,
+    "changed_objects": [
+      {
+        "path_id": -7392456622503899227,
+        "replacements": 1
+      },
+      {
+        "path_id": -4498000897701392475,
+        "replacements": 1
+      },
+      {
+        "path_id": -3938725107404779611,
+        "replacements": 1
+      },
+      {
+        "path_id": -2549172939578421339,
+        "replacements": 1
+      },
+      {
+        "path_id": -1709085526858674267,
+        "replacements": 1
+      },
+      {
+        "path_id": 1188502060508827557,
+        "replacements": 1
+      },
+      {
+        "path_id": 2516387065353719717,
+        "replacements": 1
+      },
+      {
+        "path_id": 2708870830425690021,
+        "replacements": 1
+      },
+      {
+        "path_id": 5562472946302701477,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "a4ae71b09ab3b392d9ede8cb76811d9a__remote_assets__project__menu_prefab_page_gachatoppage_gachatoppage.bundle",
+    "replacements": 12,
+    "changed_objects": [
+      {
+        "path_id": -7502568796593162373,
+        "replacements": 1
+      },
+      {
+        "path_id": -7117482205112141957,
+        "replacements": 1
+      },
+      {
+        "path_id": -3031944330535012485,
+        "replacements": 1
+      },
+      {
+        "path_id": -2555968784125626501,
+        "replacements": 1
+      },
+      {
+        "path_id": -1402797280688965765,
+        "replacements": 1
+      },
+      {
+        "path_id": 48627065336002427,
+        "replacements": 1
+      },
+      {
+        "path_id": 1113780192898021243,
+        "replacements": 1
+      },
+      {
+        "path_id": 1199032427909445499,
+        "replacements": 1
+      },
+      {
+        "path_id": 2204121905423873915,
+        "replacements": 1
+      },
+      {
+        "path_id": 5563677128824944507,
+        "replacements": 1
+      },
+      {
+        "path_id": 6623320065511618427,
+        "replacements": 1
+      },
+      {
+        "path_id": 8114960952096683899,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "aa068d1bcd8715d9fe8a7cd4e15454c5__remote_assets__project__menu_prefab_page_shop_shoptoppage.bundle",
+    "replacements": 9,
+    "changed_objects": [
+      {
+        "path_id": -7017646757032469451,
+        "replacements": 1
+      },
+      {
+        "path_id": -1940071487592571851,
+        "replacements": 1
+      },
+      {
+        "path_id": -114646357364417483,
+        "replacements": 1
+      },
+      {
+        "path_id": 1046927922687007797,
+        "replacements": 1
+      },
+      {
+        "path_id": 2558313526267698229,
+        "replacements": 1
+      },
+      {
+        "path_id": 5119774889275251765,
+        "replacements": 1
+      },
+      {
+        "path_id": 5255544372200823861,
+        "replacements": 1
+      },
+      {
+        "path_id": 5286736840267815989,
+        "replacements": 1
+      },
+      {
+        "path_id": 7127135305996721205,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "aab73514f8e662fad8658ecab5a549c5__remote_assets__project__gacha_gachascene.bundle",
+    "replacements": 1,
+    "changed_objects": [
+      {
+        "path_id": 41,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "b014683501666f368392e9458d9e493b__remote_share_assets__project_composition_prefab_ui_overlay_implement_shogirulepopup.bundle",
+    "replacements": 6,
+    "changed_objects": [
+      {
+        "path_id": -6547887460272675926,
+        "replacements": 1
+      },
+      {
+        "path_id": -6145618085419890111,
+        "replacements": 1
+      },
+      {
+        "path_id": 456394255238744641,
+        "replacements": 1
+      },
+      {
+        "path_id": 2295169590131778474,
+        "replacements": 1
+      },
+      {
+        "path_id": 5016093648122307498,
+        "replacements": 1
+      },
+      {
+        "path_id": 8508370499582649258,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "b43747d84c412e87a7f5a888c0695ff8__remote_assets__project_composition_prefab_ui_overlay_implement_variousnotationpopupview.bundle",
+    "replacements": 7,
+    "changed_objects": [
+      {
+        "path_id": -5170150444306890912,
+        "replacements": 1
+      },
+      {
+        "path_id": -2963567567796207776,
+        "replacements": 1
+      },
+      {
+        "path_id": 389244527009300320,
+        "replacements": 1
+      },
+      {
+        "path_id": 1753903099411201888,
+        "replacements": 1
+      },
+      {
+        "path_id": 4024657737827123040,
+        "replacements": 1
+      },
+      {
+        "path_id": 6254749200354869088,
+        "replacements": 1
+      },
+      {
+        "path_id": 6586450591397019488,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "b5457449b1e85ebbd5b67ba2bdb10f44__remote_share_assets__project__menu_prefab_page_matchselectionpage_rankmatch.bundle",
+    "replacements": 8,
+    "changed_objects": [
+      {
+        "path_id": -8522159359958514894,
+        "replacements": 4
+      },
+      {
+        "path_id": -8326503940395105486,
+        "replacements": 1
+      },
+      {
+        "path_id": -5355054613219179726,
+        "replacements": 1
+      },
+      {
+        "path_id": -4638168066964716750,
+        "replacements": 1
+      },
+      {
+        "path_id": 7769666325614035762,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "b820f938cd16e4426ef9d55eb7b205cb__remote_assets__project_composition_prefab_ui_overlay_implement_characterdedicationpopupview.bundle",
+    "replacements": 7,
+    "changed_objects": [
+      {
+        "path_id": -7260634178871336170,
+        "replacements": 1
+      },
+      {
+        "path_id": -6881823328261741802,
+        "replacements": 1
+      },
+      {
+        "path_id": -2409150906941349098,
+        "replacements": 1
+      },
+      {
+        "path_id": -1162622103770406122,
+        "replacements": 1
+      },
+      {
+        "path_id": -746454422844644586,
+        "replacements": 1
+      },
+      {
+        "path_id": 3261534079045624598,
+        "replacements": 1
+      },
+      {
+        "path_id": 7234737283441189654,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "b83929b1faa020914ce1e4464b29bf21__remote_share_assets__project_composition_prefab_ui_overlay_implement_shop.bundle",
+    "replacements": 7,
+    "changed_objects": [
+      {
+        "path_id": -8462609613713817810,
+        "replacements": 1
+      },
+      {
+        "path_id": -4993627615672058066,
+        "replacements": 1
+      },
+      {
+        "path_id": -4652240420420436178,
+        "replacements": 1
+      },
+      {
+        "path_id": -3440884519703199954,
+        "replacements": 1
+      },
+      {
+        "path_id": -3171090933891186898,
+        "replacements": 3
+      }
+    ]
+  },
+  {
+    "bundle_file": "ba7a719243fdf03cef9c049b120cde0f__remote_share_assets__project_composition_prefab_ui_overlay_implement_sortfilterpopup.bundle",
+    "replacements": 7,
+    "changed_objects": [
+      {
+        "path_id": -8601867035894343718,
+        "replacements": 1
+      },
+      {
+        "path_id": -3013992214958539201,
+        "replacements": 1
+      },
+      {
+        "path_id": -1030087506854571486,
+        "replacements": 1
+      },
+      {
+        "path_id": 4447587818252242625,
+        "replacements": 1
+      },
+      {
+        "path_id": 6397653137581916660,
+        "replacements": 1
+      },
+      {
+        "path_id": 6564221156535521347,
+        "replacements": 1
+      },
+      {
+        "path_id": 7931063632995389121,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "bc3a988cfea8aaf7d26da9cae7566015__remote_assets__project_composition_prefab_ui_overlay_implement_kifudetail_kifudetailpopupview.bundle",
+    "replacements": 177,
+    "changed_objects": [
+      {
+        "path_id": -8789576256130863513,
+        "replacements": 1
+      },
+      {
+        "path_id": -8766965996676469145,
+        "replacements": 80
+      },
+      {
+        "path_id": -8734593096115966361,
+        "replacements": 1
+      },
+      {
+        "path_id": -8432113848554508697,
+        "replacements": 1
+      },
+      {
+        "path_id": -8130901538184647065,
+        "replacements": 1
+      },
+      {
+        "path_id": -6795447926467547545,
+        "replacements": 1
+      },
+      {
+        "path_id": -5499463506677092761,
+        "replacements": 1
+      },
+      {
+        "path_id": -4281334458113806745,
+        "replacements": 1
+      },
+      {
+        "path_id": -3100533869794251161,
+        "replacements": 1
+      },
+      {
+        "path_id": -2445388361293582745,
+        "replacements": 1
+      },
+      {
+        "path_id": -1824066341751574937,
+        "replacements": 1
+      },
+      {
+        "path_id": -510105146065703321,
+        "replacements": 1
+      },
+      {
+        "path_id": 373669339018997351,
+        "replacements": 1
+      },
+      {
+        "path_id": 1370329955537563239,
+        "replacements": 1
+      },
+      {
+        "path_id": 2200065336597589607,
+        "replacements": 1
+      },
+      {
+        "path_id": 3154726692592987751,
+        "replacements": 1
+      },
+      {
+        "path_id": 3175886487531073127,
+        "replacements": 1
+      },
+      {
+        "path_id": 4351175934995508839,
+        "replacements": 1
+      },
+      {
+        "path_id": 7563672778991054439,
+        "replacements": 80
+      }
+    ]
+  },
+  {
+    "bundle_file": "bf9d04c2e928e8116b64ee96eecb6e1a__remote_share_assets__project__game_prefab_overlayui.bundle",
+    "replacements": 4,
+    "changed_objects": [
+      {
+        "path_id": -7585931006452137834,
+        "replacements": 1
+      },
+      {
+        "path_id": -4459499756948127594,
+        "replacements": 1
+      },
+      {
+        "path_id": 7444000024080318614,
+        "replacements": 1
+      },
+      {
+        "path_id": 7893809812434223254,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "c02e7bce11a142dc5dd6e6541656ef07__remote_assets__project_composition_prefab_ui_overlay_implement_shop_charactersandexchangeshoppopupview.bundle",
+    "replacements": 8,
+    "changed_objects": [
+      {
+        "path_id": -7017764365454268196,
+        "replacements": 1
+      },
+      {
+        "path_id": -5141875005211531044,
+        "replacements": 1
+      },
+      {
+        "path_id": -2197849938408953636,
+        "replacements": 1
+      },
+      {
+        "path_id": 720962469065730268,
+        "replacements": 3
+      },
+      {
+        "path_id": 1622400519888054492,
+        "replacements": 1
+      },
+      {
+        "path_id": 8091999530328402140,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "c289bcbe5e07059f8d9188fb5318102a__remote_assets__project_composition_prefab_ui_overlay_implement_paymentpointdashboardoverlay_paymentpointdashboardpopupview.bundle",
+    "replacements": 18,
+    "changed_objects": [
+      {
+        "path_id": -8718540387251075502,
+        "replacements": 4
+      },
+      {
+        "path_id": -5277872488037497262,
+        "replacements": 1
+      },
+      {
+        "path_id": -5229799620958108078,
+        "replacements": 1
+      },
+      {
+        "path_id": -4240314681064241582,
+        "replacements": 1
+      },
+      {
+        "path_id": -2556064966071957934,
+        "replacements": 1
+      },
+      {
+        "path_id": -2189155590316767662,
+        "replacements": 1
+      },
+      {
+        "path_id": -1452913186630285742,
+        "replacements": 1
+      },
+      {
+        "path_id": 864090933559936594,
+        "replacements": 1
+      },
+      {
+        "path_id": 1267454853174380114,
+        "replacements": 1
+      },
+      {
+        "path_id": 1286141545652864594,
+        "replacements": 1
+      },
+      {
+        "path_id": 2961658486189835858,
+        "replacements": 1
+      },
+      {
+        "path_id": 3889651160901600850,
+        "replacements": 1
+      },
+      {
+        "path_id": 5826885081183209042,
+        "replacements": 1
+      },
+      {
+        "path_id": 6416330296393582162,
+        "replacements": 1
+      },
+      {
+        "path_id": 8860345822899258962,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "cb54be627ec46ed0a1ed4ad6069797ef__remote_share_assets__project_composition_prefab_ui_overlay_implement_friend.bundle",
+    "replacements": 1,
+    "changed_objects": [
+      {
+        "path_id": 993264404139976109,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "cb799ca94c0bacd74d52faa17960fa29__remote_assets__project_orchestration_prefab_ui_overlay_notificationlistpopup_notificationlistpopupview.bundle",
+    "replacements": 4,
+    "changed_objects": [
+      {
+        "path_id": -8020862509231682061,
+        "replacements": 1
+      },
+      {
+        "path_id": 1973479406782270963,
+        "replacements": 1
+      },
+      {
+        "path_id": 6347794107609468403,
+        "replacements": 1
+      },
+      {
+        "path_id": 8661073167565147635,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "cf3b58b817ec7c6c7fa80fcee287f694__remote_assets__project_composition_prefab_ui_overlay_implement_chatinputpopup_chatinputpopupview.bundle",
+    "replacements": 1,
+    "changed_objects": [
+      {
+        "path_id": -3695719677418260279,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "cf6799577266aa5e21620eacb7a59916__remote_assets__project_composition_prefab_ui_overlay_implement_itemsetdetailpopupview.bundle",
+    "replacements": 3,
+    "changed_objects": [
+      {
+        "path_id": -7745829119451456090,
+        "replacements": 1
+      },
+      {
+        "path_id": 4694999814538993062,
+        "replacements": 1
+      },
+      {
+        "path_id": 5395845243221777830,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "d501c98e377c3f65557e515c22001d1b__remote_assets__project_composition_prefab_ui_overlay_implement_gachapullpointshoppopupview.bundle",
+    "replacements": 9,
+    "changed_objects": [
+      {
+        "path_id": -8424668183277427599,
+        "replacements": 1
+      },
+      {
+        "path_id": -6570591261860912015,
+        "replacements": 1
+      },
+      {
+        "path_id": -5864306579279141775,
+        "replacements": 1
+      },
+      {
+        "path_id": -5796120573937998735,
+        "replacements": 3
+      },
+      {
+        "path_id": -829473707026439055,
+        "replacements": 1
+      },
+      {
+        "path_id": -174185550998559631,
+        "replacements": 1
+      },
+      {
+        "path_id": 372971761229669489,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "d8a60ddfbdca5b57331bb38973d26b3e__remote_share_assets__project_data_tutorial.bundle",
+    "replacements": 22,
+    "changed_objects": [
+      {
+        "path_id": -8757109650819145396,
+        "replacements": 2
+      },
+      {
+        "path_id": -7208142902551404212,
+        "replacements": 2
+      },
+      {
+        "path_id": -2692788004998635188,
+        "replacements": 1
+      },
+      {
+        "path_id": -1985047350972669620,
+        "replacements": 2
+      },
+      {
+        "path_id": -1315680233090735796,
+        "replacements": 4
+      },
+      {
+        "path_id": 2812015273585844556,
+        "replacements": 1
+      },
+      {
+        "path_id": 4578897659787780428,
+        "replacements": 4
+      },
+      {
+        "path_id": 4680069827220971852,
+        "replacements": 1
+      },
+      {
+        "path_id": 5154350787758039372,
+        "replacements": 2
+      },
+      {
+        "path_id": 7090467994241507660,
+        "replacements": 2
+      },
+      {
+        "path_id": 8441575142099427660,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "d99c9083a98ec85789896fc06d512fb0__remote_share_assets__project_composition_prefab_ui_character.bundle",
+    "replacements": 18,
+    "changed_objects": [
+      {
+        "path_id": -9136829909560469682,
+        "replacements": 1
+      },
+      {
+        "path_id": -8848823233447014054,
+        "replacements": 1
+      },
+      {
+        "path_id": -7732810557865535666,
+        "replacements": 1
+      },
+      {
+        "path_id": -7217425180579276978,
+        "replacements": 1
+      },
+      {
+        "path_id": -6736460404040069673,
+        "replacements": 1
+      },
+      {
+        "path_id": -5887697242177786841,
+        "replacements": 1
+      },
+      {
+        "path_id": -5657147133786313689,
+        "replacements": 1
+      },
+      {
+        "path_id": -3679737892073973938,
+        "replacements": 1
+      },
+      {
+        "path_id": -3471325839063656626,
+        "replacements": 1
+      },
+      {
+        "path_id": -577167693812007730,
+        "replacements": 1
+      },
+      {
+        "path_id": 715802017338174461,
+        "replacements": 1
+      },
+      {
+        "path_id": 3569668309396870990,
+        "replacements": 1
+      },
+      {
+        "path_id": 4489012888671677766,
+        "replacements": 1
+      },
+      {
+        "path_id": 5358543601544122714,
+        "replacements": 1
+      },
+      {
+        "path_id": 5789080480292185587,
+        "replacements": 1
+      },
+      {
+        "path_id": 7224972583114037070,
+        "replacements": 1
+      },
+      {
+        "path_id": 7883353055943003607,
+        "replacements": 1
+      },
+      {
+        "path_id": 8341072400893488125,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "dcecc8a24b4acd2516c6c20a85e883e3__remote_share_assets__project_composition_prefab_ui_item.bundle",
+    "replacements": 6,
+    "changed_objects": [
+      {
+        "path_id": -8396346436731310157,
+        "replacements": 1
+      },
+      {
+        "path_id": -5177035647015125550,
+        "replacements": 1
+      },
+      {
+        "path_id": -1828940398694643288,
+        "replacements": 1
+      },
+      {
+        "path_id": 2718171147276143745,
+        "replacements": 1
+      },
+      {
+        "path_id": 5451510315913421115,
+        "replacements": 1
+      },
+      {
+        "path_id": 6234055812244860851,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "dd53219dff6f5b8144946e087e5a2b33__remote_share_assets__project_composition_prefab_ui_overlay_implement_monthlywinratepopup.bundle",
+    "replacements": 2,
+    "changed_objects": [
+      {
+        "path_id": -2037128024636214365,
+        "replacements": 1
+      },
+      {
+        "path_id": -207577129004977245,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "e12d6aa7c178ccec147a855eb7fd9888__remote_assets__project_composition_prefab_ui_overlay_implement_gameonly_aispecialsupportpopupview.bundle",
+    "replacements": 3,
+    "changed_objects": [
+      {
+        "path_id": 305950630886367123,
+        "replacements": 1
+      },
+      {
+        "path_id": 3110326685233766291,
+        "replacements": 1
+      },
+      {
+        "path_id": 3371610921492012947,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "e1e6134fc6ca645086ce0e453da3283d__remote_share_assets__project__menu_prefab_overlay_kifulistpopup.bundle",
+    "replacements": 9,
+    "changed_objects": [
+      {
+        "path_id": -8254817689224322802,
+        "replacements": 1
+      },
+      {
+        "path_id": -7409350737161068274,
+        "replacements": 1
+      },
+      {
+        "path_id": -4459911955114729202,
+        "replacements": 1
+      },
+      {
+        "path_id": -4194334069925781234,
+        "replacements": 1
+      },
+      {
+        "path_id": -3157772430589009650,
+        "replacements": 1
+      },
+      {
+        "path_id": -3126681211965120242,
+        "replacements": 1
+      },
+      {
+        "path_id": -314995304499420914,
+        "replacements": 1
+      },
+      {
+        "path_id": 1662093367358021902,
+        "replacements": 1
+      },
+      {
+        "path_id": 6031422354091565326,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "e2ee140dfb96366a381c539a0554d71f__remote_assets__project_composition_prefab_ui_overlay_implement_matchingwaitingpopupview.bundle",
+    "replacements": 2,
+    "changed_objects": [
+      {
+        "path_id": 3564486042554442331,
+        "replacements": 1
+      },
+      {
+        "path_id": 6100901943290995291,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "e3e5041f7d05f6b41c1fb259a417080f__remote_assets__project_composition_prefab_ui_overlay_implement_shop_specialshoppopupview.bundle",
+    "replacements": 10,
+    "changed_objects": [
+      {
+        "path_id": -9221501339382117314,
+        "replacements": 1
+      },
+      {
+        "path_id": -3984038168969999298,
+        "replacements": 1
+      },
+      {
+        "path_id": 569046328091151422,
+        "replacements": 1
+      },
+      {
+        "path_id": 1494860219410287678,
+        "replacements": 1
+      },
+      {
+        "path_id": 1652860661666417726,
+        "replacements": 1
+      },
+      {
+        "path_id": 3225500141884869694,
+        "replacements": 1
+      },
+      {
+        "path_id": 4721319700641418302,
+        "replacements": 3
+      },
+      {
+        "path_id": 5120099367607929918,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "e771a3028f145c49b08fdb799ec25c06__remote_assets__project_composition_prefab_ui_overlay_implement_dailyshoprefreshconfirmationpopupview.bundle",
+    "replacements": 7,
+    "changed_objects": [
+      {
+        "path_id": -7736325040502722569,
+        "replacements": 1
+      },
+      {
+        "path_id": -6995465658204540937,
+        "replacements": 1
+      },
+      {
+        "path_id": -4566541308681048073,
+        "replacements": 1
+      },
+      {
+        "path_id": -4152381348808937481,
+        "replacements": 1
+      },
+      {
+        "path_id": 124194270013960183,
+        "replacements": 2
+      },
+      {
+        "path_id": 5899525842306543607,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "e87bcb19dffa9b24d34b4b65f63e23ac__remote_share_assets__project_composition_prefab_ui_shogi.bundle",
+    "replacements": 5,
+    "changed_objects": [
+      {
+        "path_id": -6588249417707894997,
+        "replacements": 4
+      },
+      {
+        "path_id": -1297995253762504917,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "e9b069d8e2c04e2ef1be46f2f23705e7__remote_assets__project_composition_prefab_ui_overlay_implement_shop_coinpurchaseshoppopupview.bundle",
+    "replacements": 8,
+    "changed_objects": [
+      {
+        "path_id": -6425587370473296449,
+        "replacements": 1
+      },
+      {
+        "path_id": -5792912721223029313,
+        "replacements": 3
+      },
+      {
+        "path_id": -4152527423612457537,
+        "replacements": 1
+      },
+      {
+        "path_id": -4033150089041416769,
+        "replacements": 1
+      },
+      {
+        "path_id": 627962595895602623,
+        "replacements": 1
+      },
+      {
+        "path_id": 2880446334635208127,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "e9b5bd789fd2423afa866304f1e30efa__remote_share_assets__project_composition_data_ui_overlay_shogirulepopup.bundle",
+    "replacements": 28,
+    "changed_objects": [
+      {
+        "path_id": -9025098977337919766,
+        "replacements": 28
+      }
+    ]
+  },
+  {
+    "bundle_file": "ebd5c3a0e9e036b4630bb5c0b377abdd__remote_share_assets__project__menu_prefab_page_shop_component.bundle",
+    "replacements": 9,
+    "changed_objects": [
+      {
+        "path_id": -3861707804257240778,
+        "replacements": 1
+      },
+      {
+        "path_id": -3616170339478620760,
+        "replacements": 1
+      },
+      {
+        "path_id": -3142697405133400303,
+        "replacements": 1
+      },
+      {
+        "path_id": -2116640305519707153,
+        "replacements": 1
+      },
+      {
+        "path_id": -1845939667712904629,
+        "replacements": 1
+      },
+      {
+        "path_id": -461833112384621238,
+        "replacements": 1
+      },
+      {
+        "path_id": 184105925067991353,
+        "replacements": 1
+      },
+      {
+        "path_id": 2198062009015604810,
+        "replacements": 1
+      },
+      {
+        "path_id": 3554575632560656327,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "ebf31e8b8201a1b2c0c487e2332e9942__remote_share_assets__project_composition_prefab_ui_shop_paidshopproductscroller.bundle",
+    "replacements": 8,
+    "changed_objects": [
+      {
+        "path_id": -4823069176492652788,
+        "replacements": 1
+      },
+      {
+        "path_id": -2833703739793668340,
+        "replacements": 3
+      },
+      {
+        "path_id": -1670857544483535092,
+        "replacements": 1
+      },
+      {
+        "path_id": -1330022826745460980,
+        "replacements": 1
+      },
+      {
+        "path_id": 1590059383078192908,
+        "replacements": 1
+      },
+      {
+        "path_id": 2821306776804722444,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "edc072c04fdaba2a5f7472cb01d6b1af__remote_assets__project_composition_prefab_ui_overlay_implement_shop_supplysandexchangeshoppopupview.bundle",
+    "replacements": 8,
+    "changed_objects": [
+      {
+        "path_id": -9003174146406557267,
+        "replacements": 1
+      },
+      {
+        "path_id": -2171702320246236755,
+        "replacements": 3
+      },
+      {
+        "path_id": 1289665819709331885,
+        "replacements": 1
+      },
+      {
+        "path_id": 4451237222688414125,
+        "replacements": 1
+      },
+      {
+        "path_id": 5740720268914186669,
+        "replacements": 1
+      },
+      {
+        "path_id": 9140385299076929965,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "ef4eb12b83a7ddb8cd484ed18a3bd186__remote_assets__project_composition_prefab_ui_overlay_implement_giftboxpopup_giftboxpopupview.bundle",
+    "replacements": 15,
+    "changed_objects": [
+      {
+        "path_id": -9222428568475685049,
+        "replacements": 1
+      },
+      {
+        "path_id": -7395859414486569145,
+        "replacements": 1
+      },
+      {
+        "path_id": -6492363236826828985,
+        "replacements": 1
+      },
+      {
+        "path_id": -811389347448639673,
+        "replacements": 1
+      },
+      {
+        "path_id": 794714264824033095,
+        "replacements": 1
+      },
+      {
+        "path_id": 1017605414079934279,
+        "replacements": 1
+      },
+      {
+        "path_id": 2313305734664007495,
+        "replacements": 1
+      },
+      {
+        "path_id": 2392333451830341447,
+        "replacements": 1
+      },
+      {
+        "path_id": 4613398639666966343,
+        "replacements": 1
+      },
+      {
+        "path_id": 5416920127750057799,
+        "replacements": 1
+      },
+      {
+        "path_id": 5945867169308520263,
+        "replacements": 1
+      },
+      {
+        "path_id": 6346827693757607751,
+        "replacements": 1
+      },
+      {
+        "path_id": 7063090657518006087,
+        "replacements": 1
+      },
+      {
+        "path_id": 8866422223870472007,
+        "replacements": 1
+      },
+      {
+        "path_id": 8923819963418521415,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "f0d30cfc10155fc85981f65b1ea72f1c__remote_assets__project_composition_prefab_ui_overlay_implement_usernamechangepopupview.bundle",
+    "replacements": 3,
+    "changed_objects": [
+      {
+        "path_id": -8992818522893802937,
+        "replacements": 1
+      },
+      {
+        "path_id": -8462245796235402681,
+        "replacements": 1
+      },
+      {
+        "path_id": 8593826170437935687,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "f301c223ee291b2dbfdb9b85530d3106__remote_share_assets__project__menu_prefab_page_lobbymatchroompage.bundle",
+    "replacements": 13,
+    "changed_objects": [
+      {
+        "path_id": -2896482272041439193,
+        "replacements": 2
+      },
+      {
+        "path_id": -1999274216920059865,
+        "replacements": 1
+      },
+      {
+        "path_id": -1795607836098957273,
+        "replacements": 1
+      },
+      {
+        "path_id": -124242935487926233,
+        "replacements": 1
+      },
+      {
+        "path_id": 512133385007263783,
+        "replacements": 1
+      },
+      {
+        "path_id": 1301697359586390055,
+        "replacements": 1
+      },
+      {
+        "path_id": 1797342143401619495,
+        "replacements": 1
+      },
+      {
+        "path_id": 3731849404560699431,
+        "replacements": 1
+      },
+      {
+        "path_id": 4470310602496728833,
+        "replacements": 1
+      },
+      {
+        "path_id": 8460130276854394919,
+        "replacements": 1
+      },
+      {
+        "path_id": 8621070095540875303,
+        "replacements": 1
+      },
+      {
+        "path_id": 9218968035990101761,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "f51808d58fb1de03f44c75664f0af21e__remote_assets__project_composition_prefab_ui_overlay_implement_itembrieflistpopupview.bundle",
+    "replacements": 3,
+    "changed_objects": [
+      {
+        "path_id": -4845998870188842561,
+        "replacements": 1
+      },
+      {
+        "path_id": 1775974964789518783,
+        "replacements": 1
+      },
+      {
+        "path_id": 5903131351537164735,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "f5db4a5c9e90fba52ef78f6dee58cf0a__remote_assets__project_composition_prefab_ui_overlay_implement_itemamountselectionpopupview.bundle",
+    "replacements": 3,
+    "changed_objects": [
+      {
+        "path_id": -4070905899749550055,
+        "replacements": 1
+      },
+      {
+        "path_id": -2903014241771464679,
+        "replacements": 1
+      },
+      {
+        "path_id": 6639901750624901145,
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "f80bea6262e5df94d2655b2f60663542__remote_assets__project_composition_prefab_ui_overlay_implement_supplypresetchangepopupview.bundle",
+    "replacements": 22,
+    "changed_objects": [
+      {
+        "path_id": -4421382002520998772,
+        "replacements": 2
+      },
+      {
+        "path_id": -3513686816602178420,
+        "replacements": 1
+      },
+      {
+        "path_id": -3224025626025050996,
+        "replacements": 1
+      },
+      {
+        "path_id": -2768346915320742772,
+        "replacements": 1
+      },
+      {
+        "path_id": -1259900445353952116,
+        "replacements": 1
+      },
+      {
+        "path_id": -74255655685047156,
+        "replacements": 1
+      },
+      {
+        "path_id": 829925157669715084,
+        "replacements": 1
+      },
+      {
+        "path_id": 2019329407721815180,
+        "replacements": 1
+      },
+      {
+        "path_id": 2067060515220634764,
+        "replacements": 1
+      },
+      {
+        "path_id": 3491357474824207500,
+        "replacements": 1
+      },
+      {
+        "path_id": 4231807914417077388,
+        "replacements": 1
+      },
+      {
+        "path_id": 4761345629199154316,
+        "replacements": 1
+      },
+      {
+        "path_id": 4807980974212529292,
+        "replacements": 1
+      },
+      {
+        "path_id": 5282216933325290636,
+        "replacements": 1
+      },
+      {
+        "path_id": 5551329067985157260,
+        "replacements": 1
+      },
+      {
+        "path_id": 5620541392714939532,
+        "replacements": 1
+      },
+      {
+        "path_id": 6745134825318333580,
+        "replacements": 1
+      },
+      {
+        "path_id": 6823965356177636492,
+        "replacements": 1
+      },
+      {
+        "path_id": 7086760163334962316,
+        "replacements": 1
+      },
+      {
+        "path_id": 7146773402926398604,
+        "replacements": 1
+      },
+      {
+        "path_id": 8223107749660343436,
+        "replacements": 1
+      }
+    ]
+  }
+]
