@@ -41,7 +41,15 @@ On Windows PowerShell:
 .\.venv\Scripts\python scripts\patcher_gui.py
 ```
 
-The GUI can patch the APK, install it with ADB, and patch downloaded remote data after the game finishes its additional data download.
+The GUI walks through the normal patching flow:
+
+1. Patch APK
+2. Install Patched APK
+3. Launch Game
+4. Check Downloaded Data
+5. Patch Downloaded Data
+
+After launching the game, let the forced additional-data download finish inside the emulator or phone. Then use `Check Downloaded Data`. When all required bundles are found, run `Patch Downloaded Data`.
 
 ## Native Desktop Builds
 
