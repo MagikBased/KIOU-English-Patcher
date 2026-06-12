@@ -66,7 +66,7 @@ def patch_bundle(bundle_path: Path, translations: dict[str, str]) -> dict[str, A
             continue
         obj.save_typetree(patched_tree)
         replacements += count
-        changed_objects.append({"path_id": obj.path_id, "replacements": count})
+        changed_objects.append({"path_id": obj.path_id, "type": "MonoBehaviour", "replacements": count})
 
     if replacements == 0:
         return None
@@ -82,14 +82,23 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--source-dir", required=True, type=Path)
     parser.add_argument("--patched-dir", required=True, type=Path)
-    parser.add_argument("--translations", required=True, type=Path)
+    parser.add_argument(
+        "--translations",
+        required=True,
+        type=Path,
+        action="append",
+        help="Translation CSV. May be supplied more than once.",
+    )
     parser.add_argument("--glob", default="*")
     parser.add_argument("--report", default="reports/bundle_patch_report.json", type=Path)
     args = parser.parse_args()
 
-    translations = load_translations(args.translations)
+    translations: dict[str, str] = {}
+    for translations_path in args.translations:
+        translations.update(load_translations(translations_path))
     if not translations:
-        raise SystemExit(f"No non-empty translations loaded from {args.translations}")
+        paths = ", ".join(str(path) for path in args.translations)
+        raise SystemExit(f"No non-empty translations loaded from {paths}")
 
     if args.patched_dir.exists():
         shutil.rmtree(args.patched_dir)

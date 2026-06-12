@@ -45,6 +45,12 @@ def iter_strings(value: Any, path: str = "") -> Iterable[tuple[str, str]]:
 
 def short_text(text: str, limit: int = 500) -> str:
     text = text.replace("\r\n", "\n").replace("\r", "\n")
+    text = "".join(
+        char
+        if char == "\n" or char == "\t" or (32 <= ord(char) < 0xD800) or ord(char) > 0xDFFF
+        else f"\\u{ord(char):04x}"
+        for char in text
+    )
     if len(text) <= limit:
         return text
     return text[:limit] + "..."
@@ -70,7 +76,7 @@ def get_typetree(obj: Any) -> tuple[Any | None, str | None]:
         return None, f"{type(exc).__name__}: {exc}"
 
 
-def scan_bundle(bundle_path: Path) -> tuple[dict[str, Any], list[dict[str, Any]]]:
+def scan_bundle(bundle_path: Path, typetree_types: set[str] | None) -> tuple[dict[str, Any], list[dict[str, Any]]]:
     env = UnityPy.load(str(bundle_path))
     counts: Counter[str] = Counter()
     objects: list[dict[str, Any]] = []
@@ -108,7 +114,8 @@ def scan_bundle(bundle_path: Path) -> tuple[dict[str, Any], list[dict[str, Any]]
                         }
                     )
 
-        if type_name == "MonoBehaviour":
+        should_scan_tree = typetree_types is None or type_name in typetree_types
+        if should_scan_tree and type_name != "TextAsset":
             tree, tree_error = get_typetree(obj)
             if tree_error:
                 continue
@@ -153,10 +160,21 @@ def main() -> int:
         type=Path,
         help="Directory to write inventory and candidate reports.",
     )
+    parser.add_argument(
+        "--typetree-types",
+        default="MonoBehaviour",
+        help=(
+            "Comma-separated object types to scan with read_typetree(), or 'all'. "
+            "TextAsset script bytes are always scanned separately."
+        ),
+    )
     args = parser.parse_args()
 
     args.reports_dir.mkdir(parents=True, exist_ok=True)
     bundle_paths = sorted(path for path in args.bundles_dir.rglob(args.glob) if path.is_file())
+    typetree_types = None
+    if args.typetree_types.lower() != "all":
+        typetree_types = {name.strip() for name in args.typetree_types.split(",") if name.strip()}
 
     summaries: list[dict[str, Any]] = []
     candidates: list[dict[str, Any]] = []
@@ -165,7 +183,7 @@ def main() -> int:
     for index, bundle_path in enumerate(bundle_paths, start=1):
         print(f"[{index}/{len(bundle_paths)}] {bundle_path.name}")
         try:
-            summary, bundle_candidates = scan_bundle(bundle_path)
+            summary, bundle_candidates = scan_bundle(bundle_path, typetree_types)
         except Exception as exc:
             errors.append({"bundle_file": bundle_path.name, "error": f"{type(exc).__name__}: {exc}"})
             continue

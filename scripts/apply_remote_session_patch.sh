@@ -8,9 +8,4 @@ WAIT_SECONDS="${2:-12}"
 adb shell monkey -p "$PACKAGE" -c android.intent.category.LAUNCHER 1 >/dev/null
 sleep "$WAIT_SECONDS"
 
-"$ROOT/.venv/bin/python" "$ROOT/scripts/push_patched_remote_bundles.py" \
-  --patched-dir "$ROOT/patched/remote_target_bundles" \
-  --report "$ROOT/reports/remote_patch_report.json" \
-  --package "$PACKAGE"
-
-echo "Session patch applied with matching cache metadata."
+"$ROOT/scripts/patch_remote_cache.sh" "$PACKAGE"

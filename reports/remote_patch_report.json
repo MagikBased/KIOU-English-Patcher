@@ -970,6 +970,18 @@
     ]
   },
   {
+    "bundle_file": "2f0426ad7cc63c421dbf20786c35cfa0__remote_assets__project_sound_generated_voice_catalog_g.bundle",
+    "replacements": 120,
+    "changed_objects": [
+      {
+        "path_id": -2613849358590119776,
+        "type": "TextAsset",
+        "name": "voice_catalog.g",
+        "replacements": 120
+      }
+    ]
+  },
+  {
     "bundle_file": "3109ded3c70048a277e28c1592354a68__remote_assets__project_composition_prefab_ui_overlay_implement_bunreportpopupview.bundle",
     "replacements": 7,
     "changed_objects": [
@@ -1996,6 +2008,18 @@
       {
         "path_id": 8932799703653307361,
         "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "77466306cf3a4254b1dac34dde0a9942__remote_assets__project_masterdata_runtimemasterdata.bundle",
+    "replacements": 291,
+    "changed_objects": [
+      {
+        "path_id": -3577660058741299233,
+        "type": "TextAsset",
+        "name": "RuntimeMasterData",
+        "replacements": 291
       }
     ]
   },

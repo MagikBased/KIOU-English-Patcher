@@ -18,6 +18,10 @@ from apply_bundle_translations import load_translations as load_bundle_translati
 from apply_bundle_translations import patch_bundle as patch_remote_bundle
 from apply_local_ui_translations import load_translations as load_local_translations
 from apply_local_ui_translations import patch_bundle as patch_local_bundle
+from apply_masterdata_translations import load_translations as load_masterdata_translations
+from apply_masterdata_translations import patch_bundle as patch_masterdata_bundle
+from apply_voice_catalog_translations import load_translations as load_voice_catalog_translations
+from apply_voice_catalog_translations import patch_bundle as patch_voice_catalog_bundle
 from push_patched_remote_bundles import HASH_RE, app_cache_info_bytes
 from verify_apk import SUPPORTED_APK_SHA256, sha256_file
 
@@ -38,6 +42,14 @@ def state_root() -> Path:
 ROOT = resource_root()
 STATE_ROOT = state_root()
 DEFAULT_PACKAGE = "com.neconome.shogi"
+MASTERDATA_BUNDLE = (
+    "77466306cf3a4254b1dac34dde0a9942__"
+    "remote_assets__project_masterdata_runtimemasterdata.bundle"
+)
+VOICE_CATALOG_BUNDLE = (
+    "2f0426ad7cc63c421dbf20786c35cfa0__"
+    "remote_assets__project_sound_generated_voice_catalog_g.bundle"
+)
 KEY_ALIAS = "kiou_patch"
 KEY_PASS = "kioupatch"
 LogFn = Callable[[str], None]
@@ -623,6 +635,39 @@ def patch_remote_cache(package: str = DEFAULT_PACKAGE, log: LogFn = default_log,
                 f"{bundle_report['replacements']} replacements in "
                 f"{len(bundle_report['changed_objects'])} objects"
             )
+
+    masterdata_translations_path = ROOT / "translations" / "remote_masterdata.csv"
+    masterdata_bundle = patched_dir / MASTERDATA_BUNDLE
+    if masterdata_translations_path.exists() and masterdata_bundle.exists():
+        log("Applying master-data English translations...")
+        masterdata_translations = load_masterdata_translations(masterdata_translations_path)
+        masterdata_report = patch_masterdata_bundle(
+            masterdata_bundle,
+            masterdata_bundle,
+            masterdata_translations,
+        )
+        reports.append(masterdata_report)
+        log(
+            f"{masterdata_report['bundle_file']}: "
+            f"{masterdata_report['replacements']} master-data replacements"
+        )
+
+    voice_catalog_translations_path = ROOT / "translations" / "voice_catalog.csv"
+    voice_catalog_bundle = patched_dir / VOICE_CATALOG_BUNDLE
+    if voice_catalog_translations_path.exists() and voice_catalog_bundle.exists():
+        log("Applying voice-dialogue English translations...")
+        voice_catalog_translations = load_voice_catalog_translations(voice_catalog_translations_path)
+        voice_catalog_report = patch_voice_catalog_bundle(
+            voice_catalog_bundle,
+            voice_catalog_bundle,
+            voice_catalog_translations,
+        )
+        reports.append(voice_catalog_report)
+        log(
+            f"{voice_catalog_report['bundle_file']}: "
+            f"{voice_catalog_report['replacements']} voice-dialogue replacements"
+        )
+
     report.write_text(json.dumps(reports, ensure_ascii=False, indent=2), encoding="utf-8")
     log(f"Patched {len(reports)} remote bundles with {sum(int(r['replacements']) for r in reports)} replacements")
 

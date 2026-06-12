@@ -77,6 +77,10 @@ def main() -> int:
         "--add-data",
         data_arg(str(ROOT / "translations" / "remote_ui.csv"), "translations"),
         "--add-data",
+        data_arg(str(ROOT / "translations" / "remote_masterdata.csv"), "translations"),
+        "--add-data",
+        data_arg(str(ROOT / "translations" / "voice_catalog.csv"), "translations"),
+        "--add-data",
         data_arg(str(ROOT / "reports" / "remote_patch_report.json"), "reports"),
     ]
     if onefile:
@@ -109,4 +113,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

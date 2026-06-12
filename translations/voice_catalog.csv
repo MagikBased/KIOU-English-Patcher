@@ -1,0 +1,376 @@
+cueName,source,target
+voice_001_009,"待ってたよ！
+早く指しに行こー！","I've been waiting!
+Let's go play a match!"
+voice_001_010,"おかえりなさい！
+今日もいっぱい遊ぼうね！","Welcome back!
+Let's have lots of fun today!"
+voice_001_011,私の右四間飛車はすごいんだから！ドーンって攻めるのが最高に気持ちいいんだよ！,My Right Fourth File Rook is amazing! Charging in with a big boom feels so good!
+voice_001_012,"私の目標はね、お店に来てくれるみんなを笑顔にすること！　
+お客さんにも戦法を教わって、毎日成長中だよーっ！","My goal is to make everyone who comes to the shop smile!
+Customers teach me strategies too, so I'm growing every day!"
+voice_001_013,"私ね、ワクワクすることを探すのが大好きなんだ〜！
+ねぇねぇ！一緒に行って見つけてみない？
+きっと楽しいよ！","I love looking for exciting things!
+Hey, want to go find some with me?
+I'm sure it'll be fun!"
+voice_001_014,"将棋もお仕事も、一歩ずつステップアップできるように頑張ってるんだ～！
+覚えることは沢山あるけど、毎日が刺激的で楽しいなっ！","I'm working hard to improve at shogi and at my job, one step at a time!
+There's so much to learn, but every day is exciting and fun!"
+voice_001_015,"なんだかお疲れさま？
+甘い飲み物でも飲んで、楽しく指そ！","Are you feeling tired?
+Have something sweet to drink, then let's play for fun!"
+voice_001_016,"天気がいい日は、お店の窓際で日向ぼっこしたくなっちゃうな〜。
+将棋の勉強は、その後にしっかりやればいいもんねっ！","On sunny days, I want to bask by the shop window.
+I can study shogi properly afterward, right?"
+voice_001_017,"君の隣にいると、楽しい気分になるんだ～。
+ね、もっと近くでお話ししよ？","Being next to you puts me in such a good mood.
+Hey, let's talk a little closer, okay?"
+voice_001_018,"ここだけの話なんだけど……。
+負けて泣いちゃった後、こっそりお菓子を食べて元気を出してるんだ！
+ユキちゃんには内緒だよ！","Just between us...
+After I lose and cry, I secretly eat snacks to cheer myself up!
+Don't tell Yuki!"
+voice_002_009,"お疲れ様です。
+早速ですが、研究会を始めましょう。","Good work today.
+Let's begin our study session."
+voice_002_010,"今日の研究はお休みにして、一緒にお茶に行きませんか？
+二人きりで、お話ししたい気分なんです。","Why don't we take a break from study today and go for tea?
+I'd like to talk with you, just the two of us."
+voice_002_011,"矢倉は居飛車で最も格式高い戦法。
+堅牢な城を築き、冷静に相手を迎え撃つのです。","Yagura is the most formal Static Rook strategy.
+Build a sturdy castle and calmly receive your opponent's attack."
+voice_002_012,"プライベートでも仕事中のように完璧に振る舞うことが目標なのですが……。
+中々うまくいきませんね。","My goal is to act as perfectly in private as I do at work...
+It is not going very well."
+voice_002_013,"業務には、さくらの教育も任されています。
+あの子の奔放さには、時々困らされてしまいますが楽しいですね。","My duties include training Sakura.
+Her free spirit gives me trouble at times, but it is enjoyable."
+voice_002_014,"好きなことですか。
+やはり、将棋の研究に没頭している時間が一番好きですね。","What do I like?
+I suppose I enjoy the time I spend absorbed in shogi research most of all."
+voice_002_015,え、前髪が跳ねている…？やだ、恥ずかしい。ちょっと直してきますね。,"Huh, my bangs are sticking up...? Oh no, how embarrassing. I will go fix them."
+voice_002_016,"少しお疲れのようですね。
+私のお気に入りの茶葉で、アイスティーを淹れてきますね。","You seem a little tired.
+I will make iced tea with my favorite leaves."
+voice_002_017,ふふ、貴方の隣にいると、ついつい気が緩んじゃいますね。,"Hehe, when I am beside you, I find myself relaxing."
+voice_002_018,"貴方が好きだと言っていたお菓子や本のジャンルを、こっそり手帳にメモしているんです。
+……貴方のことをもっと知りたくて。","I secretly write down the snacks and books you said you liked.
+...I want to know more about you."
+voice_003_009,"お！来たかい！
+早速、一局どうだい！","Oh, there you are!
+How about a game right away?"
+voice_003_010,"待っておったよ！
+今日も、話ながら指そうじゃないか！","I've been waiting!
+Let's talk while we play today!"
+voice_003_011,"棒銀はいいぞぉ！
+勢いに乗れば、相手の陣形をガツンとこじ開けられるからねぇ！","Climbing Silver is great!
+Once it gets momentum, it can smash open the opponent's camp!"
+voice_003_012,"料理と将棋は、意外と共通点があるもんじゃな。
+素材の味を活かすのも、駒の個性を引き出すのも、己の腕次第。
+いやー、どちらも奥が深いわい！","Cooking and shogi have more in common than you might think.
+Bringing out the flavor of ingredients and the character of pieces both depend on skill.
+Both are deep arts!"
+voice_003_013,"ワシのこの笑い声、遠くからでもすぐ分かると言われてね。
+元気が一番の取り柄なんだよ。","People say they can recognize my laugh from far away.
+Energy is my best trait."
+voice_003_014,"天気のいい日は散歩に限るよ。
+寄り道していい食材を見つけるのが、また楽しくてね。","On a nice day, nothing beats a walk.
+Finding good ingredients along the way is part of the fun."
+voice_003_015,"修行時代に培った技術は、一度身につけば一生消えん。
+あの頃に培った集中力が、今のワシの指し手を支えておるんだねぇ。","Skills gained in training stay with you for life.
+The focus I built back then still supports my moves today."
+voice_003_016,"和菓子やお茶もいいが、夜はやっぱり酒じゃな！
+月を見ながら静かに飲む酒は、また格別よ！","Sweets and tea are nice, but at night, it has to be sake!
+Drinking quietly under the moon is something special!"
+voice_003_017,"おや？お腹すいてんのかい？
+よし！今日はワシが美味いもんを作ってやる！","Oh? Are you hungry?
+All right! I'll cook you something tasty today!"
+voice_003_018,"縁ってのは不思議なもんだねぇ。
+あんたという友に出会えたこと、ワシは心から感謝しておるよ。","Bonds are mysterious things.
+I am truly grateful to have met a friend like you."
+voice_004_009,"あら、戻ったのね。
+私を待たせた分、どれだけ愉しませてくれるのかしら？","Oh, you're back.
+You kept me waiting, so how much will you entertain me?"
+voice_004_010,"待ちくたびれたわ。
+今夜は貴方を独占するために、特別な席を用意しておいたの。
+さぁ……行きましょう。うふふふ。","I grew tired of waiting.
+I prepared a special seat so I could have you all to myself tonight.
+Now... shall we? Hehehe."
+voice_004_011,"私のおススメは『青野流』よ。
+圧倒的な攻撃力で、相手を一方的にねじ伏せるのが快感なの。","My recommendation is Aono Style.
+It is a pleasure to crush the opponent one-sidedly with overwhelming attack power."
+voice_004_012,"競業がいるからこそ、業界は刺激的で面白くなる……そうは思わない？ 
+どんな相手もねじ伏せ、全てを支配する。
+それが私の描く完璧な勝利よ。","Competition is what makes an industry stimulating and interesting, don't you think?
+Crush every rival and control everything.
+That is the perfect victory I envision."
+voice_004_013,"プロ棋士として、経営者として……私は常に『本物』だけを求めているの。 
+貴方のその才能、買い取って私の色に染めてあげてもいいわよ？","As a professional player and manager... I only seek the genuine article.
+Perhaps I should buy that talent of yours and dye it in my colors."
+voice_004_014,"イベントに足を運んでは、目ぼしい子をスカウトしているわ。
+私の審美眼に叶ったなら、それは光栄なことだと思いなさい？","I visit events and scout promising talent.
+If you meet my eye, consider it an honor."
+voice_004_015,"高級なワインを傾けながら、煌びやかな夜景を眺める……。
+そこに私の興味を惹く相手がいれば、それだけで満足よ。
+うふふ、貴方は私を満足させてくれるかしら？","Sipping fine wine while looking over a dazzling night view...
+If someone there can hold my interest, that is enough.
+Hehe, can you satisfy me?"
+voice_004_016,"あら、随分と顔色が悪いわね。
+無理をして使い物にならなくなっては困るわ。
+貴方にはまだ、私を愉しませる役割が残っているのだから。","My, you look rather pale.
+It would be troublesome if you pushed yourself until you became useless.
+You still have a role to play in entertaining me."
+voice_004_017,"私の目の届く場所にいたい、というわけね。
+良いわよ、その殊勝な態度は嫌いじゃないわ。
+私の興味を逸らさないように努力することね。","So you want to stay where I can see you.
+Very well. I do not dislike that admirable attitude.
+Work hard enough that my interest does not wander."
+voice_004_018,"うふふ。貴方を手に入れた記念に……今夜は私の特等席へ招待してあげる。
+感謝してもいいのよ？","Hehe. To commemorate obtaining you... I will invite you to my best seat tonight.
+You may thank me."
+voice_005_009,"戻ったか。
+この刻も、理は未だ崩れておらぬ。
+ならば致し方あるまい。
+我と共に暫し、理の面を、覗こう。","You have returned.
+Even now, the order has not yet collapsed.
+Then it cannot be helped.
+Come, gaze with me a while upon the face of order."
+voice_005_010,"其方か。
+此処は、随分と前から其方の席だ。","It is you.
+This seat has been yours for quite some time."
+voice_005_011,"我は、戦法を持たぬ。
+将棋は、将棋だ。
+ただ一つ、かつて我を押し留めた型がある。
+間宮久夢流。
+それだけは、手として使うに足る。","I hold no strategy.
+Shogi is shogi.
+There is only one form that once halted me: Mamiya Kyumu Style.
+That alone is worthy as a move."
+voice_005_012,"我が此の世に留まる理由か。
+まだ終わらせるには、少しばかり物足りぬからだ。","Why do I remain in this world?
+Because ending it still feels a little unsatisfying."
+voice_005_013,"理の面とは、何かを満たすものではない。
+退屈を、暫し黙らせるための、歪みだ。","The face of order is not meant to fill anything.
+It is a distortion that quiets boredom for a while."
+voice_005_014,"近頃は、人ならざるものまで理を読む。
+…刻の流れよ。","These days, even things that are not human read the order.
+...Such is the flow of time."
+voice_005_015,"昔は、人だけが理を読んでいた。
+今は造られし思考も、それを読む。","Long ago, only humans read the order.
+Now, manufactured minds read it too."
+voice_005_016,"其方、理が、僅かに削れているな
+よかろう。壊れる前に、此処へ来い。","Your order is slightly worn down.
+Very well. Come here before you break."
+voice_005_017,"機は、迷わぬ。
+だからこそ、理に最も近い。","Machines do not hesitate.
+That is why they are closest to order."
+voice_005_018,"此処まで踏み入った者は、久しく居なかった。
+其方は、まだ、壊すには惜しい。","It has been long since anyone stepped this far in.
+You are still too interesting to break."
+voice_006_009,お疲れ様！貴方が来るのを待っていたわ。さあ、今日も一局指しましょう！,"Good work! I was waiting for you. Come on, let's play a game today too!"
+voice_006_010,貴方の顔を見ると、不思議と背筋が伸びるわね。最高のパートナーとして、今日もよろしく頼むわよ！,"Seeing your face somehow straightens me up. As my finest partner, I'm counting on you today too!"
+voice_006_011,角換わり腰掛け銀は将棋の王道。互いに手の内をさらけ出して戦う、最高の戦型だわ！,Double Wing Reclining Silver is shogi's royal road. Both sides reveal their hands and fight. It is the finest battle shape!
+voice_006_012,"集中したい時はストレートティーに限るわね 。
+貴方も一杯どう？私のとっておきよ！","When I want to focus, straight tea is best.
+Would you like a cup? It is my special blend!"
+voice_006_013,"私はどんな時でも真っ直ぐでありたい。
+盤上でも、人生でもね 。それが私の生きる道よ。","I want to be straightforward at all times.
+On the board and in life. That is my way."
+voice_006_014,"将棋を指すには集中を切らさない体力も必要よ。
+私は体力づくりで、毎朝のランニングをやっているわ！
+貴方も一緒にどうかしら？楽しいわよ！","Playing shogi requires the stamina to keep your focus.
+I build mine by running every morning!
+Would you like to join me? It is fun!"
+voice_006_015,"好きなもの？
+将棋本と、ストレートティーと……あとは切磋琢磨できるライバルね！","What do I like?
+Shogi books, straight tea... and rivals who help me improve!"
+voice_006_016,"顔色悪いけど大丈夫？
+しんどいなら私に言いなさい！","You look pale. Are you okay?
+If you feel bad, tell me!"
+voice_006_017,"貴方の隣にいると、落ち着くわ。
+こうやってまったりするのは、貴重な時間ね。","Being next to you calms me down.
+Relaxing like this is precious time."
+voice_006_018,"困っている人を見過ごすなんて私にはできないわ 。
+何か困りごとはないかしら？私にできることがあれば何でも言って！","I cannot ignore someone in trouble.
+Is anything bothering you? If I can help, say the word!"
+voice_007_009,"おかえりなさいませ。
+本日も神への感謝を共に祈りましょう。","Welcome back.
+Let us pray together in gratitude to God today as well."
+voice_007_010,"お待ちしておりました。
+……貴方がいらっしゃると、胸が不思議と温かくなります。
+神が与えてくださった、この特別なご縁に感謝を。","I have been waiting for you.
+...When you are here, my heart feels strangely warm.
+I am grateful for this special bond God has granted us."
+voice_007_011,"ミレニアム囲いは時間をかけて築く、静かな聖域です。
+一度、試してみますか？","The Millennium Castle is a quiet sanctuary built over time.
+Would you like to try it?"
+voice_007_012,"いつか神のお言葉を聞くこと。
+私はそこを目指しております","My wish is to one day hear the word of God.
+That is what I strive for."
+voice_007_013,"私はまだまだ未熟な身。
+神の御心に近づくため、日々精進しております。","I am still immature.
+Each day, I devote myself to drawing closer to God's will."
+voice_007_014,"好きなもの、ですか。
+聖書や物語を読むのが好きです。今度、私のお気に入りの一節をお聞かせしますね。","What do I like?
+I enjoy reading the Bible and stories. I will share one of my favorite passages sometime."
+voice_007_015,"午後は子供たちと賛美歌を歌っています。
+あの子たちの無垢な笑顔を見ていると、私の心も洗われるような心地がします。","In the afternoon, I sing hymns with the children.
+Seeing their innocent smiles makes my own heart feel cleansed."
+voice_007_016,"今日は中庭の花壇をお手入れしました。
+ほら、私の手に花の香りが残っていませんか？","I tended the courtyard flower bed today.
+See, can you still smell flowers on my hands?"
+voice_007_017,"貴方の隣は、心が落ち着きますね。
+……もう少しだけ、このままいてもいいですか？","Beside you, my heart feels calm.
+...May I stay like this just a little longer?"
+voice_007_018,"子供たちが良い手を指すと、つい頭を撫でてしまいます。
+貴方にも、いつかそうしてしまうかもしれませんね。ふふ。","When the children make a good move, I cannot help patting their heads.
+Perhaps I may do the same to you one day. Hehe."
+voice_008_009,"お帰りなさいませ。
+ちょうど新しいお茶を淹れたところです。少し、一休みしていきませんか？","Welcome back.
+I just brewed fresh tea. Would you like to rest for a moment?"
+voice_008_010,"お待ちしておりました。
+今日も一日、貴方の傍にいさせてくださいね。","I have been waiting for you.
+Please let me stay by your side today as well."
+voice_008_011,"私の嗜む『右玉』は、とても便利な戦法なんですよ 。
+どんな状況でも対応できる万能性、貴方も体験してみませんか？","The Right King strategy I favor is very useful.
+Its versatility works in any situation. Would you like to experience it?"
+voice_008_012,"祖父は将棋の道を極めた名人ですが、いつかその背中を追い越し、超えることが今の目標です。
+道は険しいですが鍛錬あるのみです。","My grandfather mastered the path of shogi, and my current goal is to follow, surpass, and exceed him.
+The road is steep, but training is everything."
+voice_008_013,"『名人の孫娘』として、外では常に凛とした振る舞いを心がけております 。
+至らぬ身ではございますが、八雲の名を汚さぬよう精進して参りたいと思っております","As the granddaughter of a master, I always try to behave with dignity in public.
+I am still lacking, but I will keep improving so I do not dishonor the Yakumo name."
+voice_008_014,"素敵な髪飾りや着物を集めるのが密かな楽しみなのです。
+どれにしようかと選んでいる時間は、心が弾みます。","Collecting lovely hair ornaments and kimono is a secret pleasure of mine.
+The time spent choosing between them makes my heart dance."
+voice_008_015,"美味しい和菓子とお茶があれば、それだけで幸せです。
+今度、お気に入りのお店をご案内しましょうか？","Delicious sweets and tea are enough to make me happy.
+Would you like me to show you my favorite shop sometime?"
+voice_008_016,"少し、お疲れではありませんか？
+ 貴方が無理をしていないか、私はいつも心配しております。","Are you a little tired?
+I am always worried that you might be pushing yourself too hard."
+voice_008_017,"こうして二人で静かに過ごしていると、言葉がなくても心が通じ合っているような、そんな心地よさを感じます。
+……貴方の隣は本当に不思議な場所ですね。","When the two of us spend quiet time together, I feel as though our hearts understand each other without words.
+...Your side is truly a mysterious place."
+voice_008_018,"実は……美味しい和菓子をいただくと、つい頬が緩んでしまうのです。
+お見苦しいので、他の方には内緒にしておいてくださいね？","Actually... when I eat delicious sweets, my cheeks loosen without thinking.
+It would be embarrassing, so please keep that secret from everyone else."
+voice_009_009,"来たか。
+一局、頼む。","You came.
+Play a game with me."
+voice_009_010,"おかえり。
+今、茶を淹れる。共に飲もう。","Welcome back.
+I'll make tea. Let us drink together."
+voice_009_011,"私の得意とする早石田は、速攻を仕掛ける戦法だ。
+貴殿にもお勧めする。ぜひ試してみてほしい。","My specialty, Quick Ishida, is a fast attacking strategy.
+I recommend it to you as well. Please try it."
+voice_009_012,"里を離れ、様々な達人に挑んできた。
+今の私の目標は、この道の頂を獲ることだ。
+貴殿も共に励んでみないか？","I left my village and challenged masters in many places.
+My goal now is to reach the summit of this path.
+Will you train with me?"
+voice_009_013,"好きなことか。
+静かな夜に団子と温かい茶を嗜む時間は好きだ 。","What do I like?
+I enjoy quiet nights with dumplings and warm tea."
+voice_009_014,"忍びの里に生まれたが、今は表の世界の方が気に入っている。
+特に自動販売機というものは素晴らしいな。","I was born in a ninja village, but now I prefer the outside world.
+Vending machines in particular are wonderful."
+voice_009_015,"修行の旅では各地の美味を探すのが楽しいな。
+美味しそうな匂いにつられて歩いていたら、いつの間にか家の屋根を渡って歩いてて……流石に驚かれたな。","On training journeys, I enjoy searching for local delicacies.
+Once I followed a good smell and realized I was crossing rooftops... That surprised even me."
+voice_009_016,"少し顔色が悪いな。
+茶を淹れてくる。","You look a little pale.
+I will make tea."
+voice_009_017,旅先で美味しいものを口にするたびに、貴殿にも味わってほしいと考えることがある。,"Whenever I taste something delicious on my travels, I sometimes think I would like you to taste it too."
+voice_009_018,"貴殿にだけは忍んでも容易く悟られてしまう。
+……修行が、まだ足りぬということか。","Even when I hide, you alone can notice me easily.
+...Perhaps my training is still lacking."
+voice_010_009,"来たか。
+本日の任務を開始する。","You're here.
+Beginning today's mission."
+voice_010_010,"待っていた。
+君が来ないと、どうも落ち着かない。","I was waiting.
+When you don't come, I can't seem to settle down."
+voice_010_011,"中飛車は俺の得意戦法だ。
+中央を制し、盤面の主導権を握るのが俺の戦い方だ。","Central Rook is my specialty.
+My way of fighting is to control the center and seize the initiative on the board."
+voice_010_012,"慣れるまで、あまり話しかけるな。
+任務に集中したい。","Until I get used to this, do not speak to me too much.
+I want to focus on the mission."
+voice_010_013,"昔の俺は、強さを誇っていた。 
+今は……使いどころを間違えないようにしている。","In the past, I boasted of my strength.
+Now... I try not to use it in the wrong way."
+voice_010_014,"鍛錬は怠らない。
+力も、読みも、鈍れば何も守れなくなる。","I never neglect training.
+If my strength or reading dulls, I will be unable to protect anything."
+voice_010_015,"無理はするな。
+君が倒れると……悲しむ奴が出る。","Do not overdo it.
+If you collapse... there are people who would be sad."
+voice_010_016,"好きなこと……詰将棋だな。
+考え抜いた末に、答えが見える瞬間が好きだ。","What do I like... Tsume shogi.
+I like the moment when the answer appears after thinking it through."
+voice_010_017,"この距離でいい。
+護衛するには、ちょうどいい位置だ。","This distance is fine.
+It is just right for guarding you."
+voice_010_018,子供たちにシロにいと呼ばれている。柄じゃないが……まぁ、悪い気はしない。,The children call me Shiro-nii. It does not suit me... but it is not unpleasant.
+voice_011_009,"来たか！
+今日も熱い勝負を俺に見せてくれ！","You're here!
+Show me another heated match today!"
+voice_011_010,"待ちかねたぞ！相棒！
+さぁ、共に熱い勝負場へ行こうじゃないか！","I've been waiting, partner!
+Come, let us head to the battlefield together!"
+voice_011_011,"居飛車穴熊は実にいい！
+最初の手間を惜しまなければ、終盤の利益が大きいからな！","Static Rook Anaguma is excellent!
+If you do not spare the effort at first, the endgame payoff is huge!"
+voice_011_012,"俺の目標？ いたって、シンプルだ！
+死ぬまでこの世界を『面白く、楽しく』遊び尽くすこと！わかりやすいだろう？","My goal? Simple!
+To play through this world in the most interesting and fun way until I die! Easy to understand, right?"
+voice_011_013,"金にがめついと言われることもあるが、それは一円の重みを知っているからだ。
+無駄金は一銭も出さんが、面白い夢にはいくらでも注ぎ込むさ！","People say I am greedy with money, but that is because I know the weight of a single yen.
+I will not waste a coin, but I will spend anything on an interesting dream!"
+voice_011_014,"何もせずじっとしているのは俺の性に合わん！
+常に動き、選ぶ！それが人生を飽きさせない為のコツだ！","Sitting still doing nothing does not suit me!
+Always move, always choose! That is the trick to keeping life interesting!"
+voice_011_015,"好きな物はこの扇子さ！
+扇ぐたびに金運が舞い込んでくるようで、実に縁起がいいだろ？","My favorite thing is this fan!
+Every time I wave it, it feels like fortune is blowing in. Auspicious, right?"
+voice_011_016,"顔色が悪いんじゃないか？ 
+休息も自分の体への投資だ。","You look pale, don't you?
+Rest is an investment in your own body."
+voice_011_017,"君という原石が輝く瞬間を、俺は特等席で眺め続けたい。
+そのための投資なら、いくらでも払おうじゃないか！","I want to keep watching from the best seat as a raw gem like you begins to shine.
+For that investment, I would pay any price!"
+voice_011_018,"この金の扇子、相棒の分も特注しておいたぞ！ 
+二人でこれを振って、勝利の風を呼び込もうじゃないか！","I had this golden fan custom-made for you too, partner!
+Let us wave them together and call in the winds of victory!"
+voice_012_009,"お疲れ様。
+私のスケジュールに遅延はない。さあ、一局始めようか。","Good work.
+There is no delay in my schedule. Now, let's begin a game."
+voice_012_010,"お帰り。
+そろそろ君が来る頃だと思って、ちょうど僕のお気に入りのスイーツを二人分、注文しておいたところだよ。","Welcome back.
+I thought you would arrive soon, so I just ordered two of my favorite sweets."
+voice_012_011,"角換わりは、現状に合わせてさまざまな選択肢が取れるのが魅力だ 。
+あらゆるケースを想定し、最適解を導き出すプロセスは私の性に合っている。
+君も一度使ってみるといい。","The appeal of Bishop Exchange is that it offers many options for the current situation.
+The process of considering every case and finding the optimal answer suits my nature.
+You should try it once."
+voice_012_012,"日常のノイズを振り払い、ただ一つの正解を求める。
+これは私にとって大切な時間だ。","Clearing away the noise of daily life and seeking one correct answer.
+That is important time for me."
+voice_012_013,"エリート？ 
+ふふ、僕はただ、やるべきことを淡々とこなしているだけだよ。","Elite?
+Hehe, I simply do what must be done, one task at a time."
+voice_012_014,"ブラックコーヒーと甘いケーキ。
+この組み合わせこそが、僕の至福なんだ。","Black coffee and sweet cake.
+That combination is my greatest bliss."
+voice_012_015,"少し顔色が悪いようだ。
+無理は効率を下げるだけだ。温かい飲み物を淹れてくる。","You seem a little pale.
+Pushing yourself only lowers efficiency. I will make a warm drink."
+voice_012_016,仕事の電話か……すまない、少しだけ『私』に戻らせてくれ。,"A work call... Sorry, let me return to 'myself' for a moment."
+voice_012_017,"今度、僕の家で指さないかい？ 
+最高の豆と、最高のスイーツを用意するよ。","Would you like to play at my house sometime?
+I will prepare the finest beans and the finest sweets."
+voice_012_018,"甘いものを食べすぎた日は、夜中にこっそりスクワットをしているよ。
+健康管理も仕事だからね。","On days when I eat too many sweets, I secretly do squats late at night.
+Health management is part of the job too."
