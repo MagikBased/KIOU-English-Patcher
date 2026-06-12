@@ -31,6 +31,7 @@ class PatcherGui(tk.Tk):
         self.input_apk = tk.StringVar(value=input_text)
         self.output_apk = tk.StringVar(value=str(default_output))
         self.package_name = tk.StringVar(value=patcher_core.DEFAULT_PACKAGE)
+        self.device_serial = tk.StringVar(value="")
         self.allow_unknown = tk.BooleanVar(value=False)
         self.status_text = tk.StringVar(value="Ready")
         self.device_text = tk.StringVar(value="Device: not checked")
@@ -42,6 +43,7 @@ class PatcherGui(tk.Tk):
 
         self._build_ui()
         self.refresh_tools()
+        self.refresh_devices()
         self.after(100, self.drain_log_queue)
 
     def _build_ui(self) -> None:
@@ -94,8 +96,14 @@ class PatcherGui(tk.Tk):
         status_bar.columnconfigure(1, weight=1)
         ttk.Label(status_bar, textvariable=self.device_text).grid(row=0, column=0, sticky="w")
         ttk.Label(status_bar, textvariable=self.cache_text).grid(row=0, column=1, sticky="w")
+        ttk.Label(status_bar, text="Target").grid(row=0, column=2, sticky="e", padx=(12, 4))
+        self.device_combo = ttk.Combobox(status_bar, textvariable=self.device_serial, width=20, state="readonly")
+        self.device_combo.grid(row=0, column=3, sticky="e", padx=4)
+        refresh_devices = ttk.Button(status_bar, text="Refresh Devices", command=self.refresh_devices)
+        refresh_devices.grid(row=0, column=4, sticky="e", padx=4)
         check = ttk.Button(status_bar, text="Check Status", command=self.check_status)
-        check.grid(row=0, column=2, sticky="e")
+        check.grid(row=0, column=5, sticky="e")
+        self.buttons.append(refresh_devices)
         self.buttons.append(check)
 
         steps: list[tuple[str, str, str, Callable[[], None]]] = [
@@ -221,9 +229,38 @@ class PatcherGui(tk.Tk):
         for name, label in self.tool_labels.items():
             label.configure(text=tools.get(name) or "Not found")
 
+    def selected_serial(self) -> str:
+        return self.device_serial.get().strip()
+
+    def refresh_devices(self) -> None:
+        try:
+            devices = patcher_core.adb_devices()
+        except Exception as exc:
+            self.device_combo.configure(values=[])
+            self.device_serial.set("")
+            self.device_text.set(f"Device: {exc}")
+            return
+
+        authorized = [device["serial"] for device in devices if device["state"] == "device"]
+        self.device_combo.configure(values=authorized)
+        current = self.selected_serial()
+        if len(authorized) == 1:
+            self.device_serial.set(authorized[0])
+        elif current not in authorized:
+            self.device_serial.set("")
+
+        if not devices:
+            self.device_text.set("Device: none detected")
+        elif len(authorized) == 1:
+            self.device_text.set(f"Device: {authorized[0]}")
+        elif len(authorized) > 1:
+            self.device_text.set("Device: select a target")
+        else:
+            self.device_text.set("Device: not authorized")
+
     def check_status(self) -> None:
         def task() -> None:
-            status = patcher_core.guided_status(self.package_name.get())
+            status = patcher_core.guided_status(self.package_name.get(), self.selected_serial())
             self.log(status["message"])
             self.log_queue.put(("device", f"Device: {status['message']}"))
             installed_text = "installed" if status["installed"] else "not installed"
@@ -255,7 +292,7 @@ class PatcherGui(tk.Tk):
     def install_apk(self) -> None:
         def task() -> None:
             self.queue_step("install", "Installing")
-            patcher_core.install_apk(Path(self.output_apk.get()), log=self.log)
+            patcher_core.install_apk(Path(self.output_apk.get()), log=self.log, serial=self.selected_serial())
             self.queue_step("install", "Complete")
             self.queue_step("launch", "Ready to launch")
 
@@ -263,7 +300,7 @@ class PatcherGui(tk.Tk):
 
     def launch_game(self) -> None:
         def task() -> None:
-            patcher_core.launch_app(self.package_name.get(), log=self.log)
+            patcher_core.launch_app(self.package_name.get(), log=self.log, serial=self.selected_serial())
             self.queue_step("launch", "Launched")
             self.queue_step("check_cache", "Finish forced download, then check")
 
@@ -271,7 +308,7 @@ class PatcherGui(tk.Tk):
 
     def check_remote_cache(self) -> None:
         def task() -> None:
-            cache = patcher_core.remote_cache_status(self.package_name.get())
+            cache = patcher_core.remote_cache_status(self.package_name.get(), self.selected_serial())
             found = int(cache["found"])
             required = int(cache["required"])
             self.log_queue.put(("cache", f"Downloaded data: {found}/{required} bundles found"))
@@ -290,7 +327,7 @@ class PatcherGui(tk.Tk):
     def patch_remote_cache(self) -> None:
         def task() -> None:
             self.queue_step("remote", "Patching")
-            patcher_core.patch_remote_cache(self.package_name.get(), log=self.log)
+            patcher_core.patch_remote_cache(self.package_name.get(), log=self.log, serial=self.selected_serial())
             self.queue_step("remote", "Complete")
 
         self.run_worker("Patching Downloaded Data", task)

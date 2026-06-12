@@ -201,52 +201,83 @@ def adb_devices() -> list[dict[str, str]]:
     return devices
 
 
-def device_status() -> dict[str, object]:
+def device_status(serial: str | None = None) -> dict[str, object]:
+    serial = (serial or "").strip()
     devices = adb_devices()
     authorized = [device for device in devices if device["state"] == "device"]
     unauthorized = [device for device in devices if device["state"] == "unauthorized"]
     offline = [device for device in devices if device["state"] == "offline"]
-    if not devices:
+
+    if serial:
+        selected = next((device for device in devices if device["serial"] == serial), None)
+        if selected is None:
+            message = f"Selected device not found: {serial}"
+            ready = False
+        elif selected["state"] == "device":
+            message = f"Connected: {serial}"
+            ready = True
+        else:
+            message = f"Selected device {serial} is {selected['state']}."
+            ready = False
+    elif not devices:
         message = "No ADB device detected."
+        ready = False
     elif len(authorized) == 1:
         message = f"Connected: {authorized[0]['serial']}"
+        ready = True
     elif len(authorized) > 1:
-        message = f"{len(authorized)} devices connected. Disconnect extras or set ADB_DEVICE_SERIAL."
+        message = f"{len(authorized)} devices connected. Select a target device."
+        ready = False
     elif unauthorized:
         message = "Device detected but USB debugging is not authorized."
+        ready = False
     elif offline:
         message = "Device detected but offline. Reconnect it or restart ADB."
+        ready = False
     else:
         message = "No authorized ADB device detected."
+        ready = False
     return {
         "devices": devices,
         "authorized": authorized,
-        "ready": len(authorized) == 1,
+        "ready": ready,
         "message": message,
+        "selected_serial": serial,
     }
 
 
-def adb_base_command() -> list[str]:
+def adb_base_command(serial: str | None = None) -> list[str]:
     command = [adb_tool()]
-    serial = os.environ.get("ADB_DEVICE_SERIAL")
+    serial = (serial or os.environ.get("ADB_DEVICE_SERIAL") or "").strip()
     if serial:
         command += ["-s", serial]
     return command
 
 
-def app_installed(package: str = DEFAULT_PACKAGE) -> bool:
+def require_ready_device(serial: str | None = None) -> None:
+    status = device_status(serial)
+    if not status["ready"]:
+        raise PatcherError(str(status["message"]))
+
+
+def app_installed(package: str = DEFAULT_PACKAGE, serial: str | None = None) -> bool:
     package = package.strip() or DEFAULT_PACKAGE
-    result = run_quiet(adb_base_command() + ["shell", "pm", "path", package])
+    result = run_quiet(adb_base_command(serial) + ["shell", "pm", "path", package])
     return result.returncode == 0 and bool(result.stdout.strip())
 
 
-def launch_app(package: str = DEFAULT_PACKAGE, log: LogFn = default_log) -> None:
+def launch_app(package: str = DEFAULT_PACKAGE, log: LogFn = default_log, serial: str | None = None) -> None:
     package = package.strip() or DEFAULT_PACKAGE
-    run(adb_base_command() + ["shell", "monkey", "-p", package, "-c", "android.intent.category.LAUNCHER", "1"], log=log)
+    require_ready_device(serial)
+    run(
+        adb_base_command(serial) + ["shell", "monkey", "-p", package, "-c", "android.intent.category.LAUNCHER", "1"],
+        log=log,
+    )
 
 
-def remote_cache_status(package: str = DEFAULT_PACKAGE) -> dict[str, object]:
+def remote_cache_status(package: str = DEFAULT_PACKAGE, serial: str | None = None) -> dict[str, object]:
     package = package.strip() or DEFAULT_PACKAGE
+    require_ready_device(serial)
     rows = remote_bundle_rows()
     found = 0
     missing: list[str] = []
@@ -255,7 +286,7 @@ def remote_cache_status(package: str = DEFAULT_PACKAGE) -> dict[str, object]:
             f"/sdcard/Android/data/{package}/files/Bundles/Remote/"
             f"BundleFiles/{hash_value[:2]}/{hash_value}/__data"
         )
-        result = run_quiet(adb_base_command() + ["shell", "test", "-f", remote])
+        result = run_quiet(adb_base_command(serial) + ["shell", "test", "-f", remote])
         if result.returncode == 0:
             found += 1
         else:
@@ -268,9 +299,9 @@ def remote_cache_status(package: str = DEFAULT_PACKAGE) -> dict[str, object]:
     }
 
 
-def guided_status(package: str = DEFAULT_PACKAGE) -> dict[str, object]:
+def guided_status(package: str = DEFAULT_PACKAGE, serial: str | None = None) -> dict[str, object]:
     package = package.strip() or DEFAULT_PACKAGE
-    status = device_status()
+    status = device_status(serial)
     if not status["ready"]:
         status.update(
             {
@@ -282,8 +313,12 @@ def guided_status(package: str = DEFAULT_PACKAGE) -> dict[str, object]:
         )
         return status
 
-    installed = app_installed(package)
-    cache = remote_cache_status(package) if installed else {"required": len(remote_bundle_rows()), "found": 0, "ready": False}
+    installed = app_installed(package, serial)
+    cache = (
+        remote_cache_status(package, serial)
+        if installed
+        else {"required": len(remote_bundle_rows()), "found": 0, "ready": False}
+    )
     status.update(
         {
             "installed": installed,
@@ -533,9 +568,10 @@ def push_patched_remote_files(adb_command: list[str], patched_dir: Path, report:
     log(f"Pushed {pushed_info} matching cache info files")
 
 
-def patch_remote_cache(package: str = DEFAULT_PACKAGE, log: LogFn = default_log) -> Path:
+def patch_remote_cache(package: str = DEFAULT_PACKAGE, log: LogFn = default_log, serial: str | None = None) -> Path:
     adb = adb_tool()
     package = package.strip() or DEFAULT_PACKAGE
+    require_ready_device(serial)
 
     work_dir = STATE_ROOT / "work" / "gui_remote_cache_patcher"
     source_dir = work_dir / "source_bundles"
@@ -550,7 +586,7 @@ def patch_remote_cache(package: str = DEFAULT_PACKAGE, log: LogFn = default_log)
     run([adb, "devices"], log=log)
 
     log("Stopping app before cache patch...")
-    run(adb_base_command() + ["shell", "am", "force-stop", package], log=log, check=False)
+    run(adb_base_command(serial) + ["shell", "am", "force-stop", package], log=log, check=False)
 
     missing: list[str] = []
     log("Pulling downloaded remote bundles...")
@@ -561,7 +597,7 @@ def patch_remote_cache(package: str = DEFAULT_PACKAGE, log: LogFn = default_log)
         )
         dest = source_dir / name
         log(f"{hash_value} -> {dest}")
-        result = run(adb_base_command() + ["pull", remote, str(dest)], log=log, check=False)
+        result = run(adb_base_command(serial) + ["pull", remote, str(dest)], log=log, check=False)
         if result.returncode != 0:
             missing.append(hash_value)
 
@@ -591,19 +627,20 @@ def patch_remote_cache(package: str = DEFAULT_PACKAGE, log: LogFn = default_log)
     log(f"Patched {len(reports)} remote bundles with {sum(int(r['replacements']) for r in reports)} replacements")
 
     log("Pushing patched remote cache with matching metadata...")
-    push_patched_remote_files(adb_base_command(), patched_dir, report, package, log)
+    push_patched_remote_files(adb_base_command(serial), patched_dir, report, package, log)
 
     log("Launching app...")
-    launch_app(package, log=log)
+    launch_app(package, log=log, serial=serial)
     log(f"Remote cache patch complete. Report: {report}")
     return report
 
 
-def install_apk(apk_path: Path, log: LogFn = default_log, replace: bool = True) -> None:
+def install_apk(apk_path: Path, log: LogFn = default_log, replace: bool = True, serial: str | None = None) -> None:
+    require_ready_device(serial)
     apk_path = apk_path.expanduser().resolve()
     if not apk_path.is_file():
         raise PatcherError(f"APK not found: {apk_path}")
-    command = adb_base_command() + ["install"]
+    command = adb_base_command(serial) + ["install"]
     if replace:
         command.append("-r")
     command.append(str(apk_path))

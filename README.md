@@ -51,6 +51,8 @@ The GUI walks through the normal patching flow:
 
 After launching the game, let the forced additional-data download finish inside the emulator or phone. Then use `Check Downloaded Data`. When all required bundles are found, run `Patch Downloaded Data`.
 
+If more than one phone or emulator is connected, choose the intended target from the `Target` dropdown before installing, launching, checking downloaded data, or patching downloaded data.
+
 ## Native Desktop Builds
 
 The project includes PyInstaller build helpers for native desktop artifacts:
