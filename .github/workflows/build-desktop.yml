@@ -33,7 +33,7 @@ jobs:
             build_args: --clean --onedir
             artifact_path: dist/KiouEnglishPatcher-macOS.zip
           - name: Linux
-            os: ubuntu-latest
+            os: ubuntu-22.04
             artifact: KiouEnglishPatcher-Linux
             build_args: --clean --onedir
             artifact_path: dist/KiouEnglishPatcher-Linux-x86_64.tar.gz

@@ -67,6 +67,8 @@ tar -xzf KiouEnglishPatcher-Linux-x86_64.tar.gz
 ./KiouEnglishPatcher/KiouEnglishPatcher
 ```
 
+The packaged Linux build is built on Ubuntu 22.04 and expects glibc 2.35 or newer. If your distribution is older, run from source instead.
+
 ## Guided Patch Flow
 
 The GUI walks through the normal patch process:
