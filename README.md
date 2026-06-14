@@ -4,6 +4,10 @@ Desktop patcher for applying the current English patch to a user-provided Kiou A
 
 This project does not include, distribute, or download the original game APK, patched APKs, downloaded game assets, or extracted game files. You must provide your own legally obtained APK.
 
+## Warning
+
+Modifying KIOU game files may violate KIOU's terms of service or other rules set by the game publisher/platform. Use this patcher at your own risk. The project is provided for fan translation purposes and cannot guarantee account safety, compatibility with future updates, or acceptance by the game's official services.
+
 ## Download
 
 Most users should download the latest desktop patcher from:
