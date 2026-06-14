@@ -82,6 +82,8 @@ def main() -> int:
         data_arg(str(ROOT / "translations" / "voice_catalog.csv"), "translations"),
         "--add-data",
         data_arg(str(ROOT / "reports" / "remote_patch_report.json"), "reports"),
+        "--add-data",
+        data_arg(str(ROOT / "assets" / "brand"), "assets/brand"),
     ]
     if onefile:
         command.append("--onefile")

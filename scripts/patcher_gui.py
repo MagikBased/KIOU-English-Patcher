@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Tkinter GUI for the Kiou English APK patcher."""
+"""Tkinter GUI for the Kiou English patcher."""
 
 from __future__ import annotations
 
@@ -11,6 +11,8 @@ from pathlib import Path
 from tkinter import filedialog, messagebox, ttk
 from typing import Any, Callable
 
+from PIL import Image, ImageTk
+
 import patcher_core
 
 
@@ -21,45 +23,149 @@ class PatcherGui(tk.Tk):
     def __init__(self) -> None:
         super().__init__()
         self.title("Kiou English Patcher")
-        self.geometry("980x760")
-        self.minsize(820, 640)
+        self.geometry("1040x780")
+        self.minsize(860, 660)
 
         default_input = ROOT / "KIOU_RELEASE.apk"
         default_output = patcher_core.STATE_ROOT / "output" / "KIOU_RELEASE_english.apk"
         input_text = "" if getattr(sys, "frozen", False) else str(default_input) if default_input.exists() else ""
+        steam_detected = patcher_core.detect_steam_install()
 
         self.input_apk = tk.StringVar(value=input_text)
         self.output_apk = tk.StringVar(value=str(default_output))
         self.package_name = tk.StringVar(value=patcher_core.DEFAULT_PACKAGE)
         self.device_serial = tk.StringVar(value="")
         self.allow_unknown = tk.BooleanVar(value=False)
+        self.steam_path = tk.StringVar(value=str(steam_detected) if steam_detected else "")
         self.status_text = tk.StringVar(value="Ready")
         self.device_text = tk.StringVar(value="Device: not checked")
         self.cache_text = tk.StringVar(value="Downloaded data: not checked")
+        self.steam_status_text = tk.StringVar(value="Steam install: not checked")
         self.log_queue: queue.Queue[tuple[str, Any]] = queue.Queue()
         self.worker: threading.Thread | None = None
-        self.buttons: list[ttk.Button] = []
+        self.buttons: list[ttk.Button | tk.Button] = []
         self.step_vars: dict[str, tk.StringVar] = {}
+        self.log_text: tk.Text | None = None
+        self.device_combo: ttk.Combobox | None = None
+        self.tool_labels: dict[str, ttk.Label] = {}
+        self.logo_images: list[ImageTk.PhotoImage] = []
 
-        self._build_ui()
-        self.refresh_tools()
-        self.refresh_devices()
+        self._build_mode_menu()
         self.after(100, self.drain_log_queue)
 
-    def _build_ui(self) -> None:
+    def _clear_ui(self) -> None:
+        for child in self.winfo_children():
+            child.destroy()
+        self.buttons = []
+        self.step_vars = {}
+        self.tool_labels = {}
+        self.log_text = None
+        self.device_combo = None
+        for index in range(8):
+            self.rowconfigure(index, weight=0)
         self.columnconfigure(0, weight=1)
-        self.rowconfigure(4, weight=1)
 
-        pad = {"padx": 12, "pady": 8}
-        ttk.Label(self, text="Kiou English Patcher", font=("TkDefaultFont", 16, "bold")).grid(
-            row=0, column=0, sticky="w", **pad
+    def _build_mode_menu(self) -> None:
+        self._clear_ui()
+        self.geometry("1040x780")
+        self.minsize(860, 660)
+        self.rowconfigure(2, weight=1)
+
+        ttk.Label(self, text="Kiou English Patcher", font=("TkDefaultFont", 18, "bold")).grid(
+            row=0, column=0, sticky="w", padx=18, pady=(18, 8)
+        )
+        ttk.Label(self, text="Choose the version of the game you want to patch.").grid(
+            row=1, column=0, sticky="w", padx=18, pady=(0, 18)
         )
 
-        self._build_apk_frame(row=1)
-        self._build_workflow_frame(row=2)
-        self._build_tools_frame(row=3)
-        self._build_log_frame(row=4)
+        cards = ttk.Frame(self)
+        cards.grid(row=2, column=0, sticky="nsew", padx=18, pady=12)
+        cards.columnconfigure(0, weight=1)
+        cards.columnconfigure(1, weight=1)
+        self._platform_card(
+            cards,
+            0,
+            "Android",
+            "APK + downloaded data cache",
+            "assets/brand/android-head_3D.png",
+            self._build_android_ui,
+        )
+        self._platform_card(
+            cards,
+            1,
+            "Steam",
+            "Steam install folder + downloaded cache",
+            "assets/brand/steamLogo_300.jpg",
+            self._build_steam_ui,
+        )
 
+        ttk.Label(self, textvariable=self.status_text).grid(row=3, column=0, sticky="ew", padx=18, pady=(0, 14))
+
+    def _platform_card(
+        self,
+        parent: ttk.Frame,
+        column: int,
+        title: str,
+        subtitle: str,
+        image_path: str,
+        command: Callable[[], None],
+    ) -> None:
+        frame = ttk.Frame(parent, padding=18, relief="ridge")
+        frame.grid(row=0, column=column, sticky="nsew", padx=10, pady=8)
+        frame.columnconfigure(0, weight=1)
+        image = self.load_logo_image(image_path, (132, 92))
+        if image:
+            ttk.Label(frame, image=image).grid(row=0, column=0, pady=(4, 12))
+        else:
+            ttk.Label(frame, text=title, font=("TkDefaultFont", 18, "bold")).grid(row=0, column=0, pady=(32, 34))
+        ttk.Label(frame, text=title, font=("TkDefaultFont", 15, "bold")).grid(row=1, column=0, pady=(0, 4))
+        ttk.Label(frame, text=subtitle).grid(row=2, column=0, pady=(0, 12))
+        button = ttk.Button(frame, text=f"Patch {title}", command=command)
+        button.grid(row=3, column=0, sticky="ew")
+        self.buttons.append(button)
+
+    def load_logo_image(self, relative_path: str, max_size: tuple[int, int]) -> ImageTk.PhotoImage | None:
+        path = patcher_core.ROOT / relative_path
+        if not path.is_file():
+            return None
+        image = Image.open(path)
+        image.thumbnail(max_size, Image.Resampling.LANCZOS)
+        photo = ImageTk.PhotoImage(image)
+        self.logo_images.append(photo)
+        return photo
+
+    def _page_header(self, title: str, command: Callable[[], None]) -> None:
+        header = ttk.Frame(self)
+        header.grid(row=0, column=0, sticky="ew", padx=12, pady=(10, 4))
+        header.columnconfigure(1, weight=1)
+        back = ttk.Button(header, text="Back", command=command)
+        back.grid(row=0, column=0, sticky="w", padx=(0, 10))
+        ttk.Label(header, text=title, font=("TkDefaultFont", 16, "bold")).grid(row=0, column=1, sticky="w")
+        self.buttons.append(back)
+
+    def _build_android_ui(self) -> None:
+        self._clear_ui()
+        self.geometry("1040x780")
+        self.minsize(860, 660)
+        self.rowconfigure(5, weight=1)
+        self._page_header("Kiou English Patcher - Android", self._build_mode_menu)
+        self._build_apk_frame(row=1)
+        self._build_android_workflow_frame(row=2)
+        self._build_tools_frame(row=3)
+        self._build_log_frame(row=5)
+        ttk.Label(self, textvariable=self.status_text).grid(row=6, column=0, sticky="ew", padx=12, pady=(0, 10))
+        self.refresh_tools()
+        self.refresh_devices()
+
+    def _build_steam_ui(self) -> None:
+        self._clear_ui()
+        self.geometry("1040x700")
+        self.minsize(860, 620)
+        self.rowconfigure(4, weight=1)
+        self._page_header("Kiou English Patcher - Steam", self._build_mode_menu)
+        self._build_steam_inputs_frame(row=1)
+        self._build_steam_workflow_frame(row=2)
+        self._build_log_frame(row=4)
         ttk.Label(self, textvariable=self.status_text).grid(row=5, column=0, sticky="ew", padx=12, pady=(0, 10))
 
     def _build_apk_frame(self, row: int) -> None:
@@ -85,7 +191,7 @@ class PatcherGui(tk.Tk):
             row=2, column=2, sticky="w", padx=10, pady=6
         )
 
-    def _build_workflow_frame(self, row: int) -> None:
+    def _build_android_workflow_frame(self, row: int) -> None:
         frame = ttk.LabelFrame(self, text="Guided Workflow")
         frame.grid(row=row, column=0, sticky="ew", padx=12, pady=8)
         frame.columnconfigure(1, weight=1)
@@ -103,8 +209,7 @@ class PatcherGui(tk.Tk):
         refresh_devices.grid(row=0, column=4, sticky="e", padx=4)
         check = ttk.Button(status_bar, text="Check Status", command=self.check_status)
         check.grid(row=0, column=5, sticky="e")
-        self.buttons.append(refresh_devices)
-        self.buttons.append(check)
+        self.buttons.extend([refresh_devices, check])
 
         steps: list[tuple[str, str, str, Callable[[], None]]] = [
             ("apk", "1. Patch APK", "Waiting", self.patch_apk),
@@ -127,7 +232,6 @@ class PatcherGui(tk.Tk):
         frame = ttk.LabelFrame(self, text="Tool Paths")
         frame.grid(row=row, column=0, sticky="ew", padx=12, pady=8)
         frame.columnconfigure(1, weight=1)
-        self.tool_labels: dict[str, ttk.Label] = {}
         for index, name in enumerate(["adb", "zipalign", "apksigner", "keytool"]):
             ttk.Label(frame, text=name).grid(row=index, column=0, sticky="w", padx=10, pady=3)
             label = ttk.Label(frame, text="")
@@ -136,6 +240,45 @@ class PatcherGui(tk.Tk):
         refresh = ttk.Button(frame, text="Refresh Tools", command=self.refresh_tools)
         refresh.grid(row=0, column=2, sticky="ne", rowspan=2, padx=10, pady=3)
         self.buttons.append(refresh)
+
+    def _build_steam_inputs_frame(self, row: int) -> None:
+        frame = ttk.LabelFrame(self, text="Steam Install")
+        frame.grid(row=row, column=0, sticky="ew", padx=12, pady=8)
+        frame.columnconfigure(1, weight=1)
+        ttk.Label(frame, text="KIOU Folder").grid(row=0, column=0, sticky="w", padx=10, pady=8)
+        ttk.Entry(frame, textvariable=self.steam_path).grid(row=0, column=1, sticky="ew", padx=8, pady=8)
+        browse = ttk.Button(frame, text="Browse", command=self.browse_steam_path)
+        browse.grid(row=0, column=2, padx=6, pady=8)
+        auto = ttk.Button(frame, text="Auto Detect", command=self.detect_steam_path)
+        auto.grid(row=0, column=3, padx=10, pady=8)
+        self.buttons.extend([browse, auto])
+        ttk.Label(frame, textvariable=self.steam_status_text).grid(
+            row=1, column=0, columnspan=4, sticky="w", padx=10, pady=(0, 8)
+        )
+
+    def _build_steam_workflow_frame(self, row: int) -> None:
+        frame = ttk.LabelFrame(self, text="Guided Workflow")
+        frame.grid(row=row, column=0, sticky="ew", padx=12, pady=8)
+        frame.columnconfigure(1, weight=1)
+        steps = [
+            ("steam_detect", "1. Find Steam Install", "Waiting"),
+            ("steam_update", "2. Launch Game and Finish Update", "Launch once, finish the update, then close the game"),
+            ("steam_patch", "3. Patch Steam Game", "Waiting"),
+        ]
+        for index, (key, label, initial) in enumerate(steps):
+            ttk.Label(frame, text=label).grid(row=index, column=0, sticky="w", padx=10, pady=6)
+            var = tk.StringVar(value=initial)
+            self.step_vars[key] = var
+            ttk.Label(frame, textvariable=var).grid(row=index, column=1, sticky="ew", padx=8, pady=6)
+        actions = ttk.Frame(frame)
+        actions.grid(row=0, column=2, rowspan=3, sticky="nsew", padx=10, pady=6)
+        check = ttk.Button(actions, text="Check Status", command=self.check_steam_status)
+        launch = ttk.Button(actions, text="Launch Game", command=self.launch_steam_game)
+        patch = ttk.Button(actions, text="Patch Steam Game", command=self.patch_steam_game)
+        check.grid(row=0, column=0, sticky="ew", pady=(0, 8))
+        launch.grid(row=1, column=0, sticky="ew", pady=(0, 8))
+        patch.grid(row=2, column=0, sticky="ew")
+        self.buttons.extend([check, launch, patch])
 
     def _build_log_frame(self, row: int) -> None:
         frame = ttk.LabelFrame(self, text="Log")
@@ -167,6 +310,22 @@ class PatcherGui(tk.Tk):
         if path:
             self.output_apk.set(path)
 
+    def browse_steam_path(self) -> None:
+        path = filedialog.askdirectory(title="Select the KIOU Steam install folder")
+        if path:
+            self.steam_path.set(path)
+            self.step_vars["steam_detect"].set("Ready to check")
+
+    def detect_steam_path(self) -> None:
+        path = patcher_core.detect_steam_install()
+        if path:
+            self.steam_path.set(str(path))
+            self.steam_status_text.set(f"Steam install: {path}")
+            self.step_vars["steam_detect"].set("Found")
+        else:
+            self.steam_status_text.set("Steam install: not found. Use Browse.")
+            self.step_vars["steam_detect"].set("Browse required")
+
     def log(self, message: str) -> None:
         self.log_queue.put(("log", message))
 
@@ -176,16 +335,20 @@ class PatcherGui(tk.Tk):
                 event = self.log_queue.get_nowait()
                 kind = event[0]
                 if kind == "log":
-                    self.log_text.insert("end", event[1] + "\n")
-                    self.log_text.see("end")
+                    if self.log_text and self.log_text.winfo_exists():
+                        self.log_text.insert("end", event[1] + "\n")
+                        self.log_text.see("end")
                 elif kind == "status":
                     self.status_text.set(event[1])
                 elif kind == "step":
-                    self.step_vars[event[1]].set(event[2])
+                    if event[1] in self.step_vars:
+                        self.step_vars[event[1]].set(event[2])
                 elif kind == "device":
                     self.device_text.set(event[1])
                 elif kind == "cache":
                     self.cache_text.set(event[1])
+                elif kind == "steam_status":
+                    self.steam_status_text.set(event[1])
                 elif kind == "done":
                     self.status_text.set(event[1])
                     self.set_busy(False)
@@ -203,15 +366,17 @@ class PatcherGui(tk.Tk):
     def set_busy(self, busy: bool) -> None:
         state = "disabled" if busy else "normal"
         for button in self.buttons:
-            button.configure(state=state)
+            if button.winfo_exists():
+                button.configure(state=state)
 
     def run_worker(self, title: str, target: Callable[[], None]) -> None:
         if self.worker and self.worker.is_alive():
             return
         self.set_busy(True)
         self.status_text.set(title)
-        self.log_text.insert("end", f"\n== {title} ==\n")
-        self.log_text.see("end")
+        if self.log_text and self.log_text.winfo_exists():
+            self.log_text.insert("end", f"\n== {title} ==\n")
+            self.log_text.see("end")
 
         def wrapper() -> None:
             try:
@@ -233,6 +398,8 @@ class PatcherGui(tk.Tk):
         return self.device_serial.get().strip()
 
     def refresh_devices(self) -> None:
+        if not self.device_combo:
+            return
         try:
             devices = patcher_core.adb_devices()
         except Exception as exc:
@@ -331,6 +498,43 @@ class PatcherGui(tk.Tk):
             self.queue_step("remote", "Complete")
 
         self.run_worker("Patching Downloaded Data", task)
+
+    def check_steam_status(self) -> None:
+        def task() -> None:
+            status = patcher_core.steam_manifest_status(Path(self.steam_path.get()))
+            self.log_queue.put(("steam_status", f"Steam install: {status['install_dir']}"))
+            self.queue_step("steam_detect", "Found")
+            found = int(status["remote_found"])
+            required = int(status["remote_bundles"])
+            self.queue_step("steam_update", "Update appears complete" if status["remote_ready"] else f"{found}/{required} downloaded")
+            self.queue_step("steam_patch", "Ready to patch" if status["remote_ready"] else "Waiting for first update")
+            self.log(
+                f"Steam status: {status['local_bundles']} local bundles; "
+                f"{found}/{required} downloaded remote bundles."
+            )
+
+        self.run_worker("Checking Steam Install", task)
+
+    def launch_steam_game(self) -> None:
+        def task() -> None:
+            patcher_core.launch_steam_game(log=self.log)
+            self.queue_step("steam_update", "Let the update finish, then close the game")
+            self.queue_step("steam_patch", "Waiting for game to close")
+
+        self.run_worker("Launching Steam Game", task)
+
+    def patch_steam_game(self) -> None:
+        def task() -> None:
+            self.queue_step("steam_detect", "Checking")
+            patcher_core.steam_manifest_status(Path(self.steam_path.get()))
+            self.queue_step("steam_detect", "Found")
+            self.queue_step("steam_update", "Assuming update is complete")
+            self.queue_step("steam_patch", "Patching")
+            report = patcher_core.patch_steam_install(Path(self.steam_path.get()), log=self.log)
+            self.queue_step("steam_patch", "Complete")
+            self.log(f"Steam patch report: {report}")
+
+        self.run_worker("Patching Steam Game", task)
 
 
 def main() -> int:

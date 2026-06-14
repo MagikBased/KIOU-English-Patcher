@@ -5,11 +5,13 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import shutil
 import stat
 import subprocess
 import sys
 import tempfile
+import webbrowser
 import zipfile
 from collections.abc import Callable
 from pathlib import Path
@@ -22,6 +24,7 @@ from apply_masterdata_translations import load_translations as load_masterdata_t
 from apply_masterdata_translations import patch_bundle as patch_masterdata_bundle
 from apply_voice_catalog_translations import load_translations as load_voice_catalog_translations
 from apply_voice_catalog_translations import patch_bundle as patch_voice_catalog_bundle
+from patch_yooasset_remote_manifest import parse_manifest, serialize_manifest, yooasset_crc_hex
 from push_patched_remote_bundles import HASH_RE, app_cache_info_bytes
 from verify_apk import SUPPORTED_APK_SHA256, sha256_file
 
@@ -50,6 +53,7 @@ VOICE_CATALOG_BUNDLE = (
     "2f0426ad7cc63c421dbf20786c35cfa0__"
     "remote_assets__project_sound_generated_voice_catalog_g.bundle"
 )
+STEAM_APP_ID = "4257900"
 KEY_ALIAS = "kiou_patch"
 KEY_PASS = "kioupatch"
 LogFn = Callable[[str], None]
@@ -365,6 +369,16 @@ def remove_apk_signatures(apk_dir: Path) -> None:
 
 def iter_files(root: Path) -> list[Path]:
     return sorted(path for path in root.rglob("*") if path.is_file())
+
+
+def file_crc_u32(path: Path) -> int:
+    import zlib
+
+    crc = 0
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            crc = zlib.crc32(chunk, crc)
+    return crc & 0xFFFFFFFF
 
 
 def repack_apk(original_apk: Path, apk_dir: Path, output_apk: Path) -> None:
@@ -690,3 +704,349 @@ def install_apk(apk_path: Path, log: LogFn = default_log, replace: bool = True, 
         command.append("-r")
     command.append(str(apk_path))
     run(command, log=log)
+
+
+def steam_roots() -> list[Path]:
+    roots: list[Path] = []
+    home = Path.home()
+    if os.name == "nt":
+        for env_name in ["PROGRAMFILES(X86)", "PROGRAMFILES"]:
+            value = os.environ.get(env_name)
+            if value:
+                roots.append(Path(value) / "Steam")
+    elif sys.platform == "darwin":
+        roots.append(home / "Library" / "Application Support" / "Steam")
+    else:
+        roots += [
+            home / ".local" / "share" / "Steam",
+            home / ".steam" / "steam",
+            home / ".var" / "app" / "com.valvesoftware.Steam" / ".local" / "share" / "Steam",
+        ]
+    for env_name in ["STEAM_HOME", "STEAM_DIR"]:
+        value = os.environ.get(env_name)
+        if value:
+            roots.append(Path(value))
+    return unique_existing_dirs(roots)
+
+
+def unique_existing_dirs(paths: list[Path]) -> list[Path]:
+    seen: set[Path] = set()
+    result: list[Path] = []
+    for path in paths:
+        try:
+            resolved = path.expanduser().resolve()
+        except OSError:
+            continue
+        if resolved in seen or not resolved.is_dir():
+            continue
+        seen.add(resolved)
+        result.append(resolved)
+    return result
+
+
+def parse_steam_libraryfolders(path: Path) -> list[Path]:
+    if not path.is_file():
+        return []
+    text = path.read_text(encoding="utf-8", errors="replace")
+    libraries = [path.parent.parent]
+    for match in re.finditer(r'"path"\s+"([^"]+)"', text):
+        libraries.append(Path(match.group(1).replace("\\\\", "\\")))
+    return unique_existing_dirs(libraries)
+
+
+def steam_library_dirs() -> list[Path]:
+    libraries: list[Path] = []
+    for root in steam_roots():
+        libraries.append(root)
+        libraries.extend(parse_steam_libraryfolders(root / "steamapps" / "libraryfolders.vdf"))
+    return unique_existing_dirs(libraries)
+
+
+def steam_install_candidates() -> list[Path]:
+    candidates: list[Path] = []
+    for library in steam_library_dirs():
+        candidates.append(library / "steamapps" / "common" / "KIOU")
+    return unique_existing_dirs(candidates)
+
+
+def detect_steam_install() -> Path | None:
+    candidates = steam_install_candidates()
+    return candidates[0] if candidates else None
+
+
+def launch_steam_game(log: LogFn = default_log) -> None:
+    uri = f"steam://rungameid/{STEAM_APP_ID}"
+    steam_command = shutil.which("steam")
+    if steam_command and os.name != "nt":
+        subprocess.Popen([steam_command, "-applaunch", STEAM_APP_ID])
+        log("Launched KIOU through Steam.")
+        return
+    if os.name == "nt":
+        os.startfile(uri)  # type: ignore[attr-defined]
+    elif sys.platform == "darwin":
+        subprocess.Popen(["open", uri])
+    else:
+        opener = shutil.which("xdg-open") or shutil.which("gio")
+        if opener:
+            command = [opener, "open", uri] if Path(opener).name == "gio" else [opener, uri]
+            subprocess.Popen(command)
+        else:
+            webbrowser.open(uri)
+    log("Opened Steam launch URL for KIOU.")
+
+
+def steam_data_dir(install_dir: Path) -> Path:
+    return install_dir / "KIOU_Data"
+
+
+def steam_local_dir(install_dir: Path) -> Path:
+    return steam_data_dir(install_dir) / "StreamingAssets" / "Bundles" / "Local"
+
+
+def steam_remote_dir(install_dir: Path) -> Path:
+    return steam_data_dir(install_dir) / "Bundles" / "Remote"
+
+
+def validate_steam_install(install_dir: Path) -> Path:
+    install_dir = install_dir.expanduser().resolve()
+    if not install_dir.is_dir():
+        raise PatcherError(f"Steam install folder not found: {install_dir}")
+    required = [
+        install_dir / "KIOU.exe",
+        steam_data_dir(install_dir),
+        steam_local_dir(install_dir) / "Local_1.0.1.bytes",
+        steam_remote_dir(install_dir) / "ManifestFiles" / "Remote_asset-1.0.bytes",
+    ]
+    missing = [str(path) for path in required if not path.exists()]
+    if missing:
+        raise PatcherError("This does not look like a supported Steam KIOU install. Missing: " + ", ".join(missing))
+    return install_dir
+
+
+def steam_manifest_status(install_dir: Path) -> dict[str, object]:
+    install_dir = validate_steam_install(install_dir)
+    local_manifest_path = steam_local_dir(install_dir) / "Local_1.0.1.bytes"
+    remote_manifest_path = steam_remote_dir(install_dir) / "ManifestFiles" / "Remote_asset-1.0.bytes"
+    local_manifest = parse_manifest(local_manifest_path.read_bytes())
+    remote_manifest = parse_manifest(remote_manifest_path.read_bytes())
+
+    remote_found = 0
+    for bundle in remote_manifest.bundles:
+        data_path = steam_remote_dir(install_dir) / "BundleFiles" / bundle.file_hash[:2] / bundle.file_hash / "__data"
+        if data_path.is_file():
+            remote_found += 1
+
+    return {
+        "install_dir": str(install_dir),
+        "local_assets": len(local_manifest.assets),
+        "local_bundles": len(local_manifest.bundles),
+        "remote_assets": len(remote_manifest.assets),
+        "remote_bundles": len(remote_manifest.bundles),
+        "remote_found": remote_found,
+        "remote_ready": remote_found == len(remote_manifest.bundles),
+    }
+
+
+def steam_asset_bundle_name(manifest: object, asset_name: str) -> str | None:
+    for asset in manifest.assets:  # type: ignore[attr-defined]
+        address = getattr(asset, "address", "")
+        asset_path = getattr(asset, "asset_path", "")
+        if address == asset_name or asset_path.endswith("/" + asset_name):
+            bundle = manifest.bundles[asset.bundle_id]  # type: ignore[attr-defined]
+            return f"{bundle.file_hash}__{bundle.bundle_name}"
+    return None
+
+
+def backup_file(path: Path, install_dir: Path, backup_root: Path) -> None:
+    if not path.exists():
+        return
+    rel = path.relative_to(install_dir)
+    target = backup_root / rel
+    target.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(path, target)
+
+
+def write_installed_file(source: Path, target: Path, install_dir: Path, backup_root: Path) -> None:
+    backup_file(target, install_dir, backup_root)
+    target.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(source, target)
+
+
+def patch_steam_local_files(install_dir: Path, work_dir: Path, backup_root: Path, log: LogFn) -> list[dict[str, object]]:
+    local_dir = steam_local_dir(install_dir)
+    manifest_path = local_dir / "Local_1.0.1.bytes"
+    manifest = parse_manifest(manifest_path.read_bytes())
+    roundtrip = serialize_manifest(manifest)
+    if roundtrip != manifest_path.read_bytes():
+        raise PatcherError("Steam local manifest parser failed round-trip validation.")
+
+    translations = load_local_translations(ROOT / "translations" / "local_ui.csv")
+    if not translations:
+        raise PatcherError("No local translations loaded.")
+
+    patched_dir = work_dir / "local_patched"
+    shutil.rmtree(patched_dir, ignore_errors=True)
+    patched_dir.mkdir(parents=True, exist_ok=True)
+
+    reports: list[dict[str, object]] = []
+    for bundle in manifest.bundles:
+        source = local_dir / f"{bundle.file_hash}.bundle"
+        if not source.is_file():
+            continue
+        patched = patched_dir / f"{bundle.file_hash}__{bundle.bundle_name}"
+        shutil.copy2(source, patched)
+        report = patch_local_bundle(patched, translations)
+        if not report:
+            patched.unlink(missing_ok=True)
+            continue
+        report["bundle_file"] = patched.name
+        reports.append(report)
+
+        target = local_dir / f"{bundle.file_hash}.bundle"
+        write_installed_file(patched, target, install_dir, backup_root)
+        bundle.file_crc = file_crc_u32(patched)
+        bundle.file_size = patched.stat().st_size
+        log(
+            f"{target.name}: {report['replacements']} local replacements in "
+            f"{len(report['changed_objects'])} objects"
+        )
+
+    if reports:
+        patched_manifest = serialize_manifest(manifest)
+        manifest_out = patched_dir / "Local_1.0.1.bytes"
+        hash_out = patched_dir / "Local_1.0.1.hash"
+        manifest_out.write_bytes(patched_manifest)
+        hash_out.write_text(yooasset_crc_hex(patched_manifest), encoding="ascii")
+        write_installed_file(manifest_out, manifest_path, install_dir, backup_root)
+        write_installed_file(hash_out, local_dir / "Local_1.0.1.hash", install_dir, backup_root)
+
+    return reports
+
+
+def steam_remote_cache_path(install_dir: Path, hash_value: str) -> Path:
+    return steam_remote_dir(install_dir) / "BundleFiles" / hash_value[:2] / hash_value / "__data"
+
+
+def write_steam_remote_cache(
+    install_dir: Path,
+    backup_root: Path,
+    hash_value: str,
+    source: Path,
+) -> None:
+    data_path = steam_remote_cache_path(install_dir, hash_value)
+    info_path = data_path.with_name("__info")
+    backup_file(data_path, install_dir, backup_root)
+    backup_file(info_path, install_dir, backup_root)
+    data_path.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(source, data_path)
+    info_path.write_bytes(app_cache_info_bytes(source))
+
+
+def patch_steam_remote_cache(install_dir: Path, work_dir: Path, backup_root: Path, log: LogFn) -> list[dict[str, object]]:
+    manifest_path = steam_remote_dir(install_dir) / "ManifestFiles" / "Remote_asset-1.0.bytes"
+    manifest = parse_manifest(manifest_path.read_bytes())
+    translations = load_bundle_translations(ROOT / "translations" / "remote_ui.csv")
+    if not translations:
+        raise PatcherError("No remote translations loaded.")
+
+    patched_dir = work_dir / "remote_patched"
+    shutil.rmtree(patched_dir, ignore_errors=True)
+    patched_dir.mkdir(parents=True, exist_ok=True)
+
+    reports: list[dict[str, object]] = []
+    missing = 0
+    for bundle in manifest.bundles:
+        source = steam_remote_cache_path(install_dir, bundle.file_hash)
+        if not source.is_file():
+            missing += 1
+            continue
+        patched = patched_dir / f"{bundle.file_hash}__{bundle.bundle_name}"
+        shutil.copy2(source, patched)
+        report = patch_remote_bundle(patched, translations)
+        if not report:
+            patched.unlink(missing_ok=True)
+            continue
+        report["bundle_file"] = patched.name
+        reports.append(report)
+        write_steam_remote_cache(install_dir, backup_root, bundle.file_hash, patched)
+        log(
+            f"{bundle.file_hash}: {report['replacements']} remote replacements in "
+            f"{len(report['changed_objects'])} objects"
+        )
+
+    if missing:
+        log(f"Skipped {missing} remote bundles that are not downloaded yet.")
+
+    special_reports: list[dict[str, object]] = []
+    special_specs = [
+        (
+            "RuntimeMasterData.bytes",
+            ROOT / "translations" / "remote_masterdata.csv",
+            load_masterdata_translations,
+            patch_masterdata_bundle,
+            "master-data",
+        ),
+        (
+            "voice_catalog.g.json",
+            ROOT / "translations" / "voice_catalog.csv",
+            load_voice_catalog_translations,
+            patch_voice_catalog_bundle,
+            "voice-dialogue",
+        ),
+    ]
+    for asset_name, translations_path, loader, patcher, label in special_specs:
+        bundle_name = steam_asset_bundle_name(manifest, asset_name)
+        if not bundle_name or not translations_path.exists():
+            continue
+        hash_value = bundle_name.split("__", 1)[0]
+        source = steam_remote_cache_path(install_dir, hash_value)
+        if not source.is_file():
+            log(f"Skipped {label}: required bundle is not downloaded yet.")
+            continue
+        patched = patched_dir / bundle_name
+        if not patched.exists():
+            shutil.copy2(source, patched)
+        report = patcher(patched, patched, loader(translations_path))
+        report["bundle_file"] = patched.name
+        if int(report.get("replacements", 0)) > 0:
+            write_steam_remote_cache(install_dir, backup_root, hash_value, patched)
+        special_reports.append(report)
+        log(f"{hash_value}: {report['replacements']} {label} replacements")
+
+    return reports + special_reports
+
+
+def patch_steam_install(install_dir: Path, log: LogFn = default_log) -> Path:
+    install_dir = validate_steam_install(install_dir)
+    work_dir = STATE_ROOT / "work" / "steam_patcher"
+    backup_root = work_dir / "backups" / __import__("time").strftime("%Y%m%d-%H%M%S")
+    output_dir = STATE_ROOT / "output"
+    report_path = output_dir / "steam_patch_report.json"
+
+    shutil.rmtree(work_dir / "local_patched", ignore_errors=True)
+    shutil.rmtree(work_dir / "remote_patched", ignore_errors=True)
+    backup_root.mkdir(parents=True, exist_ok=True)
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    log(f"Steam install: {install_dir}")
+    log(f"Backup folder: {backup_root}")
+    log("Patching Steam built-in UI bundles...")
+    local_reports = patch_steam_local_files(install_dir, work_dir, backup_root, log)
+    log(f"Patched {len(local_reports)} local bundles with {sum(int(r['replacements']) for r in local_reports)} replacements")
+
+    log("Patching Steam downloaded cache bundles...")
+    remote_reports = patch_steam_remote_cache(install_dir, work_dir, backup_root, log)
+    log(
+        f"Patched {len(remote_reports)} remote bundle entries with "
+        f"{sum(int(r['replacements']) for r in remote_reports)} replacements"
+    )
+
+    report = {
+        "install_dir": str(install_dir),
+        "backup": str(backup_root),
+        "local": local_reports,
+        "remote": remote_reports,
+    }
+    report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+    log(f"Steam patch complete. Report: {report_path}")
+    return report_path

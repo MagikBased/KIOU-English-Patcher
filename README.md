@@ -1,6 +1,6 @@
 # Kiou English Patcher
 
-Desktop patcher for applying the current English patch to a user-provided Kiou Android APK and its downloaded Unity data cache.
+Desktop patcher for applying the current English patch to a user-provided Kiou Android APK, or to the Steam version's local install and downloaded Unity data cache.
 
 This project does not include, distribute, or download the original game APK, patched APKs, downloaded game assets, or extracted game files. You must provide your own legally obtained APK.
 
@@ -22,7 +22,7 @@ These builds are unsigned. Windows may show a SmartScreen warning, and macOS Gat
 
 ## Before You Start
 
-You need:
+For Android, you need:
 
 - A legally obtained Kiou APK.
 - Android Studio or Android SDK Platform Tools installed.
@@ -43,6 +43,12 @@ c23f77caacf7cb988bcbf1b9d91ec5708eef6cc6056faee38f0d8ea778ec898f
 ```
 
 Untested APK builds may fail or patch only partially if the game files changed.
+
+For Steam, you need:
+
+- KIOU installed through Steam.
+- The game launched once so it can finish its first update/download. The patcher can launch it for you.
+- The game closed before clicking `Patch Steam Game`.
 
 ## Running the Patcher
 
@@ -71,6 +77,10 @@ The packaged Linux build is built on Ubuntu 22.04 and expects glibc 2.35 or newe
 
 ## Guided Patch Flow
 
+When the app starts, choose `Android` or `Steam`.
+
+### Android
+
 The GUI walks through the normal patch process:
 
 1. Select your original APK with `Browse`.
@@ -86,6 +96,26 @@ If more than one phone or emulator is connected, you must choose the intended ta
 
 The downloaded-data step is required because some English text lives outside the APK in Unity bundles that the game downloads after first launch. A fresh install, emulator reset, app data clear, or game asset update may require running `Patch Downloaded Data` again after the game finishes downloading.
 
+### Steam
+
+The Steam workflow patches files in your local Steam install:
+
+1. Install KIOU in Steam.
+2. Open the patcher and choose `Steam`.
+3. Use `Auto Detect` or `Browse` to select the KIOU install folder.
+4. Click `Launch Game`, or launch KIOU from Steam yourself.
+5. Let the game finish its first update/download, then close the game.
+6. Click `Check Status`.
+7. Click `Patch Steam Game`.
+
+The Steam patcher backs up overwritten files under:
+
+```text
+~/.kiou-english-patcher/work/steam_patcher/backups
+```
+
+Steam game updates may restore original Japanese files. If that happens, launch the game once after the update finishes, close it, then run `Patch Steam Game` again.
+
 ## Install Notes
 
 If Android reports a signature mismatch, uninstall the existing original app first, then install the patched APK from the GUI.
@@ -99,6 +129,13 @@ Packaged desktop builds write temporary files, reports, and the local patch sign
 ```text
 ~/.kiou-english-patcher
 ```
+
+## Brand Assets
+
+The platform selection icons use official Android and Steam brand assets:
+
+- Android robot image from the Android Developers brand guidelines. The Android robot is reproduced from work created and shared by Google and used according to the Creative Commons 3.0 Attribution License.
+- Steam logo image from the Steamworks Branding Guidelines. ©2026 Valve Corporation. Steam and the Steam logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries.
 
 ## Developer Setup
 
@@ -165,3 +202,4 @@ Release assets should contain the patcher only. Do not attach the original APK, 
 - The downloaded-data patch targets the currently known remote bundle hash set in `reports/remote_patch_report.json`.
 - A future game update may require rebuilding the translation CSVs and remote patch report.
 - Image/icon text is not replaced by this patcher yet.
+- Steam support is experimental and targets the current Steam build/cache layout.
