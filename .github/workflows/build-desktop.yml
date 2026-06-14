@@ -27,11 +27,18 @@ jobs:
             artifact: KiouEnglishPatcher-Windows
             build_args: --clean --onefile
             artifact_path: dist/KiouEnglishPatcher.exe
-          - name: macOS
+          - name: macOS Apple Silicon
             os: macos-latest
-            artifact: KiouEnglishPatcher-macOS
+            artifact: KiouEnglishPatcher-macOS-AppleSilicon
             build_args: --clean --onedir
-            artifact_path: dist/KiouEnglishPatcher-macOS.zip
+            macos_zip: KiouEnglishPatcher-macOS-AppleSilicon.zip
+            artifact_path: dist/KiouEnglishPatcher-macOS-AppleSilicon.zip
+          - name: macOS Intel
+            os: macos-13
+            artifact: KiouEnglishPatcher-macOS-Intel
+            build_args: --clean --onedir
+            macos_zip: KiouEnglishPatcher-macOS-Intel.zip
+            artifact_path: dist/KiouEnglishPatcher-macOS-Intel.zip
           - name: Linux
             os: ubuntu-22.04
             artifact: KiouEnglishPatcher-Linux
@@ -61,7 +68,7 @@ jobs:
         if: runner.os == 'macOS'
         run: |
           cd dist
-          ditto -c -k --sequesterRsrc --keepParent KiouEnglishPatcher.app KiouEnglishPatcher-macOS.zip
+          ditto -c -k --sequesterRsrc --keepParent KiouEnglishPatcher.app "${{ matrix.macos_zip }}"
 
       - name: Package Linux app bundle
         if: runner.os == 'Linux'
