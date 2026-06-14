@@ -108,11 +108,15 @@ The Steam workflow patches files in your local Steam install:
 6. Click `Check Status`.
 7. Click `Patch Steam Game`.
 
+If `Check Status` says the first update is not finished, launch the game once and let the in-game update/download complete. A newly installed Steam copy may not have the remote bundle manifest until after that first launch.
+
 The Steam patcher backs up overwritten files under:
 
 ```text
 ~/.kiou-english-patcher/work/steam_patcher/backups
 ```
+
+Use `Revert to Japanese` on the Steam page to restore backed-up original files for the selected KIOU install. Revert is available only after the Steam patcher has patched the game at least once.
 
 Steam game updates may restore original Japanese files. If that happens, launch the game once after the update finishes, close it, then run `Patch Steam Game` again.
 

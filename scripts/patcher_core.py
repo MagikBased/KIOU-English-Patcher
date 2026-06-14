@@ -11,6 +11,7 @@ import stat
 import subprocess
 import sys
 import tempfile
+import time
 import webbrowser
 import zipfile
 from collections.abc import Callable
@@ -815,7 +816,6 @@ def validate_steam_install(install_dir: Path) -> Path:
         install_dir / "KIOU.exe",
         steam_data_dir(install_dir),
         steam_local_dir(install_dir) / "Local_1.0.1.bytes",
-        steam_remote_dir(install_dir) / "ManifestFiles" / "Remote_asset-1.0.bytes",
     ]
     missing = [str(path) for path in required if not path.exists()]
     if missing:
@@ -828,6 +828,20 @@ def steam_manifest_status(install_dir: Path) -> dict[str, object]:
     local_manifest_path = steam_local_dir(install_dir) / "Local_1.0.1.bytes"
     remote_manifest_path = steam_remote_dir(install_dir) / "ManifestFiles" / "Remote_asset-1.0.bytes"
     local_manifest = parse_manifest(local_manifest_path.read_bytes())
+
+    if not remote_manifest_path.is_file():
+        return {
+            "install_dir": str(install_dir),
+            "local_assets": len(local_manifest.assets),
+            "local_bundles": len(local_manifest.bundles),
+            "remote_assets": 0,
+            "remote_bundles": 0,
+            "remote_found": 0,
+            "remote_ready": False,
+            "first_update_complete": False,
+            "missing_update_files": [str(remote_manifest_path)],
+        }
+
     remote_manifest = parse_manifest(remote_manifest_path.read_bytes())
 
     remote_found = 0
@@ -844,6 +858,8 @@ def steam_manifest_status(install_dir: Path) -> dict[str, object]:
         "remote_bundles": len(remote_manifest.bundles),
         "remote_found": remote_found,
         "remote_ready": remote_found == len(remote_manifest.bundles),
+        "first_update_complete": True,
+        "missing_update_files": [],
     }
 
 
@@ -857,19 +873,66 @@ def steam_asset_bundle_name(manifest: object, asset_name: str) -> str | None:
     return None
 
 
-def backup_file(path: Path, install_dir: Path, backup_root: Path) -> None:
+def backup_file(path: Path, install_dir: Path, backup_root: Path) -> bool:
     if not path.exists():
-        return
+        return False
     rel = path.relative_to(install_dir)
     target = backup_root / rel
     target.parent.mkdir(parents=True, exist_ok=True)
     shutil.copy2(path, target)
+    return True
+
+
+def created_files_marker(backup_root: Path) -> Path:
+    return backup_root / "_kiou_created_files.txt"
+
+
+def backup_metadata_path(backup_root: Path) -> Path:
+    return backup_root / "_kiou_backup.json"
+
+
+def record_created_file(path: Path, install_dir: Path, backup_root: Path) -> None:
+    rel = path.relative_to(install_dir).as_posix()
+    marker = created_files_marker(backup_root)
+    marker.parent.mkdir(parents=True, exist_ok=True)
+    with marker.open("a", encoding="utf-8", newline="\n") as handle:
+        handle.write(rel + "\n")
+
+
+def read_created_files(backup_root: Path) -> set[str]:
+    created: set[str] = set()
+    metadata_path = backup_metadata_path(backup_root)
+    if metadata_path.is_file():
+        try:
+            metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            metadata = {}
+        for rel in metadata.get("created_files", []):
+            if isinstance(rel, str):
+                created.add(rel)
+
+    marker = created_files_marker(backup_root)
+    if marker.is_file():
+        created.update(line.strip() for line in marker.read_text(encoding="utf-8").splitlines() if line.strip())
+    return created
+
+
+def write_steam_backup_metadata(backup_root: Path, install_dir: Path) -> None:
+    metadata = {
+        "install_dir": str(install_dir),
+        "created_at": time.strftime("%Y-%m-%dT%H:%M:%S%z"),
+        "created_files": sorted(read_created_files(backup_root)),
+    }
+    backup_metadata_path(backup_root).write_text(json.dumps(metadata, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 def write_installed_file(source: Path, target: Path, install_dir: Path, backup_root: Path) -> None:
+    existed = target.exists()
     backup_file(target, install_dir, backup_root)
     target.parent.mkdir(parents=True, exist_ok=True)
     shutil.copy2(source, target)
+    if not existed:
+        record_created_file(target, install_dir, backup_root)
 
 
 def patch_steam_local_files(install_dir: Path, work_dir: Path, backup_root: Path, log: LogFn) -> list[dict[str, object]]:
@@ -935,11 +998,14 @@ def write_steam_remote_cache(
 ) -> None:
     data_path = steam_remote_cache_path(install_dir, hash_value)
     info_path = data_path.with_name("__info")
+    info_existed = info_path.exists()
     backup_file(data_path, install_dir, backup_root)
     backup_file(info_path, install_dir, backup_root)
     data_path.parent.mkdir(parents=True, exist_ok=True)
     shutil.copy2(source, data_path)
     info_path.write_bytes(app_cache_info_bytes(source))
+    if not info_existed:
+        record_created_file(info_path, install_dir, backup_root)
 
 
 def patch_steam_remote_cache(install_dir: Path, work_dir: Path, backup_root: Path, log: LogFn) -> list[dict[str, object]]:
@@ -1017,9 +1083,24 @@ def patch_steam_remote_cache(install_dir: Path, work_dir: Path, backup_root: Pat
 
 
 def patch_steam_install(install_dir: Path, log: LogFn = default_log) -> Path:
-    install_dir = validate_steam_install(install_dir)
+    status = steam_manifest_status(install_dir)
+    install_dir = Path(str(status["install_dir"]))
+    if not status["first_update_complete"]:
+        missing = status.get("missing_update_files", [])
+        detail = "\n".join(str(path) for path in missing) if missing else "Steam remote manifest is missing."
+        raise PatcherError(
+            "KIOU needs to finish its first Steam update before patching. "
+            "Launch the game, let the update/download complete, close it, then try again.\n\nMissing:\n" + detail
+        )
+    if not status["remote_ready"]:
+        found = int(status["remote_found"])
+        required = int(status["remote_bundles"])
+        raise PatcherError(
+            f"KIOU's Steam downloaded data is not complete yet ({found}/{required} bundles found). "
+            "Launch the game, let the update/download complete, close it, then try again."
+        )
     work_dir = STATE_ROOT / "work" / "steam_patcher"
-    backup_root = work_dir / "backups" / __import__("time").strftime("%Y%m%d-%H%M%S")
+    backup_root = work_dir / "backups" / time.strftime("%Y%m%d-%H%M%S")
     output_dir = STATE_ROOT / "output"
     report_path = output_dir / "steam_patch_report.json"
 
@@ -1031,15 +1112,18 @@ def patch_steam_install(install_dir: Path, log: LogFn = default_log) -> Path:
     log(f"Steam install: {install_dir}")
     log(f"Backup folder: {backup_root}")
     log("Patching Steam built-in UI bundles...")
-    local_reports = patch_steam_local_files(install_dir, work_dir, backup_root, log)
-    log(f"Patched {len(local_reports)} local bundles with {sum(int(r['replacements']) for r in local_reports)} replacements")
+    try:
+        local_reports = patch_steam_local_files(install_dir, work_dir, backup_root, log)
+        log(f"Patched {len(local_reports)} local bundles with {sum(int(r['replacements']) for r in local_reports)} replacements")
 
-    log("Patching Steam downloaded cache bundles...")
-    remote_reports = patch_steam_remote_cache(install_dir, work_dir, backup_root, log)
-    log(
-        f"Patched {len(remote_reports)} remote bundle entries with "
-        f"{sum(int(r['replacements']) for r in remote_reports)} replacements"
-    )
+        log("Patching Steam downloaded cache bundles...")
+        remote_reports = patch_steam_remote_cache(install_dir, work_dir, backup_root, log)
+        log(
+            f"Patched {len(remote_reports)} remote bundle entries with "
+            f"{sum(int(r['replacements']) for r in remote_reports)} replacements"
+        )
+    finally:
+        write_steam_backup_metadata(backup_root, install_dir)
 
     report = {
         "install_dir": str(install_dir),
@@ -1049,4 +1133,92 @@ def patch_steam_install(install_dir: Path, log: LogFn = default_log) -> Path:
     }
     report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     log(f"Steam patch complete. Report: {report_path}")
+    return report_path
+
+
+def steam_backup_root() -> Path:
+    return STATE_ROOT / "work" / "steam_patcher" / "backups"
+
+
+def backup_install_dir(backup_dir: Path) -> Path | None:
+    metadata_path = backup_metadata_path(backup_dir)
+    if not metadata_path.is_file():
+        return None
+    try:
+        metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return None
+    install_text = metadata.get("install_dir")
+    if not isinstance(install_text, str) or not install_text:
+        return None
+    return Path(install_text).expanduser().resolve()
+
+
+def steam_backup_dirs_for_install(install_dir: Path) -> list[Path]:
+    root = steam_backup_root()
+    if not root.is_dir():
+        return []
+
+    install_dir = install_dir.expanduser().resolve()
+    all_backups = sorted(path for path in root.iterdir() if path.is_dir())
+    matching = [path for path in all_backups if backup_install_dir(path) == install_dir]
+    if matching:
+        return matching
+
+    # Older patcher versions did not write metadata. Fall back to all backups so
+    # existing users can still restore on a single-install setup.
+    return [path for path in all_backups if backup_install_dir(path) is None]
+
+
+def revert_steam_install(install_dir: Path, log: LogFn = default_log) -> Path:
+    install_dir = validate_steam_install(install_dir)
+    backup_dirs = steam_backup_dirs_for_install(install_dir)
+    if not backup_dirs:
+        raise PatcherError(
+            "No Steam patch backups were found. Revert is only available after this patcher has patched the Steam game."
+        )
+
+    created_files: set[str] = set()
+    restore_sources: dict[str, Path] = {}
+    for backup_dir in backup_dirs:
+        created_files.update(read_created_files(backup_dir))
+        for source in sorted(path for path in backup_dir.rglob("*") if path.is_file()):
+            rel = source.relative_to(backup_dir).as_posix()
+            if rel in {"_kiou_backup.json", "_kiou_created_files.txt"} or rel in created_files:
+                continue
+            restore_sources.setdefault(rel, source)
+
+    if not restore_sources and not created_files:
+        raise PatcherError("Steam patch backups were found, but they do not contain restorable files.")
+
+    restored = 0
+    for rel, source in sorted(restore_sources.items()):
+        target = install_dir / Path(rel)
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(source, target)
+        restored += 1
+        log(f"Restored {target}")
+
+    removed = 0
+    for rel in sorted(created_files):
+        if rel in restore_sources:
+            continue
+        target = install_dir / Path(rel)
+        if target.exists():
+            target.unlink()
+            removed += 1
+            log(f"Removed patch-created file {target}")
+
+    output_dir = STATE_ROOT / "output"
+    output_dir.mkdir(parents=True, exist_ok=True)
+    report_path = output_dir / "steam_revert_report.json"
+    report = {
+        "install_dir": str(install_dir),
+        "backup_dirs": [str(path) for path in backup_dirs],
+        "restored_files": restored,
+        "removed_created_files": removed,
+    }
+    report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+    log(f"Steam revert complete. Restored {restored} files; removed {removed} patch-created files.")
+    log(f"Steam revert report: {report_path}")
     return report_path

@@ -159,8 +159,8 @@ class PatcherGui(tk.Tk):
 
     def _build_steam_ui(self) -> None:
         self._clear_ui()
-        self.geometry("1040x700")
-        self.minsize(860, 620)
+        self.geometry("1040x780")
+        self.minsize(860, 660)
         self.rowconfigure(4, weight=1)
         self._page_header("Kiou English Patcher - Steam", self._build_mode_menu)
         self._build_steam_inputs_frame(row=1)
@@ -264,6 +264,7 @@ class PatcherGui(tk.Tk):
             ("steam_detect", "1. Find Steam Install", "Waiting"),
             ("steam_update", "2. Launch Game and Finish Update", "Launch once, finish the update, then close the game"),
             ("steam_patch", "3. Patch Steam Game", "Waiting"),
+            ("steam_revert", "4. Revert to Japanese", "Available after patching"),
         ]
         for index, (key, label, initial) in enumerate(steps):
             ttk.Label(frame, text=label).grid(row=index, column=0, sticky="w", padx=10, pady=6)
@@ -271,14 +272,16 @@ class PatcherGui(tk.Tk):
             self.step_vars[key] = var
             ttk.Label(frame, textvariable=var).grid(row=index, column=1, sticky="ew", padx=8, pady=6)
         actions = ttk.Frame(frame)
-        actions.grid(row=0, column=2, rowspan=3, sticky="nsew", padx=10, pady=6)
+        actions.grid(row=0, column=2, rowspan=4, sticky="nsew", padx=10, pady=6)
         check = ttk.Button(actions, text="Check Status", command=self.check_steam_status)
         launch = ttk.Button(actions, text="Launch Game", command=self.launch_steam_game)
         patch = ttk.Button(actions, text="Patch Steam Game", command=self.patch_steam_game)
+        revert = ttk.Button(actions, text="Revert to Japanese", command=self.revert_steam_game)
         check.grid(row=0, column=0, sticky="ew", pady=(0, 8))
         launch.grid(row=1, column=0, sticky="ew", pady=(0, 8))
-        patch.grid(row=2, column=0, sticky="ew")
-        self.buttons.extend([check, launch, patch])
+        patch.grid(row=2, column=0, sticky="ew", pady=(0, 8))
+        revert.grid(row=3, column=0, sticky="ew")
+        self.buttons.extend([check, launch, patch, revert])
 
     def _build_log_frame(self, row: int) -> None:
         frame = ttk.LabelFrame(self, text="Log")
@@ -504,6 +507,13 @@ class PatcherGui(tk.Tk):
             status = patcher_core.steam_manifest_status(Path(self.steam_path.get()))
             self.log_queue.put(("steam_status", f"Steam install: {status['install_dir']}"))
             self.queue_step("steam_detect", "Found")
+            if not status["first_update_complete"]:
+                self.queue_step("steam_update", "Launch game to finish first update")
+                self.queue_step("steam_patch", "Waiting for first update")
+                self.log("Steam install found, but KIOU has not finished its first update/download yet.")
+                for missing in status.get("missing_update_files", []):
+                    self.log(f"Missing after first launch: {missing}")
+                return
             found = int(status["remote_found"])
             required = int(status["remote_bundles"])
             self.queue_step("steam_update", "Update appears complete" if status["remote_ready"] else f"{found}/{required} downloaded")
@@ -526,15 +536,42 @@ class PatcherGui(tk.Tk):
     def patch_steam_game(self) -> None:
         def task() -> None:
             self.queue_step("steam_detect", "Checking")
-            patcher_core.steam_manifest_status(Path(self.steam_path.get()))
+            status = patcher_core.steam_manifest_status(Path(self.steam_path.get()))
             self.queue_step("steam_detect", "Found")
-            self.queue_step("steam_update", "Assuming update is complete")
+            if not status["first_update_complete"]:
+                self.queue_step("steam_update", "Launch game to finish first update")
+                self.queue_step("steam_patch", "Waiting for first update")
+            elif not status["remote_ready"]:
+                found = int(status["remote_found"])
+                required = int(status["remote_bundles"])
+                self.queue_step("steam_update", f"{found}/{required} downloaded")
+                self.queue_step("steam_patch", "Waiting for first update")
+            else:
+                self.queue_step("steam_update", "Update appears complete")
             self.queue_step("steam_patch", "Patching")
             report = patcher_core.patch_steam_install(Path(self.steam_path.get()), log=self.log)
             self.queue_step("steam_patch", "Complete")
             self.log(f"Steam patch report: {report}")
 
         self.run_worker("Patching Steam Game", task)
+
+    def revert_steam_game(self) -> None:
+        confirmed = messagebox.askyesno(
+            "Revert Steam Patch",
+            "Restore backed-up Japanese Steam files for this KIOU install?\n\n"
+            "Close the game before continuing.",
+        )
+        if not confirmed:
+            return
+
+        def task() -> None:
+            self.queue_step("steam_revert", "Restoring")
+            report = patcher_core.revert_steam_install(Path(self.steam_path.get()), log=self.log)
+            self.queue_step("steam_patch", "Reverted")
+            self.queue_step("steam_revert", "Complete")
+            self.log(f"Steam revert report: {report}")
+
+        self.run_worker("Reverting Steam Game", task)
 
 
 def main() -> int:
