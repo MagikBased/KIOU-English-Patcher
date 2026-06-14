@@ -28,13 +28,13 @@ jobs:
             build_args: --clean --onefile
             artifact_path: dist/KiouEnglishPatcher.exe
           - name: macOS Apple Silicon
-            os: macos-latest
+            os: macos-26
             artifact: KiouEnglishPatcher-macOS-AppleSilicon
             build_args: --clean --onedir
             macos_zip: KiouEnglishPatcher-macOS-AppleSilicon.zip
             artifact_path: dist/KiouEnglishPatcher-macOS-AppleSilicon.zip
           - name: macOS Intel
-            os: macos-13
+            os: macos-26-intel
             artifact: KiouEnglishPatcher-macOS-Intel
             build_args: --clean --onedir
             macos_zip: KiouEnglishPatcher-macOS-Intel.zip
