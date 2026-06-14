@@ -116,7 +116,7 @@ The Steam patcher backs up overwritten files under:
 ~/.kiou-english-patcher/work/steam_patcher/backups
 ```
 
-Use `Revert to Japanese` on the Steam page to restore backed-up original files for the selected KIOU install. Revert is available only after the Steam patcher has patched the game at least once.
+Use `Uninstall Patch` on the Steam page to restore backed-up original files for the selected KIOU install. This is available only after the Steam patcher has patched the game at least once.
 
 Steam game updates may restore original Japanese files. If that happens, launch the game once after the update finishes, close it, then run `Patch Steam Game` again.
 

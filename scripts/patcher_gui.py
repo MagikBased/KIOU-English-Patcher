@@ -264,7 +264,6 @@ class PatcherGui(tk.Tk):
             ("steam_detect", "1. Find Steam Install", "Waiting"),
             ("steam_update", "2. Launch Game and Finish Update", "Launch once, finish the update, then close the game"),
             ("steam_patch", "3. Patch Steam Game", "Waiting"),
-            ("steam_revert", "4. Revert to Japanese", "Available after patching"),
         ]
         for index, (key, label, initial) in enumerate(steps):
             ttk.Label(frame, text=label).grid(row=index, column=0, sticky="w", padx=10, pady=6)
@@ -272,16 +271,21 @@ class PatcherGui(tk.Tk):
             self.step_vars[key] = var
             ttk.Label(frame, textvariable=var).grid(row=index, column=1, sticky="ew", padx=8, pady=6)
         actions = ttk.Frame(frame)
-        actions.grid(row=0, column=2, rowspan=4, sticky="nsew", padx=10, pady=6)
+        actions.grid(row=0, column=2, rowspan=3, sticky="nsew", padx=10, pady=6)
         check = ttk.Button(actions, text="Check Status", command=self.check_steam_status)
         launch = ttk.Button(actions, text="Launch Game", command=self.launch_steam_game)
         patch = ttk.Button(actions, text="Patch Steam Game", command=self.patch_steam_game)
-        revert = ttk.Button(actions, text="Revert to Japanese", command=self.revert_steam_game)
         check.grid(row=0, column=0, sticky="ew", pady=(0, 8))
         launch.grid(row=1, column=0, sticky="ew", pady=(0, 8))
-        patch.grid(row=2, column=0, sticky="ew", pady=(0, 8))
-        revert.grid(row=3, column=0, sticky="ew")
-        self.buttons.extend([check, launch, patch, revert])
+        patch.grid(row=2, column=0, sticky="ew")
+        self.buttons.extend([check, launch, patch])
+
+        footer = ttk.Frame(frame)
+        footer.grid(row=3, column=0, columnspan=3, sticky="ew", padx=10, pady=(8, 6))
+        footer.columnconfigure(0, weight=1)
+        uninstall = ttk.Button(footer, text="Uninstall Patch", command=self.revert_steam_game)
+        uninstall.grid(row=0, column=1, sticky="e")
+        self.buttons.append(uninstall)
 
     def _build_log_frame(self, row: int) -> None:
         frame = ttk.LabelFrame(self, text="Log")
@@ -557,21 +561,19 @@ class PatcherGui(tk.Tk):
 
     def revert_steam_game(self) -> None:
         confirmed = messagebox.askyesno(
-            "Revert Steam Patch",
-            "Restore backed-up Japanese Steam files for this KIOU install?\n\n"
+            "Uninstall Steam Patch",
+            "Restore backed-up Japanese Steam files for this KIOU install and uninstall the English patch?\n\n"
             "Close the game before continuing.",
         )
         if not confirmed:
             return
 
         def task() -> None:
-            self.queue_step("steam_revert", "Restoring")
             report = patcher_core.revert_steam_install(Path(self.steam_path.get()), log=self.log)
             self.queue_step("steam_patch", "Reverted")
-            self.queue_step("steam_revert", "Complete")
             self.log(f"Steam revert report: {report}")
 
-        self.run_worker("Reverting Steam Game", task)
+        self.run_worker("Uninstalling Steam Patch", task)
 
 
 def main() -> int:
