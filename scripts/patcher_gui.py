@@ -166,7 +166,7 @@ class PatcherGui(tk.Tk):
         self._build_steam_inputs_frame(row=1)
         self._build_steam_workflow_frame(row=2)
         self._build_log_frame(row=4)
-        ttk.Label(self, textvariable=self.status_text).grid(row=5, column=0, sticky="ew", padx=12, pady=(0, 10))
+        self._build_steam_status_bar(row=5)
 
     def _build_apk_frame(self, row: int) -> None:
         frame = ttk.LabelFrame(self, text="Inputs")
@@ -280,10 +280,12 @@ class PatcherGui(tk.Tk):
         patch.grid(row=2, column=0, sticky="ew")
         self.buttons.extend([check, launch, patch])
 
-        footer = ttk.Frame(frame)
-        footer.grid(row=3, column=0, columnspan=3, sticky="ew", padx=10, pady=(8, 6))
-        footer.columnconfigure(0, weight=1)
-        uninstall = ttk.Button(footer, text="Uninstall Patch", command=self.revert_steam_game)
+    def _build_steam_status_bar(self, row: int) -> None:
+        frame = ttk.Frame(self)
+        frame.grid(row=row, column=0, sticky="ew", padx=12, pady=(0, 10))
+        frame.columnconfigure(0, weight=1)
+        ttk.Label(frame, textvariable=self.status_text).grid(row=0, column=0, sticky="w")
+        uninstall = ttk.Button(frame, text="Uninstall Patch", command=self.revert_steam_game)
         uninstall.grid(row=0, column=1, sticky="e")
         self.buttons.append(uninstall)
 
