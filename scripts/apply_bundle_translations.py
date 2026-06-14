@@ -50,7 +50,7 @@ def replace_strings(value: Any, translations: dict[str, str]) -> tuple[Any, int]
 
 
 def patch_bundle(bundle_path: Path, translations: dict[str, str]) -> dict[str, Any] | None:
-    env = UnityPy.load(str(bundle_path))
+    env = UnityPy.load(bundle_path.read_bytes())
     replacements = 0
     changed_objects: list[dict[str, Any]] = []
 

@@ -28,7 +28,7 @@ def load_translations(path: Path) -> dict[str, dict[str, str]]:
 
 
 def patch_bundle(bundle_path: Path, output_path: Path, translations: dict[str, dict[str, str]]) -> dict[str, Any]:
-    env = UnityPy.load(str(bundle_path))
+    env = UnityPy.load(bundle_path.read_bytes())
     found_catalog = False
     changed_objects: list[dict[str, Any]] = []
 

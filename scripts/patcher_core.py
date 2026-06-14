@@ -12,6 +12,7 @@ import subprocess
 import sys
 import tempfile
 import time
+import uuid
 import webbrowser
 import zipfile
 from collections.abc import Callable
@@ -948,7 +949,6 @@ def patch_steam_local_files(install_dir: Path, work_dir: Path, backup_root: Path
         raise PatcherError("No local translations loaded.")
 
     patched_dir = work_dir / "local_patched"
-    shutil.rmtree(patched_dir, ignore_errors=True)
     patched_dir.mkdir(parents=True, exist_ok=True)
 
     reports: list[dict[str, object]] = []
@@ -1016,7 +1016,6 @@ def patch_steam_remote_cache(install_dir: Path, work_dir: Path, backup_root: Pat
         raise PatcherError("No remote translations loaded.")
 
     patched_dir = work_dir / "remote_patched"
-    shutil.rmtree(patched_dir, ignore_errors=True)
     patched_dir.mkdir(parents=True, exist_ok=True)
 
     reports: list[dict[str, object]] = []
@@ -1099,13 +1098,14 @@ def patch_steam_install(install_dir: Path, log: LogFn = default_log) -> Path:
             f"KIOU's Steam downloaded data is not complete yet ({found}/{required} bundles found). "
             "Launch the game, let the update/download complete, close it, then try again."
         )
-    work_dir = STATE_ROOT / "work" / "steam_patcher"
-    backup_root = work_dir / "backups" / time.strftime("%Y%m%d-%H%M%S")
+    steam_work_root = STATE_ROOT / "work" / "steam_patcher"
+    run_id = f"{time.strftime('%Y%m%d-%H%M%S')}-{os.getpid()}-{uuid.uuid4().hex[:8]}"
+    work_dir = steam_work_root / "runs" / run_id
+    backup_root = steam_work_root / "backups" / run_id
     output_dir = STATE_ROOT / "output"
     report_path = output_dir / "steam_patch_report.json"
 
-    shutil.rmtree(work_dir / "local_patched", ignore_errors=True)
-    shutil.rmtree(work_dir / "remote_patched", ignore_errors=True)
+    work_dir.mkdir(parents=True, exist_ok=True)
     backup_root.mkdir(parents=True, exist_ok=True)
     output_dir.mkdir(parents=True, exist_ok=True)
 

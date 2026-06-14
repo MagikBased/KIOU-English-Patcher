@@ -83,7 +83,7 @@ def patch_masterdata_payload(payload: bytes, translations: dict[str, str]) -> tu
 
 
 def patch_bundle(bundle_path: Path, output_path: Path, translations: dict[str, str]) -> dict[str, Any]:
-    env = UnityPy.load(str(bundle_path))
+    env = UnityPy.load(bundle_path.read_bytes())
     changed_objects: list[dict[str, Any]] = []
     found_masterdata = False
 
