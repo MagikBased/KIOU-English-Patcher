@@ -41,6 +41,7 @@ class PatcherGui(tk.Tk):
         self.device_text = tk.StringVar(value="Device: not checked")
         self.cache_text = tk.StringVar(value="Downloaded data: not checked")
         self.steam_status_text = tk.StringVar(value="Steam install: not checked")
+        self.patch_data_text = tk.StringVar(value=self.patch_data_status_label())
         self.log_queue: queue.Queue[tuple[str, Any]] = queue.Queue()
         self.worker: threading.Thread | None = None
         self.buttons: list[ttk.Button | tk.Button] = []
@@ -52,6 +53,12 @@ class PatcherGui(tk.Tk):
 
         self._build_mode_menu()
         self.after(100, self.drain_log_queue)
+
+    def patch_data_status_label(self) -> str:
+        status = patcher_core.patch_data_status()
+        source = str(status.get("source", "bundled"))
+        version = str(status.get("version", "unknown"))
+        return f"Patch data: {version} ({source})"
 
     def _clear_ui(self) -> None:
         for child in self.winfo_children():
@@ -99,7 +106,8 @@ class PatcherGui(tk.Tk):
             self._build_steam_ui,
         )
 
-        ttk.Label(self, textvariable=self.status_text).grid(row=3, column=0, sticky="ew", padx=18, pady=(0, 14))
+        self._build_patch_data_frame(row=3, padx=18)
+        ttk.Label(self, textvariable=self.status_text).grid(row=4, column=0, sticky="ew", padx=18, pady=(0, 14))
 
     def _platform_card(
         self,
@@ -147,13 +155,14 @@ class PatcherGui(tk.Tk):
         self._clear_ui()
         self.geometry("1040x780")
         self.minsize(860, 660)
-        self.rowconfigure(5, weight=1)
+        self.rowconfigure(6, weight=1)
         self._page_header("Kiou English Patcher - Android", self._build_mode_menu)
-        self._build_apk_frame(row=1)
-        self._build_android_workflow_frame(row=2)
-        self._build_tools_frame(row=3)
-        self._build_log_frame(row=5)
-        ttk.Label(self, textvariable=self.status_text).grid(row=6, column=0, sticky="ew", padx=12, pady=(0, 10))
+        self._build_patch_data_frame(row=1)
+        self._build_apk_frame(row=2)
+        self._build_android_workflow_frame(row=3)
+        self._build_tools_frame(row=4)
+        self._build_log_frame(row=6)
+        ttk.Label(self, textvariable=self.status_text).grid(row=7, column=0, sticky="ew", padx=12, pady=(0, 10))
         self.refresh_tools()
         self.refresh_devices()
 
@@ -161,12 +170,24 @@ class PatcherGui(tk.Tk):
         self._clear_ui()
         self.geometry("1040x780")
         self.minsize(860, 660)
-        self.rowconfigure(4, weight=1)
+        self.rowconfigure(5, weight=1)
         self._page_header("Kiou English Patcher - Steam", self._build_mode_menu)
-        self._build_steam_inputs_frame(row=1)
-        self._build_steam_workflow_frame(row=2)
-        self._build_log_frame(row=4)
-        self._build_steam_status_bar(row=5)
+        self._build_patch_data_frame(row=1)
+        self._build_steam_inputs_frame(row=2)
+        self._build_steam_workflow_frame(row=3)
+        self._build_log_frame(row=5)
+        self._build_steam_status_bar(row=6)
+
+    def _build_patch_data_frame(self, row: int, padx: int = 12) -> None:
+        frame = ttk.LabelFrame(self, text="Patch Data")
+        frame.grid(row=row, column=0, sticky="ew", padx=padx, pady=8)
+        frame.columnconfigure(0, weight=1)
+        ttk.Label(frame, textvariable=self.patch_data_text).grid(row=0, column=0, sticky="w", padx=10, pady=6)
+        update = ttk.Button(frame, text="Update Patch Data", command=self.update_patch_data)
+        update.grid(row=0, column=1, sticky="e", padx=6, pady=6)
+        import_zip = ttk.Button(frame, text="Import ZIP", command=self.import_patch_data)
+        import_zip.grid(row=0, column=2, sticky="e", padx=10, pady=6)
+        self.buttons.extend([update, import_zip])
 
     def _build_apk_frame(self, row: int) -> None:
         frame = ttk.LabelFrame(self, text="Inputs")
@@ -239,7 +260,9 @@ class PatcherGui(tk.Tk):
             self.tool_labels[name] = label
         refresh = ttk.Button(frame, text="Refresh Tools", command=self.refresh_tools)
         refresh.grid(row=0, column=2, sticky="ne", rowspan=2, padx=10, pady=3)
-        self.buttons.append(refresh)
+        install = ttk.Button(frame, text="Install / Repair Android Tools", command=self.install_android_tools)
+        install.grid(row=2, column=2, sticky="ne", rowspan=2, padx=10, pady=3)
+        self.buttons.extend([refresh, install])
 
     def _build_steam_inputs_frame(self, row: int) -> None:
         frame = ttk.LabelFrame(self, text="Steam Install")
@@ -358,6 +381,10 @@ class PatcherGui(tk.Tk):
                     self.cache_text.set(event[1])
                 elif kind == "steam_status":
                     self.steam_status_text.set(event[1])
+                elif kind == "patch_data":
+                    self.patch_data_text.set(event[1])
+                elif kind == "tools":
+                    self.update_tool_labels(event[1])
                 elif kind == "done":
                     self.status_text.set(event[1])
                     self.set_busy(False)
@@ -400,8 +427,58 @@ class PatcherGui(tk.Tk):
 
     def refresh_tools(self) -> None:
         tools = patcher_core.describe_tools()
+        self.update_tool_labels(tools)
+
+    def update_tool_labels(self, tools: dict[str, str | None]) -> None:
         for name, label in self.tool_labels.items():
             label.configure(text=tools.get(name) or "Not found")
+
+    def install_android_tools(self) -> None:
+        confirmed = messagebox.askyesno(
+            "Install Android Tools",
+            "Download Google's official Android SDK command-line tools and install adb, zipalign, and apksigner "
+            "into the patcher's private Android SDK folder?\n\n"
+            "Continue only if you accept the Android SDK License Agreement. Java or Android Studio must already "
+            "be installed for Google's sdkmanager to run.",
+        )
+        if not confirmed:
+            return
+
+        def task() -> None:
+            tools = patcher_core.install_android_tools(log=self.log)
+            self.log_queue.put(("tools", tools))
+
+        self.run_worker("Installing Android Tools", task)
+
+    def refresh_patch_data_status(self) -> None:
+        self.log_queue.put(("patch_data", self.patch_data_status_label()))
+
+    def update_patch_data(self) -> None:
+        def task() -> None:
+            status = patcher_core.update_patch_data(log=self.log)
+            version = str(status.get("version", "unknown"))
+            source = str(status.get("source", "installed"))
+            self.log_queue.put(("patch_data", f"Patch data: {version} ({source})"))
+            self.log(f"Patch data is ready: {version}")
+
+        self.run_worker("Updating Patch Data", task)
+
+    def import_patch_data(self) -> None:
+        path = filedialog.askopenfilename(
+            title="Import patch data ZIP",
+            filetypes=[("Patch data ZIP", "*.zip"), ("All files", "*.*")],
+        )
+        if not path:
+            return
+
+        def task() -> None:
+            status = patcher_core.install_patch_data_zip(Path(path), log=self.log)
+            version = str(status.get("version", "unknown"))
+            source = str(status.get("source", "installed"))
+            self.log_queue.put(("patch_data", f"Patch data: {version} ({source})"))
+            self.log(f"Patch data imported: {version}")
+
+        self.run_worker("Importing Patch Data", task)
 
     def selected_serial(self) -> str:
         return self.device_serial.get().strip()

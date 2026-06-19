@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import os
 import re
 import shutil
@@ -13,6 +14,8 @@ import sys
 import tempfile
 import time
 import uuid
+import urllib.error
+import urllib.request
 import webbrowser
 import zipfile
 from collections.abc import Callable
@@ -28,7 +31,7 @@ from apply_voice_catalog_translations import load_translations as load_voice_cat
 from apply_voice_catalog_translations import patch_bundle as patch_voice_catalog_bundle
 from patch_yooasset_remote_manifest import parse_manifest, serialize_manifest, yooasset_crc_hex
 from push_patched_remote_bundles import HASH_RE, app_cache_info_bytes
-from verify_apk import SUPPORTED_APK_SHA256, sha256_file
+from verify_apk import SUPPORTED_APK_SHA256, sha256_file as apk_sha256_file
 
 
 def resource_root() -> Path:
@@ -47,15 +50,21 @@ def state_root() -> Path:
 ROOT = resource_root()
 STATE_ROOT = state_root()
 DEFAULT_PACKAGE = "com.neconome.shogi"
-MASTERDATA_BUNDLE = (
-    "77466306cf3a4254b1dac34dde0a9942__"
-    "remote_assets__project_masterdata_runtimemasterdata.bundle"
-)
-VOICE_CATALOG_BUNDLE = (
-    "2f0426ad7cc63c421dbf20786c35cfa0__"
-    "remote_assets__project_sound_generated_voice_catalog_g.bundle"
-)
+MASTERDATA_BUNDLE_NAME = "remote_assets__project_masterdata_runtimemasterdata.bundle"
+VOICE_CATALOG_BUNDLE_NAME = "remote_assets__project_sound_generated_voice_catalog_g.bundle"
 STEAM_APP_ID = "4257900"
+PATCHER_VERSION = "0.1.9"
+PATCH_DATA_INDEX_URL = (
+    "https://github.com/MagikBased/KIOU-English-Patcher/"
+    "releases/latest/download/patch-data-index.json"
+)
+ANDROID_CMDLINE_TOOLS_REVISION = "14742923"
+ANDROID_BUILD_TOOLS_VERSION = "35.0.0"
+ANDROID_CMDLINE_TOOLS_URLS = {
+    "linux": f"https://dl.google.com/android/repository/commandlinetools-linux-{ANDROID_CMDLINE_TOOLS_REVISION}_latest.zip",
+    "darwin": f"https://dl.google.com/android/repository/commandlinetools-mac-{ANDROID_CMDLINE_TOOLS_REVISION}_latest.zip",
+    "win32": f"https://dl.google.com/android/repository/commandlinetools-win-{ANDROID_CMDLINE_TOOLS_REVISION}_latest.zip",
+}
 KEY_ALIAS = "kiou_patch"
 KEY_PASS = "kioupatch"
 LogFn = Callable[[str], None]
@@ -63,6 +72,247 @@ LogFn = Callable[[str], None]
 
 class PatcherError(RuntimeError):
     """Raised for user-actionable patcher failures."""
+
+
+def patch_data_root() -> Path:
+    return STATE_ROOT / "patch-data"
+
+
+def private_android_sdk_root() -> Path:
+    override = os.environ.get("KIOU_ANDROID_SDK_ROOT")
+    if override:
+        return Path(override).expanduser()
+    return Path.home() / ".kiou-english-patcher" / "android-sdk"
+
+
+def active_patch_data_dir() -> Path:
+    return patch_data_root() / "current"
+
+
+def bundled_patch_data_dir() -> Path:
+    return ROOT
+
+
+def patch_data_file(relative_path: str | Path) -> Path:
+    relative = Path(relative_path)
+    if relative.is_absolute() or ".." in relative.parts:
+        raise PatcherError(f"Invalid patch data path: {relative_path}")
+    installed = active_patch_data_dir() / relative
+    if installed.is_file():
+        return installed
+    return bundled_patch_data_dir() / relative
+
+
+def patch_data_metadata_path() -> Path:
+    return active_patch_data_dir() / "patch-pack.json"
+
+
+def bundled_patch_data_version() -> str:
+    metadata_path = ROOT / "patch-pack.json"
+    if not metadata_path.is_file():
+        return "bundled"
+    try:
+        metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return "bundled"
+    return str(metadata.get("pack_version") or metadata.get("version") or "bundled")
+
+
+def patch_data_status() -> dict[str, object]:
+    metadata_path = patch_data_metadata_path()
+    if not metadata_path.is_file():
+        return {
+            "source": "bundled",
+            "version": bundled_patch_data_version(),
+            "path": str(ROOT),
+            "update_url": patch_data_index_url(),
+        }
+    try:
+        metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {
+            "source": "installed",
+            "version": "unknown",
+            "path": str(active_patch_data_dir()),
+            "update_url": patch_data_index_url(),
+        }
+    return {
+        "source": "installed",
+        "version": str(metadata.get("pack_version") or metadata.get("version") or "unknown"),
+        "path": str(active_patch_data_dir()),
+        "update_url": patch_data_index_url(),
+        "metadata": metadata,
+    }
+
+
+def patch_data_index_url() -> str:
+    return os.environ.get("KIOU_PATCH_DATA_INDEX_URL", PATCH_DATA_INDEX_URL).strip()
+
+
+def parse_version(value: str) -> tuple[int, ...]:
+    parts = re.findall(r"\d+", value)
+    return tuple(int(part) for part in parts) if parts else (0,)
+
+
+def installed_patch_data_version() -> str:
+    status = patch_data_status()
+    if status.get("source") != "installed":
+        return "bundled"
+    return str(status.get("version") or "unknown")
+
+
+def sha256_file(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def download_file(url: str, dest: Path, log: LogFn | None = None) -> None:
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    log = log or default_log
+    log(f"Downloading {url}")
+    try:
+        with urllib.request.urlopen(url, timeout=120) as response, dest.open("wb") as handle:
+            for chunk in iter(lambda: response.read(1024 * 1024), b""):
+                handle.write(chunk)
+    except urllib.error.HTTPError as exc:
+        raise PatcherError(f"Download failed with HTTP {exc.code}: {url}") from exc
+    except urllib.error.URLError as exc:
+        raise PatcherError(f"Download failed: {exc.reason}") from exc
+
+
+def read_patch_data_index(url: str, log: LogFn | None = None) -> dict[str, object]:
+    temp = patch_data_root() / "downloads" / "patch-data-index.json"
+    try:
+        download_file(url, temp, log)
+    except PatcherError as exc:
+        if "HTTP 404" in str(exc):
+            raise PatcherError(
+                "No online patch data is published for the latest GitHub release yet. "
+                "The bundled patch data is still usable. To update without GitHub, use Import ZIP with a "
+                "KIOU-English-PatchData zip file. To enable this button for everyone, upload "
+                "patch-data-index.json and the patch-data ZIP to the latest GitHub release."
+            ) from exc
+        raise
+    try:
+        index = json.loads(temp.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        raise PatcherError(f"Patch data index is not valid JSON: {exc}") from exc
+    if not isinstance(index, dict):
+        raise PatcherError("Patch data index must be a JSON object.")
+    return index
+
+
+def safe_extract_patch_data_zip(zip_path: Path, dest: Path) -> None:
+    allowed_prefixes = {"translations", "reports", "assets", "patch-pack.json"}
+    allowed_suffixes = {
+        ".csv",
+        ".json",
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp",
+        ".txt",
+        ".md",
+    }
+    with zipfile.ZipFile(zip_path) as archive:
+        members = archive.infolist()
+        for member in members:
+            name = member.filename.replace("\\", "/")
+            path = Path(name)
+            if member.is_dir():
+                continue
+            mode = (member.external_attr >> 16) & 0o170000
+            if mode == 0o120000:
+                raise PatcherError(f"Patch data ZIP contains an unsupported symlink: {name}")
+            if path.is_absolute() or ".." in path.parts:
+                raise PatcherError(f"Patch data ZIP contains an unsafe path: {name}")
+            if path.parts[0] not in allowed_prefixes:
+                raise PatcherError(f"Patch data ZIP contains unsupported content: {name}")
+            if path.parts[0] == "patch-pack.json" and len(path.parts) != 1:
+                raise PatcherError(f"Patch data ZIP contains unsupported content: {name}")
+            if path.name != "patch-pack.json" and path.suffix.lower() not in allowed_suffixes:
+                raise PatcherError(f"Patch data ZIP contains unsupported file type: {name}")
+
+        shutil.rmtree(dest, ignore_errors=True)
+        dest.mkdir(parents=True, exist_ok=True)
+        archive.extractall(dest)
+
+
+def validate_patch_data_dir(path: Path) -> dict[str, object]:
+    metadata_path = path / "patch-pack.json"
+    if not metadata_path.is_file():
+        raise PatcherError("Patch data ZIP must contain patch-pack.json at the top level.")
+    try:
+        metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        raise PatcherError(f"patch-pack.json is not valid JSON: {exc}") from exc
+    if not isinstance(metadata, dict):
+        raise PatcherError("patch-pack.json must be a JSON object.")
+
+    required = [
+        path / "translations" / "local_ui.csv",
+        path / "translations" / "remote_ui.csv",
+        path / "translations" / "remote_masterdata.csv",
+        path / "translations" / "voice_catalog.csv",
+        path / "reports" / "remote_patch_report.json",
+    ]
+    missing = [str(item.relative_to(path)) for item in required if not item.is_file()]
+    if missing:
+        raise PatcherError("Patch data ZIP is missing required files: " + ", ".join(missing))
+    return metadata
+
+
+def install_patch_data_zip(zip_path: Path, log: LogFn | None = None) -> dict[str, object]:
+    log = log or default_log
+    zip_path = zip_path.expanduser().resolve()
+    if not zip_path.is_file():
+        raise PatcherError(f"Patch data ZIP not found: {zip_path}")
+    staging = patch_data_root() / "staging"
+    safe_extract_patch_data_zip(zip_path, staging)
+    metadata = validate_patch_data_dir(staging)
+    current = active_patch_data_dir()
+    backup = patch_data_root() / "previous"
+    shutil.rmtree(backup, ignore_errors=True)
+    if current.exists():
+        current.replace(backup)
+    staging.replace(current)
+    version = str(metadata.get("pack_version") or metadata.get("version") or "unknown")
+    log(f"Installed patch data pack {version}")
+    return patch_data_status()
+
+
+def update_patch_data(log: LogFn | None = None, index_url: str | None = None, force: bool = False) -> dict[str, object]:
+    log = log or default_log
+    index = read_patch_data_index(index_url or patch_data_index_url(), log)
+    latest = str(index.get("latest") or index.get("version") or "")
+    url = str(index.get("url") or "")
+    expected_sha = str(index.get("sha256") or "").lower()
+    min_patcher = str(index.get("min_patcher_version") or "")
+    if not latest or not url:
+        raise PatcherError("Patch data index must include latest/version and url fields.")
+    if min_patcher and parse_version(PATCHER_VERSION) < parse_version(min_patcher):
+        raise PatcherError(
+            f"Patch data {latest} requires patcher {min_patcher} or newer. "
+            "Download a newer GUI patcher release."
+        )
+    current = installed_patch_data_version()
+    if not force and current != "bundled" and parse_version(current) >= parse_version(latest):
+        log(f"Patch data is already current: {current}")
+        return patch_data_status()
+
+    downloads = patch_data_root() / "downloads"
+    zip_path = downloads / f"patch-data-{latest}.zip"
+    download_file(url, zip_path, log)
+    if expected_sha:
+        actual_sha = sha256_file(zip_path)
+        if actual_sha.lower() != expected_sha:
+            raise PatcherError(
+                f"Patch data SHA256 mismatch. Expected {expected_sha}, got {actual_sha}."
+            )
+    return install_patch_data_zip(zip_path, log)
 
 
 def adb_tool() -> str:
@@ -80,8 +330,73 @@ def exe_names(name: str) -> list[str]:
     return [name + suffix if not name.lower().endswith(suffix) else name for suffix in suffixes]
 
 
+def android_cmdline_tools_url() -> str:
+    override = os.environ.get("KIOU_ANDROID_CMDLINE_TOOLS_URL")
+    if override:
+        return override.strip()
+    key = "win32" if os.name == "nt" else sys.platform
+    try:
+        return ANDROID_CMDLINE_TOOLS_URLS[key]
+    except KeyError as exc:
+        raise PatcherError(f"Unsupported OS for automatic Android tools install: {sys.platform}") from exc
+
+
+def java_roots() -> list[str | None]:
+    roots: list[str | None] = [
+        os.environ.get("JAVA_HOME"),
+        str(STATE_ROOT / "android-studio" / "jbr"),
+        str(ROOT / "android-studio" / "jbr"),
+    ]
+    if os.name == "nt":
+        roots += [
+            r"C:\Program Files\Android\Android Studio\jbr",
+            r"C:\Program Files\Android\Android Studio\jre",
+        ]
+        for env_name in ["ProgramFiles", "ProgramFiles(x86)"]:
+            base_text = os.environ.get(env_name)
+            if not base_text:
+                continue
+            for subdir in ["Java", "Eclipse Adoptium", "Microsoft"]:
+                base = Path(base_text) / subdir
+                if base.is_dir():
+                    roots += [str(path) for path in sorted(base.iterdir(), reverse=True) if path.is_dir()]
+    elif sys.platform == "darwin":
+        roots += [
+            "/Applications/Android Studio.app/Contents/jbr/Contents/Home",
+            "/Applications/Android Studio.app/Contents/jre/Contents/Home",
+            "/Library/Java/JavaVirtualMachines",
+        ]
+        java_vms = Path("/Library/Java/JavaVirtualMachines")
+        if java_vms.is_dir():
+            roots += [str(path / "Contents" / "Home") for path in sorted(java_vms.iterdir(), reverse=True)]
+    else:
+        roots += [
+            "/opt/android-studio/jbr",
+            "/usr/local/android-studio/jbr",
+            str(Path.home() / "android-studio" / "jbr"),
+        ]
+        jvm_root = Path("/usr/lib/jvm")
+        if jvm_root.is_dir():
+            roots += [str(path) for path in sorted(jvm_root.iterdir(), reverse=True) if path.is_dir()]
+    return roots
+
+
+def search_java_tool(name: str) -> Path | None:
+    for root_text in java_roots():
+        if not root_text:
+            continue
+        root = Path(root_text)
+        bin_dir = root / "bin"
+        for candidate in exe_names(name):
+            path = bin_dir / candidate
+            if path.is_file():
+                return path
+    return None
+
+
 def search_android_sdk_tool(name: str) -> Path | None:
     roots = [
+        str(private_android_sdk_root()),
         os.environ.get("ANDROID_HOME"),
         os.environ.get("ANDROID_SDK_ROOT"),
         str(Path.home() / "AppData" / "Local" / "Android" / "Sdk") if os.name == "nt" else None,
@@ -119,35 +434,10 @@ def find_tool(name: str) -> str | None:
     if sdk_tool:
         return str(sdk_tool)
 
-    if name == "keytool":
-        roots = [
-            os.environ.get("JAVA_HOME"),
-            str(STATE_ROOT / "android-studio" / "jbr"),
-            str(ROOT / "android-studio" / "jbr"),
-        ]
-        if os.name == "nt":
-            roots += [
-                r"C:\Program Files\Android\Android Studio\jbr",
-                r"C:\Program Files\Android\Android Studio\jre",
-            ]
-        elif sys.platform == "darwin":
-            roots += [
-                "/Applications/Android Studio.app/Contents/jbr/Contents/Home",
-                "/Applications/Android Studio.app/Contents/jre/Contents/Home",
-            ]
-        else:
-            roots += [
-                "/opt/android-studio/jbr",
-                "/usr/local/android-studio/jbr",
-                str(Path.home() / "android-studio" / "jbr"),
-            ]
-        for root_text in roots:
-            if not root_text:
-                continue
-            for candidate in exe_names("keytool"):
-                path = Path(root_text) / "bin" / candidate
-                if path.is_file():
-                    return str(path)
+    if name in {"java", "keytool"}:
+        java_tool = search_java_tool(name)
+        if java_tool:
+            return str(java_tool)
     return None
 
 
@@ -169,19 +459,129 @@ def describe_tools() -> dict[str, str | None]:
     return {name: find_tool(name) for name in ["adb", "zipalign", "apksigner", "keytool"]}
 
 
+def sdkmanager_path(sdk_root: Path) -> Path:
+    script = "sdkmanager.bat" if os.name == "nt" else "sdkmanager"
+    return sdk_root / "cmdline-tools" / "latest" / "bin" / script
+
+
+def safe_extract_zip(zip_path: Path, dest: Path) -> None:
+    with zipfile.ZipFile(zip_path) as archive:
+        for member in archive.infolist():
+            name = member.filename.replace("\\", "/")
+            path = Path(name)
+            if path.is_absolute() or ".." in path.parts:
+                raise PatcherError(f"ZIP contains an unsafe path: {name}")
+        shutil.rmtree(dest, ignore_errors=True)
+        dest.mkdir(parents=True, exist_ok=True)
+        archive.extractall(dest)
+
+
+def ensure_android_cmdline_tools(sdk_root: Path, log: LogFn = default_log) -> Path:
+    manager = sdkmanager_path(sdk_root)
+    if manager.is_file():
+        log(f"Android SDK command-line tools found: {manager}")
+        return manager
+
+    url = android_cmdline_tools_url()
+    zip_name = url.rsplit("/", 1)[-1] or "commandlinetools.zip"
+    zip_path = STATE_ROOT / "downloads" / zip_name
+    extract_dir = STATE_ROOT / "work" / "android_cmdline_tools"
+    latest_dir = sdk_root / "cmdline-tools" / "latest"
+
+    log(f"Installing Android SDK command-line tools into {sdk_root}")
+    download_file(url, zip_path, log)
+    safe_extract_zip(zip_path, extract_dir)
+
+    source_dir = extract_dir / "cmdline-tools"
+    if not source_dir.is_dir():
+        raise PatcherError("Android command-line tools ZIP did not contain cmdline-tools.")
+    latest_dir.parent.mkdir(parents=True, exist_ok=True)
+    shutil.rmtree(latest_dir, ignore_errors=True)
+    shutil.copytree(source_dir, latest_dir)
+    if os.name != "nt":
+        bin_dir = latest_dir / "bin"
+        if bin_dir.is_dir():
+            for path in bin_dir.iterdir():
+                if path.is_file():
+                    path.chmod(path.stat().st_mode | stat.S_IXUSR | stat.S_IXGRP | stat.S_IXOTH)
+    shutil.rmtree(extract_dir, ignore_errors=True)
+
+    manager = sdkmanager_path(sdk_root)
+    if not manager.is_file():
+        raise PatcherError(f"sdkmanager was not installed at expected path: {manager}")
+    return manager
+
+
+def sdkmanager_env(sdk_root: Path) -> dict[str, str]:
+    env = os.environ.copy()
+    env["ANDROID_HOME"] = str(sdk_root)
+    env["ANDROID_SDK_ROOT"] = str(sdk_root)
+    java_path = find_tool("java")
+    if java_path:
+        java_bin = Path(java_path).resolve().parent
+        env["PATH"] = str(java_bin) + os.pathsep + env.get("PATH", "")
+        if java_bin.name == "bin":
+            env.setdefault("JAVA_HOME", str(java_bin.parent))
+    return env
+
+
+def install_android_tools(log: LogFn = default_log) -> dict[str, str | None]:
+    java = find_tool("java")
+    keytool = find_tool("keytool")
+    if not java or not keytool:
+        raise PatcherError(
+            "Java JDK tools are required before Android tools can be installed. "
+            "Install Android Studio or a JDK, then click Install / Repair Android Tools again."
+        )
+
+    sdk_root = private_android_sdk_root()
+    sdk_root.mkdir(parents=True, exist_ok=True)
+    log(f"Java: {java}")
+    log(f"keytool: {keytool}")
+    manager = ensure_android_cmdline_tools(sdk_root, log)
+    env = sdkmanager_env(sdk_root)
+    build_tools = os.environ.get("KIOU_ANDROID_BUILD_TOOLS_VERSION", ANDROID_BUILD_TOOLS_VERSION)
+
+    run([str(manager), "--sdk_root", str(sdk_root), "--version"], log=log, env=env)
+    run(
+        [str(manager), "--sdk_root", str(sdk_root), "--licenses"],
+        log=log,
+        check=False,
+        env=env,
+        input_text="y\n" * 100,
+    )
+    run(
+        [str(manager), "--sdk_root", str(sdk_root), "platform-tools", f"build-tools;{build_tools}"],
+        log=log,
+        env=env,
+        input_text="y\n" * 100,
+    )
+
+    tools = describe_tools()
+    missing = [name for name, path in tools.items() if not path]
+    if missing:
+        raise PatcherError("Android tools install finished, but these tools are still missing: " + ", ".join(missing))
+    log("Android tools are ready.")
+    return tools
+
+
 def run(
     command: list[str],
     log: LogFn = default_log,
     check: bool = True,
     cwd: Path = STATE_ROOT,
+    env: dict[str, str] | None = None,
+    input_text: str | None = None,
 ) -> subprocess.CompletedProcess[str]:
     log("$ " + " ".join(str(part) for part in command))
     process = subprocess.run(
         command,
         cwd=str(cwd),
         text=True,
+        input=input_text,
         stdout=subprocess.PIPE,
         stderr=subprocess.STDOUT,
+        env=env,
     )
     output = process.stdout.strip()
     if output:
@@ -296,7 +696,10 @@ def launch_app(package: str = DEFAULT_PACKAGE, log: LogFn = default_log, serial:
 def remote_cache_status(package: str = DEFAULT_PACKAGE, serial: str | None = None) -> dict[str, object]:
     package = package.strip() or DEFAULT_PACKAGE
     require_ready_device(serial)
-    rows = remote_bundle_rows()
+    try:
+        rows = current_remote_bundle_rows(package, serial, STATE_ROOT / "work" / "gui_remote_cache_status")
+    except PatcherError:
+        rows = remote_bundle_rows()
     found = 0
     missing: list[str] = []
     for hash_value in sorted(rows):
@@ -324,7 +727,7 @@ def guided_status(package: str = DEFAULT_PACKAGE, serial: str | None = None) -> 
         status.update(
             {
                 "installed": False,
-                "cache_required": len(remote_bundle_rows()),
+                "cache_required": len(remote_bundle_names()),
                 "cache_found": 0,
                 "cache_ready": False,
             }
@@ -335,7 +738,7 @@ def guided_status(package: str = DEFAULT_PACKAGE, serial: str | None = None) -> 
     cache = (
         remote_cache_status(package, serial)
         if installed
-        else {"required": len(remote_bundle_rows()), "found": 0, "ready": False}
+        else {"required": len(remote_bundle_names()), "found": 0, "ready": False}
     )
     status.update(
         {
@@ -468,7 +871,7 @@ def patch_apk(
 
     tools = required_tools(["zipalign", "apksigner", "keytool"])
 
-    digest = sha256_file(input_apk)
+    digest = apk_sha256_file(input_apk)
     log(f"APK SHA256: {digest}")
     if digest in SUPPORTED_APK_SHA256:
         log(f"Supported build: {SUPPORTED_APK_SHA256[digest]}")
@@ -496,7 +899,7 @@ def patch_apk(
     remove_apk_signatures(extracted_dir)
 
     log("Applying local English translations...")
-    translations = load_local_translations(ROOT / "translations" / "local_ui.csv")
+    translations = load_local_translations(patch_data_file("translations/local_ui.csv"))
     if not translations:
         raise PatcherError("No local translations loaded.")
     shutil.rmtree(patched_dir, ignore_errors=True)
@@ -552,15 +955,85 @@ def patch_apk(
     return output_apk
 
 
+def remote_bundle_names() -> set[str]:
+    report_path = patch_data_file("reports/remote_patch_report.json")
+    rows = json.loads(report_path.read_text(encoding="utf-8"))
+    selected: set[str] = {MASTERDATA_BUNDLE_NAME, VOICE_CATALOG_BUNDLE_NAME}
+    for row in rows:
+        bundle_file = row["bundle_file"]
+        if "__" in bundle_file:
+            selected.add(bundle_file.split("__", 1)[1])
+    return selected
+
+
 def remote_bundle_rows() -> dict[str, str]:
-    report_path = ROOT / "reports" / "remote_patch_report.json"
+    report_path = patch_data_file("reports/remote_patch_report.json")
     rows = json.loads(report_path.read_text(encoding="utf-8"))
     selected: dict[str, str] = {}
     for row in rows:
-        name = row["bundle_file"]
-        hash_value = name.split("__", 1)[0]
-        selected[hash_value] = name
+        bundle_file = row["bundle_file"]
+        hash_value = bundle_file.split("__", 1)[0]
+        selected[hash_value] = bundle_file
     return selected
+
+
+def latest_android_remote_manifest(
+    package: str,
+    serial: str | None,
+    dest_dir: Path,
+    log: LogFn | None = None,
+) -> Path:
+    manifest_root = f"/sdcard/Android/data/{package}/files/Bundles/Remote/ManifestFiles"
+    result = run_quiet(
+        adb_base_command(serial)
+        + [
+            "shell",
+            "find",
+            manifest_root,
+            "-maxdepth",
+            "1",
+            "-name",
+            "Remote_asset-*.bytes",
+            "-type",
+            "f",
+        ]
+    )
+    manifest_paths = sorted(line.strip() for line in result.stdout.splitlines() if line.strip())
+    remote_path = manifest_paths[-1] if result.returncode == 0 and manifest_paths else ""
+    if not remote_path:
+        raise PatcherError("Downloaded data manifest was not found. Launch the game and finish the update download.")
+
+    dest_dir.mkdir(parents=True, exist_ok=True)
+    local_path = (dest_dir / Path(remote_path).name).resolve()
+    command = adb_base_command(serial) + ["pull", remote_path, str(local_path)]
+    if log:
+        run(command, log=log)
+    else:
+        result = run_quiet(command)
+        if result.returncode != 0:
+            raise PatcherError(result.stdout.strip() or "Unable to pull downloaded data manifest.")
+    return local_path
+
+
+def current_remote_bundle_rows(
+    package: str,
+    serial: str | None,
+    work_dir: Path,
+    log: LogFn | None = None,
+) -> dict[str, str]:
+    manifest_path = latest_android_remote_manifest(package, serial, work_dir / "manifest", log)
+    manifest = parse_manifest(manifest_path.read_bytes())
+    wanted = remote_bundle_names()
+    by_name = {bundle.bundle_name: bundle for bundle in manifest.bundles}
+    missing_names = sorted(name for name in wanted if name not in by_name)
+    if missing_names:
+        raise PatcherError(
+            "Downloaded data manifest is missing required bundles: " + ", ".join(missing_names[:5])
+        )
+    return {
+        by_name[name].file_hash: f"{by_name[name].file_hash}__{name}"
+        for name in sorted(wanted)
+    }
 
 
 def push_patched_remote_files(adb_command: list[str], patched_dir: Path, report: Path, package: str, log: LogFn) -> None:
@@ -616,9 +1089,10 @@ def patch_remote_cache(package: str = DEFAULT_PACKAGE, log: LogFn = default_log,
     log("Stopping app before cache patch...")
     run(adb_base_command(serial) + ["shell", "am", "force-stop", package], log=log, check=False)
 
+    rows = current_remote_bundle_rows(package, serial, work_dir, log)
     missing: list[str] = []
     log("Pulling downloaded remote bundles...")
-    for hash_value, name in sorted(remote_bundle_rows().items()):
+    for hash_value, name in sorted(rows.items()):
         remote = (
             f"/sdcard/Android/data/{package}/files/Bundles/Remote/"
             f"BundleFiles/{hash_value[:2]}/{hash_value}/__data"
@@ -636,7 +1110,7 @@ def patch_remote_cache(package: str = DEFAULT_PACKAGE, log: LogFn = default_log,
         )
 
     log("Applying remote English translations...")
-    translations = load_bundle_translations(ROOT / "translations" / "remote_ui.csv")
+    translations = load_bundle_translations(patch_data_file("translations/remote_ui.csv"))
     if not translations:
         raise PatcherError("No remote translations loaded.")
     shutil.copytree(source_dir, patched_dir)
@@ -652,8 +1126,8 @@ def patch_remote_cache(package: str = DEFAULT_PACKAGE, log: LogFn = default_log,
                 f"{len(bundle_report['changed_objects'])} objects"
             )
 
-    masterdata_translations_path = ROOT / "translations" / "remote_masterdata.csv"
-    masterdata_bundle = patched_dir / MASTERDATA_BUNDLE
+    masterdata_translations_path = patch_data_file("translations/remote_masterdata.csv")
+    masterdata_bundle = next(patched_dir.glob(f"*__{MASTERDATA_BUNDLE_NAME}"), None)
     if masterdata_translations_path.exists() and masterdata_bundle.exists():
         log("Applying master-data English translations...")
         masterdata_translations = load_masterdata_translations(masterdata_translations_path)
@@ -668,8 +1142,8 @@ def patch_remote_cache(package: str = DEFAULT_PACKAGE, log: LogFn = default_log,
             f"{masterdata_report['replacements']} master-data replacements"
         )
 
-    voice_catalog_translations_path = ROOT / "translations" / "voice_catalog.csv"
-    voice_catalog_bundle = patched_dir / VOICE_CATALOG_BUNDLE
+    voice_catalog_translations_path = patch_data_file("translations/voice_catalog.csv")
+    voice_catalog_bundle = next(patched_dir.glob(f"*__{VOICE_CATALOG_BUNDLE_NAME}"), None)
     if voice_catalog_translations_path.exists() and voice_catalog_bundle.exists():
         log("Applying voice-dialogue English translations...")
         voice_catalog_translations = load_voice_catalog_translations(voice_catalog_translations_path)
@@ -809,6 +1283,14 @@ def steam_remote_dir(install_dir: Path) -> Path:
     return steam_data_dir(install_dir) / "Bundles" / "Remote"
 
 
+def steam_latest_remote_manifest_path(install_dir: Path) -> Path:
+    manifest_dir = steam_remote_dir(install_dir) / "ManifestFiles"
+    manifests = sorted(manifest_dir.glob("Remote_asset-*.bytes"))
+    if not manifests:
+        return manifest_dir / "Remote_asset-1.0.bytes"
+    return manifests[-1]
+
+
 def validate_steam_install(install_dir: Path) -> Path:
     install_dir = install_dir.expanduser().resolve()
     if not install_dir.is_dir():
@@ -827,7 +1309,7 @@ def validate_steam_install(install_dir: Path) -> Path:
 def steam_manifest_status(install_dir: Path) -> dict[str, object]:
     install_dir = validate_steam_install(install_dir)
     local_manifest_path = steam_local_dir(install_dir) / "Local_1.0.1.bytes"
-    remote_manifest_path = steam_remote_dir(install_dir) / "ManifestFiles" / "Remote_asset-1.0.bytes"
+    remote_manifest_path = steam_latest_remote_manifest_path(install_dir)
     local_manifest = parse_manifest(local_manifest_path.read_bytes())
 
     if not remote_manifest_path.is_file():
@@ -936,6 +1418,14 @@ def write_installed_file(source: Path, target: Path, install_dir: Path, backup_r
         record_created_file(target, install_dir, backup_root)
 
 
+def temp_bundle_name(hash_value: str) -> str:
+    return f"{hash_value}.bundle"
+
+
+def report_bundle_name(hash_value: str, bundle_name: str) -> str:
+    return f"{hash_value}__{bundle_name}"
+
+
 def patch_steam_local_files(install_dir: Path, work_dir: Path, backup_root: Path, log: LogFn) -> list[dict[str, object]]:
     local_dir = steam_local_dir(install_dir)
     manifest_path = local_dir / "Local_1.0.1.bytes"
@@ -944,7 +1434,7 @@ def patch_steam_local_files(install_dir: Path, work_dir: Path, backup_root: Path
     if roundtrip != manifest_path.read_bytes():
         raise PatcherError("Steam local manifest parser failed round-trip validation.")
 
-    translations = load_local_translations(ROOT / "translations" / "local_ui.csv")
+    translations = load_local_translations(patch_data_file("translations/local_ui.csv"))
     if not translations:
         raise PatcherError("No local translations loaded.")
 
@@ -956,13 +1446,13 @@ def patch_steam_local_files(install_dir: Path, work_dir: Path, backup_root: Path
         source = local_dir / f"{bundle.file_hash}.bundle"
         if not source.is_file():
             continue
-        patched = patched_dir / f"{bundle.file_hash}__{bundle.bundle_name}"
+        patched = patched_dir / temp_bundle_name(bundle.file_hash)
         shutil.copy2(source, patched)
         report = patch_local_bundle(patched, translations)
         if not report:
             patched.unlink(missing_ok=True)
             continue
-        report["bundle_file"] = patched.name
+        report["bundle_file"] = report_bundle_name(bundle.file_hash, bundle.bundle_name)
         reports.append(report)
 
         target = local_dir / f"{bundle.file_hash}.bundle"
@@ -1009,9 +1499,9 @@ def write_steam_remote_cache(
 
 
 def patch_steam_remote_cache(install_dir: Path, work_dir: Path, backup_root: Path, log: LogFn) -> list[dict[str, object]]:
-    manifest_path = steam_remote_dir(install_dir) / "ManifestFiles" / "Remote_asset-1.0.bytes"
+    manifest_path = steam_latest_remote_manifest_path(install_dir)
     manifest = parse_manifest(manifest_path.read_bytes())
-    translations = load_bundle_translations(ROOT / "translations" / "remote_ui.csv")
+    translations = load_bundle_translations(patch_data_file("translations/remote_ui.csv"))
     if not translations:
         raise PatcherError("No remote translations loaded.")
 
@@ -1025,13 +1515,13 @@ def patch_steam_remote_cache(install_dir: Path, work_dir: Path, backup_root: Pat
         if not source.is_file():
             missing += 1
             continue
-        patched = patched_dir / f"{bundle.file_hash}__{bundle.bundle_name}"
+        patched = patched_dir / temp_bundle_name(bundle.file_hash)
         shutil.copy2(source, patched)
         report = patch_remote_bundle(patched, translations)
         if not report:
             patched.unlink(missing_ok=True)
             continue
-        report["bundle_file"] = patched.name
+        report["bundle_file"] = report_bundle_name(bundle.file_hash, bundle.bundle_name)
         reports.append(report)
         write_steam_remote_cache(install_dir, backup_root, bundle.file_hash, patched)
         log(
@@ -1046,14 +1536,14 @@ def patch_steam_remote_cache(install_dir: Path, work_dir: Path, backup_root: Pat
     special_specs = [
         (
             "RuntimeMasterData.bytes",
-            ROOT / "translations" / "remote_masterdata.csv",
+            patch_data_file("translations/remote_masterdata.csv"),
             load_masterdata_translations,
             patch_masterdata_bundle,
             "master-data",
         ),
         (
             "voice_catalog.g.json",
-            ROOT / "translations" / "voice_catalog.csv",
+            patch_data_file("translations/voice_catalog.csv"),
             load_voice_catalog_translations,
             patch_voice_catalog_bundle,
             "voice-dialogue",
@@ -1068,11 +1558,11 @@ def patch_steam_remote_cache(install_dir: Path, work_dir: Path, backup_root: Pat
         if not source.is_file():
             log(f"Skipped {label}: required bundle is not downloaded yet.")
             continue
-        patched = patched_dir / bundle_name
+        patched = patched_dir / temp_bundle_name(hash_value)
         if not patched.exists():
             shutil.copy2(source, patched)
         report = patcher(patched, patched, loader(translations_path))
-        report["bundle_file"] = patched.name
+        report["bundle_file"] = bundle_name
         if int(report.get("replacements", 0)) > 0:
             write_steam_remote_cache(install_dir, backup_root, hash_value, patched)
         special_reports.append(report)

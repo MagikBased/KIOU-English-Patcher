@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "pack_version": "0.1.9",
+  "min_patcher_version": "0.1.9",
+  "game": "KIOU",
+  "targets": {
+    "android_package": "com.neconome.shogi",
+    "steam_app_id": "4257900"
+  },
+  "notes": "Bundled patch data. The GUI can install newer data packs without replacing the app."
+}

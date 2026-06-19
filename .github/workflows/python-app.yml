@@ -1,0 +1,46 @@
+name: Python App
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Python sanity checks
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Compile Python scripts
+        run: python -m compileall -q scripts
+
+      - name: Validate shell scripts
+        shell: bash
+        run: |
+          bash -n scripts/patch_apk.sh
+          bash -n scripts/patch_remote_cache.sh
+          bash -n scripts/apply_remote_session_patch.sh
+          bash -n scripts/apply_remote_persistent_cache_patch.sh
+
+      - name: Build patch data pack
+        run: python scripts/build_patch_data_pack.py --version ci

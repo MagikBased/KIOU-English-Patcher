@@ -83,6 +83,8 @@ def main() -> int:
         "--add-data",
         data_arg(str(ROOT / "reports" / "remote_patch_report.json"), "reports"),
         "--add-data",
+        data_arg(str(ROOT / "patch-pack.json"), "."),
+        "--add-data",
         data_arg(str(ROOT / "assets" / "brand"), "assets/brand"),
     ]
     if onefile:
