@@ -40,6 +40,7 @@ echo "Pulling remote bundles selected from current downloaded manifest..."
 from __future__ import annotations
 
 import json
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -68,8 +69,13 @@ manifest_result = subprocess.run(
     stderr=subprocess.STDOUT,
     check=False,
 )
-manifest_paths = sorted(line.strip() for line in manifest_result.stdout.splitlines() if line.strip())
-remote_manifest = manifest_paths[-1] if manifest_result.returncode == 0 and manifest_paths else ""
+def version_key(value: str) -> tuple[tuple[int, ...], str]:
+    name = Path(value).name
+    parts = re.findall(r"\d+", name)
+    return tuple(int(part) for part in parts) if parts else (0,), name
+
+manifest_paths = [line.strip() for line in manifest_result.stdout.splitlines() if line.strip()]
+remote_manifest = max(manifest_paths, key=version_key) if manifest_result.returncode == 0 and manifest_paths else ""
 if not remote_manifest:
     print("Downloaded data manifest was not found. Launch the game and finish the update download.", file=sys.stderr)
     sys.exit(1)

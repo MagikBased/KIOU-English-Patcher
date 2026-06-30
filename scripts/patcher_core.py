@@ -154,6 +154,11 @@ def parse_version(value: str) -> tuple[int, ...]:
     return tuple(int(part) for part in parts) if parts else (0,)
 
 
+def versioned_path_key(path: str | Path) -> tuple[tuple[int, ...], str]:
+    name = Path(str(path)).name
+    return parse_version(name), name
+
+
 def installed_patch_data_version() -> str:
     status = patch_data_status()
     if status.get("source") != "installed":
@@ -415,7 +420,7 @@ def search_android_sdk_tool(name: str) -> Path | None:
         elif name in {"zipalign", "apksigner"}:
             build_tools = sdk_root / "build-tools"
             if build_tools.exists():
-                for version_dir in sorted(build_tools.iterdir(), reverse=True):
+                for version_dir in sorted(build_tools.iterdir(), key=versioned_path_key, reverse=True):
                     if version_dir.is_dir():
                         candidates += [version_dir / candidate for candidate in exe_names(name)]
         for path in candidates:
@@ -998,8 +1003,8 @@ def latest_android_remote_manifest(
             "f",
         ]
     )
-    manifest_paths = sorted(line.strip() for line in result.stdout.splitlines() if line.strip())
-    remote_path = manifest_paths[-1] if result.returncode == 0 and manifest_paths else ""
+    manifest_paths = [line.strip() for line in result.stdout.splitlines() if line.strip()]
+    remote_path = max(manifest_paths, key=versioned_path_key) if result.returncode == 0 and manifest_paths else ""
     if not remote_path:
         raise PatcherError("Downloaded data manifest was not found. Launch the game and finish the update download.")
 
@@ -1285,18 +1290,18 @@ def steam_remote_dir(install_dir: Path) -> Path:
 
 def steam_latest_local_manifest_path(install_dir: Path) -> Path:
     local_dir = steam_local_dir(install_dir)
-    manifests = sorted(local_dir.glob("Local_*.bytes"))
+    manifests = list(local_dir.glob("Local_*.bytes"))
     if not manifests:
         return local_dir / "Local_1.0.1.bytes"
-    return manifests[-1]
+    return max(manifests, key=versioned_path_key)
 
 
 def steam_latest_remote_manifest_path(install_dir: Path) -> Path:
     manifest_dir = steam_remote_dir(install_dir) / "ManifestFiles"
-    manifests = sorted(manifest_dir.glob("Remote_asset-*.bytes"))
+    manifests = list(manifest_dir.glob("Remote_asset-*.bytes"))
     if not manifests:
         return manifest_dir / "Remote_asset-1.0.bytes"
-    return manifests[-1]
+    return max(manifests, key=versioned_path_key)
 
 
 def validate_steam_install(install_dir: Path) -> Path:
