@@ -53,7 +53,7 @@ DEFAULT_PACKAGE = "com.neconome.shogi"
 MASTERDATA_BUNDLE_NAME = "remote_assets__project_masterdata_runtimemasterdata.bundle"
 VOICE_CATALOG_BUNDLE_NAME = "remote_assets__project_sound_generated_voice_catalog_g.bundle"
 STEAM_APP_ID = "4257900"
-PATCHER_VERSION = "0.1.9"
+PATCHER_VERSION = "0.1.10"
 PATCH_DATA_INDEX_URL = (
     "https://github.com/MagikBased/KIOU-English-Patcher/"
     "releases/latest/download/patch-data-index.json"

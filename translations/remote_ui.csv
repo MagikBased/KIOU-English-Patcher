@@ -656,3 +656,40 @@ It is the weakest piece, but it plays many roles: building formations, starting 
 商店へ,To Shop
 名前変更券を使用します。,Use a Name Change Ticket.
 一覧,List
+"説明（詰将棋）",Explanation (Tsume Shogi)
+"説明（詰道場）",Explanation (Tsume Dojo)
+"■ルール
+・ずっと王手：攻め方は、必ず毎手「王手」をかけ続けなければなりません。
+・全力で逃げる：守り側（玉）は、一番長生きできる最善の方法で逃げます。
+
+■注意点
+・打ち歩詰めの禁止：持ち駒の「歩」を打って“詰み”にしてはいけません（盤上の歩を動かして詰ますのはOK）。","■ Rules
+- Continuous check: The attacker must give check on every move.
+- Best defense: The defending side (king) chooses the best line to survive as long as possible.
+
+■ Notes
+- No pawn-drop mate: You may not drop a pawn from hand to give checkmate. Mating by moving a pawn already on the board is allowed."
+"■ルール
+・ずっと王手：攻め方は、必ず毎手「王手」をかけ続けなければなりません。
+・最短で詰ます：攻め方は、一番少ない手数で玉を捕まえるのが正解です。
+・全力で逃げる：守り側（玉）は、一番長生きできる最善の方法で逃げます。
+
+■注意点
+・打ち歩詰めの禁止：持ち駒の「歩」を打って“詰み”にしてはいけません（盤上の歩を動かして詰ますのはOK）。
+・持ち駒は残さない：玉を詰ませたとき、自分の「持ち駒」が余ってはいけません（綺麗に使い切る）。
+・無駄な合駒はなし：守り側（玉）は、取られるだけで意味のない合駒はしません。","■ Rules
+- Continuous check: The attacker must give check on every move.
+- Shortest mate: The correct solution catches the king in the fewest moves.
+- Best defense: The defending side (king) chooses the best line to survive as long as possible.
+
+■ Notes
+- No pawn-drop mate: You may not drop a pawn from hand to give checkmate. Mating by moving a pawn already on the board is allowed.
+- Use every piece in hand: When you checkmate the king, you must have no pieces left in hand.
+- No pointless interpositions: The defending side will not play interpositions that only get captured and have no effect."
+"・縁結び1回につき御守を1つ獲得することができます。獲得した御守は棋士や装飾品などと交換することができます。
+・『通常縁結び』では【紅の御守】を獲得することができます。
+・『イベント縁結び』では【金の御守】を獲得することができます。
+・【金の御守】は、獲得した『イベント縁結び』に限らず、他の『イベント縁結び』でも使用できます。","- You earn 1 Amulet for each Bond Draw. Amulets can be exchanged for players, decor, and other items.
+- Normal Bond Draws give Red Amulets.
+- Event Bond Draws give Gold Amulets.
+- Gold Amulets can be used in other Event Bond Draws, not only the event where you earned them."
