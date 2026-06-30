@@ -1283,6 +1283,14 @@ def steam_remote_dir(install_dir: Path) -> Path:
     return steam_data_dir(install_dir) / "Bundles" / "Remote"
 
 
+def steam_latest_local_manifest_path(install_dir: Path) -> Path:
+    local_dir = steam_local_dir(install_dir)
+    manifests = sorted(local_dir.glob("Local_*.bytes"))
+    if not manifests:
+        return local_dir / "Local_1.0.1.bytes"
+    return manifests[-1]
+
+
 def steam_latest_remote_manifest_path(install_dir: Path) -> Path:
     manifest_dir = steam_remote_dir(install_dir) / "ManifestFiles"
     manifests = sorted(manifest_dir.glob("Remote_asset-*.bytes"))
@@ -1298,7 +1306,7 @@ def validate_steam_install(install_dir: Path) -> Path:
     required = [
         install_dir / "KIOU.exe",
         steam_data_dir(install_dir),
-        steam_local_dir(install_dir) / "Local_1.0.1.bytes",
+        steam_latest_local_manifest_path(install_dir),
     ]
     missing = [str(path) for path in required if not path.exists()]
     if missing:
@@ -1308,7 +1316,7 @@ def validate_steam_install(install_dir: Path) -> Path:
 
 def steam_manifest_status(install_dir: Path) -> dict[str, object]:
     install_dir = validate_steam_install(install_dir)
-    local_manifest_path = steam_local_dir(install_dir) / "Local_1.0.1.bytes"
+    local_manifest_path = steam_latest_local_manifest_path(install_dir)
     remote_manifest_path = steam_latest_remote_manifest_path(install_dir)
     local_manifest = parse_manifest(local_manifest_path.read_bytes())
 
@@ -1428,7 +1436,7 @@ def report_bundle_name(hash_value: str, bundle_name: str) -> str:
 
 def patch_steam_local_files(install_dir: Path, work_dir: Path, backup_root: Path, log: LogFn) -> list[dict[str, object]]:
     local_dir = steam_local_dir(install_dir)
-    manifest_path = local_dir / "Local_1.0.1.bytes"
+    manifest_path = steam_latest_local_manifest_path(install_dir)
     manifest = parse_manifest(manifest_path.read_bytes())
     roundtrip = serialize_manifest(manifest)
     if roundtrip != manifest_path.read_bytes():
@@ -1466,12 +1474,13 @@ def patch_steam_local_files(install_dir: Path, work_dir: Path, backup_root: Path
 
     if reports:
         patched_manifest = serialize_manifest(manifest)
-        manifest_out = patched_dir / "Local_1.0.1.bytes"
-        hash_out = patched_dir / "Local_1.0.1.hash"
+        manifest_out = patched_dir / manifest_path.name
+        hash_path = manifest_path.with_suffix(".hash")
+        hash_out = patched_dir / hash_path.name
         manifest_out.write_bytes(patched_manifest)
         hash_out.write_text(yooasset_crc_hex(patched_manifest), encoding="ascii")
         write_installed_file(manifest_out, manifest_path, install_dir, backup_root)
-        write_installed_file(hash_out, local_dir / "Local_1.0.1.hash", install_dir, backup_root)
+        write_installed_file(hash_out, hash_path, install_dir, backup_root)
 
     return reports
 
