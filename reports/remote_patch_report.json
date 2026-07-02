@@ -1,6 +1,6 @@
 [
   {
-    "bundle_file": "0189ec9280e98fda4ae9787862d61e40__remote_assets__project__menu_prefab_overlay_kifulistpopup_kifulistpopupview.bundle",
+    "bundle_file": "3336cbbd30aec88369abe572b70bc1f5__remote_assets__project__menu_prefab_overlay_kifulistpopup_kifulistpopupview.bundle",
     "replacements": 11,
     "changed_objects": [
       {
@@ -50,7 +50,7 @@
     ]
   },
   {
-    "bundle_file": "021926a95e4f68e9106a29246c24be49__remote_assets__project_composition_prefab_ui_overlay_implement_characterintimacylevelupoverlayview.bundle",
+    "bundle_file": "6e94502cff22e2a6f03cba1b709469c3__remote_assets__project_composition_prefab_ui_overlay_implement_characterintimacylevelupoverlayview.bundle",
     "replacements": 2,
     "changed_objects": [
       {
@@ -64,7 +64,7 @@
     ]
   },
   {
-    "bundle_file": "022a8e4015322d79de2b5f29a3292699__remote_assets__project_composition_prefab_ui_overlay_implement_kifudetail_tsumepopupview.bundle",
+    "bundle_file": "54d23374ae94c56b9fad1ae65c351e65__remote_assets__project_composition_prefab_ui_overlay_implement_kifudetail_tsumepopupview.bundle",
     "replacements": 8,
     "changed_objects": [
       {
@@ -102,7 +102,7 @@
     ]
   },
   {
-    "bundle_file": "0357bee9da05287fb11143adfbf61f5e__remote_assets__project__menu_prefab_page_lobbymatchroompage_lobbymatchroompage.bundle",
+    "bundle_file": "b9a3a501b3965c7a253d5db925b983c3__remote_assets__project__menu_prefab_page_lobbymatchroompage_lobbymatchroompage.bundle",
     "replacements": 49,
     "changed_objects": [
       {
@@ -288,7 +288,7 @@
     ]
   },
   {
-    "bundle_file": "04ae8448d68c147efe3e8d494f3013fa__remote_assets__project_composition_prefab_ui_overlay_implement_characterdetailoverlayview.bundle",
+    "bundle_file": "b18d0a62db80dacc7b12a22d3a5183dd__remote_assets__project_composition_prefab_ui_overlay_implement_characterdetailoverlayview.bundle",
     "replacements": 16,
     "changed_objects": [
       {
@@ -358,7 +358,7 @@
     ]
   },
   {
-    "bundle_file": "05119b96ce1ac417ec1a741bb8d26596__remote_assets__project__menu_prefab_overlay_lobbymatchroommemberlistpopup_lobbymatchroommemberlistpopupview.bundle",
+    "bundle_file": "a0559b69e8bdf6e7733cf99a2f5481ac__remote_assets__project__menu_prefab_overlay_lobbymatchroommemberlistpopup_lobbymatchroommemberlistpopupview.bundle",
     "replacements": 5,
     "changed_objects": [
       {
@@ -384,7 +384,7 @@
     ]
   },
   {
-    "bundle_file": "086648afc7dfafa85ff3a8d583df21f6__remote_assets__project_composition_prefab_ui_overlay_implement_creditpopupview.bundle",
+    "bundle_file": "298ac704100ce13021c4dbb2cc4d5f6c__remote_assets__project_composition_prefab_ui_overlay_implement_creditpopupview.bundle",
     "replacements": 1,
     "changed_objects": [
       {
@@ -394,7 +394,7 @@
     ]
   },
   {
-    "bundle_file": "0a89a350e644e0540c74b38e899f9c57__remote_share_assets__project_composition_prefab_ui_overlay_implement_tsumeselectionpopup.bundle",
+    "bundle_file": "63343c3eab0838d6fc36acc39ce3e3c9__remote_share_assets__project_composition_prefab_ui_overlay_implement_tsumeselectionpopup.bundle",
     "replacements": 2,
     "changed_objects": [
       {
@@ -408,7 +408,7 @@
     ]
   },
   {
-    "bundle_file": "0c90af8baf09f4179a63486e6cbf39bc__remote_assets__project__game_prefab_overlay_gameresulteffectoverlayview.bundle",
+    "bundle_file": "c5e5f84551953c680160253462a24761__remote_assets__project__game_prefab_overlay_gameresulteffectoverlayview.bundle",
     "replacements": 10,
     "changed_objects": [
       {
@@ -446,7 +446,7 @@
     ]
   },
   {
-    "bundle_file": "0e221d6d81ca41e3526ce343e89fa022__remote_assets__project__menu_prefab_overlay_lobbymatchroomsettingspopup_lobbymatchroomsettingspopupview.bundle",
+    "bundle_file": "7d9abe50a174a4ec1e9b3eed24405479__remote_assets__project__menu_prefab_overlay_lobbymatchroomsettingspopup_lobbymatchroomsettingspopupview.bundle",
     "replacements": 16,
     "changed_objects": [
       {
@@ -516,7 +516,7 @@
     ]
   },
   {
-    "bundle_file": "14623184c47340eb37b403f93f5c0106__remote_assets__project_composition_prefab_ui_overlay_implement_charactercontractpopupview.bundle",
+    "bundle_file": "1b6e164273933b041513e84767a47d0a__remote_assets__project_composition_prefab_ui_overlay_implement_charactercontractpopupview.bundle",
     "replacements": 9,
     "changed_objects": [
       {
@@ -558,7 +558,7 @@
     ]
   },
   {
-    "bundle_file": "15e7eae02bada9b0f130aa2e0027342b__remote_assets__project_composition_prefab_ui_overlay_implement_itemrewardconfirmationpopup_itemrewardconfirmationpopupview.bundle",
+    "bundle_file": "e617aaa96bfac8f05c61598a3d5586b7__remote_assets__project_composition_prefab_ui_overlay_implement_itemrewardconfirmationpopup_itemrewardconfirmationpopupview.bundle",
     "replacements": 3,
     "changed_objects": [
       {
@@ -576,7 +576,7 @@
     ]
   },
   {
-    "bundle_file": "1b505217c8e42773ffb158e119c7a549__remote_assets__project_composition_prefab_ui_overlay_implement_havingcurrencylistpopupview.bundle",
+    "bundle_file": "1e19f69d76be31fbea28e64635696fa2__remote_assets__project_composition_prefab_ui_overlay_implement_havingcurrencylistpopupview.bundle",
     "replacements": 2,
     "changed_objects": [
       {
@@ -590,7 +590,7 @@
     ]
   },
   {
-    "bundle_file": "1db6ceb7a425909a28b406411567aefd__remote_share_assets__project_composition_prefab_ui_overlay_implement_directmessage.bundle",
+    "bundle_file": "221a95b807492de8ffe1744f2238652d__remote_share_assets__project_composition_prefab_ui_overlay_implement_directmessage.bundle",
     "replacements": 2,
     "changed_objects": [
       {
@@ -604,7 +604,7 @@
     ]
   },
   {
-    "bundle_file": "2124dda7a7ad889e4ae6cf5477bf61c7__remote_assets__project_composition_prefab_ui_overlay_implement_userprofilepopup_userprofilepopupview.bundle",
+    "bundle_file": "1fa8b2d07e30b5a00b6e9ca6932295d4__remote_assets__project_composition_prefab_ui_overlay_implement_userprofilepopup_userprofilepopupview.bundle",
     "replacements": 28,
     "changed_objects": [
       {
@@ -698,7 +698,7 @@
     ]
   },
   {
-    "bundle_file": "21f1b7ad22c5661f10403bd837d9c209__remote_share_assets__project_composition_prefab_ui_overlay_implement_giftboxpopup.bundle",
+    "bundle_file": "7687423c964b32c731f31166d2e4cf4b__remote_share_assets__project_composition_prefab_ui_overlay_implement_giftboxpopup.bundle",
     "replacements": 5,
     "changed_objects": [
       {
@@ -724,7 +724,7 @@
     ]
   },
   {
-    "bundle_file": "a2225c1f272d7a68c3218f5e64536ec4__remote_share_assets__project__menu_prefab_page_gachatoppage.bundle",
+    "bundle_file": "6f02be0ee84798ce5b789a8f0caa3f5a__remote_share_assets__project__menu_prefab_page_gachatoppage.bundle",
     "replacements": 3,
     "changed_objects": [
       {
@@ -742,7 +742,7 @@
     ]
   },
   {
-    "bundle_file": "d7c1f5b7a09592cfe5be9a071393ec13__remote_assets__project__game_gamescene.bundle",
+    "bundle_file": "4bbf6130dbdc2c0906a4687963f13d76__remote_assets__project__game_gamescene.bundle",
     "replacements": 38,
     "changed_objects": [
       {
@@ -888,7 +888,7 @@
     ]
   },
   {
-    "bundle_file": "29a5033c80904db52a00fc226b0b40b3__remote_assets__project_composition_prefab_ui_overlay_implement_accountlinkconfirmationpopupview.bundle",
+    "bundle_file": "4b0d3ec3eae96965d9dabb6fa585dfab__remote_assets__project_composition_prefab_ui_overlay_implement_accountlinkconfirmationpopupview.bundle",
     "replacements": 3,
     "changed_objects": [
       {
@@ -906,7 +906,7 @@
     ]
   },
   {
-    "bundle_file": "2d176d2f64bfb7ffe1b680cdb43d1504__remote_share_assets__project__menu_prefab_page_collection__component.bundle",
+    "bundle_file": "2e9404d2f56b37798abab0d31e1438c0__remote_share_assets__project__menu_prefab_page_collection__component.bundle",
     "replacements": 3,
     "changed_objects": [
       {
@@ -924,7 +924,7 @@
     ]
   },
   {
-    "bundle_file": "2dc27a3142492d2652aaca819cb4999b__remote_assets__project_composition_prefab_ui_overlay_implement_gacharatepopup_gacharatepopupview.bundle",
+    "bundle_file": "2440536a03b88d46317f5cbf0c3950aa__remote_assets__project_composition_prefab_ui_overlay_implement_gacharatepopup_gacharatepopupview.bundle",
     "replacements": 10,
     "changed_objects": [
       {
@@ -970,7 +970,7 @@
     ]
   },
   {
-    "bundle_file": "bf725d8488d59f92cf560a0c05f4a202__remote_assets__project_sound_generated_voice_catalog_g.bundle",
+    "bundle_file": "d9c7e070eaa6bed878e9e0c2840bcd2a__remote_assets__project_sound_generated_voice_catalog_g.bundle",
     "replacements": 3668,
     "changed_objects": [
       {
@@ -982,7 +982,7 @@
     ]
   },
   {
-    "bundle_file": "3109ded3c70048a277e28c1592354a68__remote_assets__project_composition_prefab_ui_overlay_implement_bunreportpopupview.bundle",
+    "bundle_file": "1989b8f1d0414169596fe7dcef44b35e__remote_assets__project_composition_prefab_ui_overlay_implement_bunreportpopupview.bundle",
     "replacements": 7,
     "changed_objects": [
       {
@@ -1016,7 +1016,7 @@
     ]
   },
   {
-    "bundle_file": "346b8d9230036c89c66542a123d26069__remote_assets__project__menu_menuscene.bundle",
+    "bundle_file": "4257e060d45f66bdde47f31fdef1c0f9__remote_assets__project__menu_menuscene.bundle",
     "replacements": 1,
     "changed_objects": [
       {
@@ -1026,7 +1026,7 @@
     ]
   },
   {
-    "bundle_file": "34d0b043808f84e7eac11ddac031f72f__remote_assets__project_composition_prefab_ui_overlay_implement_itemdecompositionconfirmationpopupview.bundle",
+    "bundle_file": "24a034aab923adbf9073b4089eb6e9cd__remote_assets__project_composition_prefab_ui_overlay_implement_itemdecompositionconfirmationpopupview.bundle",
     "replacements": 4,
     "changed_objects": [
       {
@@ -1048,7 +1048,7 @@
     ]
   },
   {
-    "bundle_file": "393219dbc14c17501fbd6a432a9003e4__remote_assets__project_composition_prefab_ui_overlay_implement_monthlywinratepopup_monthlywinratepopupview.bundle",
+    "bundle_file": "6944af153c958beffecdf9134731afc7__remote_assets__project_composition_prefab_ui_overlay_implement_monthlywinratepopup_monthlywinratepopupview.bundle",
     "replacements": 2,
     "changed_objects": [
       {
@@ -1062,7 +1062,7 @@
     ]
   },
   {
-    "bundle_file": "3a506b511bce471076b5903f559bdfdb__remote_share_assets__project_composition_prefab_ui_overlay_implement_gacharatepopup_gacharatescroller.bundle",
+    "bundle_file": "ab0fec60fb26e7ac52a297bb2ef164c1__remote_share_assets__project_composition_prefab_ui_overlay_implement_gacharatepopup_gacharatescroller.bundle",
     "replacements": 3,
     "changed_objects": [
       {
@@ -1080,7 +1080,7 @@
     ]
   },
   {
-    "bundle_file": "3b41a9d16c1027db2ffd78b19450c3c2__remote_assets__project_composition_prefab_ui_overlay_implement_shop_extrashoppopupview.bundle",
+    "bundle_file": "49678c8a8f5cd7c278cd07997984cd0f__remote_assets__project_composition_prefab_ui_overlay_implement_shop_extrashoppopupview.bundle",
     "replacements": 8,
     "changed_objects": [
       {
@@ -1110,7 +1110,7 @@
     ]
   },
   {
-    "bundle_file": "43f78b79b31b2510dc6aafbeadd5dd72__remote_assets__project__menu_prefab_overlay_lobbymatchroomjoinpopup_lobbymatchroomjoinpopupview.bundle",
+    "bundle_file": "e7ea1d334255167c1ad2595e3d3ce689__remote_assets__project__menu_prefab_overlay_lobbymatchroomjoinpopup_lobbymatchroomjoinpopupview.bundle",
     "replacements": 2,
     "changed_objects": [
       {
@@ -1124,7 +1124,7 @@
     ]
   },
   {
-    "bundle_file": "4494f605b77138f7bca2bb835ae8b7b5__remote_assets__project__menu_prefab_overlay_charactercollectionselectionpopup_charactercollectionselectionpopupview.bundle",
+    "bundle_file": "6a8cf9ee8ffd6ee7a43483bf1247d0b9__remote_assets__project__menu_prefab_overlay_charactercollectionselectionpopup_charactercollectionselectionpopupview.bundle",
     "replacements": 3,
     "changed_objects": [
       {
@@ -1142,7 +1142,7 @@
     ]
   },
   {
-    "bundle_file": "451081e78ac244d3b6926e4a46367645__remote_assets__project_composition_prefab_ui_overlay_implement_itemdetailpopupview.bundle",
+    "bundle_file": "13829f30c00432c4950357d648070416__remote_assets__project_composition_prefab_ui_overlay_implement_itemdetailpopupview.bundle",
     "replacements": 6,
     "changed_objects": [
       {
@@ -1172,7 +1172,7 @@
     ]
   },
   {
-    "bundle_file": "47507f280fa0dbb5db02323069f28647__remote_assets__project_composition_prefab_ui_overlay_implement_havingsupplychangepopupview.bundle",
+    "bundle_file": "cf5dc30d9c20c3042725e5e382f22f24__remote_assets__project_composition_prefab_ui_overlay_implement_havingsupplychangepopupview.bundle",
     "replacements": 6,
     "changed_objects": [
       {
@@ -1198,7 +1198,7 @@
     ]
   },
   {
-    "bundle_file": "48f5ca195b5586474b8f60e1c5904335__remote_share_assets__project_composition_prefab_ui_uibutton.bundle",
+    "bundle_file": "52ee7245d19f1f834123c1e978f39bbb__remote_share_assets__project_composition_prefab_ui_uibutton.bundle",
     "replacements": 5,
     "changed_objects": [
       {
@@ -1224,7 +1224,7 @@
     ]
   },
   {
-    "bundle_file": "4d04c150deadaa88b252a9255972886a__remote_share_assets__project_composition_prefab_ui_overlay_implement_loginbonusoverlay.bundle",
+    "bundle_file": "49a83edb7f99ad7d376409ab9a8b9bf5__remote_share_assets__project_composition_prefab_ui_overlay_implement_loginbonusoverlay.bundle",
     "replacements": 2,
     "changed_objects": [
       {
@@ -1238,7 +1238,7 @@
     ]
   },
   {
-    "bundle_file": "4d297f9bd7072770b52a6dc1b5ca8473__remote_assets__project_composition_prefab_ui_overlay_implement_pullgachaconfirmationpopupview.bundle",
+    "bundle_file": "5f8b802721d4feef6a8037d3b632a012__remote_assets__project_composition_prefab_ui_overlay_implement_pullgachaconfirmationpopupview.bundle",
     "replacements": 5,
     "changed_objects": [
       {
@@ -1264,7 +1264,7 @@
     ]
   },
   {
-    "bundle_file": "4fcbcff8f247a6846cfff12e4c83d01d__remote_assets__project_composition_prefab_ui_overlay_implement_charactercontractcompleteoverlayview.bundle",
+    "bundle_file": "3127dc3ef9ff0b7c5fd51b19f413de89__remote_assets__project_composition_prefab_ui_overlay_implement_charactercontractcompleteoverlayview.bundle",
     "replacements": 2,
     "changed_objects": [
       {
@@ -1278,7 +1278,7 @@
     ]
   },
   {
-    "bundle_file": "50804b8325793df28fe8af853490d8ab__remote_share_assets__project__menu_prefab.bundle",
+    "bundle_file": "23d3133b6bef4aa0b29844b08d475362__remote_share_assets__project__menu_prefab.bundle",
     "replacements": 1,
     "changed_objects": [
       {
@@ -1288,7 +1288,7 @@
     ]
   },
   {
-    "bundle_file": "51e91c802307c357d99af185e97611fb__remote_assets__project_composition_prefab_ui_overlay_implement_gacharewardconfirmationpopup_gacharewardconfirmationpopupview.bundle",
+    "bundle_file": "92f0e67c1544a547b0a1bd5c9a37c9c5__remote_assets__project_composition_prefab_ui_overlay_implement_gacharewardconfirmationpopup_gacharewardconfirmationpopupview.bundle",
     "replacements": 1,
     "changed_objects": [
       {
@@ -1298,7 +1298,7 @@
     ]
   },
   {
-    "bundle_file": "535a50999867f203d2835f63f0b9bba1__remote_assets__project_composition_prefab_ui_overlay_implement_characterskinchangepopupview.bundle",
+    "bundle_file": "1c5e2a890358e0586011a5c1f4ac3156__remote_assets__project_composition_prefab_ui_overlay_implement_characterskinchangepopupview.bundle",
     "replacements": 3,
     "changed_objects": [
       {
@@ -1316,7 +1316,7 @@
     ]
   },
   {
-    "bundle_file": "56bfed27701f03a8ecff89c4003696bd__remote_share_assets__project__menu_prefab_overlay_friendlistpopup.bundle",
+    "bundle_file": "224ee0b7c9c9a6d929eda00b1728077f__remote_share_assets__project__menu_prefab_overlay_friendlistpopup.bundle",
     "replacements": 2,
     "changed_objects": [
       {
@@ -1330,7 +1330,7 @@
     ]
   },
   {
-    "bundle_file": "5a0691338685d1ad20d2e760482c2f25__remote_share_assets__project__menu_prefab_overlay_lobbymatchroompreparationpopup.bundle",
+    "bundle_file": "6895d295ca60756b64bd3764e3ec441d__remote_share_assets__project__menu_prefab_overlay_lobbymatchroompreparationpopup.bundle",
     "replacements": 4,
     "changed_objects": [
       {
@@ -1352,7 +1352,7 @@
     ]
   },
   {
-    "bundle_file": "5c062d392cecf25431f8d609f5328034__remote_assets__project_composition_prefab_ui_overlay_implement_howtoplaypopupview.bundle",
+    "bundle_file": "dca7955ed60955e95d0e15d83c5e6643__remote_assets__project_composition_prefab_ui_overlay_implement_howtoplaypopupview.bundle",
     "replacements": 1,
     "changed_objects": [
       {
@@ -1362,7 +1362,7 @@
     ]
   },
   {
-    "bundle_file": "5ce234f32088baba3f9cf450fddc4f39__remote_assets__project_composition_prefab_ui_overlay_implement_shopproductexchangepopupview.bundle",
+    "bundle_file": "c70b4c78bcc478c4f41efdc2f2cf18f4__remote_assets__project_composition_prefab_ui_overlay_implement_shopproductexchangepopupview.bundle",
     "replacements": 4,
     "changed_objects": [
       {
@@ -1384,7 +1384,7 @@
     ]
   },
   {
-    "bundle_file": "7ecdac33701bf1be0651eeeddf8ae7bf__remote_share_assets__project__game_prefab.bundle",
+    "bundle_file": "4232f8fb9d5393e02f8943350c011ad0__remote_share_assets__project__game_prefab.bundle",
     "replacements": 42,
     "changed_objects": [
       {
@@ -1558,7 +1558,7 @@
     ]
   },
   {
-    "bundle_file": "5f61cede6fc41e83888a50d512111a5e__remote_share_assets__project_composition_prefab_ui_shop.bundle",
+    "bundle_file": "970a84ad24402301ca44e064b0a81101__remote_share_assets__project_composition_prefab_ui_shop.bundle",
     "replacements": 14,
     "changed_objects": [
       {
@@ -1604,7 +1604,7 @@
     ]
   },
   {
-    "bundle_file": "5fe90708494883e34fe04cdff22b8edd__remote_share_assets__project__menu_prefab_page_matchselectionpage_lobbymatch.bundle",
+    "bundle_file": "feb26e85a561a39667bc019123e68c59__remote_share_assets__project__menu_prefab_page_matchselectionpage_lobbymatch.bundle",
     "replacements": 1,
     "changed_objects": [
       {
@@ -1614,7 +1614,7 @@
     ]
   },
   {
-    "bundle_file": "601a86126b2f2e425f4abd0216cd0ebb__remote_assets__project__menu_prefab_overlay_friendlistpopup_friendlistpopupview.bundle",
+    "bundle_file": "0fe15abe5f372a40cadefa6592324295__remote_assets__project__menu_prefab_overlay_friendlistpopup_friendlistpopupview.bundle",
     "replacements": 3,
     "changed_objects": [
       {
@@ -1632,7 +1632,7 @@
     ]
   },
   {
-    "bundle_file": "6070bb5b71cef122434cba30dd8fee4d__remote_assets__project__menu_prefab_page_home_homepage.bundle",
+    "bundle_file": "2fa2e423c40afc714e0b91123a3d426c__remote_assets__project__menu_prefab_page_home_homepage.bundle",
     "replacements": 5,
     "changed_objects": [
       {
@@ -1658,7 +1658,7 @@
     ]
   },
   {
-    "bundle_file": "60f950f344ca820ebb7c3875e6ad3465__remote_assets__project_composition_prefab_ui_overlay_implement_luckybagdecompositionpopupview.bundle",
+    "bundle_file": "04cc2e5687784b4fb699cb72f42b7436__remote_assets__project_composition_prefab_ui_overlay_implement_luckybagdecompositionpopupview.bundle",
     "replacements": 3,
     "changed_objects": [
       {
@@ -1676,7 +1676,7 @@
     ]
   },
   {
-    "bundle_file": "618c1fd68d710d9d7f2ed23c1eb18edf__remote_assets__project__menu_prefab_page_matchselectionpage_matchselectionpage.bundle",
+    "bundle_file": "4ef7a1bcb440538ffdf0fa8dd85062c2__remote_assets__project__menu_prefab_page_matchselectionpage_matchselectionpage.bundle",
     "replacements": 18,
     "changed_objects": [
       {
@@ -1742,7 +1742,7 @@
     ]
   },
   {
-    "bundle_file": "61f8865f913adf1e5732b475d07fa7b9__remote_share_assets__project_orchestration_prefab_ui.bundle",
+    "bundle_file": "4e72dc9ba908fd31e4dafd5da1faf566__remote_share_assets__project_orchestration_prefab_ui.bundle",
     "replacements": 1,
     "changed_objects": [
       {
@@ -1752,7 +1752,7 @@
     ]
   },
   {
-    "bundle_file": "6456e8e196dccc6cee4067ec1029fa2b__remote_share_assets__project_composition_prefab_ui_profile.bundle",
+    "bundle_file": "00f644a266a722f01b1c373add736cf0__remote_share_assets__project_composition_prefab_ui_profile.bundle",
     "replacements": 1,
     "changed_objects": [
       {
@@ -1762,7 +1762,7 @@
     ]
   },
   {
-    "bundle_file": "658bdadc765d094e0135508d3aa1e3da__remote_share_assets__project_composition_prefab_ui.bundle",
+    "bundle_file": "8fde789b7f00f40c60a3a6865e184f33__remote_share_assets__project_composition_prefab_ui.bundle",
     "replacements": 1,
     "changed_objects": [
       {
@@ -1772,7 +1772,7 @@
     ]
   },
   {
-    "bundle_file": "66af4bb5824c9b570111385364ce201d__remote_assets__project_composition_prefab_ui_overlay_implement_shop_passpurchaseshoppopupview.bundle",
+    "bundle_file": "410bbc669f536832126fe61e1fcebdfc__remote_assets__project_composition_prefab_ui_overlay_implement_shop_passpurchaseshoppopupview.bundle",
     "replacements": 17,
     "changed_objects": [
       {
@@ -1830,7 +1830,7 @@
     ]
   },
   {
-    "bundle_file": "6729717aed8068bb1888fdbb65e1619e__remote_assets__project_composition_prefab_ui_overlay_implement_shop_dailyshoppopupview.bundle",
+    "bundle_file": "f6362bfd4bb66b822727de3d9db7fd8f__remote_assets__project_composition_prefab_ui_overlay_implement_shop_dailyshoppopupview.bundle",
     "replacements": 11,
     "changed_objects": [
       {
@@ -1872,7 +1872,7 @@
     ]
   },
   {
-    "bundle_file": "691dd5c9024c3434f7f3e41c6dd0a08c__remote_share_assets__project_composition_prefab_ui_overlay_implement_userprofilepopup_section.bundle",
+    "bundle_file": "1073fcf9e890c94b2c7286da90f7fb87__remote_share_assets__project_composition_prefab_ui_overlay_implement_userprofilepopup_section.bundle",
     "replacements": 30,
     "changed_objects": [
       {
@@ -1974,7 +1974,7 @@
     ]
   },
   {
-    "bundle_file": "6bfd9d0f47ef19b17d2fce1705671305__remote_assets__project_composition_prefab_ui_overlay_implement_shop_diapurchaseshoppopupview.bundle",
+    "bundle_file": "65b7da5f0884dfc940d07a7920d97f86__remote_assets__project_composition_prefab_ui_overlay_implement_shop_diapurchaseshoppopupview.bundle",
     "replacements": 10,
     "changed_objects": [
       {
@@ -2012,7 +2012,7 @@
     ]
   },
   {
-    "bundle_file": "e9afa455c13e485f9720088b6170f5d1__remote_assets__project_masterdata_runtimemasterdata.bundle",
+    "bundle_file": "67ca4fd9d6aa83429d5c6a9347960ca0__remote_assets__project_masterdata_runtimemasterdata.bundle",
     "replacements": 1350,
     "changed_objects": [
       {
@@ -2024,7 +2024,7 @@
     ]
   },
   {
-    "bundle_file": "77570c79e7bfd6ea9160a5fbae826a70__remote_assets__project_composition_prefab_ui_overlay_implement_shogirulepopup_shogirulepopupview.bundle",
+    "bundle_file": "537f18c002343954c6d9f5e7db69e686__remote_assets__project_composition_prefab_ui_overlay_implement_shogirulepopup_shogirulepopupview.bundle",
     "replacements": 9,
     "changed_objects": [
       {
@@ -2066,7 +2066,7 @@
     ]
   },
   {
-    "bundle_file": "7860793eebd95dfe85f3f19b02a61437__remote_share_assets__project__menu_prefab_overlay_lobbymatchroommemberlistpopup.bundle",
+    "bundle_file": "8c90d2487e6b5bfd3a2f0d5283fc9bf9__remote_share_assets__project__menu_prefab_overlay_lobbymatchroommemberlistpopup.bundle",
     "replacements": 4,
     "changed_objects": [
       {
@@ -2088,7 +2088,7 @@
     ]
   },
   {
-    "bundle_file": "79a8d7171a6ff908381a152bf23f2c02__remote_assets__project_composition_prefab_ui_overlay_implement_characterdetailpopupview.bundle",
+    "bundle_file": "80e376522a9850f8c672b69d92b3a49d__remote_assets__project_composition_prefab_ui_overlay_implement_characterdetailpopupview.bundle",
     "replacements": 8,
     "changed_objects": [
       {
@@ -2126,7 +2126,7 @@
     ]
   },
   {
-    "bundle_file": "79cdfa1928511336f7a2e19e81bdce13__remote_assets__project_composition_prefab_ui_overlay_implement_directmessage_directmessagedetailpopupview.bundle",
+    "bundle_file": "b83bde3244b0000faf37737fe66f392c__remote_assets__project_composition_prefab_ui_overlay_implement_directmessage_directmessagedetailpopupview.bundle",
     "replacements": 2,
     "changed_objects": [
       {
@@ -2140,7 +2140,7 @@
     ]
   },
   {
-    "bundle_file": "5b4c18713705462187c138dbbf8b4d2b__remote_share_assets__project_data_howtoplay.bundle",
+    "bundle_file": "7488a4bcfa0831fd1ee7e46e0662de3e__remote_share_assets__project_data_howtoplay.bundle",
     "replacements": 12,
     "changed_objects": [
       {
@@ -2166,7 +2166,7 @@
     ]
   },
   {
-    "bundle_file": "8443e3cffaa6cc034b138ea7e10255e6__remote_assets__project_composition_prefab_ui_overlay_implement_tsumeselectionpopup_tsumeselectionpopupview.bundle",
+    "bundle_file": "ef45e4e5f340c2032cc45a2375ac9a03__remote_assets__project_composition_prefab_ui_overlay_implement_tsumeselectionpopup_tsumeselectionpopupview.bundle",
     "replacements": 10,
     "changed_objects": [
       {
@@ -2212,7 +2212,7 @@
     ]
   },
   {
-    "bundle_file": "8af57eb504e5cd658777f16dfb3c0ab8__remote_assets__project__menu_prefab_overlay_homemenupopup_homemenupopupview.bundle",
+    "bundle_file": "87bdae796e1d68c57e84b49fe2745371__remote_assets__project__menu_prefab_overlay_homemenupopup_homemenupopupview.bundle",
     "replacements": 13,
     "changed_objects": [
       {
@@ -2270,7 +2270,7 @@
     ]
   },
   {
-    "bundle_file": "8bed493b98cebab6d71cccba40cdf1a9__remote_assets__project_composition_prefab_ui_overlay_implement_directmessage_directmessagebrieflistpopupview.bundle",
+    "bundle_file": "c2e21f6f16120091c4f00a17368e291f__remote_assets__project_composition_prefab_ui_overlay_implement_directmessage_directmessagebrieflistpopupview.bundle",
     "replacements": 3,
     "changed_objects": [
       {
@@ -2288,7 +2288,7 @@
     ]
   },
   {
-    "bundle_file": "8d86f0d1c853c26ee30b2e6164fca37b__remote_assets__project_composition_prefab_ui_overlay_implement_kifudetail_boardsequencepopupview.bundle",
+    "bundle_file": "e200a50b755a05a52019330c558cfe66__remote_assets__project_composition_prefab_ui_overlay_implement_kifudetail_boardsequencepopupview.bundle",
     "replacements": 7,
     "changed_objects": [
       {
@@ -2322,7 +2322,7 @@
     ]
   },
   {
-    "bundle_file": "8db4053898b265da9bc0c55150e33e79__remote_share_assets__project_composition_prefab_ui_tutorial.bundle",
+    "bundle_file": "edf010d2ebe06955fc6709157116b732__remote_share_assets__project_composition_prefab_ui_tutorial.bundle",
     "replacements": 6,
     "changed_objects": [
       {
@@ -2352,7 +2352,7 @@
     ]
   },
   {
-    "bundle_file": "8e80721529cf6faf8d37fc8ef578a16d__remote_share_assets__project_orchestration_prefab_ui_overlay_notificationlistpopup.bundle",
+    "bundle_file": "cbb027325b7e01dca731e768633e1f37__remote_share_assets__project_orchestration_prefab_ui_overlay_notificationlistpopup.bundle",
     "replacements": 3,
     "changed_objects": [
       {
@@ -2370,7 +2370,7 @@
     ]
   },
   {
-    "bundle_file": "9064dbe2e368fb767d6f45f8640acaf5__remote_assets__project__menu_prefab_overlay_lobbymatchroommemberdetailpopup_lobbymatchroommemberdetailpopupview.bundle",
+    "bundle_file": "50d1650ed6550a0b203d33540f7e30d1__remote_assets__project__menu_prefab_overlay_lobbymatchroommemberdetailpopup_lobbymatchroommemberdetailpopupview.bundle",
     "replacements": 6,
     "changed_objects": [
       {
@@ -2400,7 +2400,7 @@
     ]
   },
   {
-    "bundle_file": "908e01f759d1792d84fee711ba781a5e__remote_share_assets__project_composition_prefab_ui_overlay_implement_paymentpointdashboardoverlay.bundle",
+    "bundle_file": "2c568e7f056c178dd03715169e1e61a7__remote_share_assets__project_composition_prefab_ui_overlay_implement_paymentpointdashboardoverlay.bundle",
     "replacements": 2,
     "changed_objects": [
       {
@@ -2414,7 +2414,7 @@
     ]
   },
   {
-    "bundle_file": "92b62997cf1ca85568ba4ff2dc9a3a20__remote_assets__project_composition_prefab_ui_overlay_implement_friend_friendactionpopupview.bundle",
+    "bundle_file": "b6a42f085b217688fae118e7eb25efae__remote_assets__project_composition_prefab_ui_overlay_implement_friend_friendactionpopupview.bundle",
     "replacements": 2,
     "changed_objects": [
       {
@@ -2428,7 +2428,7 @@
     ]
   },
   {
-    "bundle_file": "93ef08464aa43b4b6212a6bc148ba4d4__remote_assets__project__menu_prefab_page_collection_collectiontoppage.bundle",
+    "bundle_file": "7a413b61003edf74c46911cfef08673f__remote_assets__project__menu_prefab_page_collection_collectiontoppage.bundle",
     "replacements": 3,
     "changed_objects": [
       {
@@ -2446,7 +2446,7 @@
     ]
   },
   {
-    "bundle_file": "95aec8fc3cfa18d5a327b3dafb7e3008__remote_assets__project_composition_prefab_ui_overlay_implement_loginbonusoverlay_loginbonusoverlayview.bundle",
+    "bundle_file": "b66909cb5b64416316e7babd796c4a9e__remote_assets__project_composition_prefab_ui_overlay_implement_loginbonusoverlay_loginbonusoverlayview.bundle",
     "replacements": 3,
     "changed_objects": [
       {
@@ -2464,7 +2464,7 @@
     ]
   },
   {
-    "bundle_file": "96961493cd35146c7e1a0bacdc604733__remote_share_assets__project_composition_prefab_ui_supply.bundle",
+    "bundle_file": "5c2ac74d6fa2450929df30fa68f32f5e__remote_share_assets__project_composition_prefab_ui_supply.bundle",
     "replacements": 29,
     "changed_objects": [
       {
@@ -2578,7 +2578,7 @@
     ]
   },
   {
-    "bundle_file": "9bf1be9d63c319d2b454bb1817fc87fc__remote_assets__project_composition_prefab_ui_overlay_implement_sortfilterpopup_sortfilterpopupview.bundle",
+    "bundle_file": "c3d8784c5c5a14ecdad7e664c8fa148c__remote_assets__project_composition_prefab_ui_overlay_implement_sortfilterpopup_sortfilterpopupview.bundle",
     "replacements": 5,
     "changed_objects": [
       {
@@ -2604,7 +2604,7 @@
     ]
   },
   {
-    "bundle_file": "9f65a501edeb35212687b775b569b2d2__remote_assets__project_composition_prefab_ui_overlay_implement_gachagetcharacter_getcharacteroverlayview.bundle",
+    "bundle_file": "de1cee998409be3772b8b7493db1f976__remote_assets__project_composition_prefab_ui_overlay_implement_gachagetcharacter_getcharacteroverlayview.bundle",
     "replacements": 3,
     "changed_objects": [
       {
@@ -2622,7 +2622,7 @@
     ]
   },
   {
-    "bundle_file": "9f69e467d37b41ed282f4d38dbac548a__remote_assets__project__menu_prefab_overlay_lobbymatchroompreparationpopup_lobbymatchroompreparationpopupview.bundle",
+    "bundle_file": "79871e01fdbe42d38f01b0d879771acb__remote_assets__project__menu_prefab_overlay_lobbymatchroompreparationpopup_lobbymatchroompreparationpopupview.bundle",
     "replacements": 11,
     "changed_objects": [
       {
@@ -2672,7 +2672,7 @@
     ]
   },
   {
-    "bundle_file": "9f79d55f79eef2f276be4acdd590f9ae__remote_assets__project_composition_prefab_ui_overlay_implement_accountlinkpopupview.bundle",
+    "bundle_file": "284026c54cb02df2bf476eb8d6b2535d__remote_assets__project_composition_prefab_ui_overlay_implement_accountlinkpopupview.bundle",
     "replacements": 2,
     "changed_objects": [
       {
@@ -2686,7 +2686,7 @@
     ]
   },
   {
-    "bundle_file": "a3e167fd5e73de5a726ef130e4d9c3de__remote_assets__project_composition_prefab_ui_overlay_implement_itemexchangeamountselectionpopupview.bundle",
+    "bundle_file": "2ad4e75c3eaa9aef243d7a8b66a43103__remote_assets__project_composition_prefab_ui_overlay_implement_itemexchangeamountselectionpopupview.bundle",
     "replacements": 3,
     "changed_objects": [
       {
@@ -2704,7 +2704,7 @@
     ]
   },
   {
-    "bundle_file": "a42d2e7c328863ba339a8c5dd49227e2__remote_share_assets__project__menu_prefab_page_matchselectionpage_cpumatch.bundle",
+    "bundle_file": "8fded502e2521ce5f2414d9b8bbd290c__remote_share_assets__project__menu_prefab_page_matchselectionpage_cpumatch.bundle",
     "replacements": 9,
     "changed_objects": [
       {
@@ -2746,7 +2746,7 @@
     ]
   },
   {
-    "bundle_file": "daa99fd6d5bd2d0feb3260227378c1fd__remote_assets__project__menu_prefab_page_gachatoppage_gachatoppage.bundle",
+    "bundle_file": "cab44f9976d7c29923d103fa6adefda3__remote_assets__project__menu_prefab_page_gachatoppage_gachatoppage.bundle",
     "replacements": 12,
     "changed_objects": [
       {
@@ -2800,7 +2800,7 @@
     ]
   },
   {
-    "bundle_file": "aa068d1bcd8715d9fe8a7cd4e15454c5__remote_assets__project__menu_prefab_page_shop_shoptoppage.bundle",
+    "bundle_file": "7aa8ccfeae0c2d802957a6ff2213c9ba__remote_assets__project__menu_prefab_page_shop_shoptoppage.bundle",
     "replacements": 9,
     "changed_objects": [
       {
@@ -2842,7 +2842,7 @@
     ]
   },
   {
-    "bundle_file": "aab73514f8e662fad8658ecab5a549c5__remote_assets__project__gacha_gachascene.bundle",
+    "bundle_file": "02f9f667d5b1415b2d8d41a943836722__remote_assets__project__gacha_gachascene.bundle",
     "replacements": 1,
     "changed_objects": [
       {
@@ -2852,7 +2852,7 @@
     ]
   },
   {
-    "bundle_file": "b014683501666f368392e9458d9e493b__remote_share_assets__project_composition_prefab_ui_overlay_implement_shogirulepopup.bundle",
+    "bundle_file": "bd5ae4be23bf6086d8d246ec2040bf04__remote_share_assets__project_composition_prefab_ui_overlay_implement_shogirulepopup.bundle",
     "replacements": 6,
     "changed_objects": [
       {
@@ -2882,7 +2882,7 @@
     ]
   },
   {
-    "bundle_file": "b43747d84c412e87a7f5a888c0695ff8__remote_assets__project_composition_prefab_ui_overlay_implement_variousnotationpopupview.bundle",
+    "bundle_file": "4de0b181d1e8957d076db90954a1b8e8__remote_assets__project_composition_prefab_ui_overlay_implement_variousnotationpopupview.bundle",
     "replacements": 7,
     "changed_objects": [
       {
@@ -2916,7 +2916,7 @@
     ]
   },
   {
-    "bundle_file": "b5457449b1e85ebbd5b67ba2bdb10f44__remote_share_assets__project__menu_prefab_page_matchselectionpage_rankmatch.bundle",
+    "bundle_file": "29c7895ca1d4e13eec140b6147abfbc5__remote_share_assets__project__menu_prefab_page_matchselectionpage_rankmatch.bundle",
     "replacements": 8,
     "changed_objects": [
       {
@@ -2942,7 +2942,7 @@
     ]
   },
   {
-    "bundle_file": "b820f938cd16e4426ef9d55eb7b205cb__remote_assets__project_composition_prefab_ui_overlay_implement_characterdedicationpopupview.bundle",
+    "bundle_file": "d02aaf326c2d1341b277196d8f789468__remote_assets__project_composition_prefab_ui_overlay_implement_characterdedicationpopupview.bundle",
     "replacements": 7,
     "changed_objects": [
       {
@@ -2976,7 +2976,7 @@
     ]
   },
   {
-    "bundle_file": "b83929b1faa020914ce1e4464b29bf21__remote_share_assets__project_composition_prefab_ui_overlay_implement_shop.bundle",
+    "bundle_file": "3675fdaabf92f2c4a43c6e5d68859966__remote_share_assets__project_composition_prefab_ui_overlay_implement_shop.bundle",
     "replacements": 7,
     "changed_objects": [
       {
@@ -3002,7 +3002,7 @@
     ]
   },
   {
-    "bundle_file": "ba7a719243fdf03cef9c049b120cde0f__remote_share_assets__project_composition_prefab_ui_overlay_implement_sortfilterpopup.bundle",
+    "bundle_file": "12ed907866856ed525db6c51e73be3b0__remote_share_assets__project_composition_prefab_ui_overlay_implement_sortfilterpopup.bundle",
     "replacements": 7,
     "changed_objects": [
       {
@@ -3036,7 +3036,7 @@
     ]
   },
   {
-    "bundle_file": "bc3a988cfea8aaf7d26da9cae7566015__remote_assets__project_composition_prefab_ui_overlay_implement_kifudetail_kifudetailpopupview.bundle",
+    "bundle_file": "2c912ff1002629f6ae50c1461aa9ed50__remote_assets__project_composition_prefab_ui_overlay_implement_kifudetail_kifudetailpopupview.bundle",
     "replacements": 177,
     "changed_objects": [
       {
@@ -3118,7 +3118,7 @@
     ]
   },
   {
-    "bundle_file": "bf9d04c2e928e8116b64ee96eecb6e1a__remote_share_assets__project__game_prefab_overlayui.bundle",
+    "bundle_file": "23ab3b345290c391d5c89ddb3b36a7b8__remote_share_assets__project__game_prefab_overlayui.bundle",
     "replacements": 4,
     "changed_objects": [
       {
@@ -3140,7 +3140,7 @@
     ]
   },
   {
-    "bundle_file": "c02e7bce11a142dc5dd6e6541656ef07__remote_assets__project_composition_prefab_ui_overlay_implement_shop_charactersandexchangeshoppopupview.bundle",
+    "bundle_file": "a947e969b0cf115c973e70e4113bcf7d__remote_assets__project_composition_prefab_ui_overlay_implement_shop_charactersandexchangeshoppopupview.bundle",
     "replacements": 8,
     "changed_objects": [
       {
@@ -3170,7 +3170,7 @@
     ]
   },
   {
-    "bundle_file": "c289bcbe5e07059f8d9188fb5318102a__remote_assets__project_composition_prefab_ui_overlay_implement_paymentpointdashboardoverlay_paymentpointdashboardpopupview.bundle",
+    "bundle_file": "19ae2a580f759d141ed24708017fd74d__remote_assets__project_composition_prefab_ui_overlay_implement_paymentpointdashboardoverlay_paymentpointdashboardpopupview.bundle",
     "replacements": 18,
     "changed_objects": [
       {
@@ -3236,7 +3236,7 @@
     ]
   },
   {
-    "bundle_file": "cb54be627ec46ed0a1ed4ad6069797ef__remote_share_assets__project_composition_prefab_ui_overlay_implement_friend.bundle",
+    "bundle_file": "b1225f4912efa6f7adabbaa495d7579d__remote_share_assets__project_composition_prefab_ui_overlay_implement_friend.bundle",
     "replacements": 1,
     "changed_objects": [
       {
@@ -3246,7 +3246,7 @@
     ]
   },
   {
-    "bundle_file": "cb799ca94c0bacd74d52faa17960fa29__remote_assets__project_orchestration_prefab_ui_overlay_notificationlistpopup_notificationlistpopupview.bundle",
+    "bundle_file": "b51abe63c2650407ab199770d7926442__remote_assets__project_orchestration_prefab_ui_overlay_notificationlistpopup_notificationlistpopupview.bundle",
     "replacements": 4,
     "changed_objects": [
       {
@@ -3268,7 +3268,7 @@
     ]
   },
   {
-    "bundle_file": "cf3b58b817ec7c6c7fa80fcee287f694__remote_assets__project_composition_prefab_ui_overlay_implement_chatinputpopup_chatinputpopupview.bundle",
+    "bundle_file": "c5d67296a6f40f292baea7516c71c932__remote_assets__project_composition_prefab_ui_overlay_implement_chatinputpopup_chatinputpopupview.bundle",
     "replacements": 1,
     "changed_objects": [
       {
@@ -3278,7 +3278,7 @@
     ]
   },
   {
-    "bundle_file": "cf6799577266aa5e21620eacb7a59916__remote_assets__project_composition_prefab_ui_overlay_implement_itemsetdetailpopupview.bundle",
+    "bundle_file": "372dadcaf0cf4304d09c336fc6b40f37__remote_assets__project_composition_prefab_ui_overlay_implement_itemsetdetailpopupview.bundle",
     "replacements": 3,
     "changed_objects": [
       {
@@ -3296,7 +3296,7 @@
     ]
   },
   {
-    "bundle_file": "d501c98e377c3f65557e515c22001d1b__remote_assets__project_composition_prefab_ui_overlay_implement_gachapullpointshoppopupview.bundle",
+    "bundle_file": "907cd18e8866833afee2a03717cb0c05__remote_assets__project_composition_prefab_ui_overlay_implement_gachapullpointshoppopupview.bundle",
     "replacements": 9,
     "changed_objects": [
       {
@@ -3330,7 +3330,7 @@
     ]
   },
   {
-    "bundle_file": "d8a60ddfbdca5b57331bb38973d26b3e__remote_share_assets__project_data_tutorial.bundle",
+    "bundle_file": "e0502683787705802471500246390500__remote_share_assets__project_data_tutorial.bundle",
     "replacements": 22,
     "changed_objects": [
       {
@@ -3380,7 +3380,7 @@
     ]
   },
   {
-    "bundle_file": "d99c9083a98ec85789896fc06d512fb0__remote_share_assets__project_composition_prefab_ui_character.bundle",
+    "bundle_file": "2d6bf829bffa3739b9d79f5fc40d416e__remote_share_assets__project_composition_prefab_ui_character.bundle",
     "replacements": 18,
     "changed_objects": [
       {
@@ -3458,7 +3458,7 @@
     ]
   },
   {
-    "bundle_file": "dcecc8a24b4acd2516c6c20a85e883e3__remote_share_assets__project_composition_prefab_ui_item.bundle",
+    "bundle_file": "ba1990ab429ebc19712a16e0b405733d__remote_share_assets__project_composition_prefab_ui_item.bundle",
     "replacements": 6,
     "changed_objects": [
       {
@@ -3488,7 +3488,7 @@
     ]
   },
   {
-    "bundle_file": "98430299c36f3979c741c9c645496ddc__remote_share_assets__project_composition_prefab_ui_overlay_implement_monthlywinratepopup.bundle",
+    "bundle_file": "870d186f6c691a1c9e7dffb7881ac8bc__remote_share_assets__project_composition_prefab_ui_overlay_implement_monthlywinratepopup.bundle",
     "replacements": 2,
     "changed_objects": [
       {
@@ -3502,7 +3502,7 @@
     ]
   },
   {
-    "bundle_file": "e12d6aa7c178ccec147a855eb7fd9888__remote_assets__project_composition_prefab_ui_overlay_implement_gameonly_aispecialsupportpopupview.bundle",
+    "bundle_file": "3409c85ec136d914cd01ee4c36a54b0d__remote_assets__project_composition_prefab_ui_overlay_implement_gameonly_aispecialsupportpopupview.bundle",
     "replacements": 3,
     "changed_objects": [
       {
@@ -3520,7 +3520,7 @@
     ]
   },
   {
-    "bundle_file": "e1e6134fc6ca645086ce0e453da3283d__remote_share_assets__project__menu_prefab_overlay_kifulistpopup.bundle",
+    "bundle_file": "23225d0c9cf0b49b071c43a54b2f276c__remote_share_assets__project__menu_prefab_overlay_kifulistpopup.bundle",
     "replacements": 9,
     "changed_objects": [
       {
@@ -3562,7 +3562,7 @@
     ]
   },
   {
-    "bundle_file": "e2ee140dfb96366a381c539a0554d71f__remote_assets__project_composition_prefab_ui_overlay_implement_matchingwaitingpopupview.bundle",
+    "bundle_file": "05cb2125e15c6a221cfd6e89b2b7fff3__remote_assets__project_composition_prefab_ui_overlay_implement_matchingwaitingpopupview.bundle",
     "replacements": 2,
     "changed_objects": [
       {
@@ -3576,7 +3576,7 @@
     ]
   },
   {
-    "bundle_file": "e3e5041f7d05f6b41c1fb259a417080f__remote_assets__project_composition_prefab_ui_overlay_implement_shop_specialshoppopupview.bundle",
+    "bundle_file": "927fde41184d04c4c43fb7a105149861__remote_assets__project_composition_prefab_ui_overlay_implement_shop_specialshoppopupview.bundle",
     "replacements": 10,
     "changed_objects": [
       {
@@ -3614,7 +3614,7 @@
     ]
   },
   {
-    "bundle_file": "e771a3028f145c49b08fdb799ec25c06__remote_assets__project_composition_prefab_ui_overlay_implement_dailyshoprefreshconfirmationpopupview.bundle",
+    "bundle_file": "81c98d49149992034b7893f56cd42fd2__remote_assets__project_composition_prefab_ui_overlay_implement_dailyshoprefreshconfirmationpopupview.bundle",
     "replacements": 7,
     "changed_objects": [
       {
@@ -3644,7 +3644,7 @@
     ]
   },
   {
-    "bundle_file": "e87bcb19dffa9b24d34b4b65f63e23ac__remote_share_assets__project_composition_prefab_ui_shogi.bundle",
+    "bundle_file": "9c186f07470e24d74f7ea5149003e9b7__remote_share_assets__project_composition_prefab_ui_shogi.bundle",
     "replacements": 5,
     "changed_objects": [
       {
@@ -3658,7 +3658,7 @@
     ]
   },
   {
-    "bundle_file": "e9b069d8e2c04e2ef1be46f2f23705e7__remote_assets__project_composition_prefab_ui_overlay_implement_shop_coinpurchaseshoppopupview.bundle",
+    "bundle_file": "42a3ebacc942086af3121c720a322250__remote_assets__project_composition_prefab_ui_overlay_implement_shop_coinpurchaseshoppopupview.bundle",
     "replacements": 8,
     "changed_objects": [
       {
@@ -3688,7 +3688,7 @@
     ]
   },
   {
-    "bundle_file": "e9b5bd789fd2423afa866304f1e30efa__remote_share_assets__project_composition_data_ui_overlay_shogirulepopup.bundle",
+    "bundle_file": "7d47cd0b8c20e834348c0280822dc051__remote_share_assets__project_composition_data_ui_overlay_shogirulepopup.bundle",
     "replacements": 28,
     "changed_objects": [
       {
@@ -3698,7 +3698,7 @@
     ]
   },
   {
-    "bundle_file": "ebd5c3a0e9e036b4630bb5c0b377abdd__remote_share_assets__project__menu_prefab_page_shop_component.bundle",
+    "bundle_file": "8633eaaf7c06b28dce45b9d447ab2c95__remote_share_assets__project__menu_prefab_page_shop_component.bundle",
     "replacements": 9,
     "changed_objects": [
       {
@@ -3740,7 +3740,7 @@
     ]
   },
   {
-    "bundle_file": "ebf31e8b8201a1b2c0c487e2332e9942__remote_share_assets__project_composition_prefab_ui_shop_paidshopproductscroller.bundle",
+    "bundle_file": "d2050e7cfd8d13622ce4b4c9b280e3ed__remote_share_assets__project_composition_prefab_ui_shop_paidshopproductscroller.bundle",
     "replacements": 8,
     "changed_objects": [
       {
@@ -3770,7 +3770,7 @@
     ]
   },
   {
-    "bundle_file": "edc072c04fdaba2a5f7472cb01d6b1af__remote_assets__project_composition_prefab_ui_overlay_implement_shop_supplysandexchangeshoppopupview.bundle",
+    "bundle_file": "9ee0f28f38bb1a40add9c0083d70e317__remote_assets__project_composition_prefab_ui_overlay_implement_shop_supplysandexchangeshoppopupview.bundle",
     "replacements": 8,
     "changed_objects": [
       {
@@ -3800,7 +3800,7 @@
     ]
   },
   {
-    "bundle_file": "ef4eb12b83a7ddb8cd484ed18a3bd186__remote_assets__project_composition_prefab_ui_overlay_implement_giftboxpopup_giftboxpopupview.bundle",
+    "bundle_file": "75fbd5541c70094472b133fcc40f55ff__remote_assets__project_composition_prefab_ui_overlay_implement_giftboxpopup_giftboxpopupview.bundle",
     "replacements": 15,
     "changed_objects": [
       {
@@ -3866,7 +3866,7 @@
     ]
   },
   {
-    "bundle_file": "f0d30cfc10155fc85981f65b1ea72f1c__remote_assets__project_composition_prefab_ui_overlay_implement_usernamechangepopupview.bundle",
+    "bundle_file": "2c02793366597b0b4e80f72d8c554a3b__remote_assets__project_composition_prefab_ui_overlay_implement_usernamechangepopupview.bundle",
     "replacements": 3,
     "changed_objects": [
       {
@@ -3884,7 +3884,7 @@
     ]
   },
   {
-    "bundle_file": "f301c223ee291b2dbfdb9b85530d3106__remote_share_assets__project__menu_prefab_page_lobbymatchroompage.bundle",
+    "bundle_file": "11342fb58a834fd447b59839ea2a43e3__remote_share_assets__project__menu_prefab_page_lobbymatchroompage.bundle",
     "replacements": 13,
     "changed_objects": [
       {
@@ -3938,7 +3938,7 @@
     ]
   },
   {
-    "bundle_file": "f51808d58fb1de03f44c75664f0af21e__remote_assets__project_composition_prefab_ui_overlay_implement_itembrieflistpopupview.bundle",
+    "bundle_file": "ffb37274ed45886720b9ea66bf2923e0__remote_assets__project_composition_prefab_ui_overlay_implement_itembrieflistpopupview.bundle",
     "replacements": 3,
     "changed_objects": [
       {
@@ -3956,7 +3956,7 @@
     ]
   },
   {
-    "bundle_file": "f5db4a5c9e90fba52ef78f6dee58cf0a__remote_assets__project_composition_prefab_ui_overlay_implement_itemamountselectionpopupview.bundle",
+    "bundle_file": "f4cfd1087decebb0469db9e44e6ca8f0__remote_assets__project_composition_prefab_ui_overlay_implement_itemamountselectionpopupview.bundle",
     "replacements": 3,
     "changed_objects": [
       {
@@ -3974,7 +3974,7 @@
     ]
   },
   {
-    "bundle_file": "f80bea6262e5df94d2655b2f60663542__remote_assets__project_composition_prefab_ui_overlay_implement_supplypresetchangepopupview.bundle",
+    "bundle_file": "f72d949473bd0bf1aefb70882d1946db__remote_assets__project_composition_prefab_ui_overlay_implement_supplypresetchangepopupview.bundle",
     "replacements": 22,
     "changed_objects": [
       {
