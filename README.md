@@ -239,13 +239,13 @@ Release assets should contain the patcher only. Do not attach the original APK, 
 Patch data can be released separately from the GUI. After updating translation CSVs or the remote patch report, build a data pack:
 
 ```bash
-.venv/bin/python scripts/build_patch_data_pack.py --version 0.1.10
+.venv/bin/python scripts/build_patch_data_pack.py --version 0.1.12
 ```
 
 This writes:
 
 ```text
-dist/patch-data/KIOU-English-PatchData-v0.1.10.zip
+dist/patch-data/KIOU-English-PatchData-v0.1.12.zip
 dist/patch-data/patch-data-index.json
 ```
 
@@ -258,8 +258,8 @@ https://github.com/MagikBased/KIOU-English-Patcher/releases/latest/download/patc
 Using the GitHub CLI, upload both files to the release that should be treated as latest:
 
 ```bash
-gh release upload v0.1.10 \
-  dist/patch-data/KIOU-English-PatchData-v0.1.10.zip \
+gh release upload v0.1.11 \
+  dist/patch-data/KIOU-English-PatchData-v0.1.12.zip \
   dist/patch-data/patch-data-index.json \
   --clobber
 ```

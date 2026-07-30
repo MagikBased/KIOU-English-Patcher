@@ -9,9 +9,8 @@ PATCHED_DIR="$WORK_DIR/patched_bundles"
 REPORT="$ROOT/output/remote_cache_patch_report.json"
 UI_REPORT="$WORK_DIR/remote_ui_patch_report.json"
 MASTERDATA_REPORT="$WORK_DIR/remote_masterdata_patch_report.json"
-VOICE_CATALOG_REPORT="$WORK_DIR/voice_catalog_patch_report.json"
+VOICE_CATALOG_REPORT_DIR="$WORK_DIR/voice_catalog_reports"
 MASTERDATA_BUNDLE_NAME="remote_assets__project_masterdata_runtimemasterdata.bundle"
-VOICE_CATALOG_BUNDLE_NAME="remote_assets__project_sound_generated_voice_catalog_g.bundle"
 PYTHON="$ROOT/.venv/bin/python"
 
 if [[ ! -x "$PYTHON" ]]; then
@@ -54,7 +53,6 @@ package = sys.argv[3]
 
 wanted: set[str] = {
     "remote_assets__project_masterdata_runtimemasterdata.bundle",
-    "remote_assets__project_sound_generated_voice_catalog_g.bundle",
 }
 for row in json.loads(report_path.read_text(encoding="utf-8")):
     bundle_file = row["bundle_file"]
@@ -132,17 +130,27 @@ if [[ -f "$ROOT/translations/remote_masterdata.csv" && -f "${MASTERDATA_MATCH[0]
     --report "$MASTERDATA_REPORT"
 fi
 
-VOICE_CATALOG_MATCH=("$PATCHED_DIR"/*__"$VOICE_CATALOG_BUNDLE_NAME")
-if [[ -f "$ROOT/translations/voice_catalog.csv" && -f "${VOICE_CATALOG_MATCH[0]}" ]]; then
-  echo "Applying voice-dialogue English translations..."
-  "$PYTHON" "$ROOT/scripts/apply_voice_catalog_translations.py" \
-    --source-bundle "${VOICE_CATALOG_MATCH[0]}" \
-    --output-bundle "${VOICE_CATALOG_MATCH[0]}" \
-    --translations "$ROOT/translations/voice_catalog.csv" \
-    --report "$VOICE_CATALOG_REPORT"
+VOICE_CATALOG_MATCH=(
+  "$PATCHED_DIR"/*__remote_assets__project_sound_generated_voice_catalog_g.bundle
+  "$PATCHED_DIR"/*__remote_assets__project_sound_generated_voice_catalog_*_g.bundle
+)
+if [[ -f "$ROOT/translations/voice_catalog.csv" ]]; then
+  mkdir -p "$VOICE_CATALOG_REPORT_DIR"
+  voice_catalog_index=0
+  for voice_catalog_bundle in "${VOICE_CATALOG_MATCH[@]}"; do
+    [[ -f "$voice_catalog_bundle" ]] || continue
+    voice_catalog_index=$((voice_catalog_index + 1))
+    voice_catalog_report="$VOICE_CATALOG_REPORT_DIR/$voice_catalog_index.json"
+    echo "Applying voice-dialogue English translations to $(basename "$voice_catalog_bundle")..."
+    "$PYTHON" "$ROOT/scripts/apply_voice_catalog_translations.py" \
+      --source-bundle "$voice_catalog_bundle" \
+      --output-bundle "$voice_catalog_bundle" \
+      --translations "$ROOT/translations/voice_catalog.csv" \
+      --report "$voice_catalog_report"
+  done
 fi
 
-"$PYTHON" - "$REPORT" "$UI_REPORT" "$MASTERDATA_REPORT" "$VOICE_CATALOG_REPORT" <<'PY'
+"$PYTHON" - "$REPORT" "$UI_REPORT" "$MASTERDATA_REPORT" "$VOICE_CATALOG_REPORT_DIR" <<'PY'
 from __future__ import annotations
 
 import json
@@ -153,8 +161,10 @@ output = Path(sys.argv[1])
 rows: list[dict[str, object]] = []
 for report_arg in sys.argv[2:]:
     report = Path(report_arg)
-    if report.exists():
-        rows.extend(json.loads(report.read_text(encoding="utf-8")))
+    reports = sorted(report.glob("*.json")) if report.is_dir() else [report]
+    for item in reports:
+        if item.is_file():
+            rows.extend(json.loads(item.read_text(encoding="utf-8")))
 output.write_text(json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8")
 PY
 

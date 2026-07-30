@@ -52,8 +52,9 @@ STATE_ROOT = state_root()
 DEFAULT_PACKAGE = "com.neconome.shogi"
 MASTERDATA_BUNDLE_NAME = "remote_assets__project_masterdata_runtimemasterdata.bundle"
 VOICE_CATALOG_BUNDLE_NAME = "remote_assets__project_sound_generated_voice_catalog_g.bundle"
+VOICE_CATALOG_BUNDLE_PREFIX = "remote_assets__project_sound_generated_voice_catalog_"
 STEAM_APP_ID = "4257900"
-PATCHER_VERSION = "0.1.10"
+PATCHER_VERSION = "0.1.11"
 PATCH_DATA_INDEX_URL = (
     "https://github.com/MagikBased/KIOU-English-Patcher/"
     "releases/latest/download/patch-data-index.json"
@@ -963,12 +964,18 @@ def patch_apk(
 def remote_bundle_names() -> set[str]:
     report_path = patch_data_file("reports/remote_patch_report.json")
     rows = json.loads(report_path.read_text(encoding="utf-8"))
-    selected: set[str] = {MASTERDATA_BUNDLE_NAME, VOICE_CATALOG_BUNDLE_NAME}
+    selected: set[str] = {MASTERDATA_BUNDLE_NAME}
     for row in rows:
         bundle_file = row["bundle_file"]
         if "__" in bundle_file:
             selected.add(bundle_file.split("__", 1)[1])
     return selected
+
+
+def is_voice_catalog_bundle_name(bundle_name: str) -> bool:
+    return bundle_name == VOICE_CATALOG_BUNDLE_NAME or (
+        bundle_name.startswith(VOICE_CATALOG_BUNDLE_PREFIX) and bundle_name.endswith("_g.bundle")
+    )
 
 
 def remote_bundle_rows() -> dict[str, str]:
@@ -1148,20 +1155,25 @@ def patch_remote_cache(package: str = DEFAULT_PACKAGE, log: LogFn = default_log,
         )
 
     voice_catalog_translations_path = patch_data_file("translations/voice_catalog.csv")
-    voice_catalog_bundle = next(patched_dir.glob(f"*__{VOICE_CATALOG_BUNDLE_NAME}"), None)
-    if voice_catalog_translations_path.exists() and voice_catalog_bundle.exists():
+    voice_catalog_bundles = sorted(
+        path
+        for path in patched_dir.glob("*__*.bundle")
+        if is_voice_catalog_bundle_name(path.name.split("__", 1)[1])
+    )
+    if voice_catalog_translations_path.exists() and voice_catalog_bundles:
         log("Applying voice-dialogue English translations...")
         voice_catalog_translations = load_voice_catalog_translations(voice_catalog_translations_path)
-        voice_catalog_report = patch_voice_catalog_bundle(
-            voice_catalog_bundle,
-            voice_catalog_bundle,
-            voice_catalog_translations,
-        )
-        reports.append(voice_catalog_report)
-        log(
-            f"{voice_catalog_report['bundle_file']}: "
-            f"{voice_catalog_report['replacements']} voice-dialogue replacements"
-        )
+        for voice_catalog_bundle in voice_catalog_bundles:
+            voice_catalog_report = patch_voice_catalog_bundle(
+                voice_catalog_bundle,
+                voice_catalog_bundle,
+                voice_catalog_translations,
+            )
+            reports.append(voice_catalog_report)
+            log(
+                f"{voice_catalog_report['bundle_file']}: "
+                f"{voice_catalog_report['replacements']} voice-dialogue replacements"
+            )
 
     report.write_text(json.dumps(reports, ensure_ascii=False, indent=2), encoding="utf-8")
     log(f"Patched {len(reports)} remote bundles with {sum(int(r['replacements']) for r in reports)} replacements")
@@ -1555,13 +1567,6 @@ def patch_steam_remote_cache(install_dir: Path, work_dir: Path, backup_root: Pat
             patch_masterdata_bundle,
             "master-data",
         ),
-        (
-            "voice_catalog.g.json",
-            patch_data_file("translations/voice_catalog.csv"),
-            load_voice_catalog_translations,
-            patch_voice_catalog_bundle,
-            "voice-dialogue",
-        ),
     ]
     for asset_name, translations_path, loader, patcher, label in special_specs:
         bundle_name = steam_asset_bundle_name(manifest, asset_name)
@@ -1581,6 +1586,30 @@ def patch_steam_remote_cache(install_dir: Path, work_dir: Path, backup_root: Pat
             write_steam_remote_cache(install_dir, backup_root, hash_value, patched)
         special_reports.append(report)
         log(f"{hash_value}: {report['replacements']} {label} replacements")
+
+    voice_catalog_translations_path = patch_data_file("translations/voice_catalog.csv")
+    if voice_catalog_translations_path.exists():
+        voice_catalog_translations = load_voice_catalog_translations(voice_catalog_translations_path)
+        for bundle in manifest.bundles:
+            if not is_voice_catalog_bundle_name(bundle.bundle_name):
+                continue
+            source = steam_remote_cache_path(install_dir, bundle.file_hash)
+            if not source.is_file():
+                log(f"Skipped voice-dialogue: {bundle.bundle_name} is not downloaded yet.")
+                continue
+            patched = patched_dir / temp_bundle_name(bundle.file_hash)
+            if not patched.exists():
+                shutil.copy2(source, patched)
+            report = patch_voice_catalog_bundle(
+                patched,
+                patched,
+                voice_catalog_translations,
+            )
+            report["bundle_file"] = report_bundle_name(bundle.file_hash, bundle.bundle_name)
+            if int(report.get("replacements", 0)) > 0:
+                write_steam_remote_cache(install_dir, backup_root, bundle.file_hash, patched)
+            special_reports.append(report)
+            log(f"{bundle.file_hash}: {report['replacements']} voice-dialogue replacements")
 
     return reports + special_reports
 
