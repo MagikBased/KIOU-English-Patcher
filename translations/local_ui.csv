@@ -83,3 +83,74 @@ ID: タップで表示＆コピー,ID: Tap to show and copy
 (This only removes the account from this device.)
 
 <color=#FFC560>If it is linked to an external service, you can restore it later with Data Restore.</color>"
+引き継ぎコード,Transfer Code
+"引き継ぎコードを入力してください。
+
+<color=#FFC560>このコードはサポート対応時のみ使用可能です。\n</color>","Enter the transfer code.
+
+<color=#FFC560>This code can only be used with support assistance.</color>"
+"名前を入力してください。
+（2～12文字）
+
+<color=#FFC560>名前はあとから変更できますが、
+変更する際は「名前変更券」が必要になります。</color>","Enter a name.
+(2-12 characters)
+
+<color=#FFC560>You can change your name later, but doing so requires a Name Change Ticket.</color>"
+"名前を入力してください。
+（{0}～{1}文字）
+
+<color=#FFC560>名前はあとから変更できますが、
+変更する際は「名前変更券」が必要になります。</color>","Enter a name.
+({0}-{1} characters)
+
+<color=#FFC560>You can change your name later, but doing so requires a Name Change Ticket.</color>"
+アカウント削除に同意する,I agree to delete the account
+"アカウントを完全に削除しますか？
+
+この端末からアカウントが削除され、
+ゲームサーバーからも削除されます。
+
+<color=#FF5779>削除後は復元することができません。</color>","Permanently delete this account?
+
+The account will be removed from this device
+and deleted from the game server.
+
+<color=#FF5779>It cannot be restored after deletion.</color>"
+"別の端末で本ゲームをプレイしており、
+アカウントを外部サービスと連携している場合は、
+「アカウント復元」を行うことで
+この端末でも同じアカウントでプレイできます。
+
+<color=#FFC560>復元後も、元の端末と
+この端末の両方でプレイできます。</color>","If you play this game on another device
+and linked the account to an external service,
+use Account Recovery to play with the same
+account on this device.
+
+<color=#FFC560>After recovery, you can continue playing
+on both the original and this device.</color>"
+アカウント新規作成,Create New Account
+"以下のサービスと連携済のアカウントを
+復元することができます。
+
+<color=#FFC560>復元後も、元の端末と
+この端末の両方でプレイできます。</color>","You can recover an account linked
+to one of the services below.
+
+<color=#FFC560>After recovery, you can continue playing
+on both the original and this device.</color>"
+描画優先,Prioritize Graphics
+バッテリー優先,Prioritize Battery
+ゲーム終了,Quit Game
+"現在のアカウントを初期化しますか？
+
+この端末からアカウントが削除されますが、
+ゲームサーバーからは削除されません。
+
+<color=#FFC560>外部サービスと連携済みであれば、\n「アカウント復元」であとから復元できます。</color>","Reset the current account?
+
+The account will be removed from this device,
+but it will not be deleted from the game server.
+
+<color=#FFC560>If linked to an external service, you can recover it later with Account Recovery.</color>"

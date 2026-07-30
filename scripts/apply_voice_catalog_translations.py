@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Patch Kiou voice_catalog.g TextAsset serif strings by cueName."""
+"""Patch Kiou voice-catalog TextAsset serif strings by cueName."""
 
 from __future__ import annotations
 
@@ -11,6 +11,10 @@ from pathlib import Path
 from typing import Any
 
 import UnityPy
+
+
+def is_voice_catalog_name(name: str) -> bool:
+    return name == "voice_catalog.g" or (name.startswith("voice_catalog_") and name.endswith(".g"))
 
 
 def load_translations(path: Path) -> dict[str, dict[str, str]]:
@@ -36,7 +40,8 @@ def patch_bundle(bundle_path: Path, output_path: Path, translations: dict[str, d
         if obj.type.name != "TextAsset":
             continue
         data = obj.read()
-        if getattr(data, "m_Name", None) != "voice_catalog.g":
+        catalog_name = getattr(data, "m_Name", "")
+        if not is_voice_catalog_name(catalog_name):
             continue
 
         found_catalog = True
@@ -70,14 +75,14 @@ def patch_bundle(bundle_path: Path, output_path: Path, translations: dict[str, d
             {
                 "path_id": obj.path_id,
                 "type": "TextAsset",
-                "name": "voice_catalog.g",
+                "name": catalog_name,
                 "replacements": len(replacements),
                 "strings": replacements,
             }
         )
 
     if not found_catalog:
-        raise ValueError(f"No voice_catalog.g TextAsset found in {bundle_path}")
+        raise ValueError(f"No voice-catalog TextAsset found in {bundle_path}")
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     if not changed_objects:

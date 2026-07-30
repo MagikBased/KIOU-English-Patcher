@@ -16,11 +16,15 @@ import UnityPy
 def load_translations(path: Path) -> dict[str, str]:
     with path.open("r", encoding="utf-8", newline="") as fp:
         reader = csv.DictReader(fp)
-        translations = {
-            row["source"]: row["target"]
-            for row in reader
-            if row.get("source") and row.get("target") and row["source"] != row["target"]
-        }
+        translations: dict[str, str] = {}
+        for row in reader:
+            source = row.get("source")
+            target = row.get("target")
+            if not source or not target or source == target:
+                continue
+            translations[source] = target
+            if "\n" in source:
+                translations[source.replace("\n", "\r\n")] = target.replace("\n", "\r\n")
     return translations
 
 

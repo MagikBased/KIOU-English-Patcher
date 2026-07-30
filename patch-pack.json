@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "pack_version": "0.1.11",
-  "min_patcher_version": "0.1.9",
+  "pack_version": "0.1.12",
+  "min_patcher_version": "0.1.11",
   "game": "KIOU",
   "targets": {
     "android_package": "com.neconome.shogi",
