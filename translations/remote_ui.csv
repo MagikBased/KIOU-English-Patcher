@@ -734,3 +734,166 @@ It is the weakest piece, but it plays many roles: building formations, starting 
 "
 対局履歴はありません。,No match history.
 ※注意文が表示されます。,* A notice will be shown.
+会心の一手を指すと「技有」の演出が表示されます。,Playing a brilliant move displays the Great Move effect.
+閉じる,Close
+"3分
+切れ負け","3 min
+Sudden Death"
+"AIが局面に応じておすすめの手を示してくれます。
+カジュアルで有効です。","AI recommends moves based on the position.
+Available in Casual mode."
+"10分
++秒読み30秒","10 min
++ 30 sec Byoyomi"
+モード一覧,Mode List
+"対局中にボタンをタップすると、そこから自分の手番3回分、
+強力なAIがおすすめの手を2つ教えてくれます。
+どちらを指すかはあなた次第！
+カジュアルでは毎対局3回まで覚醒券なしで使えます。
+使い切った後や他モードでは、覚醒券を消費して使えます。","Tap the button during a match and a powerful AI will suggest two moves for each of your next three turns.
+Which move you play is up to you!
+In Casual mode, it can be used three times per match without an Awakening Ticket.
+After those free uses, and in other modes, using it consumes an Awakening Ticket."
+モード,Mode
+技能判定,Great Move Detection
+"覚醒券
+消費","Awakening Ticket
+Use"
+アシスト機能,Assist Features
+"毎局3回
++覚醒券","3 per Match
++ Tickets"
+ガイド,Guide
+ルールを選んで「マッチング開始」を押すと全国のプレイヤーと対局できます。,Choose a rule and press Start Matching to play against players nationwide.
+"5分
++1手5秒加算","5 min
++ 5 sec per Move"
+ランク対局の遊び方,How to Play Ranked Matches
+バッテリー状況によらず設定通りのフレームレートにします,Maintain the selected frame rate regardless of battery status
+サクサクと動く高速アニメーション,Fast and responsive animations
+"対局中、棋士キャラクターのセリフやボイスを相手に送ったり、
+棋士キャラクターが状況に応じて自動で話す機能です。
+<color=#FFC560>棋士をタップすることでエモートを送ることができます。</color>","Emotes let you send your player's lines and voice to your opponent during a match, and allow the player to speak automatically based on the situation.
+<color=#FFC560>Tap your player to send an emote.</color>"
+配信者モード,Streamer Mode
+表現を抑えたシンプルな演出,Simple effects with reduced visuals
+制限なし,Unlimited
+エモートとは？,What Are Emotes?
+1手番に付1回だけ表示します,Display only once per turn
+バッテリー状況によるフレームレート制限,Frame Rate Limit Based on Battery
+省エフェクト,Reduced Effects
+駒の移動アニメーション,Piece Movement Animation
+3分未満で高速アニメーションに切り替わります,Switch to fast animations below 3 minutes
+しない,Off
+自分,Self
+自分の装飾品を適用します,Apply your cosmetics
+する,On
+持ち時間によらず設定通りに動きます,Use the selected animation regardless of remaining time
+バッテリー状況でフレームレートを調整し電力消費を抑えます,Adjust frame rate based on battery status to reduce power consumption
+各画面のプレイヤー名とIDを匿名にします,Anonymize player names and IDs on every screen
+演出,Effects
+1手番1回,Once per Turn
+対局者,Players
+プレイヤー名とIDを通常通り表示します,Display player names and IDs normally
+相手のエモートを制限なく表示します,Show all opponent emotes
+高速,Fast
+通常の演出,Normal Effects
+通常のアニメーション,Normal Animation
+相手のエモートを表示しません,Hide opponent emotes
+駒を指したときの駒のアニメーション（動き方）について設定することができます。,Configure how pieces animate when moved.
+エモート,Emotes
+相手のエモートの表示設定,Opponent Emote Display
+1回,Once
+持ち時間によるアニメーション切り替え,Animation Switching Based on Remaining Time
+駒の動き方,Piece Movement
+観戦時の装飾品適用,Apply Cosmetics While Spectating
+対局者の装飾品を適用します,Apply the players' cosmetics
+駒移動,Piece Movement
+困惑,Confused
+再接続中...,Reconnecting...
+謝罪,Apology
+決め台詞,Catchphrase
+納得,Agreement
+迷い,Unsure
+称賛,Praise
+挨拶,Greeting
+未所持,Not Owned
+棋桜覚醒は自分の手番でのみ発動できます,Kiou Awakening can only be activated on your turn
+通信不調...,Connection issue...
+通信エラーにより直前の手が巻き戻されました。\nもう一度指してください。,A connection error rolled back the previous move.\nPlease play it again.
+再接続しています...,Reconnecting...
+<size=70%>経過 {0} 秒</size>,<size=70%>Elapsed: {0} sec</size>
+"スタイル
+チェンジ","Style
+Change"
+全画面,Fullscreen
+報酬,Rewards
+対局中に,During a Match
+エモートについて,About Emotes
+この設定はいつでも変更できます,You can change this setting at any time
+描画優先,Prioritize Graphics
+最大60FPSで描画します,Render at up to 60 FPS
+フレームレート,Frame Rate
+バッテリー優先,Prioritize Battery
+音量,Volume
+ウインドウモード,Windowed Mode
+全画面モード,Fullscreen Mode
+解像度,Resolution
+画面モード,Display Mode
+フルスクリーンで表示します,Display in fullscreen
+ウインドウで表示します,Display in a window
+最大30FPSで描画し、電力消費を抑えます,Render at up to 30 FPS to reduce power consumption
+エモート「決め台詞」,Emote: Catchphrase
+特別仕様の王手演出,Special Check Effect
+ひらがな,Hiragana
+アシスト有りで気軽に対戦！\n 【棋桜覚醒使用可能+無料枠有り / 指し手ガイド有り / 技有判定表示有り】,Play casually with assists!\n [Kiou Awakening available + free uses / Move guide / Great Move detection]
+一手指すごとに時間回復！\n【棋桜覚醒使用可能 / 技有判定表示有り】,Time recovers after each move!\n[Kiou Awakening available / Great Move detection]
+短い時間で素早く対戦！\n【棋桜覚醒使用可能 / 技有判定表示有り】,Fast matches with short time!\n[Kiou Awakening available / Great Move detection]
+音声,Voice
+一般,General
+スタイル選択,Select Style
+初期スタイル,Default Style
+棋士スタイル名,Player Style Name
+システムボイス「リザルト」,System Voice: Results
+システムボイス「技有」,System Voice: Great Move
+システムボイス「秒読み」,System Voice: Byoyomi
+現在のグレード,Current Grade
+報酬はありません。,No rewards.
+"・それぞれの提供割合の合計値は100%ちょうどにならない場合があります。
+・「10回縁結び」について、10回目は紫の贈り物が確定で登場します。提供割合は「紫の贈り物確定」に従います。","- The displayed rates may not total exactly 100%.
+- On a 10 Bond Draw, the tenth draw is guaranteed to be a Purple Gift. Its rate follows the Guaranteed Purple Gift rates."
+"・縁結び1回につき御守を1つ獲得することができます。獲得した御守は棋士や装飾品などと交換することができます。
+・「通常縁結び」では「紅の御守」を獲得することができます。
+・「イベント縁結び」では「金の御守」を獲得することができます。
+・「金の御守」は、獲得した「イベント縁結び」に限らず、他の「イベント縁結び」でも使用できます。","- You receive one Amulet for each Bond Draw. Amulets can be exchanged for players, cosmetics, and other items.
+- Normal Bond Draws give Red Amulets.
+- Event Bond Draws give Gold Amulets.
+- Gold Amulets can be used in other Event Bond Draws, not only the event where they were earned."
+"・各縁結びの開催期間および内容は、予告なく変更する場合があります。
+・「イベント縁結び」で登場する棋士、棋士スタイルおよび装飾品は、後日再登場する場合があります。
+・一部棋士を重複して獲得すると、「想いの石」に変換されます。
+・棋士スタイルを重複して獲得すると、スタイルグレードが最大3まで1ずつ上昇します。
+・スタイルグレードが最大の棋士スタイルを再度獲得すると、「想いの石」に変換されます。
+・装飾品を重複して獲得すると、「装飾品の石」に変換されます。","- Bond Draw periods and contents may change without notice.
+- Players, player styles, and cosmetics from Event Bond Draws may return later.
+- Duplicate copies of certain players are converted into Memory Stones.
+- Duplicate player styles raise their Style Grade by 1, up to Grade 3.
+- Acquiring a player style again at maximum Style Grade converts it into Memory Stones.
+- Duplicate cosmetics are converted into Cosmetic Stones."
+試聴,Preview
+スタイルグレードアップ,Style Grade Up
+スタイルグレード解放,Style Grade Unlocked
+を重複獲得したためスタイルグレードがアップしました。," was obtained again, increasing its Style Grade."
+を獲得したためスタイルグレードが解放されました。," was obtained, unlocking its Style Grade."
+1手番に付き1回だけ表示します,Display only once per turn
+未解放,Locked
+獲得報酬,Rewards Earned
+親密度は棋士スタイル間で共通です。,Affinity is shared between player styles.
+スタイルグレードの解放・アップ時に報酬を獲得できます。,Earn rewards when unlocking or raising Style Grade.
+獲得時,Upon Acquisition
+スタイルグレード報酬一覧,Style Grade Rewards
+"特定の棋士を獲得するとスタイルグレードが解放されます。
+さらに重複獲得するとスタイルグレードがアップします。
+","Acquiring certain players unlocks their Style Grade.
+Acquiring duplicates raises their Style Grade.
+"
