@@ -154,3 +154,8 @@ The account will be removed from this device,
 but it will not be deleted from the game server.
 
 <color=#FFC560>If linked to an external service, you can recover it later with Account Recovery.</color>"
+最大60FPSで描画します,Render at up to 60 FPS
+ウインドウモード,Windowed Mode
+フルスクリーンで表示します,Display in fullscreen
+ウインドウで表示します,Display in a window
+最大30FPSで描画し、電力消費を抑えます,Render at up to 30 FPS to reduce power consumption
