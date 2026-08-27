@@ -3012,6 +3012,18 @@
     ]
   },
   {
+    "bundle_file": "50737924938e707dc88ad2c4fed2ff97__remote_assets__project_sound_generated_voice_catalog_skinvoice20001_g.bundle",
+    "replacements": 57,
+    "changed_objects": [
+      {
+        "path_id": 1785580230870512414,
+        "type": "TextAsset",
+        "name": "voice_catalog_SkinVoice20001.g",
+        "replacements": 57
+      }
+    ]
+  },
+  {
     "bundle_file": "50e2aee751ff4ecb402e6eb22026de5e__remote_assets__project__menu_prefab_page_home_homepage.bundle",
     "replacements": 5,
     "changed_objects": [
@@ -3495,6 +3507,17 @@
     ]
   },
   {
+    "bundle_file": "57cf0b9a9a2ba33133a2188eec67935d__remote_share_assets__project__game_design_board_texture.bundle",
+    "replacements": 1,
+    "changed_objects": [
+      {
+        "path_id": -6635603703633345041,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
     "bundle_file": "5badab61080da4aaf90de2f1eeb74ca8__remote_assets__project_composition_prefab_ui_overlay_implement_characterskinchangepopupview.bundle",
     "replacements": 3,
     "changed_objects": [
@@ -3726,6 +3749,20 @@
         "path_id": 8132306982848270814,
         "type": "MonoBehaviour",
         "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "6a266908b166f2f37b1b062a81aa2342__remote_assets__project_masterdata_runtimemasterdata.bundle",
+    "replacements": 1391,
+    "changed_objects": [
+      {
+        "path_id": -3577660058741299233,
+        "type": "TextAsset",
+        "name": "RuntimeMasterData",
+        "replacements": 1391,
+        "script_bytes_before": 214663,
+        "script_bytes_after": 206720
       }
     ]
   },
@@ -6289,20 +6326,6 @@
         "path_id": 8364915326680692508,
         "type": "MonoBehaviour",
         "replacements": 1
-      }
-    ]
-  },
-  {
-    "bundle_file": "d064393cbcca4179ec7e39cdab0ea9ae__remote_assets__project_masterdata_runtimemasterdata.bundle",
-    "replacements": 1367,
-    "changed_objects": [
-      {
-        "path_id": -3577660058741299233,
-        "type": "TextAsset",
-        "name": "RuntimeMasterData",
-        "replacements": 1367,
-        "script_bytes_before": 212271,
-        "script_bytes_after": 204376
       }
     ]
   },
