@@ -898,3 +898,19 @@ Change"
 Acquiring duplicates raises their Style Grade.
 "
 注,Note
+共有,Share
+#棋桜,#KIOU
+終盤BGM,Endgame BGM
+棋譜ID入力,Enter Game Record ID
+親密度pt+0,Bond Pt. +0
+対局中終盤BGM,In-Game Endgame BGM
+通信が不安定だったため、直前の手を送信し直しました,The previous move was resent because the connection was unstable
+"棋桜
+{2}
+
+対局棋譜 ({6} vs {7})
+{5}","KIOU
+{2}
+
+Game Record ({6} vs {7})
+{5}"
