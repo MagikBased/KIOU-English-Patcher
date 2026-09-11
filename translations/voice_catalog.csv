@@ -4364,3 +4364,293 @@ skin_voice_20001_610,手加減は無用ですよ,There is no need to hold back.
 skin_voice_20001_611,オーナー、これが終わったら業務に戻ってくださいね,"Owner, please return to work when this is over."
 skin_voice_20001_612,後で、いつものパフェご用意しますね,"I'll prepare your usual parfait afterward."
 skin_voice_20001_614,さくらのご友人でも手加減はしませんよ,"Even if you're Sakura's friend, I won't hold back."
+voice_015_001,"あたしは藍沢 莉緒。
+あんた暇そうだね。付き合いなよ。
+退屈はしないとおもうよ。","I'm Aizawa Rio. You look bored. Come hang out with me. You won't be bored."
+voice_015_002,あたしの将棋を指すだけ。,I'll just play my kind of shogi.
+voice_015_003,いい対局にしよっか,Let's make it a good game.
+voice_015_004,同じ手で来るなら、先につぶすだけ。,"If you're using the same move, I'll crush it first."
+voice_015_005,あたしの勝ちだね。,Looks like I win.
+voice_015_006,ありがとう。いい対局だったよ。,Thanks. That was a good game.
+voice_015_007,いつもより集中して指せた。,I played with more focus than usual.
+voice_015_008,よし…じいちゃんに教わったこと、全部活かせた。,All right... I put everything Grandpa taught me to use.
+voice_015_009,"来たね。
+ほら、盤並べて。一局指すよ。","There you are. Come on, set up the board. We're playing a game."
+voice_015_010,"おかえり。
+ほら、今日も服見に行くよ。
+あたしの時間、全部あんたに使ってあげるから。","Welcome back. Come on, we're going clothes shopping again today. I'll spend all my time on you."
+voice_015_011,"あたしのお気に入りは『ゴキゲン中飛車』だね。
+自分から動いて主導権握れるから、ちまちま守ってるより楽しいよ。","My favorite is the Cheerful Central Rook. I can make the first move and take control, so it's more fun than sitting around defending."
+voice_015_012,"将棋はじいちゃんに教わった。
+じいちゃんとの将棋だけが、あの頃の楽しみだったな。
+……早く指して。",Grandpa taught me shogi. Playing with him was the only fun I had back then. ...Hurry up and move.
+voice_015_013,"学校？サボった。
+あんなとこ、退屈なだけじゃん。",School? I skipped. That place is nothing but boring.
+voice_015_014,これからショップに行くんだけど、暇ならあんたも来る？,I'm heading to the shops. Want to come if you're free?
+voice_015_015,"なんで服が好きかって？
+好きな服着てたら気分あがるでしょ？
+退屈な日々も、少しはマシになるって言うかさ。","Why do I like clothes? Wearing something you love lifts your mood, right? It makes boring days a little more bearable."
+voice_015_016,"あんたに、服を着る楽しさ教えてあげる。
+まずはサイズからだね。
+ほら、両手広げて。測るから。","I'll teach you how fun clothes can be. First, I need your measurements. Come on, hold out your arms."
+voice_015_017,"はい、これ。
+何って……あんたに似合う服、見繕ってきたんだけど。
+試着してみてよ。感想ききたい。","Here, this is for you. What...? I picked out something that would suit you. Try it on. I want to know what you think."
+voice_015_018,"あたしが選んだ服、ちゃんと着てくれてんだ。ありがと。
+…あんたがあたしのものだって、周りに伝わっちゃうかな。",You're actually wearing the clothes I picked for you. Thanks. ...Think everyone can tell you're mine now?
+voice_015_019,あたしに？ふぅん、ありがと。,"For me? Hmm, thanks."
+voice_015_020,"これ、欲しかったやつ。
+ありがとう。センスいいんだね。",This is the one I wanted. Thanks. You've got good taste.
+voice_015_021,暇ならあんたも、指す？,Want to play if you're free?
+voice_015_022,"あんた、磨けば光ると思うんだよね。
+今度、似合う服あたしが選んであげるよ。","I think you could really shine with some polish. Next time, I'll pick out some clothes that suit you."
+voice_015_023,"最近、あんたと指すのが一番の息抜きになってるんだ。
+明日も付き合いなよ。",Playing with you has become my favorite way to unwind lately. Keep me company tomorrow too.
+voice_015_024,"親はあたしに『優等生』でいてほしいみたいだけど正直、うんざりしてたんだ。 
+だから……あんたがあたしに付き合ってくれること、本当に感謝してるよ。","My parents seem to want me to be the perfect student, but honestly, I was sick of it. So... I'm truly grateful that you spend time with me."
+voice_015_025,"あんたがあたしの退屈な日常を変えてくれたんだ。……ありがとう。
+今が一番楽しいよ。",You changed my boring everyday life. ...Thank you. I'm happier now than I've ever been.
+voice_015_026,"最初はただの暇つぶしだったのに……ほんと、世話の焼ける弟子を持っちゃったよ。
+服のセンスも教えることが山ほどあるから覚悟しなよ。
+……だから、これからもあたしの隣にいること。わかった？","At first you were just a way to kill time... but I really ended up with one high-maintenance student. I still have tons to teach you about fashion, so be ready. ...That means you're staying by my side from now on. Got it?"
+voice_015_027,王手！,Check!
+voice_015_028,使うよ,I'm using it.
+voice_015_029,詰み,Checkmate.
+voice_015_030,次は負けないから,I won't lose next time.
+voice_015_031,引き分けだね,It's a draw.
+voice_015_032,時間切れ……か,Out of time... huh.
+voice_015_033,ふぅ……よし、いくよ。,"Phew... All right, here I go."
+voice_015_034,成るよ,I'm promoting.
+voice_015_035,じいちゃんなら……どう指す？,How would Grandpa... play this?
+voice_015_036,逃がさないよ,I won't let you escape.
+voice_015_037,諦めるつもりないから,I'm not giving up.
+voice_015_038,覚悟しなよっ！,Brace yourself!
+voice_015_039,金矢倉,Gold Yagura
+voice_015_040,銀矢倉,Silver Yagura
+voice_015_041,片矢倉,Half Yagura
+voice_015_042,菊水矢倉,Kikusui Yagura
+voice_015_043,菱矢倉,Hishi Yagura
+voice_015_044,土居囲い,Doi Castle
+voice_015_045,総矢倉,Full Yagura
+voice_015_046,銀立ち矢倉,Standing Silver Yagura
+voice_015_047,矢倉穴熊,Yagura Anaguma
+voice_015_048,カブト囲い,Helmet Castle
+voice_015_049,右矢倉,Right Yagura
+voice_015_050,雁木囲い,Gangi Castle
+voice_015_051,居飛車穴熊,Static Rook Anaguma
+voice_015_052,居飛穴音無しの構え,Silent Static Rook Anaguma
+voice_015_053,松尾流穴熊,Matsuo Anaguma
+voice_015_054,銀冠穴熊,Silver Crown Anaguma
+voice_015_055,左美濃,Left Mino
+voice_015_056,天守閣美濃,Castle Tower Mino
+voice_015_057,カニ囲い,Crab Castle
+voice_015_058,早囲い,Quick Castle
+voice_015_059,中住まい,Central House
+voice_015_060,中原玉,Nakahara King
+voice_015_061,elmo囲い,elmo Castle
+voice_015_062,美濃囲い,Mino Castle
+voice_015_063,片美濃囲い,Half Mino
+voice_015_064,高美濃囲い,High Mino
+voice_015_065,木村美濃,Kimura Mino
+voice_015_066,金美濃,Gold Mino
+voice_015_067,銀美濃,Silver Mino
+voice_015_068,ダイヤモンド美濃,Diamond Mino
+voice_015_069,ちょんまげ美濃,Topknot Mino
+voice_015_070,大山美濃,Oyama Mino
+voice_015_071,ずれ美濃,Offset Mino
+voice_015_072,坊主美濃,Monk Mino
+voice_015_073,升田美濃,Masuda Mino
+voice_015_074,プラチナ美濃,Platinum Mino
+voice_015_075,四枚美濃,Four-Piece Mino
+voice_015_076,美濃熊囲い,Mino Anaguma
+voice_015_077,振り飛車穴熊,Ranging Rook Anaguma
+voice_015_078,銀冠,Silver Crown
+voice_015_079,端玉銀冠,Edge King Silver Crown
+voice_015_080,金冠,Gold Crown
+voice_015_081,金盾囲い,Gold Shield Castle
+voice_015_082,金無双,Gold Peerless
+voice_015_083,アヒル囲い,Duck Castle
+voice_015_085,いちご囲い,Strawberry Castle
+voice_015_086,大隅囲い,Osumi Castle
+voice_015_087,空中楼閣,Castle in the Air
+voice_015_088,串カツ囲い,Kushikatsu Castle
+voice_015_089,裾固め,Hem Fortification
+voice_015_090,箱入り娘,Boxed-In Daughter
+voice_015_091,舟囲い,Boat Castle
+voice_015_092,ビッグ４,Big Four
+voice_015_093,ボナンザ囲い,Bonanza Castle
+voice_015_094,ミレニアム囲い,Millennium Castle
+voice_015_095,無敵囲い,Invincible Castle
+voice_015_096,相掛かり,Double Wing Attack
+voice_015_097,相掛かり棒銀,Double Wing Climbing Silver
+voice_015_098,飯島流相掛かり引き角,Iijima Double Wing Retreating Bishop
+voice_015_099,中原流相掛かり,Nakahara Double Wing Attack
+voice_015_100,ひねり飛車,Twisting Rook
+voice_015_101,塚田スペシャル,Tsukada Special
+voice_015_102,UFO銀,UFO Silver
+voice_015_103,横歩取り,Side Pawn Picker
+voice_015_104,相横歩取り,Double Side Pawn Picker
+voice_015_105,青野流,Aono Style
+voice_015_106,８五飛車,８五 Rook
+voice_015_107,４五角戦法,４五 Bishop Strategy
+voice_015_108,勇気流,Yuki Style
+voice_015_109,竹部スペシャル,Takebe Special
+voice_015_110,２三歩戦法,２三 Pawn Strategy
+voice_015_111,３三角型空中戦法,３三 Bishop Aerial Strategy
+voice_015_112,３三桂戦法,３三 Knight Strategy
+voice_015_113,角換わり,Bishop Exchange
+voice_015_114,腰掛け銀,Reclining Silver
+voice_015_115,角換わり棒銀,Bishop Exchange Climbing Silver
+voice_015_116,角換わり右玉,Bishop Exchange Right King
+voice_015_117,一手損角換わり,Tempo-Loss Bishop Exchange
+voice_015_118,木村定跡,Kimura Joseki
+voice_015_119,阿久津流急戦矢倉,Akutsu Rapid Yagura
+voice_015_120,中原流急戦矢倉,Nakahara Rapid Yagura
+voice_015_121,米長流急戦矢倉,Yonenaga Rapid Yagura
+voice_015_122,矢倉棒銀,Yagura Climbing Silver
+voice_015_123,脇システム,Waki System
+voice_015_124,森下システム,Morishita System
+voice_015_125,３七銀戦法,３七 Silver Strategy
+voice_015_126,四手角,Four-Move Bishop
+voice_015_127,ウソ矢倉,Fake Yagura
+voice_015_128,左美濃急戦,Left Mino Rapid Attack
+voice_015_129,居角左美濃急戦,Unmoved Bishop Left Mino Rapid Attack
+voice_015_130,忍者銀,Ninja Silver
+voice_015_131,新型雁木,Modern Gangi
+voice_015_132,ツノ銀雁木,Horned Silver Gangi
+voice_015_133,対振り飛車持久戦,Slow Game vs Ranging Rook
+voice_015_134,飯島流引き角戦法,Iijima Retreating Bishop Strategy
+voice_015_135,鷺宮定跡,Saginomiya Joseki
+voice_015_136,４六銀左急戦,４六 Left Silver Rapid Attack
+voice_015_137,４六銀右急戦,４六 Right Silver Rapid Attack
+voice_015_138,４五歩早仕掛け,４五 Pawn Quick Attack
+voice_015_139,山田定跡,Yamada Joseki
+voice_015_140,エルモ急戦,elmo Rapid Attack
+voice_015_141,へなちょこ急戦,Henachoko Rapid Attack
+voice_015_142,玉頭位取り,King-Head Vanguard Pawn
+voice_015_143,５筋位取り,５th File Vanguard Pawn
+voice_015_144,５七金戦法,５七 Gold Strategy
+voice_015_145,超急戦,Ultra-Rapid Attack
+voice_015_146,超速,Super Speed
+voice_015_147,丸山ワクチン,Maruyama Vaccine
+voice_015_148,棒金,Climbing Gold
+voice_015_149,棒銀,Climbing Silver
+voice_015_150,原始棒銀,Primitive Climbing Silver
+voice_015_151,早繰り銀,Rapid Advancing Silver
+voice_015_152,右四間飛車,Right Fourth File Rook
+voice_015_153,右四間飛車急戦,Right Fourth File Rook Rapid Attack
+voice_015_154,右四間飛車左美濃,Right Fourth File Rook Left Mino
+voice_015_155,袖飛車,Sleeve Rook
+voice_015_156,羽生式袖飛車,Habu-Style Sleeve Rook
+voice_015_157,加藤流袖飛車,Kato-Style Sleeve Rook
+voice_015_158,中原飛車,Nakahara Rook
+voice_015_159,地下鉄飛車,Underground Rook
+voice_015_160,腰掛け銀,Reclining Silver
+voice_015_161,腰掛け金,Reclining Gold
+voice_015_162,雀刺し,Spearing the Sparrow
+voice_015_163,鳥刺し,Bird Spearing
+voice_015_164,鎖鎌銀,Kusarigama Silver
+voice_015_165,ポンポン桂,Popping Knights
+voice_015_166,新米長玉,New Yonenaga King
+voice_015_167,四間飛車,Fourth File Rook
+voice_015_168,角道オープン四間飛車,Open Bishop Path Fourth File Rook
+voice_015_169,藤井システム,Fujii System
+voice_015_170,はく式四間飛車,Haku-Style Fourth File Rook
+voice_015_171,魔界四間飛車,Demon World Fourth File Rook
+voice_015_172,耀龍四間飛車,Yoryu Fourth File Rook
+voice_015_173,立石流,Tateishi Style
+voice_015_174,錆刀戦法,Rusty Sword Strategy
+voice_015_175,レグスペ,Leg Special
+voice_015_176,三間飛車,Third File Rook
+voice_015_177,石田流,Ishida Style
+voice_015_178,石田流本組み,Ishida Main Formation
+voice_015_179,新石田流,New Ishida Style
+voice_015_180,早石田,Quick Ishida
+voice_015_181,升田式石田流,Masuda-Style Ishida
+voice_015_182,楠本式石田流,Kusumoto-Style Ishida
+voice_015_183,ムリヤリ早石田,Forced Quick Ishida
+voice_015_184,４→３戦法,４ to ３ Strategy
+voice_015_185,菅井流三間飛車,Sugai-Style Third File Rook
+voice_015_186,菅井流ゴキゲン三間飛車,Sugai Cheerful Third File Rook
+voice_015_187,トマホーク,Tomahawk
+voice_015_188,中田功ＸＰ,Isao Nakata XP
+voice_015_189,７八飛戦法,７八 Rook Strategy
+voice_015_190,カナケンシステム,Kanaken System
+voice_015_191,３ニ飛戦法,３ニ Rook Strategy
+voice_015_192,つくつくぼうし戦法,Tsukutsukuboshi Strategy
+voice_015_193,真部流,Manabe Style
+voice_015_194,中飛車,Central Rook
+voice_015_195,ゴキゲン中飛車,Cheerful Central Rook
+voice_015_196,先手中飛車,Sente Central Rook
+voice_015_197,原始中飛車,Primitive Central Rook
+voice_015_198,ツノ銀中飛車,Horned Silver Central Rook
+voice_015_199,英ちゃん流中飛車,Ei-chan Central Rook
+voice_015_200,中飛車左穴熊,Central Rook Left Anaguma
+voice_015_201,遠山流,Toyama Style
+voice_015_202,矢倉中飛車,Yagura Central Rook
+voice_015_203,平目,Flounder
+voice_015_204,向飛車,Opposing Rook
+voice_015_205,ダイレクト向かい飛車,Direct Opposing Rook
+voice_015_206,鬼殺し向かい飛車,Demon Killer Opposing Rook
+voice_015_207,メリケン向かい飛車,American Opposing Rook
+voice_015_208,天彦流向かい飛車,Amahiko-Style Opposing Rook
+voice_015_209,菜々河流向かい飛車,Nanakawa-Style Opposing Rook
+voice_015_210,阪田流向飛車,Sakata-Style Opposing Rook
+voice_015_211,天彦流▲6六角,Amahiko-Style ▲6六 Bishop
+voice_015_212,菜々河流△4四角,Nanakawa-Style △4四 Bishop
+voice_015_213,相振り飛車,Double Ranging Rook
+voice_015_214,角交換振り飛車,Bishop Exchange Ranging Rook
+voice_015_215,陽動振り飛車,Feint Ranging Rook
+voice_015_216,振り飛車ミレニアム,Ranging Rook Millennium
+voice_015_217,一間飛車,First File Rook
+voice_015_218,一間飛車穴熊,First File Rook Anaguma
+voice_015_219,九間飛車,Ninth File Rook
+voice_015_220,Uターン飛車,U-Turn Rook
+voice_015_221,７二飛亜急戦,７二 Rook Semi-Rapid Attack
+voice_015_222,玉頭銀,King-Head Silver
+voice_015_223,右玉,Right King
+voice_015_224,糸谷流右玉,Itodani-Style Right King
+voice_015_225,こいなぎ流右玉,Koinagi-Style Right King
+voice_015_226,セカステ右玉,Second Stage Right King
+voice_015_227,高田流左玉,Takada-Style Left King
+voice_015_228,嬉野流,Ureshino Style
+voice_015_229,新嬉野流,New Ureshino Style
+voice_015_230,鬼殺し,Demon Killer
+voice_015_231,新鬼殺し,New Demon Killer
+voice_015_232,かまいたち戦法,Kamaitachi Strategy
+voice_015_233,筋違い角,Wrong-Diagonal Bishop
+voice_015_234,相筋違い角,Double Wrong-Diagonal Bishop
+voice_015_235,筋違い角阪田流,Sakata Wrong-Diagonal Bishop
+voice_015_236,稲庭戦法,Inaniwa Strategy
+voice_015_237,阪田流2手目△9四歩,Sakata-Style Move 2 △9四 Pawn
+voice_015_238,角頭歩戦法,Bishop-Head Pawn Strategy
+voice_015_239,5手爆弾,5-Move Bomb
+voice_015_240,目くらまし戦法,Blinding Strategy
+voice_015_241,暴銀,Rampaging Silver
+voice_015_242,風車,Windmill
+voice_015_243,きmきm金,Kim Kim Gold
+voice_015_244,カニカニ金,Crab-Crab Gold
+voice_015_245,カニカニ銀,Crab-Crab Silver
+voice_015_246,ゴリゴリ金,Grinding Gold
+voice_015_247,間宮久夢流,Mamiya Kyumu Style
+voice_015_248,金沢流,Kanazawa Style
+voice_015_249,都成流,Tonari Style
+voice_015_250,やばボーズ流,Yaba-Bozu Style
+voice_015_251,xaby角,xaby Bishop
+voice_015_252,GAVA角,GAVA Bishop
+voice_015_253,パックマン戦法,Pac-Man Strategy
+voice_015_254,カメレオン戦法,Chameleon Strategy
+voice_015_255,カリスマウィルス,Charisma Virus
+voice_015_256,ショーダンシステム,Shodan System
+voice_015_257,ハチワンシステム,81 System
+voice_015_258,メイドシステム,Maid System
+voice_015_259,村田システム,Murata System
+voice_015_260,ドラゴンスペシャル,Dragon Special
+voice_015_261,アユムスペシャル,Ayumu Special
+voice_015_296,工藤流陽動振り飛車,Kudo-Style Feint Ranging Rook
+voice_015_501,よろしく,Good luck.
+voice_015_502,やるじゃん,Not bad.
+voice_015_503,なるほど,I see.
+voice_015_504,どうしようかな,What should I do?
+voice_015_505,ごめん,Sorry.
+voice_015_506,うん？,Hmm?
