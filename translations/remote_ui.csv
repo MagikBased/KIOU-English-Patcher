@@ -914,3 +914,14 @@ Acquiring duplicates raises their Style Grade.
 
 Game Record ({6} vs {7})
 {5}"
+デイリー連勝記録,Daily Win Streak Record
+デイリー勝率,Daily Win Rate
+注意,Caution
+質問,Question
+あてはまるものをすべて選択してください,Select all that apply.
+あてはまるものを1つ選択してください,Select one that applies.
+質問文,Question text
+<color=#FF5779>連携済</color>,<color=#FF5779>Linked</color>
+有償棋晶石の取り扱いについて,About Paid Kisho Stones
+・スマートフォン版でご購入いただいた有償棋晶石は、購入時と同じプラットフォームでのみご利用いただけます。異なるプラットフォームでプレイされる場合、棋晶石の所持数が少なく表示されることがありますが、購入時と同じプラットフォームでプレイいただくことで再びご利用いただけます。,"Paid Kisho Stones purchased on the smartphone version can only be used on the platform where they were purchased. On another platform, your balance may appear lower, but the stones will be available again when you play on the original platform."
+ゲーム終了,Quit Game
