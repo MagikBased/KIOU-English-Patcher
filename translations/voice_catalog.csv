@@ -4654,3 +4654,306 @@ voice_015_503,なるほど,I see.
 voice_015_504,どうしようかな,What should I do?
 voice_015_505,ごめん,Sorry.
 voice_015_506,うん？,Hmm?
+voice_016_001,"弥代 翠と申します。
+弥代家の娘として恥じぬよう精進してまいりますので、よろしくお願いいたします。","My name is Yashiro Sui.
+I will devote myself to becoming a daughter worthy of the Yashiro family. It is a pleasure to meet you."
+voice_016_002,日々の成果を、ここに。,"The fruits of my daily efforts, right here."
+voice_016_003,お手柔らかに、お願いいたします。,Please go easy on me.
+voice_016_004,自分自身に打ち勝ってこそ、真の淑女です。,Only by overcoming oneself can one become a true lady.
+voice_016_005,良き学びとなりました,This was a valuable learning experience.
+voice_016_006,これも日々のお稽古ゆえ、ですね。,This too is thanks to my daily practice.
+voice_016_007,教わった通りの手が指せました。,I was able to play just as I was taught.
+voice_016_008,龍菜お姉さまに誇れるような、理想通りの一局でした。,It was an ideal game—one I can proudly show Lady Takina.
+voice_016_009,"ごきげんよう。
+本日も、実りある一日にしましょう。","Good day.
+Let us make today another fruitful one."
+voice_016_010,"お待ちしておりました！……あっ、こほん。貴方様にお会いできて翠はとても嬉しいです。
+本日も共に、素敵な時間を過ごしましょう。","I have been waiting for you! ...Ah, ahem. Sui is very happy to see you.
+Let us spend another lovely day together."
+voice_016_011,"序盤から積極的に主導権を握るなら、早繰り銀がおすすめです。
+素早く銀を前進させて、自分のペースを作りましょう。","If you wish to seize the initiative from the opening, I recommend Rapid Advancing Silver.
+Advance your silver quickly and establish your own pace."
+voice_016_012,"龍菜お姉さまは、翠が目指している理想そのものです。
+お姉さまのような立派な淑女になれるように、日々精進しております。","Lady Takina is the very ideal Sui aspires to.
+I devote myself each day to becoming a fine lady like her."
+voice_016_013,"翠は決して才能に恵まれているわけではありません。
+ですから、人一倍お稽古に時間をかけ、日々の積み重ねで補うようにしております。","Sui is by no means blessed with natural talent.
+That is why I spend more time practicing than anyone else, making up for it through steady daily effort."
+voice_016_014,"寝る前には、日記をつけています。
+失敗したことも、書き留めているうちに『次はこうしよう』と改善策を思いつくのが、楽しいのです。","I write in my diary before bed.
+As I record my mistakes, I enjoy thinking of ways to do better next time."
+voice_016_015,常に礼儀正しく、誰から見ても恥ずかしくない立派な手本となる……それこそが、翠が目指す淑女です。,Always courteous and a fine example anyone can admire... That is the kind of lady Sui strives to become.
+voice_016_016,"好きな物は牛乳です。
+龍菜お姉さまのような大人の女性になりたくて、飲み始めたのですが……毎日飲んでいるうちに、好きになりました。
+最近は自分へのご褒美に、ジャムやハチミツでアレンジして飲むのが翠のお気に入りです。","My favorite drink is milk.
+I began drinking it because I wanted to become a grown woman like Lady Takina... but after having it every day, I came to love it.
+Lately, my favorite treat is to flavor it with jam or honey."
+voice_016_017,"いつも頑張っているから何かご褒美をあげたいですか。
+それでしたら……あの、遊園地に連れて行ってください。
+淑女には似つかわしくないかもしれませんが……ずっと、行ってみたくて。","You wish to reward me for always working so hard?
+In that case... um, please take me to an amusement park.
+It may not be fitting for a lady... but I have always wanted to go."
+voice_016_018,"遊園地ではしゃいだり、甘いものを食べ歩いたり、本日は普段できないことをたくさん体験できました。
+貴方様がずっとお付き合いくださったから……翠は幸せです。
+また連れて行ってくださいね。","Today I experienced so many things I normally cannot, from playing excitedly at the amusement park to sampling sweets.
+You stayed by my side the entire time... Sui is so happy.
+Please take me again someday."
+voice_016_019,"まぁ、贈り物をご用意してくださったのですね。
+お心遣い、感謝いたします。","My, you prepared a gift for me.
+Thank you for your thoughtfulness."
+voice_016_020,"わあっ！……こほん。
+貴方様には翠のこと、お見通しなのですね。ありがとうございます。","Wow! ...Ahem.
+You truly understand Sui, do you not? Thank you very much."
+voice_016_021,貴方様となら、良い信頼関係を築いていけそうです。,I believe I can build a strong bond of trust with you.
+voice_016_022,"不思議ですね。
+貴方様の前だと緊張がほぐれます。","How curious.
+I feel my tension melt away when I am with you."
+voice_016_023,最近、貴方様との楽しい思い出を振り返りながら、日記をつづることが増えました。,"Lately, I often find myself writing in my diary while looking back on my happy memories with you."
+voice_016_024,龍菜お姉さまへの気持ちと同じくらい……いえ、それ以上に、貴方様が翠の中で大切な存在になっています。,"You have become as important to Sui as Lady Takina... No, even more so."
+voice_016_025,"理想の淑女を目指す以上、きっと数え切れないほどの試練があることでしょう。
+ですが……貴方様と一緒なら、どんな苦難でも乗り越えられます。","The path to becoming my ideal lady will surely hold countless trials.
+But... if I am with you, I can overcome any hardship."
+voice_016_026,"翠が師ですか……ふふ、教わる側から教える側に回るのは、なんだかこそばゆいですね。
+龍菜お姉さまのように、貴方様を導けるよう努めさせていただきます。","Sui, your teacher...? Hehe, it feels rather strange to go from student to instructor.
+I shall do my utmost to guide you as Lady Takina guides me."
+voice_016_027,王手です,Check.
+voice_016_028,ここですね,Here.
+voice_016_029,詰みです,Checkmate.
+voice_016_030,力及ばず、です。,I was not up to the task.
+voice_016_031,引き分けですね,"A draw, then."
+voice_016_032,長考しすぎました……,I thought for too long...
+voice_016_033,最後の最後まで、決して気は抜きません。,I shall not let my guard down until the very end.
+voice_016_034,成りです,Promote.
+voice_016_035,焦りは禁物……冷静に。,I must not rush... Stay calm.
+voice_016_036,ここはお稽古通りに,Just as I practiced.
+voice_016_037,取り乱したりはいたしません,I will not lose my composure.
+voice_016_038,盤面を制します。,I shall control the board.
+voice_016_039,金矢倉,Gold Yagura
+voice_016_040,銀矢倉,Silver Yagura
+voice_016_041,片矢倉,Half Yagura
+voice_016_042,菊水矢倉,Kikusui Yagura
+voice_016_043,菱矢倉,Hishi Yagura
+voice_016_044,土居矢倉,Doi Yagura
+voice_016_045,総矢倉,Full Yagura
+voice_016_046,銀立ち矢倉,Standing Silver Yagura
+voice_016_047,矢倉穴熊,Yagura Anaguma
+voice_016_048,カブト囲い,Helmet Castle
+voice_016_049,右矢倉,Right Yagura
+voice_016_050,雁木囲い,Gangi Castle
+voice_016_051,居飛車穴熊,Static Rook Anaguma
+voice_016_052,居飛穴音無しの構え,Silent Static Rook Anaguma
+voice_016_053,松尾流穴熊,Matsuo Anaguma
+voice_016_054,銀冠穴熊,Silver Crown Anaguma
+voice_016_055,左美濃,Left Mino
+voice_016_056,天守閣美濃,Castle Tower Mino
+voice_016_057,カニ囲い,Crab Castle
+voice_016_058,早囲い,Quick Castle
+voice_016_059,中住まい,Central House
+voice_016_060,中原囲い,Nakahara Castle
+voice_016_061,elmo囲い,elmo Castle
+voice_016_062,美濃囲い,Mino Castle
+voice_016_063,片美濃囲い,Half Mino
+voice_016_064,高美濃囲い,High Mino
+voice_016_065,木村美濃,Kimura Mino
+voice_016_066,金美濃,Gold Mino
+voice_016_067,銀美濃,Silver Mino
+voice_016_068,ダイヤモンド美濃,Diamond Mino
+voice_016_069,ちょんまげ美濃,Topknot Mino
+voice_016_070,大山美濃,Oyama Mino
+voice_016_071,ずれ美濃,Offset Mino
+voice_016_072,坊主美濃,Monk Mino
+voice_016_073,升田美濃,Masuda Mino
+voice_016_074,プラチナ美濃,Platinum Mino
+voice_016_075,四枚美濃,Four-Piece Mino
+voice_016_076,美濃熊囲い,Mino Anaguma
+voice_016_077,振り飛車穴熊,Ranging Rook Anaguma
+voice_016_078,銀冠,Silver Crown
+voice_016_079,端玉銀冠,Edge King Silver Crown
+voice_016_080,金冠,Gold Crown
+voice_016_081,金盾囲い,Gold Shield Castle
+voice_016_082,金無双,Gold Peerless
+voice_016_083,アヒル囲い,Duck Castle
+voice_016_085,いちご囲い,Strawberry Castle
+voice_016_086,大隅囲い,Osumi Castle
+voice_016_087,空中楼閣,Castle in the Air
+voice_016_088,串カツ囲い,Kushikatsu Castle
+voice_016_089,裾固め,Hem Fortification
+voice_016_090,箱入り娘,Boxed-In Daughter
+voice_016_091,舟囲い,Boat Castle
+voice_016_092,ビッグ４,Big Four
+voice_016_093,ボナンザ囲い,Bonanza Castle
+voice_016_094,ミレニアム囲い,Millennium Castle
+voice_016_095,無敵囲い,Invincible Castle
+voice_016_096,相掛かり,Double Wing Attack
+voice_016_097,相掛かり棒銀,Double Wing Climbing Silver
+voice_016_098,飯島流相掛かり引き角,Iijima Double Wing Retreating Bishop
+voice_016_099,中原流相掛かり,Nakahara Double Wing Attack
+voice_016_100,ひねり飛車,Twisting Rook
+voice_016_101,塚田スペシャル,Tsukada Special
+voice_016_102,UFO銀,UFO Silver
+voice_016_103,横歩取り,Side Pawn Picker
+voice_016_104,相横歩取り,Double Side Pawn Picker
+voice_016_105,青野流,Aono Style
+voice_016_106,８五飛車,８五 Rook
+voice_016_107,４五角戦法,４五 Bishop Strategy
+voice_016_108,勇気流,Yuki Style
+voice_016_109,竹部スペシャル,Takebe Special
+voice_016_110,２三歩戦法,２三 Pawn Strategy
+voice_016_111,３三角型空中戦法,３三 Bishop Aerial Strategy
+voice_016_112,３三桂戦法,３三 Knight Strategy
+voice_016_113,角換わり,Bishop Exchange
+voice_016_114,腰掛け銀,Reclining Silver
+voice_016_115,角換わり棒銀,Bishop Exchange Climbing Silver
+voice_016_116,角換わり右玉,Bishop Exchange Right King
+voice_016_117,一手損角換わり,Tempo-Loss Bishop Exchange
+voice_016_118,木村定跡,Kimura Joseki
+voice_016_119,阿久津流急戦矢倉,Akutsu Rapid Yagura
+voice_016_120,中原流急戦矢倉,Nakahara Rapid Yagura
+voice_016_121,米長流急戦矢倉,Yonenaga Rapid Yagura
+voice_016_122,矢倉棒銀,Yagura Climbing Silver
+voice_016_123,脇システム,Waki System
+voice_016_124,森下システム,Morishita System
+voice_016_125,３七銀戦法,３七 Silver Strategy
+voice_016_126,四手角,Four-Move Bishop
+voice_016_127,ウソ矢倉,Fake Yagura
+voice_016_128,左美濃急戦,Left Mino Rapid Attack
+voice_016_129,居角左美濃急戦,Unmoved Bishop Left Mino Rapid Attack
+voice_016_130,忍者銀,Ninja Silver
+voice_016_131,新型雁木,Modern Gangi
+voice_016_132,ツノ銀雁木,Horned Silver Gangi
+voice_016_133,対振り飛車持久戦,Slow Game vs Ranging Rook
+voice_016_134,飯島流引き角戦法,Iijima Retreating Bishop Strategy
+voice_016_135,鷺宮定跡,Saginomiya Joseki
+voice_016_136,４六銀左急戦,４六 Left Silver Rapid Attack
+voice_016_137,４六銀右急戦,４六 Right Silver Rapid Attack
+voice_016_138,４五歩早仕掛け,４五 Pawn Quick Attack
+voice_016_139,山田定跡,Yamada Joseki
+voice_016_140,エルモ急戦,elmo Rapid Attack
+voice_016_141,へなちょこ急戦,Henachoko Rapid Attack
+voice_016_142,玉頭位取り,King-Head Vanguard Pawn
+voice_016_143,５筋位取り,５th File Vanguard Pawn
+voice_016_144,５七金戦法,５七 Gold Strategy
+voice_016_145,超急戦,Ultra-Rapid Attack
+voice_016_146,超速,Super Speed
+voice_016_147,丸山ワクチン,Maruyama Vaccine
+voice_016_148,棒金,Climbing Gold
+voice_016_149,棒銀,Climbing Silver
+voice_016_150,原始棒銀,Primitive Climbing Silver
+voice_016_151,早繰り銀,Rapid Advancing Silver
+voice_016_152,右四間飛車,Right Fourth File Rook
+voice_016_153,右四間飛車急戦,Right Fourth File Rook Rapid Attack
+voice_016_154,右四間飛車左美濃,Right Fourth File Rook Left Mino
+voice_016_155,袖飛車,Sleeve Rook
+voice_016_156,羽生式袖飛車,Habu-Style Sleeve Rook
+voice_016_157,加藤流袖飛車,Kato-Style Sleeve Rook
+voice_016_158,中原飛車,Nakahara Rook
+voice_016_159,地下鉄飛車,Underground Rook
+voice_016_160,腰掛け銀,Reclining Silver
+voice_016_161,腰掛け金,Reclining Gold
+voice_016_162,雀刺し,Spearing the Sparrow
+voice_016_163,鳥刺し,Bird Spearing
+voice_016_164,鎖鎌銀,Kusarigama Silver
+voice_016_165,ポンポン桂,Popping Knights
+voice_016_166,新米長玉,New Yonenaga King
+voice_016_167,四間飛車,Fourth File Rook
+voice_016_168,角道オープン四間飛車,Open Bishop Path Fourth File Rook
+voice_016_169,藤井システム,Fujii System
+voice_016_170,はく式四間飛車,Haku-Style Fourth File Rook
+voice_016_171,魔界四間飛車,Demon World Fourth File Rook
+voice_016_172,耀龍四間飛車,Yoryu Fourth File Rook
+voice_016_173,立石流,Tateishi Style
+voice_016_174,錆刀戦法,Rusty Sword Strategy
+voice_016_175,レグスペ,Leg Special
+voice_016_176,三間飛車,Third File Rook
+voice_016_177,石田流,Ishida Style
+voice_016_178,石田流本組み,Ishida Main Formation
+voice_016_179,新石田流,New Ishida Style
+voice_016_180,早石田,Quick Ishida
+voice_016_181,升田式石田流,Masuda-Style Ishida
+voice_016_182,楠本式石田流,Kusumoto-Style Ishida
+voice_016_183,ムリヤリ早石田,Forced Quick Ishida
+voice_016_184,４→３戦法,４ to ３ Strategy
+voice_016_185,菅井流三間飛車,Sugai-Style Third File Rook
+voice_016_186,菅井流ゴキゲン三間飛車,Sugai Cheerful Third File Rook
+voice_016_187,トマホーク,Tomahawk
+voice_016_188,中田功ＸＰ,Isao Nakata XP
+voice_016_189,７八飛戦法,７八 Rook Strategy
+voice_016_190,カナケンシステム,Kanaken System
+voice_016_191,３ニ飛戦法,３ニ Rook Strategy
+voice_016_192,つくつくぼうし戦法,Tsukutsukuboshi Strategy
+voice_016_193,真部流,Manabe Style
+voice_016_194,中飛車,Central Rook
+voice_016_195,ゴキゲン中飛車,Cheerful Central Rook
+voice_016_196,先手中飛車,Sente Central Rook
+voice_016_197,原始中飛車,Primitive Central Rook
+voice_016_198,ツノ銀中飛車,Horned Silver Central Rook
+voice_016_199,英ちゃん流中飛車,Ei-chan Central Rook
+voice_016_200,中飛車左穴熊,Central Rook Left Anaguma
+voice_016_201,遠山流,Toyama Style
+voice_016_202,矢倉中飛車,Yagura Central Rook
+voice_016_203,平目,Flounder
+voice_016_204,向飛車,Opposing Rook
+voice_016_205,ダイレクト向かい飛車,Direct Opposing Rook
+voice_016_206,鬼殺し向かい飛車,Demon Killer Opposing Rook
+voice_016_207,メリケン向かい飛車,American Opposing Rook
+voice_016_208,天彦流向かい飛車,Amahiko-Style Opposing Rook
+voice_016_209,菜々河流向かい飛車,Nanakawa-Style Opposing Rook
+voice_016_210,阪田流向飛車,Sakata-Style Opposing Rook
+voice_016_211,天彦流▲6六角,Amahiko-Style ▲6六 Bishop
+voice_016_212,菜々河流△4四角,Nanakawa-Style △4四 Bishop
+voice_016_213,相振り飛車,Double Ranging Rook
+voice_016_214,角交換振り飛車,Bishop Exchange Ranging Rook
+voice_016_215,陽動振り飛車,Feint Ranging Rook
+voice_016_216,振り飛車ミレニアム,Ranging Rook Millennium
+voice_016_217,一間飛車,First File Rook
+voice_016_218,一間飛車穴熊,First File Rook Anaguma
+voice_016_219,九間飛車,Ninth File Rook
+voice_016_220,Uターン飛車,U-Turn Rook
+voice_016_221,７二飛亜急戦,７二 Rook Semi-Rapid Attack
+voice_016_222,玉頭銀,King-Head Silver
+voice_016_223,右玉,Right King
+voice_016_224,糸谷流右玉,Itodani-Style Right King
+voice_016_225,こいなぎ流右玉,Koinagi-Style Right King
+voice_016_226,セカステ右玉,Second Stage Right King
+voice_016_227,高田流左玉,Takada-Style Left King
+voice_016_228,嬉野流,Ureshino Style
+voice_016_229,新嬉野流,New Ureshino Style
+voice_016_230,鬼殺し,Demon Killer
+voice_016_231,新鬼殺し,New Demon Killer
+voice_016_232,かまいたち戦法,Kamaitachi Strategy
+voice_016_233,筋違い角,Wrong-Diagonal Bishop
+voice_016_234,相筋違い角,Double Wrong-Diagonal Bishop
+voice_016_235,筋違い角阪田流,Sakata Wrong-Diagonal Bishop
+voice_016_236,稲庭戦法,Inaniwa Strategy
+voice_016_237,阪田流2手目△9四歩,Sakata-Style Move 2 △9四 Pawn
+voice_016_238,角頭歩戦法,Bishop-Head Pawn Strategy
+voice_016_239,5手爆弾,5-Move Bomb
+voice_016_240,目くらまし戦法,Blinding Strategy
+voice_016_241,暴銀,Rampaging Silver
+voice_016_242,風車,Windmill
+voice_016_243,きmきm金,Kim Kim Gold
+voice_016_244,カニカニ金,Crab-Crab Gold
+voice_016_245,カニカニ銀,Crab-Crab Silver
+voice_016_246,ゴリゴリ金,Grinding Gold
+voice_016_247,間宮久夢流,Mamiya Kyumu Style
+voice_016_248,金沢流,Kanazawa Style
+voice_016_249,都成流,Tonari Style
+voice_016_250,やばボーズ流,Yaba-Bozu Style
+voice_016_251,xaby角,xaby Bishop
+voice_016_252,GAVA角,GAVA Bishop
+voice_016_253,パックマン戦法,Pac-Man Strategy
+voice_016_254,カメレオン戦法,Chameleon Strategy
+voice_016_255,カリスマウィルス,Charisma Virus
+voice_016_256,ショーダンシステム,Shodan System
+voice_016_257,ハチワンシステム,81 System
+voice_016_258,メイドシステム,Maid System
+voice_016_259,村田システム,Murata System
+voice_016_260,ドラゴンスペシャル,Dragon Special
+voice_016_261,アユムスペシャル,Ayumu Special
+voice_016_296,工藤流陽動振り飛車,Kudo-Style Feint Ranging Rook
+voice_016_501,よろしくお願いいたします。,I look forward to our game.
+voice_016_502,さすがでございます。,Splendid.
+voice_016_503,そういうことですね。,I see how it is.
+voice_016_504,どちらを選ぶべきか……,Which should I choose...?
+voice_016_505,申し訳ございません,My apologies.
+voice_016_506,困りましたね……,This is troubling...
