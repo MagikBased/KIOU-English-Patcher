@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "pack_version": "0.1.16",
+  "pack_version": "0.1.17",
   "min_patcher_version": "0.1.11",
   "game": "KIOU",
   "targets": {
