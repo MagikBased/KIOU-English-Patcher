@@ -589,77 +589,6 @@
     ]
   },
   {
-    "bundle_file": "06207a1158cfeb8c9a02f5c262d90e51__remote_assets__project_composition_prefab_ui_overlay_implement_shop_passpurchaseshoppopupview.bundle",
-    "replacements": 17,
-    "changed_objects": [
-      {
-        "path_id": -8690902768790427530,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -7806475573310478218,
-        "type": "MonoBehaviour",
-        "replacements": 2
-      },
-      {
-        "path_id": -2912389935284901770,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -2676636194906527626,
-        "type": "MonoBehaviour",
-        "replacements": 2
-      },
-      {
-        "path_id": 391408956543707254,
-        "type": "MonoBehaviour",
-        "replacements": 2
-      },
-      {
-        "path_id": 543422478210082934,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1021119023521572982,
-        "type": "MonoBehaviour",
-        "replacements": 2
-      },
-      {
-        "path_id": 1282055391084456054,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 4801374055361194102,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 5402010694856648822,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 5734517191893035126,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 6489922805094918262,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 8086130748460673142,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      }
-    ]
-  },
-  {
     "bundle_file": "066ac8e12889b99de9126e5a99d74686__remote_assets__project_composition_prefab_ui_overlay_implement_lobbykifulistpopup_lobbykifulistpopupview.bundle",
     "replacements": 12,
     "changed_objects": [
@@ -712,6 +641,337 @@
         "path_id": 7628278299238609639,
         "type": "MonoBehaviour",
         "replacements": 2
+      }
+    ]
+  },
+  {
+    "bundle_file": "071b065f97675fd9bc2d2af6d7315dbe__remote_share_assets__project__game_prefab.bundle",
+    "replacements": 65,
+    "changed_objects": [
+      {
+        "path_id": -8761421166578701684,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -8695007631284376948,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -7888174376231158281,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -7531200756731143846,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -6674499766564710022,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -6536981632093984116,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -6063637532189222534,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -5848527563903329958,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -5294084971534292340,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -5022260905992811781,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -4474107308953560742,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -4155618855227483814,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -4147903924553479429,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -4078460914165028212,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -3545044173641868966,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -3278295237388452361,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -3163621927578288649,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -3067072439181951497,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -2961220806355805830,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -2755545489385711270,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -2730168214380930726,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -2443517713686926708,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -2294908761967105396,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -2130193951725000052,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1864784616303978118,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1445238856355145382,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1299451929554679045,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -617293661878556020,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -478581367354582662,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -113594227946910981,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -77099723505297030,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 484770556262095194,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 494806019436517722,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 515347548839602828,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 613419292846713484,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 652710913596582540,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 808006125526117004,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1108555908735298188,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1489522087027796620,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1696625040060914010,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1913051329639737996,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2290892874560772442,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 3257253001327929996,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 3313849266567518554,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 3495145915576326522,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 4026205399304837466,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 4161326635908995418,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 4207924692263561868,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 4228959423603949047,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 4825234488620915066,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 4828772217935894874,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 5411264288264755546,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 5562374108417854203,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 5933932644470888794,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 6119243140375779674,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 6312756491441138316,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 6557429513002740364,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 6962356190013876876,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 7369558535642581755,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 7372819037135116634,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 7634021211116542298,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 7827939316517800699,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 8368982121711241979,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 8787088395450706572,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 8952783144453019994,
+        "type": "MonoBehaviour",
+        "replacements": 1
       }
     ]
   },
@@ -861,6 +1121,142 @@
       },
       {
         "path_id": -2130179244569019478,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "146c0b7d203e84c1b217d35e0013ca14__remote_share_assets__project_composition_prefab_ui_overlay_implement_userprofilepopup_section.bundle",
+    "replacements": 32,
+    "changed_objects": [
+      {
+        "path_id": -8398944224707346111,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -8377118927747019048,
+        "type": "MonoBehaviour",
+        "replacements": 4
+      },
+      {
+        "path_id": -7992139080184155041,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -7151653271896897336,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -7142073404609186721,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -6264417906560912289,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -5747094300796645672,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -3497286519029297448,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -3348469821185614768,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1238001473448984390,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -918799947955499304,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 50678715954011216,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 635615959828809928,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1447492436090883800,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1906602101037072705,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2374101241286702175,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 3002651221653402719,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 4280193995420873823,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 4997419919172112088,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 5764417818999131864,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 6203341026281590488,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 6518685719740268730,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 7699551283018877128,
+        "type": "MonoBehaviour",
+        "replacements": 4
+      },
+      {
+        "path_id": 7784368399093121210,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 9007746294999325776,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 9207658939141983960,
         "type": "MonoBehaviour",
         "replacements": 1
       }
@@ -1074,47 +1470,6 @@
       },
       {
         "path_id": 2557074074887114996,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      }
-    ]
-  },
-  {
-    "bundle_file": "21fb9dd8030233c9ddcc58f1ac46447d__remote_assets__project_composition_prefab_ui_overlay_implement_shop_coinpurchaseshoppopupview.bundle",
-    "replacements": 9,
-    "changed_objects": [
-      {
-        "path_id": -6425587370473296449,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -5792912721223029313,
-        "type": "MonoBehaviour",
-        "replacements": 3
-      },
-      {
-        "path_id": -4152527423612457537,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -4033150089041416769,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 627962595895602623,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1578689243686497727,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 8109911559662529983,
         "type": "MonoBehaviour",
         "replacements": 1
       }
@@ -1590,343 +1945,6 @@
     ]
   },
   {
-    "bundle_file": "2508f9788a713c7ea8afb8e232bc4c50__remote_assets__project__game_gamescene.bundle",
-    "replacements": 61,
-    "changed_objects": [
-      {
-        "path_id": 1264,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1266,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1267,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1268,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1269,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1270,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1271,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1273,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1274,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1275,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1277,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1279,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1280,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1281,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1282,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1283,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1284,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1285,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1286,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1288,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1289,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1290,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1291,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1292,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1294,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1295,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1296,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1298,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1299,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1302,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1303,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1304,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1307,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1308,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1310,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1312,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1316,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1317,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1318,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1321,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1322,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1323,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1324,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1325,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1326,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1327,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1328,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1329,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1330,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1332,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1333,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1334,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1335,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1336,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1337,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1338,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1339,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1367,
-        "type": "MonoBehaviour",
-        "replacements": 4
-      }
-    ]
-  },
-  {
-    "bundle_file": "2952445375c410dd6e6d6be85ed95bdc__remote_assets__project_composition_prefab_ui_overlay_implement_shop_extrashoppopupview.bundle",
-    "replacements": 9,
-    "changed_objects": [
-      {
-        "path_id": -8546982187853446627,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -2561122727603568099,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1057071509516288541,
-        "type": "MonoBehaviour",
-        "replacements": 3
-      },
-      {
-        "path_id": 1665645768341226013,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 5135546374993969693,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 6453317813237613085,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 9013468739578200605,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      }
-    ]
-  },
-  {
     "bundle_file": "29c1218a04a74e160c1498bbf1edeb5b__remote_share_assets__project__menu_prefab_page_matchselectionpage_cpumatch.bundle",
     "replacements": 9,
     "changed_objects": [
@@ -1990,17 +2008,6 @@
         "path_id": -6462313213446216018,
         "type": "MonoBehaviour",
         "replacements": 1
-      }
-    ]
-  },
-  {
-    "bundle_file": "2db8e16d29fd24f83ee1bb50f087cff9__remote_share_assets__project__game_design_settings.bundle",
-    "replacements": 6,
-    "changed_objects": [
-      {
-        "path_id": 8585727256196504375,
-        "type": "MonoBehaviour",
-        "replacements": 6
       }
     ]
   },
@@ -3354,57 +3361,6 @@
     ]
   },
   {
-    "bundle_file": "31b9d665e5c868209e30756c15f8f79b__remote_assets__project__menu_prefab_page_shop_shoptoppage.bundle",
-    "replacements": 9,
-    "changed_objects": [
-      {
-        "path_id": -7017646757032469451,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -1940071487592571851,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -114646357364417483,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1046927922687007797,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2558313526267698229,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 5119774889275251765,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 5255544372200823861,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 5286736840267815989,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 7127135305996721205,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      }
-    ]
-  },
-  {
     "bundle_file": "33679f0b3228dbc5eeb82956d23b3a1c__remote_assets__project_composition_prefab_ui_overlay_implement_kifudetail_boardsequencepopupview.bundle",
     "replacements": 7,
     "changed_objects": [
@@ -3604,1205 +3560,7 @@
     ]
   },
   {
-    "bundle_file": "40c90ae03a25efea0219d971cc005aac__remote_assets__project__menu_prefab_overlay_kifulistpopup_kifulistpopupview.bundle",
-    "replacements": 12,
-    "changed_objects": [
-      {
-        "path_id": -8785517259636738279,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -8673095820188584167,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -6193377970334861543,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -5250570784181389543,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -2468941940860651751,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -2133410577606838503,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -1988296307662129383,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -539673893542824167,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 3110438148323079961,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 3154923779785357081,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 6970918781974148889,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 8257578920734750489,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      }
-    ]
-  },
-  {
-    "bundle_file": "422dc90b7c634cacbca98c439046e30c__remote_assets__project_composition_prefab_ui_overlay_implement_gameonly_aispecialsupportpopupview.bundle",
-    "replacements": 3,
-    "changed_objects": [
-      {
-        "path_id": 305950630886367123,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 3110326685233766291,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 3371610921492012947,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      }
-    ]
-  },
-  {
-    "bundle_file": "43440bf4e42ca7b5f11c926330280dc0__remote_assets__project_composition_prefab_ui_overlay_implement_shop_charactersandexchangeshoppopupview.bundle",
-    "replacements": 9,
-    "changed_objects": [
-      {
-        "path_id": -8675327354721916708,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -7017764365454268196,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -5141875005211531044,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 720962469065730268,
-        "type": "MonoBehaviour",
-        "replacements": 3
-      },
-      {
-        "path_id": 1622400519888054492,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 8091999530328402140,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 8381413724976195804,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      }
-    ]
-  },
-  {
-    "bundle_file": "454547b07e4269def1a38f0dc8525b1f__remote_assets__project_composition_prefab_ui_overlay_implement_howtoplaypopupview.bundle",
-    "replacements": 1,
-    "changed_objects": [
-      {
-        "path_id": 7303659697510236281,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      }
-    ]
-  },
-  {
-    "bundle_file": "45722a404e90e6827e12b2adc6cd3962__remote_assets__project_composition_prefab_ui_overlay_implement_matchingwaitingpopupview.bundle",
-    "replacements": 2,
-    "changed_objects": [
-      {
-        "path_id": 3564486042554442331,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 6100901943290995291,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      }
-    ]
-  },
-  {
-    "bundle_file": "471949f5b7daf6c775ca4426e80e6173__remote_assets__project_composition_prefab_ui_overlay_implement_shop_supplysandexchangeshoppopupview.bundle",
-    "replacements": 9,
-    "changed_objects": [
-      {
-        "path_id": -9003174146406557267,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -5913754735541233235,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -2171702320246236755,
-        "type": "MonoBehaviour",
-        "replacements": 3
-      },
-      {
-        "path_id": 1289665819709331885,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 4451237222688414125,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 5740720268914186669,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 6580033793680464301,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      }
-    ]
-  },
-  {
-    "bundle_file": "4a2466ac6d292824392434e04f628bd5__remote_assets__project_composition_prefab_ui_overlay_implement_itemrewardconfirmationpopup_itemrewardconfirmationpopupview.bundle",
-    "replacements": 3,
-    "changed_objects": [
-      {
-        "path_id": -8691727397926553178,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -7060345874730141274,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 8998875853019068838,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      }
-    ]
-  },
-  {
-    "bundle_file": "4dcae3a2a66e8f43edd67d38bcb1657e__remote_assets__project_sound_generated_voice_catalog_voice009_g.bundle",
-    "replacements": 267,
-    "changed_objects": [
-      {
-        "path_id": 6735160103154270012,
-        "type": "TextAsset",
-        "name": "voice_catalog_Voice009.g",
-        "replacements": 267
-      }
-    ]
-  },
-  {
-    "bundle_file": "50737924938e707dc88ad2c4fed2ff97__remote_assets__project_sound_generated_voice_catalog_skinvoice20001_g.bundle",
-    "replacements": 57,
-    "changed_objects": [
-      {
-        "path_id": 1785580230870512414,
-        "type": "TextAsset",
-        "name": "voice_catalog_SkinVoice20001.g",
-        "replacements": 57
-      }
-    ]
-  },
-  {
-    "bundle_file": "540bd70d527620127fe81cfc7401bc26__remote_share_assets__project__game_prefab.bundle",
-    "replacements": 65,
-    "changed_objects": [
-      {
-        "path_id": -8761421166578701684,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -8695007631284376948,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -7888174376231158281,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -7531200756731143846,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -6674499766564710022,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -6536981632093984116,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -6063637532189222534,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -5848527563903329958,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -5294084971534292340,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -5022260905992811781,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -4474107308953560742,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -4155618855227483814,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -4147903924553479429,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -4078460914165028212,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -3545044173641868966,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -3278295237388452361,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -3163621927578288649,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -3067072439181951497,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -2961220806355805830,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -2755545489385711270,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -2730168214380930726,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -2443517713686926708,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -2294908761967105396,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -2130193951725000052,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -1864784616303978118,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -1445238856355145382,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -1299451929554679045,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -617293661878556020,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -478581367354582662,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -113594227946910981,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -77099723505297030,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 484770556262095194,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 494806019436517722,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 515347548839602828,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 613419292846713484,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 652710913596582540,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 808006125526117004,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1108555908735298188,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1489522087027796620,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1696625040060914010,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1913051329639737996,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2290892874560772442,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 3257253001327929996,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 3313849266567518554,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 3495145915576326522,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 4026205399304837466,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 4161326635908995418,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 4207924692263561868,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 4228959423603949047,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 4825234488620915066,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 4828772217935894874,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 5411264288264755546,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 5562374108417854203,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 5933932644470888794,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 6119243140375779674,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 6312756491441138316,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 6557429513002740364,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 6962356190013876876,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 7369558535642581755,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 7372819037135116634,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 7634021211116542298,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 7827939316517800699,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 8368982121711241979,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 8787088395450706572,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 8952783144453019994,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      }
-    ]
-  },
-  {
-    "bundle_file": "540bf495ea3644e3d9b83832b1710bd8__remote_assets__project_composition_prefab_ui_overlay_implement_havingsupplychangepopupview.bundle",
-    "replacements": 6,
-    "changed_objects": [
-      {
-        "path_id": -4975288425320122601,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -4060970309251729641,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -3447578128667347177,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -1724551590927436009,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 744111603851097879,
-        "type": "MonoBehaviour",
-        "replacements": 2
-      }
-    ]
-  },
-  {
-    "bundle_file": "57cf0b9a9a2ba33133a2188eec67935d__remote_share_assets__project__game_design_board_texture.bundle",
-    "replacements": 1,
-    "changed_objects": [
-      {
-        "path_id": -6635603703633345041,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      }
-    ]
-  },
-  {
-    "bundle_file": "5badab61080da4aaf90de2f1eeb74ca8__remote_assets__project_composition_prefab_ui_overlay_implement_characterskinchangepopupview.bundle",
-    "replacements": 3,
-    "changed_objects": [
-      {
-        "path_id": 4384011332162979044,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 5956703624738538724,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 7808720916567786724,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      }
-    ]
-  },
-  {
-    "bundle_file": "5d6d6afe1599cce454f5beb16df825a3__remote_assets__project_composition_prefab_ui_overlay_implement_shopoverlay_shopoverlayview.bundle",
-    "replacements": 128,
-    "changed_objects": [
-      {
-        "path_id": -9178529564910950309,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -9052554715596789669,
-        "type": "MonoBehaviour",
-        "replacements": 3
-      },
-      {
-        "path_id": -8935047833836656549,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -8631038897917400997,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -8583866332580091813,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -8485717945556932517,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -8334122189687822245,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -8051350730589149093,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -8045943466068875173,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -7623499604729141157,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -7302476466126854053,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -7132999362260375461,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -6909787022401673125,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -6768306292785878949,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -5986241134836324261,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -5287681355005892517,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -5063408691387832229,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -4655257525337266085,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -4516025009041315749,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -3960783337340671909,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -3747674129209497509,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -3691211778954827685,
-        "type": "MonoBehaviour",
-        "replacements": 3
-      },
-      {
-        "path_id": -3621924731525207973,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -3307556981557499813,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -2952322584680667045,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -2878507456567449509,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -2548955826120759205,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -2410025594579851173,
-        "type": "MonoBehaviour",
-        "replacements": 3
-      },
-      {
-        "path_id": -2210265393025390501,
-        "type": "MonoBehaviour",
-        "replacements": 2
-      },
-      {
-        "path_id": -2035385939018127269,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -1811983856265467813,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -1758596389195159461,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -1442228264547129253,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -1306246096180680613,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -1298278824206342053,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -1283140562394552229,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -1176335556243232677,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -1149937969787574181,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -813053426863642533,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -718353982084356005,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -373053415929157541,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -157310194990651301,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -117392660378884005,
-        "type": "MonoBehaviour",
-        "replacements": 3
-      },
-      {
-        "path_id": -104303869498365861,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -59369682490759077,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 183004654079043675,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 336708604157618267,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 399563332667566171,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1050082435188648027,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1657791448167475291,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2029218872322680923,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2156244775721429083,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2408187168852011099,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2424628929857185883,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2547040511102871643,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2691648505413429339,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2891232126711490651,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2906397096862476379,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2934282439830005851,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 3068924839406659675,
-        "type": "MonoBehaviour",
-        "replacements": 3
-      },
-      {
-        "path_id": 3322816438070667355,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 3424215063476693083,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 3509836336912722011,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 3624497881788442715,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 4284719645368510555,
-        "type": "MonoBehaviour",
-        "replacements": 3
-      },
-      {
-        "path_id": 4733780119758891099,
-        "type": "MonoBehaviour",
-        "replacements": 3
-      },
-      {
-        "path_id": 4901938383874943067,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 5142612422196914267,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 5149561905284245595,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 5310182650030647387,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 5526373627063101531,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 5624408804349175899,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 5660061872788990043,
-        "type": "MonoBehaviour",
-        "replacements": 2
-      },
-      {
-        "path_id": 5790208510312704091,
-        "type": "MonoBehaviour",
-        "replacements": 3
-      },
-      {
-        "path_id": 5811869615607900251,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 5867556076016822363,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 5962379242046220379,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 5999824201105664091,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 6073561054664583259,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 6078505735607412827,
-        "type": "MonoBehaviour",
-        "replacements": 2
-      },
-      {
-        "path_id": 6168206818421565531,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 6603674829376645211,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 6751669252324714587,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 6839989544151541851,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 6920379657441568859,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 7221915589582776411,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 7223570244557662299,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 7341893718580455515,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 7455709317953742939,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 7524234807919700059,
-        "type": "MonoBehaviour",
-        "replacements": 3
-      },
-      {
-        "path_id": 7556198381004580955,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 7668067407404197979,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 7718340717910288475,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 7754405297930627163,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 7924434732135344219,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 7972234820607010907,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 8021904050983463003,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 8167068247528302683,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 8279228978631075931,
-        "type": "MonoBehaviour",
-        "replacements": 3
-      },
-      {
-        "path_id": 8559852340005038171,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 8789227601885522011,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 8809571659563264091,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 8883895395962316891,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 9153683673279162459,
-        "type": "MonoBehaviour",
-        "replacements": 2
-      }
-    ]
-  },
-  {
-    "bundle_file": "5df32c0d1cb4b735a991d6e8c6a84622__remote_assets__project_composition_prefab_ui_overlay_implement_monthlywinratepopup_monthlywinratepopupview.bundle",
-    "replacements": 2,
-    "changed_objects": [
-      {
-        "path_id": -8707955237203764624,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -8680375887394596240,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      }
-    ]
-  },
-  {
-    "bundle_file": "5e7a9a95091a33f53bb80c4c152267dc__remote_assets__project_composition_prefab_ui_overlay_implement_luckybagdecompositionpopupview.bundle",
-    "replacements": 3,
-    "changed_objects": [
-      {
-        "path_id": 5153242798257132250,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 6329746848160273114,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 7663402811690439386,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      }
-    ]
-  },
-  {
-    "bundle_file": "5f1467f307e53aa7d1a1ac988b358831__remote_share_assets__project_composition_prefab_ui_shop_shopcontent.bundle",
+    "bundle_file": "3f98e4e22a84f2a54f5dab0fe854131f__remote_share_assets__project_composition_prefab_ui_shop_shopcontent.bundle",
     "replacements": 109,
     "changed_objects": [
       {
@@ -5233,6 +3991,276 @@
     ]
   },
   {
+    "bundle_file": "40c90ae03a25efea0219d971cc005aac__remote_assets__project__menu_prefab_overlay_kifulistpopup_kifulistpopupview.bundle",
+    "replacements": 12,
+    "changed_objects": [
+      {
+        "path_id": -8785517259636738279,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -8673095820188584167,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -6193377970334861543,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -5250570784181389543,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -2468941940860651751,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -2133410577606838503,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1988296307662129383,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -539673893542824167,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 3110438148323079961,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 3154923779785357081,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 6970918781974148889,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 8257578920734750489,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "4215c504c7464f5dd80b734a95a713bb__remote_share_assets__project__game_design_settings.bundle",
+    "replacements": 6,
+    "changed_objects": [
+      {
+        "path_id": 8585727256196504375,
+        "type": "MonoBehaviour",
+        "replacements": 6
+      }
+    ]
+  },
+  {
+    "bundle_file": "422dc90b7c634cacbca98c439046e30c__remote_assets__project_composition_prefab_ui_overlay_implement_gameonly_aispecialsupportpopupview.bundle",
+    "replacements": 3,
+    "changed_objects": [
+      {
+        "path_id": 305950630886367123,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 3110326685233766291,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 3371610921492012947,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "45722a404e90e6827e12b2adc6cd3962__remote_assets__project_composition_prefab_ui_overlay_implement_matchingwaitingpopupview.bundle",
+    "replacements": 2,
+    "changed_objects": [
+      {
+        "path_id": 3564486042554442331,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 6100901943290995291,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "4a2466ac6d292824392434e04f628bd5__remote_assets__project_composition_prefab_ui_overlay_implement_itemrewardconfirmationpopup_itemrewardconfirmationpopupview.bundle",
+    "replacements": 3,
+    "changed_objects": [
+      {
+        "path_id": -8691727397926553178,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -7060345874730141274,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 8998875853019068838,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "4ade48aeeab4b4236f893f506392c1cf__remote_share_assets__project_composition_prefab_ui_overlay_implement_monthlywinratepopup.bundle",
+    "replacements": 1,
+    "changed_objects": [
+      {
+        "path_id": -207577129004977245,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "4dcae3a2a66e8f43edd67d38bcb1657e__remote_assets__project_sound_generated_voice_catalog_voice009_g.bundle",
+    "replacements": 267,
+    "changed_objects": [
+      {
+        "path_id": 6735160103154270012,
+        "type": "TextAsset",
+        "name": "voice_catalog_Voice009.g",
+        "replacements": 267
+      }
+    ]
+  },
+  {
+    "bundle_file": "50737924938e707dc88ad2c4fed2ff97__remote_assets__project_sound_generated_voice_catalog_skinvoice20001_g.bundle",
+    "replacements": 57,
+    "changed_objects": [
+      {
+        "path_id": 1785580230870512414,
+        "type": "TextAsset",
+        "name": "voice_catalog_SkinVoice20001.g",
+        "replacements": 57
+      }
+    ]
+  },
+  {
+    "bundle_file": "540bf495ea3644e3d9b83832b1710bd8__remote_assets__project_composition_prefab_ui_overlay_implement_havingsupplychangepopupview.bundle",
+    "replacements": 6,
+    "changed_objects": [
+      {
+        "path_id": -4975288425320122601,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -4060970309251729641,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -3447578128667347177,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1724551590927436009,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 744111603851097879,
+        "type": "MonoBehaviour",
+        "replacements": 2
+      }
+    ]
+  },
+  {
+    "bundle_file": "57cf0b9a9a2ba33133a2188eec67935d__remote_share_assets__project__game_design_board_texture.bundle",
+    "replacements": 1,
+    "changed_objects": [
+      {
+        "path_id": -6635603703633345041,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "5badab61080da4aaf90de2f1eeb74ca8__remote_assets__project_composition_prefab_ui_overlay_implement_characterskinchangepopupview.bundle",
+    "replacements": 3,
+    "changed_objects": [
+      {
+        "path_id": 4384011332162979044,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 5956703624738538724,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 7808720916567786724,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "5df32c0d1cb4b735a991d6e8c6a84622__remote_assets__project_composition_prefab_ui_overlay_implement_monthlywinratepopup_monthlywinratepopupview.bundle",
+    "replacements": 2,
+    "changed_objects": [
+      {
+        "path_id": -8707955237203764624,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -8680375887394596240,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "5e7a9a95091a33f53bb80c4c152267dc__remote_assets__project_composition_prefab_ui_overlay_implement_luckybagdecompositionpopupview.bundle",
+    "replacements": 3,
+    "changed_objects": [
+      {
+        "path_id": 5153242798257132250,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 6329746848160273114,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 7663402811690439386,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
     "bundle_file": "609cdfa9130874006d83c086f823bc5c__remote_share_assets__project_composition_prefab_ui_overlay_implement_kifudetail.bundle",
     "replacements": 1,
     "changed_objects": [
@@ -5509,6 +4537,52 @@
       },
       {
         "path_id": 7755936526943815115,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "66dec7798f4725d21dc0d44eb4a3277f__remote_assets__project_composition_prefab_ui_overlay_implement_gachapullpointshoppopupview.bundle",
+    "replacements": 10,
+    "changed_objects": [
+      {
+        "path_id": -6776176888731097999,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -6570591261860912015,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -5864306579279141775,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -5796120573937998735,
+        "type": "MonoBehaviour",
+        "replacements": 3
+      },
+      {
+        "path_id": -829473707026439055,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -174185550998559631,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 372971761229669489,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 5792805326005511281,
         "type": "MonoBehaviour",
         "replacements": 1
       }
@@ -5826,62 +4900,6 @@
     ]
   },
   {
-    "bundle_file": "683f9fb87cc59c3bd15dc0a01a196c52__remote_assets__project_composition_prefab_ui_overlay_implement_shop_dailyshoppopupview.bundle",
-    "replacements": 12,
-    "changed_objects": [
-      {
-        "path_id": -8084837859689035404,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -6729070940959340172,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -5002439199263159948,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -3954504742349567628,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -1340666347058689676,
-        "type": "MonoBehaviour",
-        "replacements": 3
-      },
-      {
-        "path_id": -818641917855594124,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 85212163487304052,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2172969918558046580,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 3930002830170065268,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 6146426696076233076,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      }
-    ]
-  },
-  {
     "bundle_file": "69795b609891b07493dcc77bb18ab907__remote_assets__project__menu_prefab_overlay_charactercollectionselectionpopup_charactercollectionselectionpopupview.bundle",
     "replacements": 3,
     "changed_objects": [
@@ -6129,6 +5147,302 @@
         "type": "TextAsset",
         "name": "voice_catalog_Voice011.g",
         "replacements": 267
+      }
+    ]
+  },
+  {
+    "bundle_file": "706d50de73475d3c6d7518c13f516775__remote_assets__project__game_gamescene.bundle",
+    "replacements": 61,
+    "changed_objects": [
+      {
+        "path_id": 1264,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1266,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1267,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1268,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1269,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1270,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1271,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1273,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1274,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1275,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1277,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1279,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1280,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1281,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1282,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1283,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1284,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1285,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1286,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1288,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1289,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1290,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1291,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1292,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1294,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1295,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1296,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1298,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1299,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1302,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1303,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1304,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1307,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1308,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1310,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1312,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1316,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1317,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1318,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1321,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1322,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1323,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1324,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1325,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1326,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1327,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1328,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1329,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1330,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1332,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1333,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1334,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1335,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1336,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1337,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1338,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1339,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1367,
+        "type": "MonoBehaviour",
+        "replacements": 4
       }
     ]
   },
@@ -13492,142 +12806,6 @@
     ]
   },
   {
-    "bundle_file": "859fcc04e38b4b8f911d7c2e7cc035b6__remote_share_assets__project_composition_prefab_ui_overlay_implement_userprofilepopup_section.bundle",
-    "replacements": 32,
-    "changed_objects": [
-      {
-        "path_id": -8398944224707346111,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -8377118927747019048,
-        "type": "MonoBehaviour",
-        "replacements": 4
-      },
-      {
-        "path_id": -7992139080184155041,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -7151653271896897336,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -7142073404609186721,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -6264417906560912289,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -5747094300796645672,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -3497286519029297448,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -1238001473448984390,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -918799947955499304,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 50678715954011216,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 635615959828809928,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1447492436090883800,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1906602101037072705,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2374101241286702175,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 3002651221653402719,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 4037303053293427792,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 4280193995420873823,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 4997419919172112088,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 5764417818999131864,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 6203341026281590488,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 6518685719740268730,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 7699551283018877128,
-        "type": "MonoBehaviour",
-        "replacements": 4
-      },
-      {
-        "path_id": 7784368399093121210,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 9007746294999325776,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 9207658939141983960,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      }
-    ]
-  },
-  {
     "bundle_file": "85f0b7b055cea705fccf9ea350e14516__remote_share_assets__project__menu_prefab_page_matchselectionpage_rankmatch.bundle",
     "replacements": 8,
     "changed_objects": [
@@ -13787,72 +12965,6 @@
         "type": "TextAsset",
         "name": "voice_catalog_Voice004.g",
         "replacements": 267
-      }
-    ]
-  },
-  {
-    "bundle_file": "8b8946cb36d4eb3e9e098d30311f3e23__remote_assets__project__menu_prefab_page_gachatoppage_gachatoppage.bundle",
-    "replacements": 12,
-    "changed_objects": [
-      {
-        "path_id": -7502568796593162373,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -7117482205112141957,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -3031944330535012485,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -2555968784125626501,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -1402797280688965765,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 48627065336002427,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1113780192898021243,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1199032427909445499,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2204121905423873915,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 5563677128824944507,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 6623320065511618427,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 8114960952096683899,
-        "type": "MonoBehaviour",
-        "replacements": 1
       }
     ]
   },
@@ -14546,137 +13658,9 @@
     ]
   },
   {
-    "bundle_file": "adf2267e93c8d236edf976b12c16a762__remote_assets__project_composition_prefab_ui_overlay_implement_shop_specialshoppopupview.bundle",
-    "replacements": 9,
-    "changed_objects": [
-      {
-        "path_id": 569046328091151422,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1652860661666417726,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 3225500141884869694,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 4470855181626117182,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 4721319700641418302,
-        "type": "MonoBehaviour",
-        "replacements": 3
-      },
-      {
-        "path_id": 8698940831625579582,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 9151367554896235582,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      }
-    ]
-  },
-  {
-    "bundle_file": "ae0886b0cd78a8c6ca3fab5983e63b50__remote_assets__project_composition_prefab_ui_overlay_implement_shop_diapurchaseshoppopupview.bundle",
-    "replacements": 9,
-    "changed_objects": [
-      {
-        "path_id": -4408374792820075551,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -3855867319748897823,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -3097299061884627999,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -1661062274358619167,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 815723045792863201,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 5863820222837052385,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 5946347423359718369,
-        "type": "MonoBehaviour",
-        "replacements": 3
-      }
-    ]
-  },
-  {
     "bundle_file": "ae91052379a957568d5625fcdc10c091__remote_assets__project_sound_generated_voice_catalog_voice900_g.bundle",
     "replacements": 0,
     "changed_objects": []
-  },
-  {
-    "bundle_file": "af58101a83184610f20ab22300bd303a__remote_assets__project_composition_prefab_ui_overlay_implement_gachapullpointshoppopupview.bundle",
-    "replacements": 10,
-    "changed_objects": [
-      {
-        "path_id": -6776176888731097999,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -6570591261860912015,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -5864306579279141775,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -5796120573937998735,
-        "type": "MonoBehaviour",
-        "replacements": 3
-      },
-      {
-        "path_id": -829473707026439055,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -174185550998559631,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 372971761229669489,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 5792805326005511281,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      }
-    ]
   },
   {
     "bundle_file": "b0b44690edecc3b228c104826a89afd3__remote_assets__project_sound_generated_voice_catalog_voice014_g.bundle",
@@ -14804,36 +13788,51 @@
     ]
   },
   {
-    "bundle_file": "ba7920880d1988093a0143bb68aedba4__remote_share_assets__project_composition_prefab_ui_overlay_implement_shop.bundle",
-    "replacements": 8,
+    "bundle_file": "be93776870d627844df1568d5314b8ee__remote_assets__project__menu_prefab_overlay_shogiexperiencepopup_shogiexperiencepopupview.bundle",
+    "replacements": 9,
     "changed_objects": [
       {
-        "path_id": -8462609613713817810,
+        "path_id": -8273857921800162753,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": -4993627615672058066,
+        "path_id": -7523351367267339713,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": -3440884519703199954,
+        "path_id": -5772389471151017409,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": -3171090933891186898,
-        "type": "MonoBehaviour",
-        "replacements": 3
-      },
-      {
-        "path_id": 5278215938149596974,
+        "path_id": -4829697366557543873,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 8367470353296670510,
+        "path_id": -4414310055729909185,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1615701390616579521,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1953225990102299199,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 7268506202853388863,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 7771960211210809919,
         "type": "MonoBehaviour",
         "replacements": 1
       }
@@ -15045,6 +14044,532 @@
     ]
   },
   {
+    "bundle_file": "ca860599f40933c3d8c58586aa827958__remote_assets__project_composition_prefab_ui_overlay_implement_shopoverlay_shopoverlayview.bundle",
+    "replacements": 128,
+    "changed_objects": [
+      {
+        "path_id": -9178529564910950309,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -9052554715596789669,
+        "type": "MonoBehaviour",
+        "replacements": 3
+      },
+      {
+        "path_id": -8935047833836656549,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -8631038897917400997,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -8583866332580091813,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -8485717945556932517,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -8334122189687822245,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -8051350730589149093,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -8045943466068875173,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -7623499604729141157,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -7302476466126854053,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -7132999362260375461,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -6909787022401673125,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -6768306292785878949,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -5986241134836324261,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -5287681355005892517,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -5063408691387832229,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -4655257525337266085,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -4516025009041315749,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -3960783337340671909,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -3747674129209497509,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -3691211778954827685,
+        "type": "MonoBehaviour",
+        "replacements": 3
+      },
+      {
+        "path_id": -3621924731525207973,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -3307556981557499813,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -2952322584680667045,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -2878507456567449509,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -2548955826120759205,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -2410025594579851173,
+        "type": "MonoBehaviour",
+        "replacements": 3
+      },
+      {
+        "path_id": -2210265393025390501,
+        "type": "MonoBehaviour",
+        "replacements": 2
+      },
+      {
+        "path_id": -2035385939018127269,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1811983856265467813,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1758596389195159461,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1442228264547129253,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1306246096180680613,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1298278824206342053,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1283140562394552229,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1176335556243232677,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1149937969787574181,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -813053426863642533,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -718353982084356005,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -373053415929157541,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -157310194990651301,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -117392660378884005,
+        "type": "MonoBehaviour",
+        "replacements": 3
+      },
+      {
+        "path_id": -104303869498365861,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -59369682490759077,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 183004654079043675,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 336708604157618267,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 399563332667566171,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1050082435188648027,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1657791448167475291,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2029218872322680923,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2156244775721429083,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2408187168852011099,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2424628929857185883,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2547040511102871643,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2691648505413429339,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2891232126711490651,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2906397096862476379,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2934282439830005851,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 3068924839406659675,
+        "type": "MonoBehaviour",
+        "replacements": 3
+      },
+      {
+        "path_id": 3322816438070667355,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 3424215063476693083,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 3509836336912722011,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 3624497881788442715,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 4284719645368510555,
+        "type": "MonoBehaviour",
+        "replacements": 3
+      },
+      {
+        "path_id": 4733780119758891099,
+        "type": "MonoBehaviour",
+        "replacements": 3
+      },
+      {
+        "path_id": 4901938383874943067,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 5142612422196914267,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 5149561905284245595,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 5310182650030647387,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 5526373627063101531,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 5624408804349175899,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 5660061872788990043,
+        "type": "MonoBehaviour",
+        "replacements": 2
+      },
+      {
+        "path_id": 5790208510312704091,
+        "type": "MonoBehaviour",
+        "replacements": 3
+      },
+      {
+        "path_id": 5811869615607900251,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 5867556076016822363,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 5962379242046220379,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 5999824201105664091,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 6073561054664583259,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 6078505735607412827,
+        "type": "MonoBehaviour",
+        "replacements": 2
+      },
+      {
+        "path_id": 6168206818421565531,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 6603674829376645211,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 6751669252324714587,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 6839989544151541851,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 6920379657441568859,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 7221915589582776411,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 7223570244557662299,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 7341893718580455515,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 7455709317953742939,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 7524234807919700059,
+        "type": "MonoBehaviour",
+        "replacements": 3
+      },
+      {
+        "path_id": 7556198381004580955,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 7668067407404197979,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 7718340717910288475,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 7754405297930627163,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 7924434732135344219,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 7972234820607010907,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 8021904050983463003,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 8167068247528302683,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 8279228978631075931,
+        "type": "MonoBehaviour",
+        "replacements": 3
+      },
+      {
+        "path_id": 8559852340005038171,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 8789227601885522011,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 8809571659563264091,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 8883895395962316891,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 9153683673279162459,
+        "type": "MonoBehaviour",
+        "replacements": 2
+      }
+    ]
+  },
+  {
     "bundle_file": "d024e0b9bcf0c0ec29cb507d2fd5de21__remote_share_assets__project_composition_prefab_ui_shop.bundle",
     "replacements": 15,
     "changed_objects": [
@@ -15100,52 +14625,6 @@
       },
       {
         "path_id": 8364915326680692508,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      }
-    ]
-  },
-  {
-    "bundle_file": "d09659c0c1d7a66799d6800651e6b26a__remote_assets__project_composition_prefab_ui_overlay_implement_gameresulteffectoverlay_gameresulteffectoverlayview.bundle",
-    "replacements": 10,
-    "changed_objects": [
-      {
-        "path_id": -6364130640672972660,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -5986360260286603124,
-        "type": "MonoBehaviour",
-        "replacements": 3
-      },
-      {
-        "path_id": -5791941869899865972,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -1491840230421815156,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -270750706205515636,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -245966671033786228,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1603536097289445516,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 8229566286972330124,
         "type": "MonoBehaviour",
         "replacements": 1
       }
@@ -15779,6 +15258,117 @@
     ]
   },
   {
+    "bundle_file": "e1111f97784baf6fea6652c5f89b30ad__remote_assets__project_composition_prefab_ui_overlay_implement_spectatematchlistpopup_spectatematchlistpopupview.bundle",
+    "replacements": 21,
+    "changed_objects": [
+      {
+        "path_id": -8565320178533611987,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -8337369761355413971,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -8337307924610169299,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -8297016282595080659,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -8044840451443866067,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -5154091186090883539,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -2368918621533845971,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1160049998196390355,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1047862022425033171,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -825176408766757331,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 273781555580683821,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 386244130828699181,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 922962763701732909,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1943163292956345901,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 3073421413950015021,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 5037820715645781549,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 5168361528618698285,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 6269984159381964333,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 7942034943340299821,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 8216095063603988013,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 9028821585709221421,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
     "bundle_file": "e497999af8a2ece4bd7fa8b101148a43__remote_assets__project_sound_generated_voice_catalog_voice006_g.bundle",
     "replacements": 267,
     "changed_objects": [
@@ -15935,6 +15525,52 @@
     ]
   },
   {
+    "bundle_file": "ecc93c652819abddb608b429c9563524__remote_assets__project_composition_prefab_ui_overlay_implement_gameresulteffectoverlay_gameresulteffectoverlayview.bundle",
+    "replacements": 10,
+    "changed_objects": [
+      {
+        "path_id": -6364130640672972660,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -5986360260286603124,
+        "type": "MonoBehaviour",
+        "replacements": 3
+      },
+      {
+        "path_id": -5791941869899865972,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1491840230421815156,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -270750706205515636,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -245966671033786228,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1603536097289445516,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 8229566286972330124,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
     "bundle_file": "f449612ab5c6a883dfa951394c35bacb__remote_share_assets__project_composition_prefab_ui_overlay_implement_giftboxpopup.bundle",
     "replacements": 5,
     "changed_objects": [
@@ -15960,6 +15596,72 @@
       },
       {
         "path_id": 8135439220536226290,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "f582641b96f20d06344c4bdd26cdb263__remote_assets__project__menu_prefab_page_gachatoppage_gachatoppage.bundle",
+    "replacements": 12,
+    "changed_objects": [
+      {
+        "path_id": -7502568796593162373,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -7117482205112141957,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -3031944330535012485,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -2555968784125626501,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1402797280688965765,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 48627065336002427,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1113780192898021243,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1199032427909445499,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2204121905423873915,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 5563677128824944507,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 6623320065511618427,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 8114960952096683899,
         "type": "MonoBehaviour",
         "replacements": 1
       }
