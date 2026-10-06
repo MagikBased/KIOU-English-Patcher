@@ -925,3 +925,21 @@ Game Record ({6} vs {7})
 有償棋晶石の取り扱いについて,About Paid Kisho Stones
 ・スマートフォン版でご購入いただいた有償棋晶石は、購入時と同じプラットフォームでのみご利用いただけます。異なるプラットフォームでプレイされる場合、棋晶石の所持数が少なく表示されることがありますが、購入時と同じプラットフォームでプレイいただくことで再びご利用いただけます。,"Paid Kisho Stones purchased on the smartphone version can only be used on the platform where they were purchased. On another platform, your balance may appear lower, but the stones will be available again when you play on the original platform."
 ゲーム終了,Quit Game
+経験者,Experienced
+初心者,Beginner
+あなたの棋力に最も近いもの,Which best matches your shogi skill?
+"あなたに合った棋力から対局を始めるための参考にします。
+対局結果に応じて<color=#FFB129>棋力は自動で調整</color>されます。","This helps us start you at a skill level suited to you.
+Your <color=#FFB129>skill level will be adjusted automatically</color> based on match results."
+利用している将棋サービス,Shogi Services You Use
+駒の動かし方や基本的なルールは分かる,I know how the pieces move and understand the basic rules
+はじめて,First Time
+駒の動かし方が分からない,I don't know how the pieces move
+他の将棋サービスなどで対局した経験がある,I have played matches on other shogi services
+注目対局,Featured Matches
+対局一覧,Match List
+この視点で観戦,Spectate from This View
+0連勝中,0-Win Streak
+観戦  <size=38>0</size> 人,Spectators  <size=38>0</size>
+0手目,Move 0
+観戦できる対局がありません。,No matches are available to spectate.
