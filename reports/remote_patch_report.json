@@ -136,7 +136,7 @@
     ]
   },
   {
-    "bundle_file": "0192a4c32372f4018039970fe00504d8__remote_assets__project_sound_generated_voice_catalog_voice001_g.bundle",
+    "bundle_file": "bc02cb16cec0a618c1fbe76e24c059c8__remote_assets__project_sound_generated_voice_catalog_voice001_g.bundle",
     "replacements": 267,
     "changed_objects": [
       {
@@ -645,8 +645,8 @@
     ]
   },
   {
-    "bundle_file": "071b065f97675fd9bc2d2af6d7315dbe__remote_share_assets__project__game_prefab.bundle",
-    "replacements": 65,
+    "bundle_file": "828aa863ec265577b8f4ee2030a217b6__remote_share_assets__project__game_prefab.bundle",
+    "replacements": 96,
     "changed_objects": [
       {
         "path_id": -8761421166578701684,
@@ -664,7 +664,17 @@
         "replacements": 1
       },
       {
+        "path_id": -7622290114505639518,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
         "path_id": -7531200756731143846,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -6721171096964425382,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -684,7 +694,17 @@
         "replacements": 1
       },
       {
+        "path_id": -5918849863162914470,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
         "path_id": -5848527563903329958,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -5327325364975631453,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -719,12 +739,32 @@
         "replacements": 1
       },
       {
+        "path_id": -3577550815456954619,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
         "path_id": -3545044173641868966,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
+        "path_id": -3481035657603278470,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -3321707702441394697,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
         "path_id": -3278295237388452361,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -3181555017764997371,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -735,6 +775,11 @@
       },
       {
         "path_id": -3067072439181951497,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -2987629457000037469,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -769,7 +814,27 @@
         "replacements": 1
       },
       {
+        "path_id": -1957577971126012155,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1889790620655752564,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
         "path_id": -1864784616303978118,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1822996800313058950,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1572274135779608158,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -784,6 +849,26 @@
         "replacements": 1
       },
       {
+        "path_id": -1262107171397470459,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1191420829325288976,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1083270501439881737,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -990454374397252980,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
         "path_id": -617293661878556020,
         "type": "MonoBehaviour",
         "replacements": 1
@@ -794,7 +879,17 @@
         "replacements": 1
       },
       {
+        "path_id": -258220693803689638,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
         "path_id": -113594227946910981,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -110003581934233254,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -810,6 +905,11 @@
       },
       {
         "path_id": 494806019436517722,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 495720028799173539,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -830,6 +930,11 @@
       },
       {
         "path_id": 808006125526117004,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 919060390898566051,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -874,6 +979,16 @@
         "replacements": 1
       },
       {
+        "path_id": 3685347099755747674,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 3954325427146037626,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
         "path_id": 4026205399304837466,
         "type": "MonoBehaviour",
         "replacements": 1
@@ -914,6 +1029,16 @@
         "replacements": 1
       },
       {
+        "path_id": 5598933358269995504,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 5725569432216464012,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
         "path_id": 5933932644470888794,
         "type": "MonoBehaviour",
         "replacements": 1
@@ -935,6 +1060,16 @@
       },
       {
         "path_id": 6962356190013876876,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 7118247689439975920,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 7167137093972082167,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -964,6 +1099,11 @@
         "replacements": 1
       },
       {
+        "path_id": 8713285428212111738,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
         "path_id": 8787088395450706572,
         "type": "MonoBehaviour",
         "replacements": 1
@@ -972,11 +1112,26 @@
         "path_id": 8952783144453019994,
         "type": "MonoBehaviour",
         "replacements": 1
+      },
+      {
+        "path_id": 9029881481706400396,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 9048706347206896268,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 9057571452638674423,
+        "type": "MonoBehaviour",
+        "replacements": 1
       }
     ]
   },
   {
-    "bundle_file": "0765cc31711f1c12a1df02dbe4411020__remote_assets__project_sound_generated_voice_catalog_voice012_g.bundle",
+    "bundle_file": "b4068c62e041232dee6094d0c5edfc1b__remote_assets__project_sound_generated_voice_catalog_voice012_g.bundle",
     "replacements": 267,
     "changed_objects": [
       {
@@ -1090,7 +1245,7 @@
     ]
   },
   {
-    "bundle_file": "1109fa60083ff59971ae1455f92237b3__remote_assets__project_composition_prefab_ui_overlay_implement_usernamechangepopupview.bundle",
+    "bundle_file": "0c44e9ea708e75c0820672c7e5e3251e__remote_assets__project_composition_prefab_ui_overlay_implement_usernamechangepopupview.bundle",
     "replacements": 3,
     "changed_objects": [
       {
@@ -1127,9 +1282,14 @@
     ]
   },
   {
-    "bundle_file": "146c0b7d203e84c1b217d35e0013ca14__remote_share_assets__project_composition_prefab_ui_overlay_implement_userprofilepopup_section.bundle",
-    "replacements": 32,
+    "bundle_file": "a712fd9742cc616a1439dc4096e510b3__remote_share_assets__project_composition_prefab_ui_overlay_implement_userprofilepopup_section.bundle",
+    "replacements": 37,
     "changed_objects": [
+      {
+        "path_id": -8517648285357735208,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
       {
         "path_id": -8398944224707346111,
         "type": "MonoBehaviour",
@@ -1176,12 +1336,27 @@
         "replacements": 1
       },
       {
+        "path_id": -1657305304859910840,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
         "path_id": -1238001473448984390,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
+        "path_id": -1020679855614688552,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
         "path_id": -918799947955499304,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -322976632871419176,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -1202,6 +1377,11 @@
       },
       {
         "path_id": 1906602101037072705,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2240346263665541848,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -1361,7 +1541,7 @@
     ]
   },
   {
-    "bundle_file": "1c336ddf333b102c70c7369fecd8ca2c__remote_share_assets__project_composition_prefab_ui_profile.bundle",
+    "bundle_file": "249f6a03451bca0b552c4002da4b1133__remote_share_assets__project_composition_prefab_ui_profile.bundle",
     "replacements": 1,
     "changed_objects": [
       {
@@ -1372,7 +1552,7 @@
     ]
   },
   {
-    "bundle_file": "1eec4ac236338fcbc736ced654b9e8b4__remote_assets__project_sound_generated_voice_catalog_voice008_g.bundle",
+    "bundle_file": "f8798105b60958a96c4ebea2b17c6c3e__remote_assets__project_sound_generated_voice_catalog_voice008_g.bundle",
     "replacements": 267,
     "changed_objects": [
       {
@@ -1384,7 +1564,7 @@
     ]
   },
   {
-    "bundle_file": "1f19fc1bdac1438d13bdf9b87d098422__remote_share_assets__project__game_prefab_overlayui.bundle",
+    "bundle_file": "69c61a2aa17b3cd0ffbce8d615ae9abe__remote_share_assets__project__game_prefab_overlayui.bundle",
     "replacements": 14,
     "changed_objects": [
       {
@@ -1476,8 +1656,8 @@
     ]
   },
   {
-    "bundle_file": "22be5ac059c407e640fbec73becdce46__remote_assets__project_composition_prefab_ui_overlay_implement_userprofilepopup_userprofilepopupview.bundle",
-    "replacements": 30,
+    "bundle_file": "2595f13e38ef5024ca825ae9b132372e__remote_assets__project_composition_prefab_ui_overlay_implement_userprofilepopup_userprofilepopupview.bundle",
+    "replacements": 34,
     "changed_objects": [
       {
         "path_id": -8852537784977957892,
@@ -1550,6 +1730,11 @@
         "replacements": 1
       },
       {
+        "path_id": 692070737742224380,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
         "path_id": 866674350462884860,
         "type": "MonoBehaviour",
         "replacements": 1
@@ -1571,6 +1756,11 @@
       },
       {
         "path_id": 3109575968165157884,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 3245257963691072508,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -1598,6 +1788,16 @@
         "path_id": 6988434574336023548,
         "type": "MonoBehaviour",
         "replacements": 4
+      },
+      {
+        "path_id": 7517411870484159484,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 7797749511851695100,
+        "type": "MonoBehaviour",
+        "replacements": 1
       }
     ]
   },
@@ -2012,1351 +2212,14 @@
     ]
   },
   {
-    "bundle_file": "30b2fcc009bc2368525fb050e95819ce__remote_assets__project_sound_generated_voice_catalog_voice016_g.bundle",
+    "bundle_file": "30a295cd00111f8e614098a42a7aed2a__remote_assets__project_sound_generated_voice_catalog_voice016_g.bundle",
     "replacements": 267,
     "changed_objects": [
       {
         "path_id": -8485057480170553258,
         "type": "TextAsset",
         "name": "voice_catalog_Voice016.g",
-        "replacements": 267,
-        "strings": [
-          {
-            "cueName": "voice_016_001",
-            "source": "弥代 翠と申します。\n弥代家の娘として恥じぬよう精進してまいりますので、よろしくお願いいたします。",
-            "target": "My name is Yashiro Sui.\nI will devote myself to becoming a daughter worthy of the Yashiro family. It is a pleasure to meet you."
-          },
-          {
-            "cueName": "voice_016_002",
-            "source": "日々の成果を、ここに。",
-            "target": "The fruits of my daily efforts, right here."
-          },
-          {
-            "cueName": "voice_016_003",
-            "source": "お手柔らかに、お願いいたします。",
-            "target": "Please go easy on me."
-          },
-          {
-            "cueName": "voice_016_004",
-            "source": "自分自身に打ち勝ってこそ、真の淑女です。",
-            "target": "Only by overcoming oneself can one become a true lady."
-          },
-          {
-            "cueName": "voice_016_005",
-            "source": "良き学びとなりました",
-            "target": "This was a valuable learning experience."
-          },
-          {
-            "cueName": "voice_016_006",
-            "source": "これも日々のお稽古ゆえ、ですね。",
-            "target": "This too is thanks to my daily practice."
-          },
-          {
-            "cueName": "voice_016_007",
-            "source": "教わった通りの手が指せました。",
-            "target": "I was able to play just as I was taught."
-          },
-          {
-            "cueName": "voice_016_008",
-            "source": "龍菜お姉さまに誇れるような、理想通りの一局でした。",
-            "target": "It was an ideal game—one I can proudly show Lady Takina."
-          },
-          {
-            "cueName": "voice_016_009",
-            "source": "ごきげんよう。\n本日も、実りある一日にしましょう。",
-            "target": "Good day.\nLet us make today another fruitful one."
-          },
-          {
-            "cueName": "voice_016_010",
-            "source": "お待ちしておりました！……あっ、こほん。貴方様にお会いできて翠はとても嬉しいです。\n本日も共に、素敵な時間を過ごしましょう。",
-            "target": "I have been waiting for you! ...Ah, ahem. Sui is very happy to see you.\nLet us spend another lovely day together."
-          },
-          {
-            "cueName": "voice_016_011",
-            "source": "序盤から積極的に主導権を握るなら、早繰り銀がおすすめです。\n素早く銀を前進させて、自分のペースを作りましょう。",
-            "target": "If you wish to seize the initiative from the opening, I recommend Rapid Advancing Silver.\nAdvance your silver quickly and establish your own pace."
-          },
-          {
-            "cueName": "voice_016_012",
-            "source": "龍菜お姉さまは、翠が目指している理想そのものです。\nお姉さまのような立派な淑女になれるように、日々精進しております。",
-            "target": "Lady Takina is the very ideal Sui aspires to.\nI devote myself each day to becoming a fine lady like her."
-          },
-          {
-            "cueName": "voice_016_013",
-            "source": "翠は決して才能に恵まれているわけではありません。\nですから、人一倍お稽古に時間をかけ、日々の積み重ねで補うようにしております。",
-            "target": "Sui is by no means blessed with natural talent.\nThat is why I spend more time practicing than anyone else, making up for it through steady daily effort."
-          },
-          {
-            "cueName": "voice_016_014",
-            "source": "寝る前には、日記をつけています。\n失敗したことも、書き留めているうちに『次はこうしよう』と改善策を思いつくのが、楽しいのです。",
-            "target": "I write in my diary before bed.\nAs I record my mistakes, I enjoy thinking of ways to do better next time."
-          },
-          {
-            "cueName": "voice_016_015",
-            "source": "常に礼儀正しく、誰から見ても恥ずかしくない立派な手本となる……それこそが、翠が目指す淑女です。",
-            "target": "Always courteous and a fine example anyone can admire... That is the kind of lady Sui strives to become."
-          },
-          {
-            "cueName": "voice_016_016",
-            "source": "好きな物は牛乳です。\n龍菜お姉さまのような大人の女性になりたくて、飲み始めたのですが……毎日飲んでいるうちに、好きになりました。\n最近は自分へのご褒美に、ジャムやハチミツでアレンジして飲むのが翠のお気に入りです。",
-            "target": "My favorite drink is milk.\nI began drinking it because I wanted to become a grown woman like Lady Takina... but after having it every day, I came to love it.\nLately, my favorite treat is to flavor it with jam or honey."
-          },
-          {
-            "cueName": "voice_016_017",
-            "source": "いつも頑張っているから何かご褒美をあげたいですか。\nそれでしたら……あの、遊園地に連れて行ってください。\n淑女には似つかわしくないかもしれませんが……ずっと、行ってみたくて。",
-            "target": "You wish to reward me for always working so hard?\nIn that case... um, please take me to an amusement park.\nIt may not be fitting for a lady... but I have always wanted to go."
-          },
-          {
-            "cueName": "voice_016_018",
-            "source": "遊園地ではしゃいだり、甘いものを食べ歩いたり、本日は普段できないことをたくさん体験できました。\n貴方様がずっとお付き合いくださったから……翠は幸せです。\nまた連れて行ってくださいね。",
-            "target": "Today I experienced so many things I normally cannot, from playing excitedly at the amusement park to sampling sweets.\nYou stayed by my side the entire time... Sui is so happy.\nPlease take me again someday."
-          },
-          {
-            "cueName": "voice_016_019",
-            "source": "まぁ、贈り物をご用意してくださったのですね。\nお心遣い、感謝いたします。",
-            "target": "My, you prepared a gift for me.\nThank you for your thoughtfulness."
-          },
-          {
-            "cueName": "voice_016_020",
-            "source": "わあっ！……こほん。\n貴方様には翠のこと、お見通しなのですね。ありがとうございます。",
-            "target": "Wow! ...Ahem.\nYou truly understand Sui, do you not? Thank you very much."
-          },
-          {
-            "cueName": "voice_016_021",
-            "source": "貴方様となら、良い信頼関係を築いていけそうです。",
-            "target": "I believe I can build a strong bond of trust with you."
-          },
-          {
-            "cueName": "voice_016_022",
-            "source": "不思議ですね。\n貴方様の前だと緊張がほぐれます。",
-            "target": "How curious.\nI feel my tension melt away when I am with you."
-          },
-          {
-            "cueName": "voice_016_023",
-            "source": "最近、貴方様との楽しい思い出を振り返りながら、日記をつづることが増えました。",
-            "target": "Lately, I often find myself writing in my diary while looking back on my happy memories with you."
-          },
-          {
-            "cueName": "voice_016_024",
-            "source": "龍菜お姉さまへの気持ちと同じくらい……いえ、それ以上に、貴方様が翠の中で大切な存在になっています。",
-            "target": "You have become as important to Sui as Lady Takina... No, even more so."
-          },
-          {
-            "cueName": "voice_016_025",
-            "source": "理想の淑女を目指す以上、きっと数え切れないほどの試練があることでしょう。\nですが……貴方様と一緒なら、どんな苦難でも乗り越えられます。",
-            "target": "The path to becoming my ideal lady will surely hold countless trials.\nBut... if I am with you, I can overcome any hardship."
-          },
-          {
-            "cueName": "voice_016_026",
-            "source": "翠が師ですか……ふふ、教わる側から教える側に回るのは、なんだかこそばゆいですね。\n龍菜お姉さまのように、貴方様を導けるよう努めさせていただきます。",
-            "target": "Sui, your teacher...? Hehe, it feels rather strange to go from student to instructor.\nI shall do my utmost to guide you as Lady Takina guides me."
-          },
-          {
-            "cueName": "voice_016_027",
-            "source": "王手です",
-            "target": "Check."
-          },
-          {
-            "cueName": "voice_016_028",
-            "source": "ここですね",
-            "target": "Here."
-          },
-          {
-            "cueName": "voice_016_029",
-            "source": "詰みです",
-            "target": "Checkmate."
-          },
-          {
-            "cueName": "voice_016_030",
-            "source": "力及ばず、です。",
-            "target": "I was not up to the task."
-          },
-          {
-            "cueName": "voice_016_031",
-            "source": "引き分けですね",
-            "target": "A draw, then."
-          },
-          {
-            "cueName": "voice_016_032",
-            "source": "長考しすぎました……",
-            "target": "I thought for too long..."
-          },
-          {
-            "cueName": "voice_016_033",
-            "source": "最後の最後まで、決して気は抜きません。",
-            "target": "I shall not let my guard down until the very end."
-          },
-          {
-            "cueName": "voice_016_034",
-            "source": "成りです",
-            "target": "Promote."
-          },
-          {
-            "cueName": "voice_016_035",
-            "source": "焦りは禁物……冷静に。",
-            "target": "I must not rush... Stay calm."
-          },
-          {
-            "cueName": "voice_016_036",
-            "source": "ここはお稽古通りに",
-            "target": "Just as I practiced."
-          },
-          {
-            "cueName": "voice_016_037",
-            "source": "取り乱したりはいたしません",
-            "target": "I will not lose my composure."
-          },
-          {
-            "cueName": "voice_016_038",
-            "source": "盤面を制します。",
-            "target": "I shall control the board."
-          },
-          {
-            "cueName": "voice_016_039",
-            "source": "金矢倉",
-            "target": "Gold Yagura"
-          },
-          {
-            "cueName": "voice_016_040",
-            "source": "銀矢倉",
-            "target": "Silver Yagura"
-          },
-          {
-            "cueName": "voice_016_041",
-            "source": "片矢倉",
-            "target": "Half Yagura"
-          },
-          {
-            "cueName": "voice_016_042",
-            "source": "菊水矢倉",
-            "target": "Kikusui Yagura"
-          },
-          {
-            "cueName": "voice_016_043",
-            "source": "菱矢倉",
-            "target": "Hishi Yagura"
-          },
-          {
-            "cueName": "voice_016_044",
-            "source": "土居矢倉",
-            "target": "Doi Yagura"
-          },
-          {
-            "cueName": "voice_016_045",
-            "source": "総矢倉",
-            "target": "Full Yagura"
-          },
-          {
-            "cueName": "voice_016_046",
-            "source": "銀立ち矢倉",
-            "target": "Standing Silver Yagura"
-          },
-          {
-            "cueName": "voice_016_047",
-            "source": "矢倉穴熊",
-            "target": "Yagura Anaguma"
-          },
-          {
-            "cueName": "voice_016_048",
-            "source": "カブト囲い",
-            "target": "Helmet Castle"
-          },
-          {
-            "cueName": "voice_016_049",
-            "source": "右矢倉",
-            "target": "Right Yagura"
-          },
-          {
-            "cueName": "voice_016_050",
-            "source": "雁木囲い",
-            "target": "Gangi Castle"
-          },
-          {
-            "cueName": "voice_016_051",
-            "source": "居飛車穴熊",
-            "target": "Static Rook Anaguma"
-          },
-          {
-            "cueName": "voice_016_052",
-            "source": "居飛穴音無しの構え",
-            "target": "Silent Static Rook Anaguma"
-          },
-          {
-            "cueName": "voice_016_053",
-            "source": "松尾流穴熊",
-            "target": "Matsuo Anaguma"
-          },
-          {
-            "cueName": "voice_016_054",
-            "source": "銀冠穴熊",
-            "target": "Silver Crown Anaguma"
-          },
-          {
-            "cueName": "voice_016_055",
-            "source": "左美濃",
-            "target": "Left Mino"
-          },
-          {
-            "cueName": "voice_016_056",
-            "source": "天守閣美濃",
-            "target": "Castle Tower Mino"
-          },
-          {
-            "cueName": "voice_016_057",
-            "source": "カニ囲い",
-            "target": "Crab Castle"
-          },
-          {
-            "cueName": "voice_016_058",
-            "source": "早囲い",
-            "target": "Quick Castle"
-          },
-          {
-            "cueName": "voice_016_059",
-            "source": "中住まい",
-            "target": "Central House"
-          },
-          {
-            "cueName": "voice_016_060",
-            "source": "中原囲い",
-            "target": "Nakahara Castle"
-          },
-          {
-            "cueName": "voice_016_061",
-            "source": "elmo囲い",
-            "target": "elmo Castle"
-          },
-          {
-            "cueName": "voice_016_062",
-            "source": "美濃囲い",
-            "target": "Mino Castle"
-          },
-          {
-            "cueName": "voice_016_063",
-            "source": "片美濃囲い",
-            "target": "Half Mino"
-          },
-          {
-            "cueName": "voice_016_064",
-            "source": "高美濃囲い",
-            "target": "High Mino"
-          },
-          {
-            "cueName": "voice_016_065",
-            "source": "木村美濃",
-            "target": "Kimura Mino"
-          },
-          {
-            "cueName": "voice_016_066",
-            "source": "金美濃",
-            "target": "Gold Mino"
-          },
-          {
-            "cueName": "voice_016_067",
-            "source": "銀美濃",
-            "target": "Silver Mino"
-          },
-          {
-            "cueName": "voice_016_068",
-            "source": "ダイヤモンド美濃",
-            "target": "Diamond Mino"
-          },
-          {
-            "cueName": "voice_016_069",
-            "source": "ちょんまげ美濃",
-            "target": "Topknot Mino"
-          },
-          {
-            "cueName": "voice_016_070",
-            "source": "大山美濃",
-            "target": "Oyama Mino"
-          },
-          {
-            "cueName": "voice_016_071",
-            "source": "ずれ美濃",
-            "target": "Offset Mino"
-          },
-          {
-            "cueName": "voice_016_072",
-            "source": "坊主美濃",
-            "target": "Monk Mino"
-          },
-          {
-            "cueName": "voice_016_073",
-            "source": "升田美濃",
-            "target": "Masuda Mino"
-          },
-          {
-            "cueName": "voice_016_074",
-            "source": "プラチナ美濃",
-            "target": "Platinum Mino"
-          },
-          {
-            "cueName": "voice_016_075",
-            "source": "四枚美濃",
-            "target": "Four-Piece Mino"
-          },
-          {
-            "cueName": "voice_016_076",
-            "source": "美濃熊囲い",
-            "target": "Mino Anaguma"
-          },
-          {
-            "cueName": "voice_016_077",
-            "source": "振り飛車穴熊",
-            "target": "Ranging Rook Anaguma"
-          },
-          {
-            "cueName": "voice_016_078",
-            "source": "銀冠",
-            "target": "Silver Crown"
-          },
-          {
-            "cueName": "voice_016_079",
-            "source": "端玉銀冠",
-            "target": "Edge King Silver Crown"
-          },
-          {
-            "cueName": "voice_016_080",
-            "source": "金冠",
-            "target": "Gold Crown"
-          },
-          {
-            "cueName": "voice_016_081",
-            "source": "金盾囲い",
-            "target": "Gold Shield Castle"
-          },
-          {
-            "cueName": "voice_016_082",
-            "source": "金無双",
-            "target": "Gold Peerless"
-          },
-          {
-            "cueName": "voice_016_083",
-            "source": "アヒル囲い",
-            "target": "Duck Castle"
-          },
-          {
-            "cueName": "voice_016_085",
-            "source": "いちご囲い",
-            "target": "Strawberry Castle"
-          },
-          {
-            "cueName": "voice_016_086",
-            "source": "大隅囲い",
-            "target": "Osumi Castle"
-          },
-          {
-            "cueName": "voice_016_087",
-            "source": "空中楼閣",
-            "target": "Castle in the Air"
-          },
-          {
-            "cueName": "voice_016_088",
-            "source": "串カツ囲い",
-            "target": "Kushikatsu Castle"
-          },
-          {
-            "cueName": "voice_016_089",
-            "source": "裾固め",
-            "target": "Hem Fortification"
-          },
-          {
-            "cueName": "voice_016_090",
-            "source": "箱入り娘",
-            "target": "Boxed-In Daughter"
-          },
-          {
-            "cueName": "voice_016_091",
-            "source": "舟囲い",
-            "target": "Boat Castle"
-          },
-          {
-            "cueName": "voice_016_092",
-            "source": "ビッグ４",
-            "target": "Big Four"
-          },
-          {
-            "cueName": "voice_016_093",
-            "source": "ボナンザ囲い",
-            "target": "Bonanza Castle"
-          },
-          {
-            "cueName": "voice_016_094",
-            "source": "ミレニアム囲い",
-            "target": "Millennium Castle"
-          },
-          {
-            "cueName": "voice_016_095",
-            "source": "無敵囲い",
-            "target": "Invincible Castle"
-          },
-          {
-            "cueName": "voice_016_096",
-            "source": "相掛かり",
-            "target": "Double Wing Attack"
-          },
-          {
-            "cueName": "voice_016_097",
-            "source": "相掛かり棒銀",
-            "target": "Double Wing Climbing Silver"
-          },
-          {
-            "cueName": "voice_016_098",
-            "source": "飯島流相掛かり引き角",
-            "target": "Iijima Double Wing Retreating Bishop"
-          },
-          {
-            "cueName": "voice_016_099",
-            "source": "中原流相掛かり",
-            "target": "Nakahara Double Wing Attack"
-          },
-          {
-            "cueName": "voice_016_100",
-            "source": "ひねり飛車",
-            "target": "Twisting Rook"
-          },
-          {
-            "cueName": "voice_016_101",
-            "source": "塚田スペシャル",
-            "target": "Tsukada Special"
-          },
-          {
-            "cueName": "voice_016_102",
-            "source": "UFO銀",
-            "target": "UFO Silver"
-          },
-          {
-            "cueName": "voice_016_103",
-            "source": "横歩取り",
-            "target": "Side Pawn Picker"
-          },
-          {
-            "cueName": "voice_016_104",
-            "source": "相横歩取り",
-            "target": "Double Side Pawn Picker"
-          },
-          {
-            "cueName": "voice_016_105",
-            "source": "青野流",
-            "target": "Aono Style"
-          },
-          {
-            "cueName": "voice_016_106",
-            "source": "８五飛車",
-            "target": "８五 Rook"
-          },
-          {
-            "cueName": "voice_016_107",
-            "source": "４五角戦法",
-            "target": "４五 Bishop Strategy"
-          },
-          {
-            "cueName": "voice_016_108",
-            "source": "勇気流",
-            "target": "Yuki Style"
-          },
-          {
-            "cueName": "voice_016_109",
-            "source": "竹部スペシャル",
-            "target": "Takebe Special"
-          },
-          {
-            "cueName": "voice_016_110",
-            "source": "２三歩戦法",
-            "target": "２三 Pawn Strategy"
-          },
-          {
-            "cueName": "voice_016_111",
-            "source": "３三角型空中戦法",
-            "target": "３三 Bishop Aerial Strategy"
-          },
-          {
-            "cueName": "voice_016_112",
-            "source": "３三桂戦法",
-            "target": "３三 Knight Strategy"
-          },
-          {
-            "cueName": "voice_016_113",
-            "source": "角換わり",
-            "target": "Bishop Exchange"
-          },
-          {
-            "cueName": "voice_016_114",
-            "source": "腰掛け銀",
-            "target": "Reclining Silver"
-          },
-          {
-            "cueName": "voice_016_115",
-            "source": "角換わり棒銀",
-            "target": "Bishop Exchange Climbing Silver"
-          },
-          {
-            "cueName": "voice_016_116",
-            "source": "角換わり右玉",
-            "target": "Bishop Exchange Right King"
-          },
-          {
-            "cueName": "voice_016_117",
-            "source": "一手損角換わり",
-            "target": "Tempo-Loss Bishop Exchange"
-          },
-          {
-            "cueName": "voice_016_118",
-            "source": "木村定跡",
-            "target": "Kimura Joseki"
-          },
-          {
-            "cueName": "voice_016_119",
-            "source": "阿久津流急戦矢倉",
-            "target": "Akutsu Rapid Yagura"
-          },
-          {
-            "cueName": "voice_016_120",
-            "source": "中原流急戦矢倉",
-            "target": "Nakahara Rapid Yagura"
-          },
-          {
-            "cueName": "voice_016_121",
-            "source": "米長流急戦矢倉",
-            "target": "Yonenaga Rapid Yagura"
-          },
-          {
-            "cueName": "voice_016_122",
-            "source": "矢倉棒銀",
-            "target": "Yagura Climbing Silver"
-          },
-          {
-            "cueName": "voice_016_123",
-            "source": "脇システム",
-            "target": "Waki System"
-          },
-          {
-            "cueName": "voice_016_124",
-            "source": "森下システム",
-            "target": "Morishita System"
-          },
-          {
-            "cueName": "voice_016_125",
-            "source": "３七銀戦法",
-            "target": "３七 Silver Strategy"
-          },
-          {
-            "cueName": "voice_016_126",
-            "source": "四手角",
-            "target": "Four-Move Bishop"
-          },
-          {
-            "cueName": "voice_016_127",
-            "source": "ウソ矢倉",
-            "target": "Fake Yagura"
-          },
-          {
-            "cueName": "voice_016_128",
-            "source": "左美濃急戦",
-            "target": "Left Mino Rapid Attack"
-          },
-          {
-            "cueName": "voice_016_129",
-            "source": "居角左美濃急戦",
-            "target": "Unmoved Bishop Left Mino Rapid Attack"
-          },
-          {
-            "cueName": "voice_016_130",
-            "source": "忍者銀",
-            "target": "Ninja Silver"
-          },
-          {
-            "cueName": "voice_016_131",
-            "source": "新型雁木",
-            "target": "Modern Gangi"
-          },
-          {
-            "cueName": "voice_016_132",
-            "source": "ツノ銀雁木",
-            "target": "Horned Silver Gangi"
-          },
-          {
-            "cueName": "voice_016_133",
-            "source": "対振り飛車持久戦",
-            "target": "Slow Game vs Ranging Rook"
-          },
-          {
-            "cueName": "voice_016_134",
-            "source": "飯島流引き角戦法",
-            "target": "Iijima Retreating Bishop Strategy"
-          },
-          {
-            "cueName": "voice_016_135",
-            "source": "鷺宮定跡",
-            "target": "Saginomiya Joseki"
-          },
-          {
-            "cueName": "voice_016_136",
-            "source": "４六銀左急戦",
-            "target": "４六 Left Silver Rapid Attack"
-          },
-          {
-            "cueName": "voice_016_137",
-            "source": "４六銀右急戦",
-            "target": "４六 Right Silver Rapid Attack"
-          },
-          {
-            "cueName": "voice_016_138",
-            "source": "４五歩早仕掛け",
-            "target": "４五 Pawn Quick Attack"
-          },
-          {
-            "cueName": "voice_016_139",
-            "source": "山田定跡",
-            "target": "Yamada Joseki"
-          },
-          {
-            "cueName": "voice_016_140",
-            "source": "エルモ急戦",
-            "target": "elmo Rapid Attack"
-          },
-          {
-            "cueName": "voice_016_141",
-            "source": "へなちょこ急戦",
-            "target": "Henachoko Rapid Attack"
-          },
-          {
-            "cueName": "voice_016_142",
-            "source": "玉頭位取り",
-            "target": "King-Head Vanguard Pawn"
-          },
-          {
-            "cueName": "voice_016_143",
-            "source": "５筋位取り",
-            "target": "５th File Vanguard Pawn"
-          },
-          {
-            "cueName": "voice_016_144",
-            "source": "５七金戦法",
-            "target": "５七 Gold Strategy"
-          },
-          {
-            "cueName": "voice_016_145",
-            "source": "超急戦",
-            "target": "Ultra-Rapid Attack"
-          },
-          {
-            "cueName": "voice_016_146",
-            "source": "超速",
-            "target": "Super Speed"
-          },
-          {
-            "cueName": "voice_016_147",
-            "source": "丸山ワクチン",
-            "target": "Maruyama Vaccine"
-          },
-          {
-            "cueName": "voice_016_148",
-            "source": "棒金",
-            "target": "Climbing Gold"
-          },
-          {
-            "cueName": "voice_016_149",
-            "source": "棒銀",
-            "target": "Climbing Silver"
-          },
-          {
-            "cueName": "voice_016_150",
-            "source": "原始棒銀",
-            "target": "Primitive Climbing Silver"
-          },
-          {
-            "cueName": "voice_016_151",
-            "source": "早繰り銀",
-            "target": "Rapid Advancing Silver"
-          },
-          {
-            "cueName": "voice_016_152",
-            "source": "右四間飛車",
-            "target": "Right Fourth File Rook"
-          },
-          {
-            "cueName": "voice_016_153",
-            "source": "右四間飛車急戦",
-            "target": "Right Fourth File Rook Rapid Attack"
-          },
-          {
-            "cueName": "voice_016_154",
-            "source": "右四間飛車左美濃",
-            "target": "Right Fourth File Rook Left Mino"
-          },
-          {
-            "cueName": "voice_016_155",
-            "source": "袖飛車",
-            "target": "Sleeve Rook"
-          },
-          {
-            "cueName": "voice_016_156",
-            "source": "羽生式袖飛車",
-            "target": "Habu-Style Sleeve Rook"
-          },
-          {
-            "cueName": "voice_016_157",
-            "source": "加藤流袖飛車",
-            "target": "Kato-Style Sleeve Rook"
-          },
-          {
-            "cueName": "voice_016_158",
-            "source": "中原飛車",
-            "target": "Nakahara Rook"
-          },
-          {
-            "cueName": "voice_016_159",
-            "source": "地下鉄飛車",
-            "target": "Underground Rook"
-          },
-          {
-            "cueName": "voice_016_160",
-            "source": "腰掛け銀",
-            "target": "Reclining Silver"
-          },
-          {
-            "cueName": "voice_016_161",
-            "source": "腰掛け金",
-            "target": "Reclining Gold"
-          },
-          {
-            "cueName": "voice_016_162",
-            "source": "雀刺し",
-            "target": "Spearing the Sparrow"
-          },
-          {
-            "cueName": "voice_016_163",
-            "source": "鳥刺し",
-            "target": "Bird Spearing"
-          },
-          {
-            "cueName": "voice_016_164",
-            "source": "鎖鎌銀",
-            "target": "Kusarigama Silver"
-          },
-          {
-            "cueName": "voice_016_165",
-            "source": "ポンポン桂",
-            "target": "Popping Knights"
-          },
-          {
-            "cueName": "voice_016_166",
-            "source": "新米長玉",
-            "target": "New Yonenaga King"
-          },
-          {
-            "cueName": "voice_016_167",
-            "source": "四間飛車",
-            "target": "Fourth File Rook"
-          },
-          {
-            "cueName": "voice_016_168",
-            "source": "角道オープン四間飛車",
-            "target": "Open Bishop Path Fourth File Rook"
-          },
-          {
-            "cueName": "voice_016_169",
-            "source": "藤井システム",
-            "target": "Fujii System"
-          },
-          {
-            "cueName": "voice_016_170",
-            "source": "はく式四間飛車",
-            "target": "Haku-Style Fourth File Rook"
-          },
-          {
-            "cueName": "voice_016_171",
-            "source": "魔界四間飛車",
-            "target": "Demon World Fourth File Rook"
-          },
-          {
-            "cueName": "voice_016_172",
-            "source": "耀龍四間飛車",
-            "target": "Yoryu Fourth File Rook"
-          },
-          {
-            "cueName": "voice_016_173",
-            "source": "立石流",
-            "target": "Tateishi Style"
-          },
-          {
-            "cueName": "voice_016_174",
-            "source": "錆刀戦法",
-            "target": "Rusty Sword Strategy"
-          },
-          {
-            "cueName": "voice_016_175",
-            "source": "レグスペ",
-            "target": "Leg Special"
-          },
-          {
-            "cueName": "voice_016_176",
-            "source": "三間飛車",
-            "target": "Third File Rook"
-          },
-          {
-            "cueName": "voice_016_177",
-            "source": "石田流",
-            "target": "Ishida Style"
-          },
-          {
-            "cueName": "voice_016_178",
-            "source": "石田流本組み",
-            "target": "Ishida Main Formation"
-          },
-          {
-            "cueName": "voice_016_179",
-            "source": "新石田流",
-            "target": "New Ishida Style"
-          },
-          {
-            "cueName": "voice_016_180",
-            "source": "早石田",
-            "target": "Quick Ishida"
-          },
-          {
-            "cueName": "voice_016_181",
-            "source": "升田式石田流",
-            "target": "Masuda-Style Ishida"
-          },
-          {
-            "cueName": "voice_016_182",
-            "source": "楠本式石田流",
-            "target": "Kusumoto-Style Ishida"
-          },
-          {
-            "cueName": "voice_016_183",
-            "source": "ムリヤリ早石田",
-            "target": "Forced Quick Ishida"
-          },
-          {
-            "cueName": "voice_016_184",
-            "source": "４→３戦法",
-            "target": "４ to ３ Strategy"
-          },
-          {
-            "cueName": "voice_016_185",
-            "source": "菅井流三間飛車",
-            "target": "Sugai-Style Third File Rook"
-          },
-          {
-            "cueName": "voice_016_186",
-            "source": "菅井流ゴキゲン三間飛車",
-            "target": "Sugai Cheerful Third File Rook"
-          },
-          {
-            "cueName": "voice_016_187",
-            "source": "トマホーク",
-            "target": "Tomahawk"
-          },
-          {
-            "cueName": "voice_016_188",
-            "source": "中田功ＸＰ",
-            "target": "Isao Nakata XP"
-          },
-          {
-            "cueName": "voice_016_189",
-            "source": "７八飛戦法",
-            "target": "７八 Rook Strategy"
-          },
-          {
-            "cueName": "voice_016_190",
-            "source": "カナケンシステム",
-            "target": "Kanaken System"
-          },
-          {
-            "cueName": "voice_016_191",
-            "source": "３ニ飛戦法",
-            "target": "３ニ Rook Strategy"
-          },
-          {
-            "cueName": "voice_016_192",
-            "source": "つくつくぼうし戦法",
-            "target": "Tsukutsukuboshi Strategy"
-          },
-          {
-            "cueName": "voice_016_193",
-            "source": "真部流",
-            "target": "Manabe Style"
-          },
-          {
-            "cueName": "voice_016_194",
-            "source": "中飛車",
-            "target": "Central Rook"
-          },
-          {
-            "cueName": "voice_016_195",
-            "source": "ゴキゲン中飛車",
-            "target": "Cheerful Central Rook"
-          },
-          {
-            "cueName": "voice_016_196",
-            "source": "先手中飛車",
-            "target": "Sente Central Rook"
-          },
-          {
-            "cueName": "voice_016_197",
-            "source": "原始中飛車",
-            "target": "Primitive Central Rook"
-          },
-          {
-            "cueName": "voice_016_198",
-            "source": "ツノ銀中飛車",
-            "target": "Horned Silver Central Rook"
-          },
-          {
-            "cueName": "voice_016_199",
-            "source": "英ちゃん流中飛車",
-            "target": "Ei-chan Central Rook"
-          },
-          {
-            "cueName": "voice_016_200",
-            "source": "中飛車左穴熊",
-            "target": "Central Rook Left Anaguma"
-          },
-          {
-            "cueName": "voice_016_201",
-            "source": "遠山流",
-            "target": "Toyama Style"
-          },
-          {
-            "cueName": "voice_016_202",
-            "source": "矢倉中飛車",
-            "target": "Yagura Central Rook"
-          },
-          {
-            "cueName": "voice_016_203",
-            "source": "平目",
-            "target": "Flounder"
-          },
-          {
-            "cueName": "voice_016_204",
-            "source": "向飛車",
-            "target": "Opposing Rook"
-          },
-          {
-            "cueName": "voice_016_205",
-            "source": "ダイレクト向かい飛車",
-            "target": "Direct Opposing Rook"
-          },
-          {
-            "cueName": "voice_016_206",
-            "source": "鬼殺し向かい飛車",
-            "target": "Demon Killer Opposing Rook"
-          },
-          {
-            "cueName": "voice_016_207",
-            "source": "メリケン向かい飛車",
-            "target": "American Opposing Rook"
-          },
-          {
-            "cueName": "voice_016_208",
-            "source": "天彦流向かい飛車",
-            "target": "Amahiko-Style Opposing Rook"
-          },
-          {
-            "cueName": "voice_016_209",
-            "source": "菜々河流向かい飛車",
-            "target": "Nanakawa-Style Opposing Rook"
-          },
-          {
-            "cueName": "voice_016_210",
-            "source": "阪田流向飛車",
-            "target": "Sakata-Style Opposing Rook"
-          },
-          {
-            "cueName": "voice_016_211",
-            "source": "天彦流▲6六角",
-            "target": "Amahiko-Style ▲6六 Bishop"
-          },
-          {
-            "cueName": "voice_016_212",
-            "source": "菜々河流△4四角",
-            "target": "Nanakawa-Style △4四 Bishop"
-          },
-          {
-            "cueName": "voice_016_213",
-            "source": "相振り飛車",
-            "target": "Double Ranging Rook"
-          },
-          {
-            "cueName": "voice_016_214",
-            "source": "角交換振り飛車",
-            "target": "Bishop Exchange Ranging Rook"
-          },
-          {
-            "cueName": "voice_016_215",
-            "source": "陽動振り飛車",
-            "target": "Feint Ranging Rook"
-          },
-          {
-            "cueName": "voice_016_216",
-            "source": "振り飛車ミレニアム",
-            "target": "Ranging Rook Millennium"
-          },
-          {
-            "cueName": "voice_016_217",
-            "source": "一間飛車",
-            "target": "First File Rook"
-          },
-          {
-            "cueName": "voice_016_218",
-            "source": "一間飛車穴熊",
-            "target": "First File Rook Anaguma"
-          },
-          {
-            "cueName": "voice_016_219",
-            "source": "九間飛車",
-            "target": "Ninth File Rook"
-          },
-          {
-            "cueName": "voice_016_220",
-            "source": "Uターン飛車",
-            "target": "U-Turn Rook"
-          },
-          {
-            "cueName": "voice_016_221",
-            "source": "７二飛亜急戦",
-            "target": "７二 Rook Semi-Rapid Attack"
-          },
-          {
-            "cueName": "voice_016_222",
-            "source": "玉頭銀",
-            "target": "King-Head Silver"
-          },
-          {
-            "cueName": "voice_016_223",
-            "source": "右玉",
-            "target": "Right King"
-          },
-          {
-            "cueName": "voice_016_224",
-            "source": "糸谷流右玉",
-            "target": "Itodani-Style Right King"
-          },
-          {
-            "cueName": "voice_016_225",
-            "source": "こいなぎ流右玉",
-            "target": "Koinagi-Style Right King"
-          },
-          {
-            "cueName": "voice_016_226",
-            "source": "セカステ右玉",
-            "target": "Second Stage Right King"
-          },
-          {
-            "cueName": "voice_016_227",
-            "source": "高田流左玉",
-            "target": "Takada-Style Left King"
-          },
-          {
-            "cueName": "voice_016_228",
-            "source": "嬉野流",
-            "target": "Ureshino Style"
-          },
-          {
-            "cueName": "voice_016_229",
-            "source": "新嬉野流",
-            "target": "New Ureshino Style"
-          },
-          {
-            "cueName": "voice_016_230",
-            "source": "鬼殺し",
-            "target": "Demon Killer"
-          },
-          {
-            "cueName": "voice_016_231",
-            "source": "新鬼殺し",
-            "target": "New Demon Killer"
-          },
-          {
-            "cueName": "voice_016_232",
-            "source": "かまいたち戦法",
-            "target": "Kamaitachi Strategy"
-          },
-          {
-            "cueName": "voice_016_233",
-            "source": "筋違い角",
-            "target": "Wrong-Diagonal Bishop"
-          },
-          {
-            "cueName": "voice_016_234",
-            "source": "相筋違い角",
-            "target": "Double Wrong-Diagonal Bishop"
-          },
-          {
-            "cueName": "voice_016_235",
-            "source": "筋違い角阪田流",
-            "target": "Sakata Wrong-Diagonal Bishop"
-          },
-          {
-            "cueName": "voice_016_236",
-            "source": "稲庭戦法",
-            "target": "Inaniwa Strategy"
-          },
-          {
-            "cueName": "voice_016_237",
-            "source": "阪田流2手目△9四歩",
-            "target": "Sakata-Style Move 2 △9四 Pawn"
-          },
-          {
-            "cueName": "voice_016_238",
-            "source": "角頭歩戦法",
-            "target": "Bishop-Head Pawn Strategy"
-          },
-          {
-            "cueName": "voice_016_239",
-            "source": "5手爆弾",
-            "target": "5-Move Bomb"
-          },
-          {
-            "cueName": "voice_016_240",
-            "source": "目くらまし戦法",
-            "target": "Blinding Strategy"
-          },
-          {
-            "cueName": "voice_016_241",
-            "source": "暴銀",
-            "target": "Rampaging Silver"
-          },
-          {
-            "cueName": "voice_016_242",
-            "source": "風車",
-            "target": "Windmill"
-          },
-          {
-            "cueName": "voice_016_243",
-            "source": "きmきm金",
-            "target": "Kim Kim Gold"
-          },
-          {
-            "cueName": "voice_016_244",
-            "source": "カニカニ金",
-            "target": "Crab-Crab Gold"
-          },
-          {
-            "cueName": "voice_016_245",
-            "source": "カニカニ銀",
-            "target": "Crab-Crab Silver"
-          },
-          {
-            "cueName": "voice_016_246",
-            "source": "ゴリゴリ金",
-            "target": "Grinding Gold"
-          },
-          {
-            "cueName": "voice_016_247",
-            "source": "間宮久夢流",
-            "target": "Mamiya Kyumu Style"
-          },
-          {
-            "cueName": "voice_016_248",
-            "source": "金沢流",
-            "target": "Kanazawa Style"
-          },
-          {
-            "cueName": "voice_016_249",
-            "source": "都成流",
-            "target": "Tonari Style"
-          },
-          {
-            "cueName": "voice_016_250",
-            "source": "やばボーズ流",
-            "target": "Yaba-Bozu Style"
-          },
-          {
-            "cueName": "voice_016_251",
-            "source": "xaby角",
-            "target": "xaby Bishop"
-          },
-          {
-            "cueName": "voice_016_252",
-            "source": "GAVA角",
-            "target": "GAVA Bishop"
-          },
-          {
-            "cueName": "voice_016_253",
-            "source": "パックマン戦法",
-            "target": "Pac-Man Strategy"
-          },
-          {
-            "cueName": "voice_016_254",
-            "source": "カメレオン戦法",
-            "target": "Chameleon Strategy"
-          },
-          {
-            "cueName": "voice_016_255",
-            "source": "カリスマウィルス",
-            "target": "Charisma Virus"
-          },
-          {
-            "cueName": "voice_016_256",
-            "source": "ショーダンシステム",
-            "target": "Shodan System"
-          },
-          {
-            "cueName": "voice_016_257",
-            "source": "ハチワンシステム",
-            "target": "81 System"
-          },
-          {
-            "cueName": "voice_016_258",
-            "source": "メイドシステム",
-            "target": "Maid System"
-          },
-          {
-            "cueName": "voice_016_259",
-            "source": "村田システム",
-            "target": "Murata System"
-          },
-          {
-            "cueName": "voice_016_260",
-            "source": "ドラゴンスペシャル",
-            "target": "Dragon Special"
-          },
-          {
-            "cueName": "voice_016_261",
-            "source": "アユムスペシャル",
-            "target": "Ayumu Special"
-          },
-          {
-            "cueName": "voice_016_296",
-            "source": "工藤流陽動振り飛車",
-            "target": "Kudo-Style Feint Ranging Rook"
-          },
-          {
-            "cueName": "voice_016_501",
-            "source": "よろしくお願いいたします。",
-            "target": "I look forward to our game."
-          },
-          {
-            "cueName": "voice_016_502",
-            "source": "さすがでございます。",
-            "target": "Splendid."
-          },
-          {
-            "cueName": "voice_016_503",
-            "source": "そういうことですね。",
-            "target": "I see how it is."
-          },
-          {
-            "cueName": "voice_016_504",
-            "source": "どちらを選ぶべきか……",
-            "target": "Which should I choose...?"
-          },
-          {
-            "cueName": "voice_016_505",
-            "source": "申し訳ございません",
-            "target": "My apologies."
-          },
-          {
-            "cueName": "voice_016_506",
-            "source": "困りましたね……",
-            "target": "This is troubling..."
-          }
-        ]
+        "replacements": 267
       }
     ]
   },
@@ -4057,13 +2920,13 @@
     ]
   },
   {
-    "bundle_file": "4215c504c7464f5dd80b734a95a713bb__remote_share_assets__project__game_design_settings.bundle",
-    "replacements": 6,
+    "bundle_file": "4aca81d3d586531165d9595b4acba283__remote_share_assets__project__game_design_settings.bundle",
+    "replacements": 8,
     "changed_objects": [
       {
         "path_id": 8585727256196504375,
         "type": "MonoBehaviour",
-        "replacements": 6
+        "replacements": 8
       }
     ]
   },
@@ -4137,7 +3000,7 @@
     ]
   },
   {
-    "bundle_file": "4dcae3a2a66e8f43edd67d38bcb1657e__remote_assets__project_sound_generated_voice_catalog_voice009_g.bundle",
+    "bundle_file": "7bf58a396a24f538be4d41c5ad67342d__remote_assets__project_sound_generated_voice_catalog_voice009_g.bundle",
     "replacements": 267,
     "changed_objects": [
       {
@@ -4149,7 +3012,7 @@
     ]
   },
   {
-    "bundle_file": "50737924938e707dc88ad2c4fed2ff97__remote_assets__project_sound_generated_voice_catalog_skinvoice20001_g.bundle",
+    "bundle_file": "23f7eb96d225c2acb739fc02810f5e1c__remote_assets__project_sound_generated_voice_catalog_skinvoice20001_g.bundle",
     "replacements": 57,
     "changed_objects": [
       {
@@ -4261,37 +3124,11 @@
     ]
   },
   {
-    "bundle_file": "609cdfa9130874006d83c086f823bc5c__remote_share_assets__project_composition_prefab_ui_overlay_implement_kifudetail.bundle",
+    "bundle_file": "848f4e79031165f17b5ae6fa7967af68__remote_share_assets__project_composition_prefab_ui_overlay_implement_kifudetail.bundle",
     "replacements": 1,
     "changed_objects": [
       {
         "path_id": -1615420799925582841,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      }
-    ]
-  },
-  {
-    "bundle_file": "622ae84bcff92326f559477ee8ac6bad__remote_assets__project_composition_prefab_ui_overlay_implement_questionpopup_questionpopupview.bundle",
-    "replacements": 5,
-    "changed_objects": [
-      {
-        "path_id": -8164585214296652455,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -4367279826535709351,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 3280923153332634969,
-        "type": "MonoBehaviour",
-        "replacements": 2
-      },
-      {
-        "path_id": 6690773909568619865,
         "type": "MonoBehaviour",
         "replacements": 1
       }
@@ -4416,7 +3253,7 @@
     ]
   },
   {
-    "bundle_file": "65e68c85ef60a03ee351fb5c05cfa7d8__remote_assets__project_composition_prefab_ui_overlay_implement_kifudetail_kifudetailpopupview.bundle",
+    "bundle_file": "79db833dc078bbc3f8a65e4e34579ab9__remote_assets__project_composition_prefab_ui_overlay_implement_kifudetail_kifudetailpopupview.bundle",
     "replacements": 177,
     "changed_objects": [
       {
@@ -4512,7 +3349,7 @@
     ]
   },
   {
-    "bundle_file": "663319a8ea3f65a4ee563e1b5b71a9c2__remote_share_assets__project_composition_prefab_ui.bundle",
+    "bundle_file": "e44fd7a289b367af55e97b1be328d9d0__remote_share_assets__project_composition_prefab_ui.bundle",
     "replacements": 5,
     "changed_objects": [
       {
@@ -4968,7 +3805,7 @@
     ]
   },
   {
-    "bundle_file": "6d74d752ff82b43a7f7a92bd6c8dda13__remote_share_assets__project_composition_prefab_ui_character.bundle",
+    "bundle_file": "854bffe63937a25f92039cb0ee30a170__remote_share_assets__project_composition_prefab_ui_character.bundle",
     "replacements": 19,
     "changed_objects": [
       {
@@ -5111,7 +3948,7 @@
     ]
   },
   {
-    "bundle_file": "6e8236b3c1ed4869b5805a2affd54680__remote_assets__project_sound_generated_voice_catalog_skinvoice10001_g.bundle",
+    "bundle_file": "2176025e110dac05c15081110aa1dd2f__remote_assets__project_sound_generated_voice_catalog_skinvoice10001_g.bundle",
     "replacements": 57,
     "changed_objects": [
       {
@@ -5139,7 +3976,7 @@
     ]
   },
   {
-    "bundle_file": "6f768e13c7effba10404026e09cb2f4f__remote_assets__project_sound_generated_voice_catalog_voice011_g.bundle",
+    "bundle_file": "f099544f93498aa3c2e8c497c1006c70__remote_assets__project_sound_generated_voice_catalog_voice011_g.bundle",
     "replacements": 267,
     "changed_objects": [
       {
@@ -5151,312 +3988,402 @@
     ]
   },
   {
-    "bundle_file": "706d50de73475d3c6d7518c13f516775__remote_assets__project__game_gamescene.bundle",
-    "replacements": 61,
+    "bundle_file": "92838e5cfce2f18b4590a33014cdbd18__remote_assets__project__game_gamescene.bundle",
+    "replacements": 79,
     "changed_objects": [
       {
-        "path_id": 1264,
+        "path_id": 1760,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1266,
+        "path_id": 1761,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1267,
+        "path_id": 1764,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1268,
+        "path_id": 1765,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1269,
+        "path_id": 1766,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1270,
+        "path_id": 1767,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1271,
+        "path_id": 1768,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1273,
+        "path_id": 1769,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1274,
+        "path_id": 1770,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1275,
+        "path_id": 1771,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1277,
+        "path_id": 1773,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1279,
+        "path_id": 1774,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1280,
+        "path_id": 1775,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1281,
+        "path_id": 1778,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1282,
+        "path_id": 1780,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1283,
+        "path_id": 1781,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1284,
+        "path_id": 1782,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1285,
+        "path_id": 1783,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1286,
+        "path_id": 1785,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1288,
+        "path_id": 1787,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1289,
+        "path_id": 1788,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1290,
+        "path_id": 1789,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1291,
+        "path_id": 1790,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1292,
+        "path_id": 1791,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1294,
+        "path_id": 1792,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1295,
+        "path_id": 1793,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1296,
+        "path_id": 1794,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1298,
+        "path_id": 1796,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1299,
+        "path_id": 1797,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1302,
+        "path_id": 1798,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1303,
+        "path_id": 1799,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1304,
+        "path_id": 1800,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1307,
+        "path_id": 1801,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1308,
+        "path_id": 1803,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1310,
+        "path_id": 1804,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1312,
+        "path_id": 1805,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1316,
+        "path_id": 1806,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1317,
+        "path_id": 1808,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1318,
+        "path_id": 1810,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1321,
+        "path_id": 1813,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1322,
+        "path_id": 1814,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1323,
+        "path_id": 1816,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1324,
+        "path_id": 1817,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1325,
+        "path_id": 1819,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1326,
+        "path_id": 1822,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1327,
+        "path_id": 1824,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1328,
+        "path_id": 1826,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1329,
+        "path_id": 1828,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1330,
+        "path_id": 1831,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1332,
+        "path_id": 1833,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1333,
+        "path_id": 1834,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1334,
+        "path_id": 1835,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1335,
+        "path_id": 1838,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1336,
+        "path_id": 1839,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1337,
+        "path_id": 1840,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1338,
+        "path_id": 1842,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1339,
+        "path_id": 1843,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1367,
+        "path_id": 1844,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1845,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1848,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1849,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1850,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1851,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1852,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1854,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1856,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1857,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1858,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1859,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1860,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1861,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1862,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1863,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1864,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1865,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1892,
         "type": "MonoBehaviour",
         "replacements": 4
       }
     ]
   },
   {
-    "bundle_file": "f4cc855839d1616b2dfeb834fa7b503a__remote_assets__project_masterdata_runtimemasterdata.bundle",
-    "replacements": 1459,
+    "bundle_file": "02038edb31f567fc20655e6d0e1ef18d__remote_assets__project_masterdata_runtimemasterdata.bundle",
+    "replacements": 1463,
     "changed_objects": [
       {
         "path_id": -3577660058741299233,
         "type": "TextAsset",
         "name": "RuntimeMasterData",
-        "replacements": 1459,
-        "script_bytes_before": 236206,
-        "script_bytes_after": 213708,
+        "replacements": 1463,
+        "script_bytes_before": 237254,
+        "script_bytes_after": 214743,
         "strings": [
           {
             "source": "自分の対局を将棋AIが詳しく分析してくれる、30日間有効のパスです。\n「あの一手は本当に最善だった？」を、棋譜から振り返ることができます。\n\n【価格】\n・650円（税込）\n\n【獲得奉納ポイント】\n・37pt\n\n【有効期間】\n・購入日から30日間\n\n【解放される機能】\n・評価値グラフ：一手ごとの形勢を折れ線グラフで可視化\n・推奨手順：AIが選ぶ最善手と、その後の進行を表示\n・指し手評価：自分の指した手の良し悪しをマーク表示（好手・悪手・疑問手 等）\n\n【追加購入について】\n・有効期間中でも追加購入が可能です\n・1回の購入で有効期間が30日加算されます\n・追加購入は最大1年分まで可能です\n\n※棋譜再生・手順リスト・KIFコピー・盤面画像共有は、パスがなくても利用できます。\n※棋譜再生画面の「解析を利用する」ボタンからも購入できます。",
@@ -9337,6 +8264,13 @@
             "target_bytes": 27
           },
           {
+            "source": "タップ（低確率）",
+            "target": "Tap (Low Probability)",
+            "replacements": 1,
+            "source_bytes": 24,
+            "target_bytes": 21
+          },
+          {
             "source": "期待の駆け出し",
             "target": "Promising Beginner",
             "replacements": 1,
@@ -11297,6 +10231,13 @@
             "target_bytes": 16
           },
           {
+            "source": "メイン10",
+            "target": "Main 10",
+            "replacements": 1,
+            "source_bytes": 11,
+            "target_bytes": 7
+          },
+          {
             "source": "ソフィア",
             "target": "Sophia",
             "replacements": 2,
@@ -12060,6 +11001,13 @@
             "target_bytes": 14
           },
           {
+            "source": "メイン9",
+            "target": "Main 9",
+            "replacements": 1,
+            "source_bytes": 10,
+            "target_bytes": 6
+          },
+          {
             "source": "15歳",
             "target": "15 years old",
             "replacements": 2,
@@ -12641,6 +11589,13 @@
             "target_bytes": 4
           },
           {
+            "source": "放置",
+            "target": "Idle",
+            "replacements": 1,
+            "source_bytes": 6,
+            "target_bytes": 4
+          },
+          {
             "source": "酒",
             "target": "Sake",
             "replacements": 1,
@@ -13099,7 +12054,7 @@
     ]
   },
   {
-    "bundle_file": "8701b812a95a63abd24c45f5dbba5812__remote_assets__project_sound_generated_voice_catalog_voice013_g.bundle",
+    "bundle_file": "6fa859cd807ea80ca0a75aa4905699ad__remote_assets__project_sound_generated_voice_catalog_voice013_g.bundle",
     "replacements": 267,
     "changed_objects": [
       {
@@ -13132,7 +12087,7 @@
     ]
   },
   {
-    "bundle_file": "8b4e09d7bc1fe48e1e823df606f26e05__remote_assets__project_sound_generated_voice_catalog_voice004_g.bundle",
+    "bundle_file": "5c250f8a9e44a21a05fd5d6e6e6dd5b4__remote_assets__project_sound_generated_voice_catalog_voice004_g.bundle",
     "replacements": 267,
     "changed_objects": [
       {
@@ -13731,7 +12686,7 @@
     ]
   },
   {
-    "bundle_file": "a31c6e92e8a8a13e5b20a6f380f6e4b0__remote_assets__project_sound_generated_voice_catalog_voice015_g.bundle",
+    "bundle_file": "b800b92cf54668448736d66661fed6a7__remote_assets__project_sound_generated_voice_catalog_voice015_g.bundle",
     "replacements": 267,
     "changed_objects": [
       {
@@ -13759,7 +12714,7 @@
     ]
   },
   {
-    "bundle_file": "a63155030566562a18924c98adcec800__remote_assets__project_sound_generated_voice_catalog_voice007_g.bundle",
+    "bundle_file": "9be97c93352c2b8ad429314cdfa06e16__remote_assets__project_sound_generated_voice_catalog_voice007_g.bundle",
     "replacements": 267,
     "changed_objects": [
       {
@@ -13833,12 +12788,12 @@
     ]
   },
   {
-    "bundle_file": "ae91052379a957568d5625fcdc10c091__remote_assets__project_sound_generated_voice_catalog_voice900_g.bundle",
+    "bundle_file": "3b36e4deb8a6ccf11828c27e23980968__remote_assets__project_sound_generated_voice_catalog_voice900_g.bundle",
     "replacements": 0,
     "changed_objects": []
   },
   {
-    "bundle_file": "b0b44690edecc3b228c104826a89afd3__remote_assets__project_sound_generated_voice_catalog_voice014_g.bundle",
+    "bundle_file": "6250ee44dc5d59cdde64454709fe5ecb__remote_assets__project_sound_generated_voice_catalog_voice014_g.bundle",
     "replacements": 267,
     "changed_objects": [
       {
@@ -13850,7 +12805,7 @@
     ]
   },
   {
-    "bundle_file": "b4bfe3a9844fbc498e66730e9e8fd287__remote_assets__project_sound_generated_voice_catalog_voice002_g.bundle",
+    "bundle_file": "8938bca00812b1cd017468ad97347249__remote_assets__project_sound_generated_voice_catalog_voice002_g.bundle",
     "replacements": 267,
     "changed_objects": [
       {
@@ -13883,7 +12838,7 @@
     ]
   },
   {
-    "bundle_file": "b7109a47c32906e38d4d253e3ae6a290__remote_assets__project_sound_generated_voice_catalog_voice010_g.bundle",
+    "bundle_file": "83577a18d292faaa464387e7cd7b49b8__remote_assets__project_sound_generated_voice_catalog_voice010_g.bundle",
     "replacements": 267,
     "changed_objects": [
       {
@@ -13927,7 +12882,7 @@
     ]
   },
   {
-    "bundle_file": "b9777aee31f03c0d5f807643e312df58__remote_assets__project__menu_prefab_overlay_lobbymatchroommemberdetailpopup_lobbymatchroommemberdetailpopupview.bundle",
+    "bundle_file": "0e455c58a3ff08be98339b76e1b8efb2__remote_assets__project__menu_prefab_overlay_lobbymatchroommemberdetailpopup_lobbymatchroommemberdetailpopupview.bundle",
     "replacements": 6,
     "changed_objects": [
       {
@@ -14111,7 +13066,7 @@
     ]
   },
   {
-    "bundle_file": "c75d9aeff26f23b7804f0038ddc41dc3__remote_assets__project__menu_prefab_page_home_homepage.bundle",
+    "bundle_file": "c9b63c721b717d9dcf6441d54b5be260__remote_assets__project__menu_prefab_page_home_homepage.bundle",
     "replacements": 5,
     "changed_objects": [
       {
@@ -14806,7 +13761,7 @@
     ]
   },
   {
-    "bundle_file": "d1623007197e62bf8eff5f0e317b8102__remote_assets__project__menu_prefab_page_lobbymatchroompage_lobbymatchroompage.bundle",
+    "bundle_file": "6416c574c872007ecc8e20c29385321a__remote_assets__project__menu_prefab_page_lobbymatchroompage_lobbymatchroompage.bundle",
     "replacements": 50,
     "changed_objects": [
       {
@@ -15064,7 +14019,7 @@
     ]
   },
   {
-    "bundle_file": "d7023969b550aeb15bede47b384eda32__remote_assets__project_sound_generated_voice_catalog_voice005_g.bundle",
+    "bundle_file": "1551fa91c4f897b1a0700783306f3a0a__remote_assets__project_sound_generated_voice_catalog_voice005_g.bundle",
     "replacements": 267,
     "changed_objects": [
       {
@@ -15153,7 +14108,7 @@
     ]
   },
   {
-    "bundle_file": "da3aa637a8240c685ee511685a3b9d56__remote_share_assets__project_composition_prefab_ui_uibutton.bundle",
+    "bundle_file": "170fbf03f88e8ee3571a5773872940a3__remote_share_assets__project_composition_prefab_ui_uibutton.bundle",
     "replacements": 9,
     "changed_objects": [
       {
@@ -15351,7 +14306,7 @@
     ]
   },
   {
-    "bundle_file": "debff41d7d8d16f67af2b7a83e5431f0__remote_assets__project__menu_prefab_overlay_lobbymatchroompreparationpopup_lobbymatchroompreparationpopupview.bundle",
+    "bundle_file": "c7193600747e87644d845763447b2fef__remote_assets__project__menu_prefab_overlay_lobbymatchroompreparationpopup_lobbymatchroompreparationpopupview.bundle",
     "replacements": 11,
     "changed_objects": [
       {
@@ -15433,31 +14388,31 @@
     ]
   },
   {
-    "bundle_file": "e1111f97784baf6fea6652c5f89b30ad__remote_assets__project_composition_prefab_ui_overlay_implement_spectatematchlistpopup_spectatematchlistpopupview.bundle",
+    "bundle_file": "d3513e6edf8081a3e608511caca37d94__remote_assets__project_composition_prefab_ui_overlay_implement_spectatematchlistpopup_spectatematchlistpopupview.bundle",
     "replacements": 21,
     "changed_objects": [
-      {
-        "path_id": -8565320178533611987,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
       {
         "path_id": -8337369761355413971,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": -8337307924610169299,
+        "path_id": -8085373620662516179,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": -8297016282595080659,
+        "path_id": -7635584820672149971,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": -8044840451443866067,
+        "path_id": -7071024328074213843,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -5224772567882807763,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -15467,12 +14422,17 @@
         "replacements": 1
       },
       {
-        "path_id": -2368918621533845971,
+        "path_id": -4135698244705728979,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": -1160049998196390355,
+        "path_id": -3930954733095041491,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -2732085809420712403,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -15487,27 +14447,27 @@
         "replacements": 1
       },
       {
-        "path_id": 273781555580683821,
+        "path_id": -145350976216381907,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 386244130828699181,
+        "path_id": -106858919936342483,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 922962763701732909,
+        "path_id": 1758323831946462765,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 1943163292956345901,
+        "path_id": 2784065188479551021,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 3073421413950015021,
+        "path_id": 4775330714710099501,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -15517,7 +14477,7 @@
         "replacements": 1
       },
       {
-        "path_id": 5168361528618698285,
+        "path_id": 5086685923911517741,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -15527,12 +14487,7 @@
         "replacements": 1
       },
       {
-        "path_id": 7942034943340299821,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 8216095063603988013,
+        "path_id": 7646389238718776877,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -15544,7 +14499,7 @@
     ]
   },
   {
-    "bundle_file": "e497999af8a2ece4bd7fa8b101148a43__remote_assets__project_sound_generated_voice_catalog_voice006_g.bundle",
+    "bundle_file": "9987723966834c6a7fafcdc4d1c24cc9__remote_assets__project_sound_generated_voice_catalog_voice006_g.bundle",
     "replacements": 267,
     "changed_objects": [
       {
@@ -15583,7 +14538,7 @@
     ]
   },
   {
-    "bundle_file": "eab9901af2e7601c6cb20ec985eeaa13__remote_assets__project__menu_prefab_overlay_lobbymatchroommemberlistpopup_lobbymatchroommemberlistpopupview.bundle",
+    "bundle_file": "f610758fc8ffaabffa285ee69337f270__remote_assets__project__menu_prefab_overlay_lobbymatchroommemberlistpopup_lobbymatchroommemberlistpopupview.bundle",
     "replacements": 5,
     "changed_objects": [
       {
@@ -15700,7 +14655,7 @@
     ]
   },
   {
-    "bundle_file": "ecc93c652819abddb608b429c9563524__remote_assets__project_composition_prefab_ui_overlay_implement_gameresulteffectoverlay_gameresulteffectoverlayview.bundle",
+    "bundle_file": "36b3199e8b56fe0e8313c6b1671a1fd4__remote_assets__project_composition_prefab_ui_overlay_implement_gameresulteffectoverlay_gameresulteffectoverlayview.bundle",
     "replacements": 10,
     "changed_objects": [
       {
@@ -15843,7 +14798,7 @@
     ]
   },
   {
-    "bundle_file": "fa67fcb26c1b31df7dc51f752a5ab758__remote_assets__project_sound_generated_voice_catalog_voice003_g.bundle",
+    "bundle_file": "203018c5e0ba0410f9a50c2fe1133678__remote_assets__project_sound_generated_voice_catalog_voice003_g.bundle",
     "replacements": 267,
     "changed_objects": [
       {
@@ -15855,321 +14810,518 @@
     ]
   },
   {
-    "bundle_file": "65aa6208fb4f97dfa9808f9e0c0f88f5__remote_assets__project_sound_generated_voice_catalog_skinvoice60001_g.bundle",
+    "bundle_file": "0b5a50f864a1954756735b6d5e5b889b__remote_assets__project_sound_generated_voice_catalog_skinvoice60001_g.bundle",
     "replacements": 61,
     "changed_objects": [
       {
         "path_id": -6384514304749515458,
         "type": "TextAsset",
         "name": "voice_catalog_SkinVoice60001.g",
-        "replacements": 61,
-        "strings": [
-          {
-            "cueName": "skin_voice_60001_001",
-            "source": "やるからには全力で楽しむわっ！トリック・オア・トリートっ！\nさあ、お菓子を出しなさいっ！",
-            "target": "If we're going to do this, let's enjoy it to the fullest! Trick or treat!\nNow hand over the candy!"
-          },
-          {
-            "cueName": "skin_voice_60001_002",
-            "source": "押して参るわ！",
-            "target": "I'm charging in!"
-          },
-          {
-            "cueName": "skin_voice_60001_003",
-            "source": "負けたら、お菓子を貰うわよっ！",
-            "target": "If you lose, I'm taking your candy!"
-          },
-          {
-            "cueName": "skin_voice_60001_004",
-            "source": "私に化けるなんて、いい度胸ね！",
-            "target": "You've got some nerve disguising yourself as me!"
-          },
-          {
-            "cueName": "skin_voice_60001_005",
-            "source": "勝ったわ！お菓子は貰えるかしら！",
-            "target": "I won! I wonder if I get some candy!"
-          },
-          {
-            "cueName": "skin_voice_60001_006",
-            "source": "ガオーッ！……ふふ、私の勝ちよ！",
-            "target": "Grr! ...Hehe, I win!"
-          },
-          {
-            "cueName": "skin_voice_60001_007",
-            "source": "悪魔の力、思い知ったかしら？",
-            "target": "Have you learned the power of a devil?"
-          },
-          {
-            "cueName": "skin_voice_60001_008",
-            "source": "私の完全勝利よ！",
-            "target": "A complete victory for me!"
-          },
-          {
-            "cueName": "skin_voice_60001_009",
-            "source": "よく来たわね。今日の私は悪魔よ。\nお菓子を出せないなら、正々堂々と容赦のない悪戯を仕掛けるから覚悟しなさい！\nあ、悪戯の代わりに対局でもいいわよ？",
-            "target": "So you came. Today, I'm a devil.\nIf you don't have any candy, prepare yourself—I will play a fair and merciless trick on you!\nOh, a match instead of a trick is fine too."
-          },
-          {
-            "cueName": "skin_voice_60001_010",
-            "source": "ハッピーハロウィン！\n今日は貴方を独り占めさせてちょうだい！\nとびっきり甘えたい気分なの！",
-            "target": "Happy Halloween!\nLet me have you all to myself today!\nI'm in the mood to be thoroughly spoiled!"
-          },
-          {
-            "cueName": "skin_voice_60001_011",
-            "source": "さぁ、私と指しなさい！\nこの悪魔の猛攻、受けきれるかしら？",
-            "target": "Now, play me!\nCan you withstand this devil's fierce attack?"
-          },
-          {
-            "cueName": "skin_voice_60001_012",
-            "source": "行きつけのお店でハロウィンやるからって誘われたの。\n息抜きがてら、この衣装で参加することにしたわ！",
-            "target": "A place I frequent invited me to its Halloween event.\nI decided to join in this outfit as a little break!"
-          },
-          {
-            "cueName": "skin_voice_60001_013",
-            "source": "この角と羽、なかなかサマになっているでしょう？\n藍沢さんと一緒に探したのよ",
-            "target": "These horns and wings suit me rather well, don't they?\nI found them together with Ms. Aizawa."
-          },
-          {
-            "cueName": "skin_voice_60001_014",
-            "source": "見てちょうだい、こんなにお菓子をもらったわ！\n悪魔になりきった成果ね！あ、私の好きなクッキーもあるじゃない！\n一緒に食べましょう！",
-            "target": "Look, I received this much candy!\nMy devotion to playing a devil paid off! Oh, there are even cookies I like!\nLet's eat them together!"
-          },
-          {
-            "cueName": "skin_voice_60001_015",
-            "source": "たくさんお菓子を摂取したから、明日のランニングは倍走るわ！\n貴方も付き合いなさい！",
-            "target": "I ate plenty of candy, so I'll run twice as far tomorrow!\nYou're coming with me!"
-          },
-          {
-            "cueName": "skin_voice_60001_016",
-            "source": "ガオーッ！…どう？悪魔っぽいかしら！\nえ？可愛い？も、もう！真面目に答えなさい！",
-            "target": "Grr! ...Well? Do I seem devilish?\nWhat? Cute? H-hey! Answer seriously!"
-          },
-          {
-            "cueName": "skin_voice_60001_017",
-            "source": "あら？\n貴方を驚かせようと思ったのに、近くで見つめ合うと、なんだか顔が熱くなってきたわ？",
-            "target": "Oh?\nI meant to surprise you, but looking into your eyes this closely is making my face feel rather warm."
-          },
-          {
-            "cueName": "skin_voice_60001_018",
-            "source": "今回、お菓子はいらないわ。代わりに、とびきり甘いイタズラをしてあげる。\nほら、目を閉じて……悪魔の誘惑、受ける覚悟はできているかしら？",
-            "target": "I don't need candy this time. Instead, I'll treat you to an especially sweet trick.\nNow close your eyes... Are you prepared to succumb to a devil's temptation?"
-          },
-          {
-            "cueName": "skin_voice_60001_019",
-            "source": "お菓子をくれないならイタズラするわよ、って言おうとしたけど貴方は用意周到ね",
-            "target": "I was going to say I'd trick you if you didn't give me candy, but you came well prepared."
-          },
-          {
-            "cueName": "skin_voice_60001_020",
-            "source": "私の好みを狙い撃ちだなんて、なかなかやるわね。悪魔として大満足よ！",
-            "target": "You really know how to hit my tastes. This devil is thoroughly satisfied!"
-          },
-          {
-            "cueName": "skin_voice_60001_027",
-            "source": "王手よっ！",
-            "target": "Check!"
-          },
-          {
-            "cueName": "skin_voice_60001_028",
-            "source": "使うわっ！",
-            "target": "I'll use this!"
-          },
-          {
-            "cueName": "skin_voice_60001_029",
-            "source": "詰みよっ！",
-            "target": "Checkmate!"
-          },
-          {
-            "cueName": "skin_voice_60001_030",
-            "source": "私のお菓子が～！",
-            "target": "My candy!"
-          },
-          {
-            "cueName": "skin_voice_60001_031",
-            "source": "次は決着つけるわっ！",
-            "target": "We'll settle it next time!"
-          },
-          {
-            "cueName": "skin_voice_60001_032",
-            "source": "お菓子を、もらい損ねたわ……",
-            "target": "I missed my chance to get candy..."
-          },
-          {
-            "cueName": "skin_voice_60001_033",
-            "source": "ここから勢いつけるわっ！",
-            "target": "I'll build momentum from here!"
-          },
-          {
-            "cueName": "skin_voice_60001_034",
-            "source": "いくわよっ！",
-            "target": "Here I go!"
-          },
-          {
-            "cueName": "skin_voice_60001_035",
-            "source": "中々厄介ね！",
-            "target": "You're quite troublesome!"
-          },
-          {
-            "cueName": "skin_voice_60001_036",
-            "source": "勝利もお菓子も、目の前よ！",
-            "target": "Victory and candy are both within reach!"
-          },
-          {
-            "cueName": "skin_voice_60001_037",
-            "source": "悪魔の本領はここからよ！",
-            "target": "This is where a devil shows her true power!"
-          },
-          {
-            "cueName": "skin_voice_60001_038",
-            "source": "さぁ！勝負よっ！",
-            "target": "Now, let us settle this!"
-          },
-          {
-            "cueName": "skin_voice_60001_300",
-            "source": "勝利もお菓子も、私が貰うわ！",
-            "target": "Victory and candy will both be mine!"
-          },
-          {
-            "cueName": "skin_voice_60001_301",
-            "source": "覚悟しなさい！",
-            "target": "Prepare yourself!"
-          },
-          {
-            "cueName": "skin_voice_60001_309",
-            "source": "任せなさい！",
-            "target": "Leave it to me!"
-          },
-          {
-            "cueName": "skin_voice_60001_310",
-            "source": "くぅぅっ！次こそは！",
-            "target": "Grr... Next time!"
-          },
-          {
-            "cueName": "skin_voice_60001_311",
-            "source": "ふぅ……一旦ここまでね",
-            "target": "Phew... That will do for now."
-          },
-          {
-            "cueName": "skin_voice_60001_312",
-            "source": "よろしくね！",
-            "target": "Good luck!"
-          },
-          {
-            "cueName": "skin_voice_60001_313",
-            "source": "ありがとう！",
-            "target": "Thank you!"
-          },
-          {
-            "cueName": "skin_voice_60001_314",
-            "source": "あら？何かしら？",
-            "target": "Oh? What is it?"
-          },
-          {
-            "cueName": "skin_voice_60001_315",
-            "source": "何か悩み事かしら？ いつでも相談にのるわよ！",
-            "target": "Is something troubling you? You can always talk to me!"
-          },
-          {
-            "cueName": "skin_voice_60001_316",
-            "source": "ぼーっとしていないで、一緒に走りにいきましょう！",
-            "target": "Don't just sit there—let's go for a run together!"
-          },
-          {
-            "cueName": "skin_voice_60001_317",
-            "source": "……んん？今、おやつタイムなんだけど貴方もどう？",
-            "target": "Hmm? It's snack time right now. Would you like some too?"
-          },
-          {
-            "cueName": "skin_voice_60001_501",
-            "source": "よろしくお願いしますっ！",
-            "target": "Good luck!"
-          },
-          {
-            "cueName": "skin_voice_60001_502",
-            "source": "さすがね！",
-            "target": "As expected!"
-          },
-          {
-            "cueName": "skin_voice_60001_503",
-            "source": "確かに",
-            "target": "Indeed."
-          },
-          {
-            "cueName": "skin_voice_60001_504",
-            "source": "どうしようかしら",
-            "target": "What should I do?"
-          },
-          {
-            "cueName": "skin_voice_60001_505",
-            "source": "すみません",
-            "target": "I'm sorry."
-          },
-          {
-            "cueName": "skin_voice_60001_506",
-            "source": "うまくいかないわね……",
-            "target": "This isn't going well..."
-          },
-          {
-            "cueName": "skin_voice_60001_507",
-            "source": "悪魔の宴、開催よっ！",
-            "target": "The devil's feast begins!"
-          },
-          {
-            "cueName": "skin_voice_60001_601",
-            "source": "気合十分ね！良い対局にしましょう！",
-            "target": "You're fired up! Let's make this a good match!"
-          },
-          {
-            "cueName": "skin_voice_60001_602",
-            "source": "私の手がどこまで届くか……いざ勝負です！",
-            "target": "Let's see how far my moves can reach... Let us begin!"
-          },
-          {
-            "cueName": "skin_voice_60001_603",
-            "source": "真っ直ぐな将棋は大好きです！",
-            "target": "I love straightforward shogi!"
-          },
-          {
-            "cueName": "skin_voice_60001_605",
-            "source": "独特の美学を感じるわ。その思い、盤上でぶつけ合いましょう！",
-            "target": "I sense a unique aesthetic. Let us pit our convictions against each other on the board!"
-          },
-          {
-            "cueName": "skin_voice_60001_607",
-            "source": "神の導きと私の読み、どちらが上か勝負です！",
-            "target": "Let us see which is superior: divine guidance or my reading!"
-          },
-          {
-            "cueName": "skin_voice_60001_608",
-            "source": "熱い勝負をしましょう！",
-            "target": "Let us have a heated match!"
-          },
-          {
-            "cueName": "skin_voice_60001_609",
-            "source": "奇策など、打ち破ってみせるわ！",
-            "target": "I will crush your tricks!"
-          },
-          {
-            "cueName": "skin_voice_60001_610",
-            "source": "今日こそ勝ちますっ！",
-            "target": "Today, I will win!"
-          },
-          {
-            "cueName": "skin_voice_60001_611",
-            "source": "あ、オーナーさん。盤上では容赦しませんよ！",
-            "target": "Oh, Owner. I will show no mercy on the board!"
-          },
-          {
-            "cueName": "skin_voice_60001_612",
-            "source": "そのお菓子なら、この紅茶が合いますよ",
-            "target": "That candy pairs well with this tea."
-          },
-          {
-            "cueName": "skin_voice_60001_615",
-            "source": "これ終わったら、一緒に買い物行きましょう！",
-            "target": "After this, let's go shopping together!"
-          }
-        ]
+        "replacements": 61
+      }
+    ]
+  },
+  {
+    "bundle_file": "37d7a40bc79e96eda378dbec990bcd1a__remote_share_assets__project_composition_prefab_ui_overlay_implement_formationpopup.bundle",
+    "replacements": 4,
+    "changed_objects": [
+      {
+        "path_id": -2293020643337431160,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -45281664113161749,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2238347199664691080,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 6733879752678853099,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "39da97366d481b70b560e1899f170f27__remote_assets__project_composition_prefab_ui_overlay_implement_gamestarteffectoverlay_gamestarteffectoverlayview.bundle",
+    "replacements": 6,
+    "changed_objects": [
+      {
+        "path_id": -5805535200730461365,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -5796301605615088821,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -3301119322890286261,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1090698688223491253,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -735362068201059509,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1717769934605601611,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "3a1ae880b00e7ee9fa748ac8d271aa1c__remote_assets__project_composition_prefab_ui_overlay_implement_spectateendpopup_spectateendpopupview.bundle",
+    "replacements": 3,
+    "changed_objects": [
+      {
+        "path_id": -2944046845494382676,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1979938593176530860,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 7941201230629285804,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "447e6bf72b272bfd359dcc9010effe29__remote_share_assets__project__menu_prefab_page_lobbymatchroompage.bundle",
+    "replacements": 13,
+    "changed_objects": [
+      {
+        "path_id": -2896482272041439193,
+        "type": "MonoBehaviour",
+        "replacements": 2
+      },
+      {
+        "path_id": -1999274216920059865,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1795607836098957273,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -124242935487926233,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 512133385007263783,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1301697359586390055,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1797342143401619495,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 3731849404560699431,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 4470310602496728833,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 8460130276854394919,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 8621070095540875303,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 9218968035990101761,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "537c663e6c9bc0a98750a05a9c7e56e6__remote_share_assets__project__game_design_tsume_sets.bundle",
+    "replacements": 3,
+    "changed_objects": [
+      {
+        "path_id": -3360787594885500344,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -138009151924956482,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 273895530990834699,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "79f00b7b8804294488eb459aa66e3276__remote_assets__project_composition_prefab_ui_overlay_implement_playthankspopupview.bundle",
+    "replacements": 2,
+    "changed_objects": [
+      {
+        "path_id": -7235811781429191898,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 5722899514456775462,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "84b6c62d3bba7779c92174dbb044ee1f__remote_share_assets__project_composition_prefab_ui_overlay_implement_sortfilterpopup.bundle",
+    "replacements": 7,
+    "changed_objects": [
+      {
+        "path_id": -8601867035894343718,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -3013992214958539201,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1030087506854571486,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 4447587818252242625,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 6397653137581916660,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 6564221156535521347,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 7931063632995389121,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "850a31dba18ea322b3b8e75f0e9e8d6f__remote_share_assets__project__menu_prefab_overlay_lobbymatchroommemberlistpopup.bundle",
+    "replacements": 4,
+    "changed_objects": [
+      {
+        "path_id": -6657227374371144822,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -4326592814669300854,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -2742988260086056054,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 5705849890524232586,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "b3e254cee15ccad700a1289fb15ea178__remote_assets__project_composition_prefab_ui_overlay_implement_formationpopup_formationcollectionpopupview.bundle",
+    "replacements": 6,
+    "changed_objects": [
+      {
+        "path_id": -7742245481722700513,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -946823441903280865,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 5132836563277749535,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 8084921244313427231,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 8797881709691772191,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 9171733212412812575,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "dde56c9d2beb6e3f730498093ca2e822__remote_assets__project_composition_prefab_ui_overlay_implement_formationpopup_formationdetailpopupview.bundle",
+    "replacements": 18,
+    "changed_objects": [
+      {
+        "path_id": -9044732030132943089,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -8397945081012680945,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -8073136209946278129,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -7763306668228802801,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -5549448236699089137,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -4542871052300843249,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -3596403760029104369,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -2959900079438625009,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -2392293605299190001,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -2377577671050328305,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -614372062742771953,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1689863100756789007,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1723271605599274767,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2903457604792289039,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 5736616259127150351,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 5947884270247544591,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 7090408634231949071,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 7721242855482656527,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "e1f3be977b9297dd600c82721ff6bd1a__remote_share_assets__project__menu_prefab_overlay_lobbymatchroompreparationpopup.bundle",
+    "replacements": 4,
+    "changed_objects": [
+      {
+        "path_id": -4297761301898845379,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -2899808373978094787,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -2445833748701109443,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 6076647839312519997,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "eb6235859bdc592053f7827eb2066639__remote_share_assets__project__menu_prefab.bundle",
+    "replacements": 1,
+    "changed_objects": [
+      {
+        "path_id": -1085949455229149447,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "fc70f360c47e836ed6f4571ca916cc81__remote_assets__project_composition_prefab_ui_overlay_implement_turnorderoverlay_turnorderoverlayview.bundle",
+    "replacements": 7,
+    "changed_objects": [
+      {
+        "path_id": -5769824592954181422,
+        "type": "MonoBehaviour",
+        "replacements": 2
+      },
+      {
+        "path_id": -4691020999949731630,
+        "type": "MonoBehaviour",
+        "replacements": 2
+      },
+      {
+        "path_id": -4115747076232103726,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -826997126677579566,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -520049829887985454,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "fe59b75b08036caf10b0b46103c3a6d2__remote_assets__project_composition_prefab_ui_overlay_implement_formationpopup_formationrankingpopupview.bundle",
+    "replacements": 9,
+    "changed_objects": [
+      {
+        "path_id": -7410056471109099566,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -5438370831144050734,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -2785592474164912174,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1304924024475213870,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1182258418012381230,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1012233429273796654,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -272660239408947246,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 4711238683572772818,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 6089755452454019026,
+        "type": "MonoBehaviour",
+        "replacements": 1
       }
     ]
   }
