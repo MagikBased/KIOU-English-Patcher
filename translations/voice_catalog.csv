@@ -5046,3 +5046,456 @@ skin_voice_60001_610,今日こそ勝ちますっ！,"Today, I will win!"
 skin_voice_60001_611,あ、オーナーさん。盤上では容赦しませんよ！,"Oh, Owner. I will show no mercy on the board!"
 skin_voice_60001_612,そのお菓子なら、この紅茶が合いますよ,That candy pairs well with this tea.
 skin_voice_60001_615,これ終わったら、一緒に買い物行きましょう！,"After this, let's go shopping together!"
+skin_voice_80001_001,"ハッピーハロウィン。
+ふふ、こういう催しは今まで参加したことなかったのでワクワクします","Happy Halloween. Hehe, I've never taken part in an event like this before, so I'm excited."
+skin_voice_80001_002,お菓子はいかがですか？,Would you care for some sweets?
+skin_voice_80001_003,魔法のような一手、お見せします,Allow me to show you a move like magic.
+skin_voice_80001_004,まぁ、ハロウィンの魔法でしょうか,"My, could this be Halloween magic?"
+skin_voice_80001_005,夜空に浮かぶ月も、私の勝利を見届けてくれました,Even the moon in the night sky witnessed my victory.
+skin_voice_80001_006,良い対局でした。今なら箒で空も飛べそうな気分です,That was a fine game. I feel as though I could fly through the sky on a broom right now.
+skin_voice_80001_007,やりました！今日はご褒美に、奮発したお菓子を……ふふっ,"I did it! As a reward today, perhaps I'll splurge on some sweets... Hehe."
+skin_voice_80001_008,魔法の一手、大成功です！,My magic move was a great success!
+skin_voice_80001_009,"あ、いらっしゃいましたね。
+今夜の対局は、負けた方がお菓子を献上する……という特別ルールで指しませんか？","Ah, there you are. For tonight's game, shall we use a special rule—the loser must offer the winner sweets?"
+skin_voice_80001_010,"用意したお菓子は皆様にお配りしましたが……貴方には特別なお菓子をご用意しています。
+どうぞこちらへ、今宵はゆっくりと過ごしましょう","I handed out the sweets I prepared to everyone... but I have something special for you. Please, come this way. Let us spend this evening at our leisure."
+skin_voice_80001_011,"よろしければ、このカボチャのバスケットからお好きな味を選びませんか？
+どんな味が出るかは、お楽しみです","If you like, why not choose a flavor from this pumpkin basket? Which one you get will be a surprise."
+skin_voice_80001_012,"前々からハロウィンに興味はあったのですが、機会に恵まれず。
+さくらさんにお誘いいただいたので、思い切って参加してみました","I've long been interested in Halloween, but never had the opportunity. Sakura invited me, so I decided to take the plunge and join in."
+skin_voice_80001_013,"家では普段、眼鏡で過ごしています。
+今回は衣装に合わせてかけてみました。似合っていますでしょうか？",I usually wear glasses at home. This time I put them on to match the costume. Do they suit me?
+skin_voice_80001_014,"いつもは和服ばかりですので、催しに合わせて衣装をお借りしてみました。
+このような装いは初めてで……なんだか新鮮な気分です","I usually wear nothing but traditional clothes, so I borrowed a costume for the occasion. This is my first time dressed like this... It feels rather refreshing."
+skin_voice_80001_015,"お菓子を配り歩いて、少し疲れましたね。
+お茶をいただいて、一息つきましょう",I'm a little tired from walking around handing out sweets. Let us have some tea and take a breather.
+skin_voice_80001_016,"お配りするお菓子は、まだたくさん用意しております。
+催しはこれからですから、ご一緒に、この時間を楽しんでまいりましょう","I still have plenty of sweets to hand out. The festivities are only beginning, so let us enjoy this time together."
+skin_voice_80001_017,"貴方と一緒にハロウィンを楽しめて、素敵な思い出となりました。ありがとうございます。
+あの……もう少しだけお時間ありますか？ まだ、貴方と一緒にいたくて……",Enjoying Halloween with you has become a wonderful memory. Thank you. Um... do you have just a little more time? I still want to be with you...
+skin_voice_80001_018,"トリック・オア・トリート。
+もしお菓子をお持ちでないなら……今夜は貴方に特別な魔法をかけてあげます。ふふっ",Trick or treat. If you have no sweets... then tonight I shall cast a special spell on you. Hehe.
+skin_voice_80001_019,"ありがとうございます。
+ハロウィンの良い思い出になりそうです",Thank you. This will make a lovely Halloween memory.
+skin_voice_80001_020,"まぁっ！
+私のためにお選びくださったのですね。
+今日という日がさらに特別なものになりました",My! You chose this for me? You have made today even more special.
+skin_voice_80001_027,王手です,Check.
+skin_voice_80001_028,召喚です,I summon it.
+skin_voice_80001_029,詰みです,Checkmate.
+skin_voice_80001_030,魔法が解けてしまいました...,The spell has worn off...
+skin_voice_80001_031,おあいこですね,Then we are even.
+skin_voice_80001_032,夜があけましたね,Dawn has broken.
+skin_voice_80001_033,クライマックスですね,We have reached the climax.
+skin_voice_80001_034,変身ですっ！,Transformation!
+skin_voice_80001_035,くっ……押し込まれていますね,Urgh... I'm being pushed back.
+skin_voice_80001_036,準備は整いました,Everything is ready.
+skin_voice_80001_037,逆転の魔法をこの手で！,I shall cast the magic of reversal with this hand!
+skin_voice_80001_038,魔法の一手、お見せします！,Allow me to show you a magic move!
+skin_voice_80001_300,魔法をお見せしましょう,Let me show you some magic.
+skin_voice_80001_301,最善手、見えました！,I see the best move!
+skin_voice_80001_309,お任せください,Leave it to me.
+skin_voice_80001_310,魔法にかかってしまったようですね,It seems I have fallen under a spell.
+skin_voice_80001_311,魔法は、おしまいです,The magic is over.
+skin_voice_80001_312,よろしくお願いいたします,I look forward to our game.
+skin_voice_80001_313,ありがとうございます,Thank you very much.
+skin_voice_80001_314,も、もうっ！ダメですよっ！,R-really! You mustn't!
+skin_voice_80001_315,もーっ！いい加減にしないと、お爺さまに言いつけますよ！,"Honestly! If you don't stop, I'll tell Grandfather!"
+skin_voice_80001_316,お茶できましたよ,The tea is ready.
+skin_voice_80001_317,"すーっ……すーっ……はっ！
+す、すみません！うとうとしてました！",Zzz... zzz... Ah! I-I'm sorry! I was dozing off!
+skin_voice_80001_501,よろしくお願いします,I look forward to our game.
+skin_voice_80001_502,感服いたしました,I am deeply impressed.
+skin_voice_80001_503,理解しました,I understand.
+skin_voice_80001_504,どちらにしましょうか,Which shall I choose?
+skin_voice_80001_505,失礼いたしました,Pardon me.
+skin_voice_80001_506,困りましたね,This is troubling.
+skin_voice_80001_507,とびっきりの魔法を見せてあげます！,I shall show you the most extraordinary magic!
+skin_voice_80001_601,ふふっ、今日も元気ですね,"Hehe, you are lively as ever today."
+skin_voice_80001_602,どちらの研究が上回るか……楽しみですね,I look forward to seeing whose studies prevail.
+skin_voice_80001_603,将棋を楽しむ心は同じですね,We share the same love of shogi.
+skin_voice_80001_605,理……新しい戦法のお名前でしょうか？,Reason...? Is that the name of a new strategy?
+skin_voice_80001_606,お互いに出し切りましょう,Let us both give it everything we have.
+skin_voice_80001_609,終わりましたら、一緒にお茶を点てて一息つきましょうか,"When we finish, shall we prepare some tea together and take a rest?"
+skin_voice_80001_610,挑戦者として、胸をお借りいたします,"As the challenger, I humbly ask for your best."
+skin_voice_80001_611,毎日通いたくなる、素敵なお店ですね,What a wonderful shop. It makes me want to visit every day.
+skin_voice_80001_612,和菓子に興味ございませんか？,Would you be interested in Japanese sweets?
+skin_voice_80001_613,今日こそお爺さまを越えてみせます,Today I shall finally surpass Grandfather.
+skin_voice_80001_616,遠慮は無用です。全力できてください,There is no need to hold back. Please come at me with everything you have.
+voice_001_262,"あけましておめでとう！ 
+今日は特別にお店のとっておきのお茶菓子、サービスしちゃうよ！","Happy New Year! Today only, I'm treating you to the shop's finest tea sweets!"
+voice_001_263,"はい！チョコあげる！
+隠し味に私の『好き』をたーっぷり入れたから、絶対美味しいはず！
+食べて食べて！","Here, chocolate for you! I added plenty of my 'love' as the secret ingredient, so it has to be delicious! Go on, try it!"
+voice_001_264,せーのっ！ドーン！,"Ready, set... boom!"
+voice_001_265,やったー！,Yay!
+voice_001_266,やー！,Yeah!
+voice_001_267,えへへ！,Ehehe!
+voice_001_268,さっすがー！,I knew you could do it!
+voice_001_269,なるほど！,I see.
+voice_001_270,おーい！,Hey!
+voice_001_271,むむむ！,Hmmm!
+voice_001_272,う～ん,Hmm...
+voice_001_273,私ね！,"You know, I..."
+voice_001_274,わかった！,Got it!
+voice_001_275,ダメだよ！,You can't!
+voice_001_276,ごめんなさいっ！,Sorry!
+voice_001_277,うまくいかないな～,This isn't going well...
+voice_001_278,あれれ……？,Huh...?
+voice_001_279,信じてるよ！,I believe in you!
+voice_001_280,えー！,No way!
+voice_001_281,わっ！,Whoa!
+voice_001_282,でも！,But!
+voice_002_262,"あけましておめでとうございます。
+このあと、もし時間があれば……一局、どうですか？",Happy New Year. If you have time afterward... would you care for a game?
+voice_002_263,"これを、貴方に。
+最高のものを届けたくて、何度か作り直しましたけど……受け取って、いただけますか？","This is for you. I wanted to give you the very best, so I remade it several times... Will you accept it?"
+voice_002_264,全力でいきます！,I'll give it everything I have!
+voice_002_265,嬉しいです,I'm happy.
+voice_002_266,いきますっ！,Here I go!
+voice_002_267,ふふふ,Hehe!
+voice_002_268,すごいですね,Amazing.
+voice_002_269,なるほど,I see.
+voice_002_270,あの,Um...
+voice_002_271,どうしましょう,What should I do?
+voice_002_272,うーん,What should I do?
+voice_002_273,私は……,I...
+voice_002_274,わかりました,Understood.
+voice_002_275,こらっ！,Hey!
+voice_002_276,すみません,I'm sorry.
+voice_002_277,ふぅ……疲れました,Phew... I'm tired.
+voice_002_278,えっと……,Um...
+voice_002_279,おねがいします,Please.
+voice_002_280,きゃー！,Aah!
+voice_002_281,あっ！,Oh!
+voice_002_282,ですが……,However...
+voice_003_262,"あけましておめでとう！
+職人の血が騒いで、三段重のおせちを拵えちまったよ！
+あんた、一緒に平らげてくれんか！","Happy New Year! My craftsman's blood got the better of me, and I made a three-tiered osechi feast! Come help me finish it!"
+voice_003_263,"今日はバレンタインという日なんだろう？
+洋菓子は専門外だが、拵えてみたよ！味は保証するぞ！","Today is Valentine's Day, isn't it? Western sweets aren't my specialty, but I tried making some! I guarantee the taste!"
+voice_003_264,ここが勝負所じゃ！,This is the turning point!
+voice_003_265,楽しいのぉ！,What fun!
+voice_003_266,カァッ！,Hah!
+voice_003_267,はっはっは！,Ha ha ha!
+voice_003_268,いいのぉ！,Very nice!
+voice_003_269,なるほどねぇ。,I see.
+voice_003_270,おーい！,Hey!
+voice_003_271,うーむ……,Hmm...
+voice_003_272,どうしようかねぇ,What should I do?
+voice_003_273,ワシは,As for me...
+voice_003_274,がってん承知！,You got it!
+voice_003_275,こらぁッ！,Hey now!
+voice_003_276,すまんねぇ！,Sorry about that!
+voice_003_277,どうしたもんかねぇ,What should I do?
+voice_003_278,こりゃあ……,Well now...
+voice_003_279,任せるよ,I'll leave it to you.
+voice_003_280,なんじゃとおぉッ！？,What did you say?!
+voice_003_281,おっと！,Oh!
+voice_003_282,納得がいかんねぇ！,I can't accept that!
+voice_004_262,"あけましておめでとう。
+新しい年も、貴方は私を愉しませる……これは絶対の義務よ。
+早速、指しに行くわよ。","Happy New Year. In this new year, it is your absolute duty to keep entertaining me. Now, let us play our first game."
+voice_004_263,"あら、ご褒美を待っているような顔ね。
+ふふ、いいわよ。
+この特別な甘さに、貴方はどれほど酔いしれてくれるかしら",Oh? You look as though you're waiting for a reward. Very well. I wonder how deeply this special sweetness will intoxicate you.
+voice_004_264,逃げ場はないわよ！,There is no escape!
+voice_004_265,愉悦だわ,How delightful.
+voice_004_266,やるわよ！,Let's do this!
+voice_004_267,うふふふ,Hehehe.
+voice_004_268,やるじゃない,Not bad.
+voice_004_269,そうね,I see.
+voice_004_270,ちょっと,Excuse me.
+voice_004_271,さて,Hmm...
+voice_004_272,どうしようかしら,What should I do?
+voice_004_273,私は,As for me...
+voice_004_274,なるほどね,I see.
+voice_004_275,しっかりしなさい！,Get a hold of yourself!
+voice_004_276,あら、失礼。,"Oh, pardon me."
+voice_004_277,少し寂しいわね,It feels a little lonely.
+voice_004_278,は？,What?
+voice_004_279,任せたわ,I'll leave it to you.
+voice_004_280,なんですって！,What did you say?!
+voice_004_281,あら？,Oh!
+voice_004_282,却下よ。,Rejected.
+voice_005_262,"年が、また一つ巡ったか。人の世は忙しないな。
+まあ良い。斯様な区切りも、偶さかには悪くない。","Another year has come around. The human world is ever restless. Still, such a milestone is not unpleasant on occasion."
+voice_005_263,"此の風習、未だ廃れておらぬのか。
+致し方あるまい。
+此れは嗜好品だ。情ではない。勘違いするなよ。","This custom has yet to die out? Very well. This is merely a luxury, not affection. Do not misunderstand."
+voice_005_264,"然るべき理に於いて、
+我に抗うもの、在らず。","Before rightful reason, none can oppose me."
+voice_005_265,よし。,Good.
+voice_005_266,興が湧く。,You have my interest.
+voice_005_267,ふふ,Hehe!
+voice_005_268,見事,Splendid.
+voice_005_269,なるほど,I see.
+voice_005_270,其方,You there.
+voice_005_271,ふむ,Hmm...
+voice_005_272,さて,What should I do?
+voice_005_273,我は、,I...
+voice_005_274,然り,Indeed.
+voice_005_275,退け,Stand aside.
+voice_005_276,詫びよう。,I apologize.
+voice_005_277,上手く、いかぬな。,This is not going well.
+voice_005_278,如何なる理だ？,What manner of reason is this?
+voice_005_279,ゆだねる,I entrust it to you.
+voice_005_280,何？,What?
+voice_005_281,……っ！,Oh!
+voice_005_282,否。,No.
+voice_006_262,"あけましておめでとう！
+新しい年も、迷わず真っ直ぐ突き進むわよ！","Happy New Year! This year too, I'll keep charging straight ahead without hesitation!"
+voice_006_263,"はいこれ！
+私からの感謝の気持ちよ！
+甘いものは苦手じゃないわよね？
+受け取りなさい！","Here! This is my way of thanking you! You don't dislike sweets, do you? Take it!"
+voice_006_264,私の手は、誰にも止められないわよ！,No one can stop my moves!
+voice_006_265,やったわ！,I did it!
+voice_006_266,よしっ！,All right!
+voice_006_267,あっはは！,Ahaha!
+voice_006_268,見事ね！,Impressive!
+voice_006_269,なるほどね,I see.
+voice_006_270,ちょっと,Excuse me.
+voice_006_271,さて,Hmm...
+voice_006_272,どちらにしようかしら,What should I do?
+voice_006_273,私は,As for me...
+voice_006_274,わかったわ,Understood.
+voice_006_275,それは違うわ！,That's enough!
+voice_006_276,ごめんなさい,I'm sorry.
+voice_006_277,悔しいわね,This is frustrating...
+voice_006_278,あら,What could this mean?
+voice_006_279,貴方なら……,If it's you...
+voice_006_280,なんですって！？,What?!
+voice_006_281,えっ！,Oh!
+voice_006_282,悪いけど,"Sorry, but..."
+voice_007_262,"あけましておめでとうございます。
+新しい一年も、一手を丁寧に。
+貴方の上に、絶え間なき神の光が降り注ぎますように","Happy New Year. May we play every move with care, and may God's unending light shine upon you throughout the year."
+voice_007_263,甘いものは、心をほどくそうです。どうぞ……これは、私の手作りの品です。貴方の心に、私の祈りと想いが届きますように。,"They say sweets can soothe the heart. Please, take this—it is handmade. May my prayers and feelings reach your heart."
+voice_007_264,これが神のお導きです。,This is God's guidance.
+voice_007_265,まぁ,My.
+voice_007_266,祈りは済ませました,My prayers are complete.
+voice_007_267,ふふ。,Hehe!
+voice_007_268,さすがです,As expected.
+voice_007_269,そうですね,I see.
+voice_007_270,あの,Um...
+voice_007_271,ふむ,Hmm...
+voice_007_272,神よ……,Oh God...
+voice_007_273,私は,As for me...
+voice_007_274,なるほど,Understood.
+voice_007_275,いけません！,That's enough!
+voice_007_276,申し訳ございません。,My apologies.
+voice_007_277,うまくいかないですね,This is frustrating...
+voice_007_278,困りましたね,What could this mean?
+voice_007_279,信じています,I have faith in you.
+voice_007_280,そのようなことが……,How could this be...?
+voice_007_281,そんなっ！,No!
+voice_007_282,ですが……,However...
+voice_008_262,"あけましておめでとうございます。
+今年も一緒に美味しいお茶と和菓子を囲みながら、貴方と共に日々を大切に過ごしていければと思っております 。","Happy New Year. I hope we can cherish each day together this year, sharing delicious tea and Japanese sweets."
+voice_008_263,"今日は大切な方に想いを伝える日と伺いました。 
+日頃の感謝を込めまして、私の大好きな和菓子を手作りしてみました。 
+お口に合えば嬉しいです。","I heard today is for telling someone precious how you feel. With gratitude for all you do, I made my favorite Japanese sweets. I hope you enjoy them."
+voice_008_264,覚悟はよろしいですね？,"You are prepared, yes?"
+voice_008_265,うまくいきましたね。,That went well.
+voice_008_266,参ります！,Here I come!
+voice_008_267,ふふっ。,Hehe.
+voice_008_268,お見事です。,Well played.
+voice_008_269,なるほど,I see.
+voice_008_270,あの……,Excuse me.
+voice_008_271,う～ん,Hmm...
+voice_008_272,もう少し……,Just a little more...
+voice_008_273,私は,As for me...
+voice_008_274,わかりました,Understood.
+voice_008_275,ダメです！,That's enough!
+voice_008_276,申し訳ありません,I'm sorry.
+voice_008_277,ままならないですね,Things do not always go as one wishes.
+voice_008_278,どうしましょう,What should I do?
+voice_008_279,信じてますから,I believe in you.
+voice_008_280,そんな！！,Impossible!
+voice_008_281,きゃっ！,Ah!
+voice_008_282,ですが,However...
+voice_009_262,"あけましておめでとう。
+修行先で見つけた珍しい菓子がある。
+今日ぐらいはゆっくりと過ごそう。","Happy New Year. I found some unusual sweets during my training. Let us take it easy today, at least."
+voice_009_263,"これを。
+私の精一杯の気持ちだ 。……受け取ってくれるか？",This is for you. It holds all the feelings I could put into it... Will you accept it?
+voice_009_264,逃がさぬ!,You will not escape!
+voice_009_265,上出来だ,Well done.
+voice_009_266,よしっ,Here I go!
+voice_009_267,ふふ,Hehe!
+voice_009_268,見事！,Impressive!
+voice_009_269,なるほど,I see.
+voice_009_270,あの,Um...
+voice_009_271,ふむ,Hmm...
+voice_009_272,どうするべきか,What should I do?
+voice_009_273,私は,As for me...
+voice_009_274,承知した,Understood.
+voice_009_275,痴れ者！,Fool!
+voice_009_276,申し訳ない,I'm sorry.
+voice_009_277,油断したな,I let my guard down.
+voice_009_278,想定外だ,Unexpected.
+voice_009_279,信じてる,I trust you.
+voice_009_280,なんとっ！,What?!
+voice_009_281,むっ！,Hmph!
+voice_009_282,だが,However...
+voice_010_262,"あけましておめでとう。
+新しい年も、君の隣は誰にも譲らない。","Happy New Year. This year too, I won't surrender my place at your side to anyone."
+voice_010_263,"世話になっている礼だ。
+バレンタインという柄じゃないが、君には渡しておくべきだと思った。
+受け取ってくれ。","This is thanks for everything. Valentine's isn't really my style, but I thought you should have it. Please accept it."
+voice_010_264,俺に任せろ,Leave it to me.
+voice_010_265,ははっ！,Haha!
+voice_010_266,やるぞ,Let's do this.
+voice_010_267,フッ,Hmph.
+voice_010_268,やるな！,Not bad!
+voice_010_269,なるほど,I see.
+voice_010_270,おい,Hey.
+voice_010_271,さて……,Hmm...
+voice_010_272,むぅ,What should I do?
+voice_010_273,俺は,As for me...
+voice_010_274,そういうことか,So that's how it is.
+voice_010_275,ふざけるな！,Don't be ridiculous!
+voice_010_276,すまない,I'm sorry.
+voice_010_277,楽じゃないな,This won't be easy.
+voice_010_278,どうするか,What could this mean?
+voice_010_279,任せる,I'll leave it to you.
+voice_010_280,なんだと！,What?!
+voice_010_281,なに？,What?
+voice_010_282,だが,However...
+voice_011_262,"正月だからな、特注の三段重おせちを注文しておいたぞ！ 
+景気良く笑って、福を盛大に呼ぼうじゃないか！","It's New Year's, so I ordered a custom three-tier osechi feast! Let us laugh heartily and invite a grand fortune!"
+voice_011_263,"今日はバレンタインだろう？
+君に見合うチョコを見繕ってきた！
+存分に味わいたまえ！","Today is Valentine's Day, is it not? I selected chocolate worthy of you! Savor it to your heart's content!"
+voice_011_264,たまらないな！,This is irresistible!
+voice_011_265,いいねぇ！,Excellent!
+voice_011_266,いくぞぉ！,Here we go!
+voice_011_267,ハッハッハ！,Ha ha ha!
+voice_011_268,やるな！,Not bad!
+voice_011_269,なるほどな,I see.
+voice_011_270,なあ,Say...
+voice_011_271,ふむぅ,Hmm.
+voice_011_272,どちらにするか,Which shall it be?
+voice_011_273,俺は,As for me...
+voice_011_274,理解した！,I understand!
+voice_011_275,そこまでだ！,That is enough!
+voice_011_276,すまない,I'm sorry.
+voice_011_277,正直……,To be honest...
+voice_011_278,どういうことだ？,What does this mean?
+voice_011_279,任せた！,I leave it to you!
+voice_011_280,なにぃ！？,What?!
+voice_011_281,おっと！,Oh!
+voice_011_282,いや,No...
+voice_012_262,"あけましておめでとう。
+おせち料理もいいが、僕はやはり、おしるこや餅菓子の方がいいな。
+一緒に食べないかい？","Happy New Year. Osechi is fine, but I still prefer sweet red-bean soup and rice cakes. Would you join me?"
+voice_012_263,"ハッピーバレンタイン。
+このブランドのチョコが最も君の好みに合致すると判断した。
+僕の読み、当たっているかな？",Happy Valentine's Day. I judged this brand of chocolate the best match for your tastes. Was my reading correct?
+voice_012_264,計算通りだ,Just as calculated.
+voice_012_265,素晴らしい,Excellent.
+voice_012_266,集中する,I will concentrate.
+voice_012_267,ふふっ,Hehe!
+voice_012_268,素晴らしい,Excellent.
+voice_012_269,なるほど,I see.
+voice_012_270,少し、いいかい,May I have a moment?
+voice_012_271,ふむ,Hmm...
+voice_012_272,どうするか,What should I do?
+voice_012_273,私は,As for me...
+voice_012_274,把握した,I understand.
+voice_012_275,甘い！,Too naive!
+voice_012_276,失礼した,Pardon me.
+voice_012_277,ふぅ……,Phew...
+voice_012_278,想定外だな,That was unexpected.
+voice_012_279,任せよう,I shall leave it to you.
+voice_012_280,計算外だ！,That was not in my calculations!
+voice_012_281,なに！,What?!
+voice_012_282,それは違う,That is incorrect.
+voice_013_262,"一年の計は元旦にあり。
+お主が今年どのような指し手で我輩を驚かせてくれるか、今から楽しみだ。",A year's plans begin on New Year's Day. I already look forward to seeing what moves you will use to surprise me this year.
+voice_013_263,"甘いものは脳の疲れを癒やす。
+難局に詰まった時にでも食べるがよい。次の一局も、期待している。",Sweets ease a weary mind. Eat this when a difficult position has you stumped. I look forward to our next game.
+voice_013_264,覚悟はよいか！,Are you prepared?!
+voice_013_265,良い一手だ,A fine move.
+voice_013_266,ゆくぞ！,Here I come!
+voice_013_267,ふっ,Hehe!
+voice_013_268,見事,Splendid.
+voice_013_269,なるほど,I see.
+voice_013_270,少しいいかね？,May I have a moment?
+voice_013_271,ふむ……,Hmm...
+voice_013_272,どうするべきか,What should I do?
+voice_013_273,我輩は,As for me...
+voice_013_274,そういうことか,So that's how it is.
+voice_013_275,喝っ！,Enough!
+voice_013_276,申し訳ない,I'm sorry.
+voice_013_277,惜しいな,So close.
+voice_013_278,妙だな,How strange.
+voice_013_279,任せよう,I shall leave it to you.
+voice_013_280,なんと！,What!
+voice_013_281,ほう！,Oh!
+voice_013_282,だが,However...
+voice_014_262,"あけましておめでとう！
+あんた、初詣で何を願ったの？あたしの勝利を願ったなら合格よ。
+それ以外の雑念は、全部捨て去りなさい！","Happy New Year! What did you wish for at your first shrine visit? If it was for my victory, you pass. Cast away every other idle thought!"
+voice_014_263,"いい？このチョコはあんたのこれまでの努力への報酬よ。
+中途半端な奴には絶対にあげないんだから、しっかり味わいなさい！","Listen: this chocolate is your reward for all the work you've put in. I'd never give it to someone halfhearted, so savor it properly!"
+voice_014_264,勝負よ！,Let us settle this!
+voice_014_265,ふふん♪,Heheh!
+voice_014_266,行くわよ！,Here I go!
+voice_014_267,あはは！,Ahaha!
+voice_014_268,やるじゃない！,Not bad!
+voice_014_269,うんうん！,Mm-hmm!
+voice_014_270,ねぇ,Hey.
+voice_014_271,ちょっと待って,Wait a moment.
+voice_014_272,うーん……,What should I do?
+voice_014_273,あたしは,As for me...
+voice_014_274,わかったわ！,Got it!
+voice_014_275,ふざけないで！,Don't mess with me!
+voice_014_276,……ごめん,...Sorry.
+voice_014_277,……ちょっと、疲れた。,...I'm a little tired.
+voice_014_278,どういうこと？,What does that mean?
+voice_014_279,任せたわ。,I'm counting on you.
+voice_014_280,はあぁぁ！？,What?!
+voice_014_281,えっ！,Oh!
+voice_014_282,ちょっと！,Hey!
+voice_015_262,"あけましておめでとう。
+あんたと一緒なら、今年も退屈はしないね。今年もよろしく。","Happy New Year. With you around, this year won't be boring either. Here's to another year together."
+voice_015_263,"はい、チョコ。
+お返し、楽しみにしてるからね。なんて……冗談だよ、喜んでくれたらそれでいい。","Here, chocolate. I'm looking forward to your return gift... Just kidding. I'll be happy if you enjoy it."
+voice_015_265,ふふっ、悪くないね,"Hehe, not bad."
+voice_015_266,ふぅ……,Phew...
+voice_015_267,ふふ、ウケる,"Hehe, that's funny."
+voice_015_270,ねぇ,Hey.
+voice_015_271,うーん,Hmm...
+voice_015_273,あたしはっ！,I...!
+voice_015_274,なるほどね,I see.
+voice_015_275,いい加減にしてっ！,That's enough!
+voice_015_277,ほっといてよ,Leave me alone.
+voice_015_279,頼りにしてるよ,I'm counting on you.
+voice_015_280,嘘でしょ！？,You're kidding?!
+voice_015_281,はっ……？,Huh...?
+voice_015_282,だから何？,So what?
+voice_015_312,おはよう,Good morning.
+voice_015_313,ありがと,Thanks.
+voice_016_262,"新年あけましておめでとうございます。
+初詣で、龍菜お姉さまのような立派な淑女になれるようにと、翠はお願いしようと思います。
+貴方様は何をお願いしますか？","Happy New Year. At our first shrine visit, Midori intends to wish to become a fine lady like dear Ryuna. What will you wish for?"
+voice_016_263,"こちらを貴方様に。
+本当は手作りチョコをご用意したかったのですが、家の者が危ないからと止められてしまいました。
+その分、一生懸命選びましたので……喜んでいただけると翠はとても嬉しいです。","This is for you. I wanted to make chocolate myself, but my household stopped me because it was dangerous. I chose this with all my heart instead... Midori would be delighted if you liked it."
+voice_016_265,嬉しいです,I'm happy.
+voice_016_266,淑女として,As a lady...
+voice_016_267,ふふ,Hehe!
+voice_016_270,もし,Excuse me.
+voice_016_271,どうしましょう……,Hmm...
+voice_016_273,翠は,Midori...
+voice_016_274,なるほど,Understood.
+voice_016_275,おやめなさいっ！,Please stop!
+voice_016_277,お姉さまが恋しいです……,I miss my dear sister...
+voice_016_279,心強いです。,That is reassuring.
+voice_016_280,そんなっ！,No!
+voice_016_281,まぁっ！,My!
+voice_016_282,お言葉ですが,With all due respect...
+voice_016_312,ごきげんよう。,Good day.
+voice_016_313,ありがとうございます。,Thank you very much.

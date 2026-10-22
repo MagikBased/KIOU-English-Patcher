@@ -136,14 +136,14 @@
     ]
   },
   {
-    "bundle_file": "bc02cb16cec0a618c1fbe76e24c059c8__remote_assets__project_sound_generated_voice_catalog_voice001_g.bundle",
-    "replacements": 267,
+    "bundle_file": "41e2167aac04dace5510afed3991edb1__remote_assets__project_sound_generated_voice_catalog_voice001_g.bundle",
+    "replacements": 288,
     "changed_objects": [
       {
         "path_id": 2949881471595906457,
         "type": "TextAsset",
         "name": "voice_catalog_Voice001.g",
-        "replacements": 267
+        "replacements": 288
       }
     ]
   },
@@ -1131,14 +1131,14 @@
     ]
   },
   {
-    "bundle_file": "b4068c62e041232dee6094d0c5edfc1b__remote_assets__project_sound_generated_voice_catalog_voice012_g.bundle",
-    "replacements": 267,
+    "bundle_file": "5f9ca3fb3fae8e5d70a430b678dc125b__remote_assets__project_sound_generated_voice_catalog_voice012_g.bundle",
+    "replacements": 288,
     "changed_objects": [
       {
         "path_id": -7533288986723877529,
         "type": "TextAsset",
         "name": "voice_catalog_Voice012.g",
-        "replacements": 267
+        "replacements": 288
       }
     ]
   },
@@ -1552,14 +1552,14 @@
     ]
   },
   {
-    "bundle_file": "f8798105b60958a96c4ebea2b17c6c3e__remote_assets__project_sound_generated_voice_catalog_voice008_g.bundle",
-    "replacements": 267,
+    "bundle_file": "ae6d1da45dc7d223ecdd9766cde958e8__remote_assets__project_sound_generated_voice_catalog_voice008_g.bundle",
+    "replacements": 288,
     "changed_objects": [
       {
         "path_id": 8098614384933120958,
         "type": "TextAsset",
         "name": "voice_catalog_Voice008.g",
-        "replacements": 267
+        "replacements": 288
       }
     ]
   },
@@ -2212,14 +2212,14 @@
     ]
   },
   {
-    "bundle_file": "30a295cd00111f8e614098a42a7aed2a__remote_assets__project_sound_generated_voice_catalog_voice016_g.bundle",
-    "replacements": 267,
+    "bundle_file": "ba61647b3999b5aad8a16a5983c9449c__remote_assets__project_sound_generated_voice_catalog_voice016_g.bundle",
+    "replacements": 284,
     "changed_objects": [
       {
         "path_id": -8485057480170553258,
         "type": "TextAsset",
         "name": "voice_catalog_Voice016.g",
-        "replacements": 267
+        "replacements": 284
       }
     ]
   },
@@ -3000,14 +3000,14 @@
     ]
   },
   {
-    "bundle_file": "7bf58a396a24f538be4d41c5ad67342d__remote_assets__project_sound_generated_voice_catalog_voice009_g.bundle",
-    "replacements": 267,
+    "bundle_file": "d288983c028f8c63e2f5ce723dac5f69__remote_assets__project_sound_generated_voice_catalog_voice009_g.bundle",
+    "replacements": 288,
     "changed_objects": [
       {
         "path_id": 6735160103154270012,
         "type": "TextAsset",
         "name": "voice_catalog_Voice009.g",
-        "replacements": 267
+        "replacements": 288
       }
     ]
   },
@@ -3976,14 +3976,14 @@
     ]
   },
   {
-    "bundle_file": "f099544f93498aa3c2e8c497c1006c70__remote_assets__project_sound_generated_voice_catalog_voice011_g.bundle",
-    "replacements": 267,
+    "bundle_file": "376b9cab1488ab6b283fb694020e731a__remote_assets__project_sound_generated_voice_catalog_voice011_g.bundle",
+    "replacements": 288,
     "changed_objects": [
       {
         "path_id": 5465214592638477,
         "type": "TextAsset",
         "name": "voice_catalog_Voice011.g",
-        "replacements": 267
+        "replacements": 288
       }
     ]
   },
@@ -4374,16 +4374,16 @@
     ]
   },
   {
-    "bundle_file": "02038edb31f567fc20655e6d0e1ef18d__remote_assets__project_masterdata_runtimemasterdata.bundle",
-    "replacements": 1463,
+    "bundle_file": "478f7e8e980d67c532bad78be7a7f526__remote_assets__project_masterdata_runtimemasterdata.bundle",
+    "replacements": 1510,
     "changed_objects": [
       {
         "path_id": -3577660058741299233,
         "type": "TextAsset",
         "name": "RuntimeMasterData",
-        "replacements": 1463,
-        "script_bytes_before": 237254,
-        "script_bytes_after": 214743,
+        "replacements": 1510,
+        "script_bytes_before": 240673,
+        "script_bytes_after": 217953,
         "strings": [
           {
             "source": "自分の対局を将棋AIが詳しく分析してくれる、30日間有効のパスです。\n「あの一手は本当に最善だった？」を、棋譜から振り返ることができます。\n\n【価格】\n・650円（税込）\n\n【獲得奉納ポイント】\n・37pt\n\n【有効期間】\n・購入日から30日間\n\n【解放される機能】\n・評価値グラフ：一手ごとの形勢を折れ線グラフで可視化\n・推奨手順：AIが選ぶ最善手と、その後の進行を表示\n・指し手評価：自分の指した手の良し悪しをマーク表示（好手・悪手・疑問手 等）\n\n【追加購入について】\n・有効期間中でも追加購入が可能です\n・1回の購入で有効期間が30日加算されます\n・追加購入は最大1年分まで可能です\n\n※棋譜再生・手順リスト・KIFコピー・盤面画像共有は、パスがなくても利用できます。\n※棋譜再生画面の「解析を利用する」ボタンからも購入できます。",
@@ -4426,6 +4426,13 @@
             "replacements": 2,
             "source_bytes": 483,
             "target_bytes": 465
+          },
+          {
+            "source": "普段の凛とした姿から一転、可愛らしい魔女姿でハロウィンの宴へ意気揚々と参加。\nキャンディをぎっしり詰め込んだかぼちゃのバスケットを手に、イタズラの準備も万端！\n「ハッピーハロウィン。ふふ、こういう催しは今まで参加したことなかったのでワクワクします。」\n初めて参加する催しに瞳を輝かせ、賑やかな非日常を楽しんでいる。",
+            "target": "Trading her usual dignified appearance for an adorable witch costume, she eagerly joins the Halloween festivities.\nWith a pumpkin basket packed full of candy, she is fully prepared for mischief!\n\"Happy Halloween. Hehe, I've never taken part in an event like this before, so I'm excited.\"\nHer eyes sparkle as she enjoys the lively, extraordinary celebration for the first time.",
+            "replacements": 1,
+            "source_bytes": 465,
+            "target_bytes": 376
           },
           {
             "source": "「やるからには全力で楽しむわっ！トリック・オア・トリートっ！さあ、お菓子を出しなさいっ！」\nハロウィンイベントに合わせ、小悪魔に大変身！\n悪魔の角と羽、装飾があしらわれたドレスを身に纏い、お菓子を求めて彷徨う！！\nお菓子を出さないと、「ガオーッ！」とイタズラされてしまうかも？",
@@ -5296,13 +5303,6 @@
             "target_bytes": 163
           },
           {
-            "source": "銀を上げてから飛車を振る、ちょっと変わった陽動振り飛車だよ。手損しているようで、そのぶん銀冠へ隙なく組めるんだ。とある会社の社長さんにちなんだ戦法なんだって。えへへ、将棋って自由だね！",
-            "target": "An unusual feint Ranging Rook strategy where you advance the Silver before swinging the Rook. It may seem to lose a tempo, but in return you can build a Silver Crown without leaving any gaps. The strategy is apparently named after a company president. Hehe, shogi gives you so much freedom!",
-            "replacements": 1,
-            "source_bytes": 276,
-            "target_bytes": 290
-          },
-          {
             "source": "最下段にトンネルを掘るように飛車を横へ走らせ、相手の端を攻める作戦だよ。相手が穴熊だと玉の逃げ道がないから、端から一気に詰むこともあるんだ。自陣の奥を通っていく姿が、まさに地下鉄だね！",
             "target": "A strategy that runs the rook smoothly along the bottom rank. As the name Subway Rook suggests, it travels from edge to edge and aims for an edge attack.",
             "replacements": 1,
@@ -5933,6 +5933,13 @@
             "target_bytes": 214
           },
           {
+            "source": "えっ、これも戦法なの？とある会社の社長さんにちなんだ、銀を上げてから振る陽動振り飛車なんだって。このカフェの将棋は自由だね！私も自分の名前の戦法、作ってみたいな！",
+            "target": "Huh, this is a strategy too? They say it's a Feint Ranging Rook where you advance the Silver before swinging the Rook, named after a certain company president. Shogi at this cafe is so free! I'd love to create a strategy named after me too!",
+            "replacements": 1,
+            "source_bytes": 243,
+            "target_bytes": 240
+          },
+          {
             "source": "相掛かりで、銀を5六ではなく3六へ繰り出す作戦だよ。猪突銀戦法とも呼ばれるそうだよ。飛車と銀の動きを、鎖鎌に見立てた名前なんだって。鎖と鎌、なんだか強そうだね！",
             "target": "A Double Wing Attack strategy that sends the silver forward. Jiro Kato's naming, comparing the rook to a sickle and the silver to a weight, is stylish. It is also called Boar-Rushing Silver.",
             "replacements": 1,
@@ -6423,6 +6430,13 @@
             "target_bytes": 98
           },
           {
+            "source": "星のまたたきに、胸を弾ませる魔法の夜。宿舎で設定することでBGMを変更できる。",
+            "target": "A magical night where twinkling stars set your heart racing. Equip it in the Dorm to change the BGM.",
+            "replacements": 1,
+            "source_bytes": 111,
+            "target_bytes": 100
+          },
+          {
             "source": "凛とした眼差しに、氷の静寂を宿す。宿舎で設定することでアイコンを変更できる。",
             "target": "A dignified gaze holding the silence of ice. Set it in Lodging to change your icon.",
             "replacements": 1,
@@ -6479,6 +6493,20 @@
             "target_bytes": 91
           },
           {
+            "source": "星空を駆けぬけるような特別な盤面。宿舎で設定することで将棋盤を変更できる。",
+            "target": "A special board that feels like racing through the starry sky. Equip it in the Dorm to change your shogi board.",
+            "replacements": 1,
+            "source_bytes": 111,
+            "target_bytes": 111
+          },
+          {
+            "source": "ときめきを乗せて、星空の向こうへ。宿舎で設定することでBGMを変更できる。",
+            "target": "Carry your excitement beyond the starry sky. Equip it in the Dorm to change the BGM.",
+            "replacements": 1,
+            "source_bytes": 105,
+            "target_bytes": 84
+          },
+          {
             "source": "春風と共に微笑む、桜色の少女。宿舎で設定することでアイコンを変更できる。",
             "target": "A cherry-colored girl smiling with the spring breeze. Set it in Lodging to change your icon.",
             "replacements": 1,
@@ -6519,6 +6547,13 @@
             "replacements": 1,
             "source_bytes": 102,
             "target_bytes": 81
+          },
+          {
+            "source": "魔法の夜に、瞳を輝かせる少女。宿舎で設定することでアイコンを変更できる。",
+            "target": "A girl whose eyes sparkle on a magical night. Equip it in the Dorm to change your icon.",
+            "replacements": 1,
+            "source_bytes": 108,
+            "target_bytes": 87
           },
           {
             "source": "ゴシックレースと蝶が舞う盤面。宿舎で設定することで将棋盤を変更できる。",
@@ -6815,6 +6850,13 @@
             "target_bytes": 79
           },
           {
+            "source": "月と星に照らされた盤面。宿舎で設定することで将棋盤を変更できる。",
+            "target": "A board illuminated by the moon and stars. Equip it in the Dorm to change your shogi board.",
+            "replacements": 1,
+            "source_bytes": 96,
+            "target_bytes": 91
+          },
+          {
             "source": "使い慣れた木目の盤面。宿舎で設定することで将棋盤を変更できる。",
             "target": "A familiar woodgrain board. Set it in Lodging to change your board.",
             "replacements": 1,
@@ -6864,6 +6906,13 @@
             "target_bytes": 97
           },
           {
+            "source": "満天の星を纏った特別な駒。宿舎で設定することで駒を変更できる。",
+            "target": "Special pieces clad in a sky full of stars. Equip them in the Dorm to change your pieces.",
+            "replacements": 1,
+            "source_bytes": 93,
+            "target_bytes": 89
+          },
+          {
             "source": "妖しい紫の光を湛えた駒。宿舎で設定することで駒を変更できる。",
             "target": "Pieces filled with mysterious violet light. Set them in Lodging to change your pieces.",
             "replacements": 1,
@@ -6883,6 +6932,13 @@
             "replacements": 1,
             "source_bytes": 84,
             "target_bytes": 74
+          },
+          {
+            "source": "星のまたたきを宿した駒。宿舎で設定することで駒を変更できる。",
+            "target": "Pieces imbued with twinkling starlight. Equip them in the Dorm to change your pieces.",
+            "replacements": 1,
+            "source_bytes": 90,
+            "target_bytes": 85
           },
           {
             "source": "棋譜の真実を映し出す不思議な鍵。盤上に隠れた一手を照らす。",
@@ -7130,6 +7186,13 @@
             "target_bytes": 54
           },
           {
+            "source": "【月夜の魔法】八雲龍菜のリザルトボイス。",
+            "target": "Results voice for [Moonlit Magic] Yakumo Ryuna.",
+            "replacements": 1,
+            "source_bytes": 60,
+            "target_bytes": 47
+          },
+          {
             "source": "贈り物に宿る想いが凝縮された小さな石。",
             "target": "A small stone condensed from the feelings held in a gift.",
             "replacements": 1,
@@ -7172,6 +7235,13 @@
             "target_bytes": 41
           },
           {
+            "source": "【月夜の魔法】八雲龍菜の秒読みボイス。",
+            "target": "Byoyomi voice for [Moonlit Magic] Yakumo Ryuna.",
+            "replacements": 1,
+            "source_bytes": 57,
+            "target_bytes": 47
+          },
+          {
             "source": "アイコン「【常夏の陽光】猫宮さくら」",
             "target": "Icon: [Everlasting Summer Sun] Nekomiya Sakura",
             "replacements": 1,
@@ -7198,6 +7268,13 @@
             "replacements": 1,
             "source_bytes": 54,
             "target_bytes": 41
+          },
+          {
+            "source": "【月夜の魔法】八雲龍菜の技有ボイス。",
+            "target": "Good Move voice for [Moonlit Magic] Yakumo Ryuna.",
+            "replacements": 1,
+            "source_bytes": 54,
+            "target_bytes": 49
           },
           {
             "source": "居飛穴音無しの構え　（※削除推奨）",
@@ -7242,6 +7319,20 @@
             "target_bytes": 44
           },
           {
+            "source": "アイコン「【月夜の魔法】八雲龍菜」",
+            "target": "Icon: [Moonlit Magic] Yakumo Ryuna",
+            "replacements": 1,
+            "source_bytes": 51,
+            "target_bytes": 34
+          },
+          {
+            "source": "リザルト「【月夜の魔法】八雲龍菜」",
+            "target": "Results: [Moonlit Magic] Yakumo Ryuna",
+            "replacements": 1,
+            "source_bytes": 51,
+            "target_bytes": 37
+          },
+          {
             "source": "陽動振り飛車(三間)　※削除推奨",
             "target": "Feint Ranging Rook (Third File)",
             "replacements": 1,
@@ -7284,6 +7375,13 @@
             "target_bytes": 48
           },
           {
+            "source": "秒読み「【月夜の魔法】八雲龍菜」",
+            "target": "Byoyomi: [Moonlit Magic] Yakumo Ryuna",
+            "replacements": 1,
+            "source_bytes": 48,
+            "target_bytes": 37
+          },
+          {
             "source": "ハチワンシステム（※削除推奨）",
             "target": "81 System",
             "replacements": 1,
@@ -7296,6 +7394,13 @@
             "replacements": 1,
             "source_bytes": 45,
             "target_bytes": 51
+          },
+          {
+            "source": "技有「【月夜の魔法】八雲龍菜」",
+            "target": "Good Move: [Moonlit Magic] Yakumo Ryuna",
+            "replacements": 1,
+            "source_bytes": 45,
+            "target_bytes": 39
           },
           {
             "source": "デフォルトのリザルトボイス。",
@@ -7436,6 +7541,13 @@
             "replacements": 1,
             "source_bytes": 34,
             "target_bytes": 39
+          },
+          {
+            "source": "【月夜の魔法】八雲 龍菜",
+            "target": "[Moonlit Magic] Yakumo Ryuna",
+            "replacements": 1,
+            "source_bytes": 34,
+            "target_bytes": 28
           },
           {
             "source": "アイコン「狼谷シロウ」",
@@ -8271,6 +8383,13 @@
             "target_bytes": 21
           },
           {
+            "source": "月夜の魔法〈極〉",
+            "target": "Moonlit Magic <Ultimate>",
+            "replacements": 1,
+            "source_bytes": 24,
+            "target_bytes": 24
+          },
+          {
             "source": "期待の駆け出し",
             "target": "Promising Beginner",
             "replacements": 1,
@@ -8670,6 +8789,20 @@
             "target_bytes": 25
           },
           {
+            "source": "魔法の駒〈極〉",
+            "target": "Magic Pieces <Ultimate>",
+            "replacements": 1,
+            "source_bytes": 21,
+            "target_bytes": 23
+          },
+          {
+            "source": "魔法の盤〈極〉",
+            "target": "Magic Board <Ultimate>",
+            "replacements": 1,
+            "source_bytes": 21,
+            "target_bytes": 22
+          },
+          {
             "source": "新鋭の指し手",
             "target": "Rising Player",
             "replacements": 1,
@@ -9067,6 +9200,13 @@
             "replacements": 1,
             "source_bytes": 16,
             "target_bytes": 11
+          },
+          {
+            "source": "バレンタイン",
+            "target": "Valentine's Day",
+            "replacements": 1,
+            "source_bytes": 18,
+            "target_bytes": 15
           },
           {
             "source": "盤上の新兵",
@@ -10238,6 +10378,27 @@
             "target_bytes": 7
           },
           {
+            "source": "魔法-本章",
+            "target": "Magic - Main Chapter",
+            "replacements": 1,
+            "source_bytes": 13,
+            "target_bytes": 20
+          },
+          {
+            "source": "魔法-終章",
+            "target": "Magic - Final Chapter",
+            "replacements": 1,
+            "source_bytes": 13,
+            "target_bytes": 21
+          },
+          {
+            "source": "月夜の魔法",
+            "target": "Moonlit Magic",
+            "replacements": 1,
+            "source_bytes": 15,
+            "target_bytes": 13
+          },
+          {
             "source": "ソフィア",
             "target": "Sophia",
             "replacements": 2,
@@ -11008,6 +11169,55 @@
             "target_bytes": 6
           },
           {
+            "source": "決め台詞",
+            "target": "Catchphrase",
+            "replacements": 1,
+            "source_bytes": 12,
+            "target_bytes": 11
+          },
+          {
+            "source": "呼びかけ",
+            "target": "Calling Out",
+            "replacements": 1,
+            "source_bytes": 12,
+            "target_bytes": 11
+          },
+          {
+            "source": "主語強調",
+            "target": "Emphasis",
+            "replacements": 1,
+            "source_bytes": 12,
+            "target_bytes": 8
+          },
+          {
+            "source": "驚き・大",
+            "target": "Big Surprise",
+            "replacements": 1,
+            "source_bytes": 12,
+            "target_bytes": 12
+          },
+          {
+            "source": "驚き・短",
+            "target": "Brief Surprise",
+            "replacements": 1,
+            "source_bytes": 12,
+            "target_bytes": 14
+          },
+          {
+            "source": "魔法の駒",
+            "target": "Magic Pieces",
+            "replacements": 1,
+            "source_bytes": 12,
+            "target_bytes": 12
+          },
+          {
+            "source": "魔法の盤",
+            "target": "Magic Board",
+            "replacements": 1,
+            "source_bytes": 12,
+            "target_bytes": 11
+          },
+          {
             "source": "15歳",
             "target": "15 years old",
             "replacements": 2,
@@ -11596,6 +11806,125 @@
             "target_bytes": 4
           },
           {
+            "source": "正月",
+            "target": "New Year's",
+            "replacements": 1,
+            "source_bytes": 6,
+            "target_bytes": 10
+          },
+          {
+            "source": "喜び",
+            "target": "Joy",
+            "replacements": 1,
+            "source_bytes": 6,
+            "target_bytes": 3
+          },
+          {
+            "source": "気合",
+            "target": "Fighting Spirit",
+            "replacements": 1,
+            "source_bytes": 6,
+            "target_bytes": 15
+          },
+          {
+            "source": "笑い",
+            "target": "Laughter",
+            "replacements": 1,
+            "source_bytes": 6,
+            "target_bytes": 8
+          },
+          {
+            "source": "賞賛",
+            "target": "Praise",
+            "replacements": 1,
+            "source_bytes": 6,
+            "target_bytes": 6
+          },
+          {
+            "source": "納得",
+            "target": "Agreement",
+            "replacements": 1,
+            "source_bytes": 6,
+            "target_bytes": 9
+          },
+          {
+            "source": "思案",
+            "target": "Thinking",
+            "replacements": 1,
+            "source_bytes": 6,
+            "target_bytes": 8
+          },
+          {
+            "source": "迷い",
+            "target": "Hesitation",
+            "replacements": 1,
+            "source_bytes": 6,
+            "target_bytes": 10
+          },
+          {
+            "source": "理解",
+            "target": "Understanding",
+            "replacements": 1,
+            "source_bytes": 6,
+            "target_bytes": 13
+          },
+          {
+            "source": "叫び",
+            "target": "Shout",
+            "replacements": 1,
+            "source_bytes": 6,
+            "target_bytes": 5
+          },
+          {
+            "source": "謝罪",
+            "target": "Apology",
+            "replacements": 1,
+            "source_bytes": 6,
+            "target_bytes": 7
+          },
+          {
+            "source": "吐露",
+            "target": "Confession",
+            "replacements": 1,
+            "source_bytes": 6,
+            "target_bytes": 10
+          },
+          {
+            "source": "困惑",
+            "target": "Confusion",
+            "replacements": 1,
+            "source_bytes": 6,
+            "target_bytes": 9
+          },
+          {
+            "source": "信頼",
+            "target": "Trust",
+            "replacements": 1,
+            "source_bytes": 6,
+            "target_bytes": 5
+          },
+          {
+            "source": "反論",
+            "target": "Rebuttal",
+            "replacements": 1,
+            "source_bytes": 6,
+            "target_bytes": 8
+          },
+          {
+            "source": "挨拶",
+            "target": "Greeting",
+            "replacements": 1,
+            "source_bytes": 6,
+            "target_bytes": 8
+          },
+          {
+            "source": "感謝",
+            "target": "Thanks",
+            "replacements": 1,
+            "source_bytes": 6,
+            "target_bytes": 6
+          },
+          {
             "source": "酒",
             "target": "Sake",
             "replacements": 1,
@@ -12054,14 +12383,14 @@
     ]
   },
   {
-    "bundle_file": "6fa859cd807ea80ca0a75aa4905699ad__remote_assets__project_sound_generated_voice_catalog_voice013_g.bundle",
-    "replacements": 267,
+    "bundle_file": "1da15ce1a2c773fcb81e7e37cfa28568__remote_assets__project_sound_generated_voice_catalog_voice013_g.bundle",
+    "replacements": 288,
     "changed_objects": [
       {
         "path_id": -3378493045938594507,
         "type": "TextAsset",
         "name": "voice_catalog_Voice013.g",
-        "replacements": 267
+        "replacements": 288
       }
     ]
   },
@@ -12087,14 +12416,14 @@
     ]
   },
   {
-    "bundle_file": "5c250f8a9e44a21a05fd5d6e6e6dd5b4__remote_assets__project_sound_generated_voice_catalog_voice004_g.bundle",
-    "replacements": 267,
+    "bundle_file": "9c358bf1455cd8fbfacbdc793aba05c5__remote_assets__project_sound_generated_voice_catalog_voice004_g.bundle",
+    "replacements": 288,
     "changed_objects": [
       {
         "path_id": 8418274433812461946,
         "type": "TextAsset",
         "name": "voice_catalog_Voice004.g",
-        "replacements": 267
+        "replacements": 288
       }
     ]
   },
@@ -12686,14 +13015,14 @@
     ]
   },
   {
-    "bundle_file": "b800b92cf54668448736d66661fed6a7__remote_assets__project_sound_generated_voice_catalog_voice015_g.bundle",
-    "replacements": 267,
+    "bundle_file": "3be4044af02fee4b4d34089a32380eaf__remote_assets__project_sound_generated_voice_catalog_voice015_g.bundle",
+    "replacements": 284,
     "changed_objects": [
       {
         "path_id": 5212649312301137133,
         "type": "TextAsset",
         "name": "voice_catalog_Voice015.g",
-        "replacements": 267
+        "replacements": 284
       }
     ]
   },
@@ -12714,14 +13043,14 @@
     ]
   },
   {
-    "bundle_file": "9be97c93352c2b8ad429314cdfa06e16__remote_assets__project_sound_generated_voice_catalog_voice007_g.bundle",
-    "replacements": 267,
+    "bundle_file": "5ac50f3298d82162ca71be05b3aaf592__remote_assets__project_sound_generated_voice_catalog_voice007_g.bundle",
+    "replacements": 288,
     "changed_objects": [
       {
         "path_id": -6908046885324176778,
         "type": "TextAsset",
         "name": "voice_catalog_Voice007.g",
-        "replacements": 267
+        "replacements": 288
       }
     ]
   },
@@ -12793,26 +13122,26 @@
     "changed_objects": []
   },
   {
-    "bundle_file": "6250ee44dc5d59cdde64454709fe5ecb__remote_assets__project_sound_generated_voice_catalog_voice014_g.bundle",
-    "replacements": 267,
+    "bundle_file": "7be699b98642321b9e4bf8cf347b3f95__remote_assets__project_sound_generated_voice_catalog_voice014_g.bundle",
+    "replacements": 288,
     "changed_objects": [
       {
         "path_id": 3582444929879739120,
         "type": "TextAsset",
         "name": "voice_catalog_Voice014.g",
-        "replacements": 267
+        "replacements": 288
       }
     ]
   },
   {
-    "bundle_file": "8938bca00812b1cd017468ad97347249__remote_assets__project_sound_generated_voice_catalog_voice002_g.bundle",
-    "replacements": 267,
+    "bundle_file": "39977a885eea3405d893c9cd499ffed8__remote_assets__project_sound_generated_voice_catalog_voice002_g.bundle",
+    "replacements": 288,
     "changed_objects": [
       {
         "path_id": 3835839905487270857,
         "type": "TextAsset",
         "name": "voice_catalog_Voice002.g",
-        "replacements": 267
+        "replacements": 288
       }
     ]
   },
@@ -12838,14 +13167,14 @@
     ]
   },
   {
-    "bundle_file": "83577a18d292faaa464387e7cd7b49b8__remote_assets__project_sound_generated_voice_catalog_voice010_g.bundle",
-    "replacements": 267,
+    "bundle_file": "ae63d1da18c8cf484c14826acccaecf5__remote_assets__project_sound_generated_voice_catalog_voice010_g.bundle",
+    "replacements": 288,
     "changed_objects": [
       {
         "path_id": 8646270171052638161,
         "type": "TextAsset",
         "name": "voice_catalog_Voice010.g",
-        "replacements": 267
+        "replacements": 288
       }
     ]
   },
@@ -14019,14 +14348,14 @@
     ]
   },
   {
-    "bundle_file": "1551fa91c4f897b1a0700783306f3a0a__remote_assets__project_sound_generated_voice_catalog_voice005_g.bundle",
-    "replacements": 267,
+    "bundle_file": "d883eb22be0974c685159bb3fa52f66c__remote_assets__project_sound_generated_voice_catalog_voice005_g.bundle",
+    "replacements": 288,
     "changed_objects": [
       {
         "path_id": 6609702509617421741,
         "type": "TextAsset",
         "name": "voice_catalog_Voice005.g",
-        "replacements": 267
+        "replacements": 288
       }
     ]
   },
@@ -14499,14 +14828,14 @@
     ]
   },
   {
-    "bundle_file": "9987723966834c6a7fafcdc4d1c24cc9__remote_assets__project_sound_generated_voice_catalog_voice006_g.bundle",
-    "replacements": 267,
+    "bundle_file": "5c5f40e3032a58348e0794c1588a8879__remote_assets__project_sound_generated_voice_catalog_voice006_g.bundle",
+    "replacements": 288,
     "changed_objects": [
       {
         "path_id": 928831031877064332,
         "type": "TextAsset",
         "name": "voice_catalog_Voice006.g",
-        "replacements": 267
+        "replacements": 288
       }
     ]
   },
@@ -14655,7 +14984,7 @@
     ]
   },
   {
-    "bundle_file": "36b3199e8b56fe0e8313c6b1671a1fd4__remote_assets__project_composition_prefab_ui_overlay_implement_gameresulteffectoverlay_gameresulteffectoverlayview.bundle",
+    "bundle_file": "5ad3fae5df0c9cb56deefc02cf682df9__remote_assets__project_composition_prefab_ui_overlay_implement_gameresulteffectoverlay_gameresulteffectoverlayview.bundle",
     "replacements": 10,
     "changed_objects": [
       {
@@ -14798,14 +15127,14 @@
     ]
   },
   {
-    "bundle_file": "203018c5e0ba0410f9a50c2fe1133678__remote_assets__project_sound_generated_voice_catalog_voice003_g.bundle",
-    "replacements": 267,
+    "bundle_file": "20af625929c88bb62debf39434b0f659__remote_assets__project_sound_generated_voice_catalog_voice003_g.bundle",
+    "replacements": 288,
     "changed_objects": [
       {
         "path_id": 7076454576422422264,
         "type": "TextAsset",
         "name": "voice_catalog_Voice003.g",
-        "replacements": 267
+        "replacements": 288
       }
     ]
   },
@@ -15322,6 +15651,18 @@
         "path_id": 6089755452454019026,
         "type": "MonoBehaviour",
         "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "42cf1079b5aa92862a8060a6a5b7e78f__remote_assets__project_sound_generated_voice_catalog_skinvoice80001_g.bundle",
+    "replacements": 61,
+    "changed_objects": [
+      {
+        "path_id": 3446131610509696252,
+        "type": "TextAsset",
+        "name": "voice_catalog_SkinVoice80001.g",
+        "replacements": 61
       }
     ]
   }
