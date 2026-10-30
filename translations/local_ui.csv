@@ -167,3 +167,8 @@ but it will not be deleted from the game server.
 あてはまるものをすべて選択してください,Select all that apply.
 あてはまるものを1つ選択してください,Select one that applies.
 質問文,Question text
+表示する,Show
+表示しない,Hide
+画面タップ演出,Screen Tap Effects
+タップ演出を表示します,Show tap effects.
+タップ演出を表示しません,Hide tap effects.
