@@ -994,3 +994,159 @@ Are you enjoying KIOU?"
 総合,Overall
 金矢倉,Gold Yagura
 まだ集計されていません,Not Yet Tallied
+未挑戦,Not Attempted
+1〜3手詰,1–3-Move Mates
+詰将棋RTA,Tsume Shogi RTA
+詰将棋 問題集,Tsume Shogi Problems
+実戦詰将棋サバイバル,Practical Tsume Survival
+相手の名前,Opponent Name
+友人申請が届きました,You received a friend request.
+猫宮さくら,Nekomiya Sakura
+‹ 前,‹ Previous
+問題集,Problem Book
+次 ›,Next ›
+1〜20問,Problems 1–20
+全100問,100 Problems Total
+3手詰<size=57%> 100問</size>,3-Move Mates<size=57%> 100 Problems</size>
+クリア<size=147%><color=#FFF4E0> 0</color></size>,Cleared<size=147%><color=#FFF4E0> 0</color></size>
+あとで,Later
+1回限り,One Time Only
+所持済み,Owned
+棋士のみ,Players Only
+販売終了,Sale Ended
+購入済み,Purchased
+あと 2日,2 Days Left
+受け取り済み,Claimed
+今後表示しない,Don't Show Again
+"【棋士のみ】
+棋士","【Players Only】
+Player"
+購入する ¥650,Purchase ¥650
+"無料のオファーを受け取り忘れています。
+本当に閉じますか？","You have not claimed the free offer.
+Are you sure you want to close?"
+友人招待,Invite Friends
+点数,Points
+宣言条件,Declaration Conditions
+敵陣に自玉,Your king in enemy camp
+敵陣の自駒,Your pieces in enemy camp
+自陣に相手玉,Opponent king in your camp
+自陣の相手駒,Opponent pieces in your camp
+0<size=70%>/10枚</size>,0<size=70%>/10 pieces</size>
+2<size=70%>/3</size><size=55%>  あと1つ</size>,2<size=70%>/3</size><size=55%>  1 more</size>
+親密度 Lv1,Bond Lv. 1
+ストーリーはありません。,No stories available.
+話者名,Speaker Name
+ログはありません。,No log entries.
+詰まない,Not a Mate
+別解がある,Alternate Solution
+表示がおかしい,Display Issue
+補足があれば（任意）,Additional details (optional)
+報告は運営に送信されます,Your report will be sent to the administrators.
+友人の名前,Friend Name
+10月7日,October 7
+メッセージ,Message
+新着メッセージ,New Message
+まだメッセージはありません。,No messages yet.
+ストーリー解放,Story Unlocked
+親密度1　タイトル,Bond 1  Title
+以下のストーリーが解放されました。,The following story has been unlocked.
+ストーリー,Story
+スペシャル,Special
+最序盤,Opening
+最序盤のみ,Opening Only
+最序盤だけ相手のエモートを表示します,Show opponent emotes only during the opening.
+あらすじ,Synopsis
+サブタイトル,Subtitle
+メインタイトル,Main Title
+以下のストーリーを読みますか？,Read the following story?
+承認,Accept
+拒否,Decline
+オンライン,Online
+ブロックリスト,Block List
+探す,Find
+申請,Request
+IDを入力,Enter ID
+最近の対局相手,Recent Opponents
+最近の対局相手はいません。,No recent opponents.
+届いている申請はありません。,No pending requests.
+ミス,Mistakes
+問題,Problem
+報告,Report
+正解,Correct
+速い,Fast
+遅い,Slow
+順位,Rank
+分布図,Distribution
+＋5秒,+5 Seconds
+1手戻る,Go Back 1 Move
+やり直し,Retry
+前の問題,Previous Problem
+次の問題,Next Problem
+次の目標,Next Goal
+記録なし,No Record
+1.23秒,1.23 Seconds
+すべて見る,View All
+答えを見る,View Answer
+集計中です,Calculating...
+1 / 3手,1 / 3 Moves
+1 ▲7六歩,1 ▲P-76
+もう一度挑戦,Try Again
+今回のタイム,This Time
+問題を見直す,Review Problem
+1手詰 10問,10 1-Move Mates
+1手目 00:00,Move 1  00:00
+あなた 27.79秒,You  27.79 Seconds
+マイナビ出版 3手詰,Mynavi Publishing 3-Move Mate
+TOP100 16.93秒,TOP 100  16.93 Seconds
+ミス 2回　スキップ 1問,2 Mistakes  1 Skipped
+回復時間 10秒 → 8秒,Recovery Time 10 sec → 8 sec
+実戦詰将棋サバイバル 初級,Practical Tsume Survival: Beginner
+0<size=52%>問</size>,0<size=52%> Problems</size>
+0<size=52%>回</size>,0<size=52%> Times</size>
+4<size=60%>位</size>,4<size=60%>th</size>
+1<size=50%>手詰</size>,1<size=50%>-Move Mate</size>
+27<size=36%>秒</size>79,27<size=36%> sec</size>79
+30.0<size=55.6%>秒</size>,30.0<size=55.6%> sec</size>
+<size=86%><color=#EFD8BCB8>玉方の持駒</color></size>  残り駒すべて,<size=86%><color=#EFD8BCB8>Defender's Pieces in Hand</color></size>  All Remaining Pieces
+ログ,Log
+実戦詰将棋,Practical Tsume Shogi
+棋桜（逆算生成）,KIOU (Reverse-Generated)
+逆算生成 1手詰,Reverse-Generated 1-Move Mate
+逆算生成 3手詰,Reverse-Generated 3-Move Mate
+逆算生成 5手詰,Reverse-Generated 5-Move Mate
+実戦詰将棋 1手詰,Practical Tsume 1-Move Mate
+実戦詰将棋 3手詰,Practical Tsume 3-Move Mate
+実戦詰将棋 5手詰,Practical Tsume 5-Move Mate
+実戦詰将棋 7手詰,Practical Tsume 7-Move Mate
+実戦詰将棋 9手詰,Practical Tsume 9-Move Mate
+棋桜オリジナル 1手詰,KIOU Original 1-Move Mate
+棋桜オリジナル 3手詰,KIOU Original 3-Move Mate
+招待,Invite
+参加中,Joined
+招待済み,Invited
+招待できる人がいません。,No one is available to invite.
+ルームIDを共有して友人以外の人も招待できます,Share the room ID to invite people who are not friends.
+表示する,Show
+表示しない,Hide
+ルームへの招待,Room Invitations
+内容を表示する,Show Contents
+友人申請・承認,Friend Requests & Acceptances
+画面タップ演出,Screen Tap Effects
+友人からのチャット,Friend Chat
+送り主だけ表示する,Show Sender Only
+タップ演出を表示します,Show tap effects.
+タップ演出を表示しません,Hide tap effects.
+メッセージの内容は表示しません,Do not show message contents.
+チャットを画面上部に表示しません,Do not show chat at the top of the screen.
+通知が来た際に画面上部に表示します,Show notifications at the top of the screen.
+送り主とメッセージの内容を表示します,Show the sender and message contents.
+通知が来た際に画面上部に表示しません,Do not show notifications at the top of the screen.
+通知,Notifications
+挑戦する,Challenge
+自己ベスト,Personal Best
+あなたの記録,Your Record
+1手詰<size=53%> 10問</size>,1-Move Mates<size=53%> 10 Problems</size>
+"+2
+<size=60%>ほかにも</size>","+2
+<size=60%>and more</size>"
