@@ -1909,3 +1909,103 @@ Hehe, I'm really happy to hear you say that."
 "何に？と首をかしげると、学生は
 「……ですよね」と、ほっとしたように笑った。","To what? The student tilted his head and said,
 ""...I guess so,"" he said, smiling with relief."
+アンケート,Survey
+年齢を教えてください,What is your age?
+~12歳,12 or under
+13~17歳,13–17
+18~24歳,18–24
+25~34歳,25–34
+35歳~,35 or older
+回答しない,Prefer not to answer
+性別を教えてください,What is your gender?
+男性,Male
+女性,Female
+将棋を指したことはありますか？,Have you played shogi before?
+よく指している,I play often
+少し指したことがある,I've played a little
+ルールは知っている,I know the rules
+このゲームを何で知りましたか？,How did you hear about this game?
+広告,Advertisement
+友だち・知り合い,Friend or acquaintance
+ストアで見つけた,Found it in the store
+興味のある遊び方を教えてください（いくつでも）,Which ways of playing interest you? (Select all that apply)
+ランクマッチ,Ranked Match
+友だちと対局,Play with friends
+キャラクター・ストーリー,Characters and stories
+購入履歴はありません,No purchase history
+購入履歴,Purchase History
+すべて,All
+ダイヤ,Diamonds
+棋晶石 600個,600 Kisho Stones
+直近30日間の購入履歴を表示しています,Showing purchase history from the last 30 days
+スタイル,Styles
+親密度,Bond
+初期,Default
+成,Promote
+不成,Do Not Promote
+成・不成,Either
+成るのがおすすめ,Promotion recommended
+成らないのがおすすめ,No promotion recommended
+どちらもおすすめ,Either is recommended
+キャラ,Character
+グレード報酬,Grade Rewards
+択1,Option 1
+択2,Option 2
+択3,Option 3
+択4,Option 4
+択5,Option 5
+択6,Option 6
+対局相手の強さは？,How strong was your opponent?
+お礼,Thank You
+ご意見・ご感想（任意）,Comments and feedback (optional)
+200文字以内で自由にお書きください,Please write freely (up to 200 characters)
+回答期限 10/31 23:59,Response deadline: 10/31 23:59
+必要アイテム,Required Items
+親密度はスタイル間で共通です,Bond is shared across styles
+アイテムを揃えて契約,Gather the items to form a contract
+演出再生,Replay Animation
+ボイス 3,Voice 3
+贈り物を贈る,Send a Gift
+"師弟
+契約","Master-Disciple
+Contract"
+師弟契約へ,Form a Contract
+親密度詳細,Bond Details
+今日あと 3 回,3 remaining today
+拡大,Zoom
+贈り物をする,Give a Gift
+最小,Minimum
+10回縁結びの「紫の贈り物1つ以上確定」はありません。,The 10 Bond Draw does not guarantee at least one Purple Gift.
+最大,Maximum
+ホームへ行く,Go to Home
+1分,1 minute
+将棋のルールを見る,View Shogi Rules
+アンケートに答える,Answer the Survey
+ダウンロード中 0%,Downloading 0%
+ダウンロードが終わるまで、少し遊んでいかない？,Want to play a little while the download finishes?
+詰将棋で遊ぶ（1手詰）,Play Tsume Shogi (Mate in 1)
+はじめての人に,For New Players
+切断中,Disconnected
+"成
+立","Contract
+Formed"
+親密度上昇!,Bond Increased!
+技有演出,Great Move Effects
+プレビュー中・・・,Previewing...
+限定スタイル,Limited Style
+スタイルの紹介文,Style Description
+セット1,Set 1
+駒・盤,Pieces / Board
+枠,Frame
+見た目,Appearance
+縁結び券を使う,Use Bond Tickets
+所持: {0},Owned: {0}
+"「詰将棋（つめしょうぎ）」とは、将棋のルールを使った「王手」のパズルゲームです。
+あらかじめ決められた盤面からスタートし、相手の玉を絶対に逃げられない状態（詰み）にすればクリアとなります。","Tsume Shogi is a checkmate puzzle played using the rules of shogi.
+Starting from a preset position, you clear the puzzle by placing the opposing king in an inescapable checkmate."
+"お試し
+","Trial
+"
+<color=#FFE28A>紫の贈り物</color> 1つ以上確定,At least one <color=#FFE28A>Purple Gift</color> guaranteed
+贈り物がありません,No gifts available
+贈る,Give
