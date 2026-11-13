@@ -1027,12 +1027,12 @@ Player"
 Are you sure you want to close?"
 友人招待,Invite Friends
 点数,Points
-宣言条件,Declaration Conditions
-敵陣に自玉,Your king in enemy camp
-敵陣の自駒,Your pieces in enemy camp
-自陣に相手玉,Opponent king in your camp
-自陣の相手駒,Opponent pieces in your camp
-0<size=70%>/10枚</size>,0<size=70%>/10 pieces</size>
+宣言条件,Declare
+敵陣に自玉,King in camp
+敵陣の自駒,Pieces in camp
+自陣に相手玉,King in camp
+自陣の相手駒,Pieces in camp
+0<size=70%>/10枚</size>,0<size=70%>/10</size>
 2<size=70%>/3</size><size=55%>  あと1つ</size>,2<size=70%>/3</size><size=55%>  1 more</size>
 親密度 Lv1,Bond Lv. 1
 ストーリーはありません。,No stories available.
@@ -1960,14 +1960,14 @@ Hehe, I'm really happy to hear you say that."
 ご意見・ご感想（任意）,Comments and feedback (optional)
 200文字以内で自由にお書きください,Please write freely (up to 200 characters)
 回答期限 10/31 23:59,Response deadline: 10/31 23:59
-必要アイテム,Required Items
-親密度はスタイル間で共通です,Bond is shared across styles
-アイテムを揃えて契約,Gather the items to form a contract
-演出再生,Replay Animation
+必要アイテム,Items
+親密度はスタイル間で共通です,Bond shared across styles
+アイテムを揃えて契約,Gather Items
+演出再生,Replay
 ボイス 3,Voice 3
-贈り物を贈る,Send a Gift
+贈り物を贈る,Give Gift
 "師弟
-契約","Master-Disciple
+契約","Mentor
 Contract"
 師弟契約へ,Form a Contract
 親密度詳細,Bond Details
