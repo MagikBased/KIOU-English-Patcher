@@ -5866,3 +5866,343 @@ voice_017_503,なるほど～,I see!
 voice_017_504,どっちが良いかなぁ……,Which one should I choose...?
 voice_017_505,うぅ……ごめんなさい,Ugh... I'm sorry.
 voice_017_506,あれれ？,Huh?
+voice_018_001,"ハァーイ！私は風美晴！
+お姉さんと一緒にツーリングしない？","Hii! I'm Kazami Haru!
+Want to go touring with me?"
+voice_018_002,今日もいい風が吹いてるわね！,Another nice breeze today!
+voice_018_003,よろしくお願いします。,Nice to meet you.
+voice_018_004,どんな手を見せてくれるのかしら？,I wonder what kind of moves you'll show me?
+voice_018_005,勝利の風はこちらに吹いたわね！,The winds of victory blew my way!
+voice_018_006,トップスピードで決まったわね！,That was settled at top speed!
+voice_018_007,快勝、快勝！絶好調ねっ！,A clean win! I'm in top form!
+voice_018_008,お姉さんの本気、見せられたかしら！,Did I show you what I'm really capable of?
+voice_018_009,"おはよう！
+朝の風って気持ちいいわよね。さっそく盤を広げましょう！","Good morning!
+The morning breeze feels wonderful. Let's set up the board!"
+voice_018_010,"お疲れ様！頑張ってるアナタにご褒美！
+お姉さんの特別対局とハグをプレゼント！","Good work! Here's a reward for trying so hard!
+A special match with me—and a hug!"
+voice_018_011,"風車はね、最下段で飛車をスイスイ走らせて中央をガッチリ固める、超トリッキーな戦法なんだよ！
+相手の攻めをヒラリと受け流して、鋭いカウンターを撃ち込む快感がたまんないの！
+相手を翻弄したいならお姉さんイチオシね！","The Windmill keeps the rook racing along the back rank while locking down the center—it's a super-tricky strategy!
+There's nothing like slipping past an attack and firing back with a sharp counter!
+If you want to keep your opponent guessing, it's my top recommendation!"
+voice_018_012,"私、運転すると性格変わるねってよく言われるのよね。
+そんなに変わってるかしら？
+試しに今度、後ろに乗ってくれない？","People often say my personality changes when I ride.
+Am I really that different?
+Why don't you ride behind me next time and find out?"
+voice_018_013,"バイクのメンテナンスって大変でさ～。
+今度、キミに手伝ってもらおうかな？","Motorcycle maintenance is a lot of work.
+Maybe I'll have you help me next time?"
+voice_018_014,"龍玄師匠の話？……うっ、その名前を聞くと、お腹が……。
+何があったか？それは内緒！","Master Ryugen? Ugh... Just hearing that name makes my stomach hurt.
+What happened? That's a secret!"
+voice_018_015,"行き先は風まかせ！
+気の向くままにバイクを走らせるのが、お姉さん流のルール。
+迷子になったら、そこで将棋教室を開けばいいしね！","I go wherever the wind takes me!
+Riding wherever I feel like is my rule.
+And if I get lost, I can just hold a shogi class there!"
+voice_018_016,"サービスエリアのソフトクリームって最高よねっ！
+ご当地限定の味を見つけるのが、旅の楽しみでもあるの。","Soft serve at service areas is the best!
+Finding exclusive local flavors is one of the joys of traveling."
+voice_018_017,"疲れた時は無理しないで、お姉さんに甘えていいのよ？
+ほら、頭なでなでしてあげる！よしよーし！","Don't push yourself when you're tired. You can lean on me, okay?
+Here, I'll pat your head. There, there!"
+voice_018_018,バイクで行けるところなら、どこだって私の居場所…だったけど、これから先の居場所は、ずっとキミのとなりかな？,"Anywhere I could reach by motorcycle used to feel like home... but from now on, maybe my home will always be beside you?"
+voice_018_019,"あら、ありがとう！
+お姉さん嬉しいわ！","Oh, thank you!
+That makes me so happy!"
+voice_018_020,"えっ、いいの！？
+キミってば、お姉さんの好みバッチリ分かってるじゃない！","Really!?
+You know exactly what I like!"
+voice_018_021,"最近、将棋教室に顔を出してくれてるわよね！
+お姉さん、すっごく嬉しいわ！","He's been showing up at my shogi class lately!
+Sister, I'm so happy!"
+voice_018_022,"あら？もうこんな時間？
+キミと指していると時間があっという間に過ぎるわね！","Oh, is it this late already?
+Time flies when I'm playing with you!"
+voice_018_023,"キミと一緒なら絶対旅も楽しいと思うのよね。
+目的地なんてない自由旅！
+ね、どう？お姉さんと一緒に行かない？","Traveling with you would definitely be fun.
+A free journey with no destination!
+Well? Want to come with me?"
+voice_018_024,"一緒にいろんな土地を巡って、将棋を指して、二人で笑い合う……。
+一人旅も好きだったけど、キミがいる今の旅のほうが最高だわ！","Traveling to different places together, playing shogi, and laughing with each other...
+I liked traveling alone, but traveling with you is the best!"
+voice_018_025,"師匠から教わった将棋も、自分で選んだバイクの道も、全部キミと出会うためのものだったのかもしれないね。
+ふふっ……お姉さん、すっかりキミに夢中みたい。
+これからも、ずっと隣にいてね！","The shogi my master taught me and the road I chose on my motorcycle... maybe all of it led me to you.
+Hehe... It seems I've fallen completely for you.
+Stay by my side forever, okay?"
+voice_018_026,"私が師匠かぁ……。
+龍玄師匠もこんな気持ちで私を見てたのかな……なんてね！
+よーし！キミをビシバシ鍛えていくから、お姉さんにしっかりついて来てね！","Me, a master...?
+I wonder if Master Ryugen felt this way when he watched me... Just kidding!
+All right! I'm going to train you hard, so make sure you keep up!"
+voice_018_027,王手！,Check!
+voice_018_028,使うわ！,I'll use it!
+voice_018_029,詰みよっ！,Checkmate!
+voice_018_030,ま、参りましたっ！,I-I resign!
+voice_018_031,引き分けね。,It's a draw.
+voice_018_032,時間切れね。,Time's up.
+voice_018_033,ギアを上げていくわっ！,Time to shift up a gear!
+voice_018_034,成りっ！,Promote!
+voice_018_035,勢いが落ちてきたわね……,You're losing momentum...
+voice_018_036,さぁ、上げていくわよっ！,Let's pick up the pace!
+voice_018_037,むかい風でも楽しんでいくわ！,I'll enjoy even a headwind!
+voice_018_038,一気に駆け抜けるわ！,I'll race straight through!
+voice_018_039,金矢倉,Gold Yagura
+voice_018_040,銀矢倉,Silver Yagura
+voice_018_041,片矢倉,Half Yagura
+voice_018_042,菊水矢倉,Kikusui Yagura
+voice_018_043,菱矢倉,Hishi Yagura
+voice_018_044,土居矢倉,Doi Yagura
+voice_018_045,総矢倉,Full Yagura
+voice_018_046,銀立ち矢倉,Standing Silver Yagura
+voice_018_047,矢倉穴熊,Yagura Anaguma
+voice_018_048,カブト囲い,Helmet Castle
+voice_018_049,右矢倉,Right Yagura
+voice_018_050,雁木囲い,Gangi Castle
+voice_018_051,居飛車穴熊,Static Rook Anaguma
+voice_018_052,居飛穴音無しの構え,Silent Static Rook Anaguma
+voice_018_053,松尾流穴熊,Matsuo Anaguma
+voice_018_054,銀冠穴熊,Silver Crown Anaguma
+voice_018_055,左美濃,Left Mino
+voice_018_056,天守閣美濃,Castle Tower Mino
+voice_018_057,カニ囲い,Crab Castle
+voice_018_058,早囲い,Quick Castle
+voice_018_059,中住まい,Central House
+voice_018_060,中原囲い,Nakahara Castle
+voice_018_061,elmo囲い,elmo Castle
+voice_018_062,美濃囲い,Mino Castle
+voice_018_063,片美濃囲い,Half Mino
+voice_018_064,高美濃囲い,High Mino
+voice_018_065,木村美濃,Kimura Mino
+voice_018_066,金美濃,Gold Mino
+voice_018_067,銀美濃,Silver Mino
+voice_018_068,ダイヤモンド美濃,Diamond Mino
+voice_018_069,ちょんまげ美濃,Topknot Mino
+voice_018_070,大山美濃,Oyama Mino
+voice_018_071,ずれ美濃,Offset Mino
+voice_018_072,坊主美濃,Monk Mino
+voice_018_073,升田美濃,Masuda Mino
+voice_018_074,プラチナ美濃,Platinum Mino
+voice_018_075,四枚美濃,Four-Piece Mino
+voice_018_076,美濃熊囲い,Mino Anaguma
+voice_018_077,振り飛車穴熊,Ranging Rook Anaguma
+voice_018_078,銀冠,Silver Crown
+voice_018_079,端玉銀冠,Edge King Silver Crown
+voice_018_080,金冠,Gold Crown
+voice_018_081,金盾囲い,Gold Shield Castle
+voice_018_082,金無双,Gold Peerless
+voice_018_083,アヒル囲い,Duck Castle
+voice_018_085,いちご囲い,Strawberry Castle
+voice_018_086,大隅囲い,Osumi Castle
+voice_018_087,空中楼閣,Castle in the Air
+voice_018_088,串カツ囲い,Kushikatsu Castle
+voice_018_089,裾固め,Hem Fortification
+voice_018_090,箱入り娘,Boxed-In Daughter
+voice_018_091,舟囲い,Boat Castle
+voice_018_092,ビッグ４,Big Four
+voice_018_093,ボナンザ囲い,Bonanza Castle
+voice_018_094,ミレニアム囲い,Millennium Castle
+voice_018_095,無敵囲い,Invincible Castle
+voice_018_096,相掛かり,Double Wing Attack
+voice_018_097,相掛かり棒銀,Double Wing Climbing Silver
+voice_018_098,飯島流相掛かり引き角,Iijima Double Wing Retreating Bishop
+voice_018_099,中原流相掛かり,Nakahara Double Wing Attack
+voice_018_100,ひねり飛車,Twisting Rook
+voice_018_101,塚田スペシャル,Tsukada Special
+voice_018_102,UFO銀,UFO Silver
+voice_018_103,横歩取り,Side Pawn Picker
+voice_018_104,相横歩取り,Double Side Pawn Picker
+voice_018_105,青野流,Aono Style
+voice_018_106,８五飛車,８五 Rook
+voice_018_107,４五角戦法,４五 Bishop Strategy
+voice_018_108,勇気流,Yuki Style
+voice_018_109,竹部スペシャル,Takebe Special
+voice_018_110,２三歩戦法,２三 Pawn Strategy
+voice_018_111,３三角型空中戦法,３三 Bishop Aerial Strategy
+voice_018_112,３三桂戦法,３三 Knight Strategy
+voice_018_113,角換わり,Bishop Exchange
+voice_018_114,腰掛け銀,Reclining Silver
+voice_018_115,角換わり棒銀,Bishop Exchange Climbing Silver
+voice_018_116,角換わり右玉,Bishop Exchange Right King
+voice_018_117,一手損角換わり,Tempo-Loss Bishop Exchange
+voice_018_118,木村定跡,Kimura Joseki
+voice_018_119,阿久津流急戦矢倉,Akutsu Rapid Yagura
+voice_018_120,中原流急戦矢倉,Nakahara Rapid Yagura
+voice_018_121,米長流急戦矢倉,Yonenaga Rapid Yagura
+voice_018_122,矢倉棒銀,Yagura Climbing Silver
+voice_018_123,脇システム,Waki System
+voice_018_124,森下システム,Morishita System
+voice_018_125,３七銀戦法,３七 Silver Strategy
+voice_018_126,四手角,Four-Move Bishop
+voice_018_127,ウソ矢倉,Fake Yagura
+voice_018_128,左美濃急戦,Left Mino Rapid Attack
+voice_018_129,居角左美濃急戦,Unmoved Bishop Left Mino Rapid Attack
+voice_018_130,忍者銀,Ninja Silver
+voice_018_131,新型雁木,Modern Gangi
+voice_018_132,ツノ銀雁木,Horned Silver Gangi
+voice_018_133,対振り飛車持久戦,Slow Game vs Ranging Rook
+voice_018_134,飯島流引き角戦法,Iijima Retreating Bishop Strategy
+voice_018_135,鷺宮定跡,Saginomiya Joseki
+voice_018_136,４六銀左急戦,４六 Left Silver Rapid Attack
+voice_018_137,４六銀右急戦,４六 Right Silver Rapid Attack
+voice_018_138,４五歩早仕掛け,４五 Pawn Quick Attack
+voice_018_139,山田定跡,Yamada Joseki
+voice_018_140,エルモ急戦,elmo Rapid Attack
+voice_018_141,へなちょこ急戦,Henachoko Rapid Attack
+voice_018_142,玉頭位取り,King-Head Vanguard Pawn
+voice_018_143,５筋位取り,５th File Vanguard Pawn
+voice_018_144,５七金戦法,５七 Gold Strategy
+voice_018_145,超急戦,Ultra-Rapid Attack
+voice_018_146,超速,Super Speed
+voice_018_147,丸山ワクチン,Maruyama Vaccine
+voice_018_148,棒金,Climbing Gold
+voice_018_149,棒銀,Climbing Silver
+voice_018_150,原始棒銀,Primitive Climbing Silver
+voice_018_151,早繰り銀,Rapid Advancing Silver
+voice_018_152,右四間飛車,Right Fourth File Rook
+voice_018_153,右四間飛車急戦,Right Fourth File Rook Rapid Attack
+voice_018_154,右四間飛車左美濃,Right Fourth File Rook Left Mino
+voice_018_155,袖飛車,Sleeve Rook
+voice_018_156,羽生式袖飛車,Habu-Style Sleeve Rook
+voice_018_157,加藤流袖飛車,Kato-Style Sleeve Rook
+voice_018_158,中原飛車,Nakahara Rook
+voice_018_159,地下鉄飛車,Underground Rook
+voice_018_160,腰掛け銀,Reclining Silver
+voice_018_161,腰掛け金,Reclining Gold
+voice_018_162,雀刺し,Spearing the Sparrow
+voice_018_163,鳥刺し,Bird Spearing
+voice_018_164,鎖鎌銀,Kusarigama Silver
+voice_018_165,ポンポン桂,Popping Knights
+voice_018_166,新米長玉,New Yonenaga King
+voice_018_167,四間飛車,Fourth File Rook
+voice_018_168,角道オープン四間飛車,Open Bishop Path Fourth File Rook
+voice_018_169,藤井システム,Fujii System
+voice_018_170,はく式四間飛車,Haku-Style Fourth File Rook
+voice_018_171,魔界四間飛車,Demon World Fourth File Rook
+voice_018_172,耀龍四間飛車,Yoryu Fourth File Rook
+voice_018_173,立石流,Tateishi Style
+voice_018_174,錆刀戦法,Rusty Sword Strategy
+voice_018_175,レグスペ,Leg Special
+voice_018_176,三間飛車,Third File Rook
+voice_018_177,石田流,Ishida Style
+voice_018_178,石田流本組み,Ishida Main Formation
+voice_018_179,新石田流,New Ishida Style
+voice_018_180,早石田,Quick Ishida
+voice_018_181,升田式石田流,Masuda-Style Ishida
+voice_018_182,楠本式石田流,Kusumoto-Style Ishida
+voice_018_183,ムリヤリ早石田,Forced Quick Ishida
+voice_018_184,４→３戦法,４ to ３ Strategy
+voice_018_185,菅井流三間飛車,Sugai-Style Third File Rook
+voice_018_186,菅井流ゴキゲン三間飛車,Sugai Cheerful Third File Rook
+voice_018_187,トマホーク,Tomahawk
+voice_018_188,中田功ＸＰ,Isao Nakata XP
+voice_018_189,７八飛戦法,７八 Rook Strategy
+voice_018_190,カナケンシステム,Kanaken System
+voice_018_191,３ニ飛戦法,３ニ Rook Strategy
+voice_018_192,つくつくぼうし戦法,Tsukutsukuboshi Strategy
+voice_018_193,真部流,Manabe Style
+voice_018_194,中飛車,Central Rook
+voice_018_195,ゴキゲン中飛車,Cheerful Central Rook
+voice_018_196,先手中飛車,Sente Central Rook
+voice_018_197,原始中飛車,Primitive Central Rook
+voice_018_198,ツノ銀中飛車,Horned Silver Central Rook
+voice_018_199,英ちゃん流中飛車,Ei-chan Central Rook
+voice_018_200,中飛車左穴熊,Central Rook Left Anaguma
+voice_018_201,遠山流,Toyama Style
+voice_018_202,矢倉中飛車,Yagura Central Rook
+voice_018_203,平目,Flounder
+voice_018_204,向飛車,Opposing Rook
+voice_018_205,ダイレクト向かい飛車,Direct Opposing Rook
+voice_018_206,鬼殺し向かい飛車,Demon Killer Opposing Rook
+voice_018_207,メリケン向かい飛車,American Opposing Rook
+voice_018_208,天彦流向かい飛車,Amahiko-Style Opposing Rook
+voice_018_209,菜々河流向かい飛車,Nanakawa-Style Opposing Rook
+voice_018_210,阪田流向飛車,Sakata-Style Opposing Rook
+voice_018_211,天彦流▲6六角,Amahiko-Style ▲6六 Bishop
+voice_018_212,菜々河流△4四角,Nanakawa-Style △4四 Bishop
+voice_018_213,相振り飛車,Double Ranging Rook
+voice_018_214,角交換振り飛車,Bishop Exchange Ranging Rook
+voice_018_215,陽動振り飛車,Feint Ranging Rook
+voice_018_216,振り飛車ミレニアム,Ranging Rook Millennium
+voice_018_217,一間飛車,First File Rook
+voice_018_218,一間飛車穴熊,First File Rook Anaguma
+voice_018_219,九間飛車,Ninth File Rook
+voice_018_220,Uターン飛車,U-Turn Rook
+voice_018_221,７二飛亜急戦,７二 Rook Semi-Rapid Attack
+voice_018_222,玉頭銀,King-Head Silver
+voice_018_223,右玉,Right King
+voice_018_224,糸谷流右玉,Itodani-Style Right King
+voice_018_225,こいなぎ流右玉,Koinagi-Style Right King
+voice_018_226,セカステ右玉,Second Stage Right King
+voice_018_227,高田流左玉,Takada-Style Left King
+voice_018_228,嬉野流,Ureshino Style
+voice_018_229,新嬉野流,New Ureshino Style
+voice_018_230,鬼殺し,Demon Killer
+voice_018_231,新鬼殺し,New Demon Killer
+voice_018_232,かまいたち戦法,Kamaitachi Strategy
+voice_018_233,筋違い角,Wrong-Diagonal Bishop
+voice_018_234,相筋違い角,Double Wrong-Diagonal Bishop
+voice_018_235,筋違い角阪田流,Sakata Wrong-Diagonal Bishop
+voice_018_236,稲庭戦法,Inaniwa Strategy
+voice_018_237,阪田流2手目△9四歩,Sakata-Style Move 2 △9四 Pawn
+voice_018_238,角頭歩戦法,Bishop-Head Pawn Strategy
+voice_018_239,5手爆弾,5-Move Bomb
+voice_018_240,目くらまし戦法,Blinding Strategy
+voice_018_241,暴銀,Rampaging Silver
+voice_018_242,風車,Windmill
+voice_018_243,きmきm金,Kim Kim Gold
+voice_018_244,カニカニ金,Crab-Crab Gold
+voice_018_245,カニカニ銀,Crab-Crab Silver
+voice_018_246,ゴリゴリ金,Grinding Gold
+voice_018_247,間宮久夢流,Mamiya Kyumu Style
+voice_018_248,金沢流,Kanazawa Style
+voice_018_249,都成流,Tonari Style
+voice_018_250,やばボーズ流,Yaba-Bozu Style
+voice_018_251,xaby角,xaby Bishop
+voice_018_252,GAVA角,GAVA Bishop
+voice_018_253,パックマン戦法,Pac-Man Strategy
+voice_018_254,カメレオン戦法,Chameleon Strategy
+voice_018_255,カリスマウィルス,Charisma Virus
+voice_018_256,ショーダンシステム,Shodan System
+voice_018_257,ハチワンシステム,81 System
+voice_018_258,メイドシステム,Maid System
+voice_018_259,村田システム,Murata System
+voice_018_260,ドラゴンスペシャル,Dragon Special
+voice_018_261,アユムスペシャル,Ayumu Special
+voice_018_262,"あけましておめでとー！
+新年は、やっぱり初日の出を見に行かなくちゃね！
+ほらっ！お姉さんの後ろに乗って乗って！
+とばすからしっかりつかまってろよ！","Happy New Year!
+We have to go see the first sunrise of the year!
+Come on, hop on behind me!
+I'm going fast, so hold on tight!"
+voice_018_263,"はい！お姉さんとお揃いのシガレットチョコ！
+二人でくわえて、ツーリングへレッツゴーーッ！","Here! Matching candy cigarettes!
+Let's put them in our mouths and go touring!"
+voice_018_265,やったー！,Yay!
+voice_018_266,やるわよっ！,I'll do it!
+voice_018_267,あははっ！,Ahaha!
+voice_018_270,こっちこっち！,"Here, here!"
+voice_018_271,どうしようかな。,What should I do?
+voice_018_273,私は！,I...!
+voice_018_274,なるほどね,I see.
+voice_018_275,こらっ！,Hey!
+voice_018_277,あー……お腹痛い。,Ah... my stomach hurts.
+voice_018_279,信じてるよ！,I believe in you!
+voice_018_280,わおっ！,Wow!
+voice_018_281,あらっ！,Oh my!
+voice_018_282,でもっ！,But!
+voice_018_296,工藤流陽動振り飛車,Kudo-Style Feint Ranging Rook
+voice_018_312,ハァーイ！,Hii!
+voice_018_313,ありがとうね！,Thank you!
+voice_018_501,よろしくね～,Nice to meet you~
+voice_018_502,やるじゃない！,Not bad!
+voice_018_503,なるほどね,I see.
+voice_018_504,ふ～む……,Hmm...
+voice_018_505,ごめんなさい！,sorry!
+voice_018_506,ええっ……,Yeah...

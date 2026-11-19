@@ -2927,7 +2927,7 @@
     ]
   },
   {
-    "bundle_file": "b318a3d5e84afcd2a6c0e650a0f95d6c__remote_assets__project__storyscenario_data_character017_story_2017001.bundle",
+    "bundle_file": "01e89e4f5ea89a9c23db4eb784448411__remote_assets__project__storyscenario_data_character017_story_2017001.bundle",
     "replacements": 69,
     "changed_objects": [
       {
@@ -2938,7 +2938,7 @@
     ]
   },
   {
-    "bundle_file": "1dfdfec33001c5b1e94d4edb7d9c3fdd__remote_assets__project__storyscenario_data_character017_story_2017002.bundle",
+    "bundle_file": "eb8e93428373ac101fdb5c19ee320ec3__remote_assets__project__storyscenario_data_character017_story_2017002.bundle",
     "replacements": 89,
     "changed_objects": [
       {
@@ -2949,7 +2949,7 @@
     ]
   },
   {
-    "bundle_file": "12ef84fb4da2fcd72c4000879d4590c9__remote_assets__project__storyscenario_data_character017_story_2017003.bundle",
+    "bundle_file": "d44eec8bb5ea5b44e8179e95aecb4b78__remote_assets__project__storyscenario_data_character017_story_2017003.bundle",
     "replacements": 67,
     "changed_objects": [
       {
@@ -2960,7 +2960,7 @@
     ]
   },
   {
-    "bundle_file": "9ac2cdb8f6fb18a096323122073dc457__remote_assets__project__storyscenario_data_character017_story_2017004.bundle",
+    "bundle_file": "ac1daeb94e61579f17124cb4169926d6__remote_assets__project__storyscenario_data_character017_story_2017004.bundle",
     "replacements": 70,
     "changed_objects": [
       {
@@ -2971,7 +2971,7 @@
     ]
   },
   {
-    "bundle_file": "af9b1bb98b77af1d674c9ead23a26d59__remote_assets__project__storyscenario_data_character017_story_2017005.bundle",
+    "bundle_file": "0ef3a3dffb107199dd69ef78f3251be5__remote_assets__project__storyscenario_data_character017_story_2017005.bundle",
     "replacements": 117,
     "changed_objects": [
       {
@@ -2982,7 +2982,7 @@
     ]
   },
   {
-    "bundle_file": "51b6fd9335753bffad679f98c1a43107__remote_assets__project__storyscenario_data_character017_story_2017006.bundle",
+    "bundle_file": "5a80345882277dcb8b81036b652dcb32__remote_assets__project__storyscenario_data_character017_story_2017006.bundle",
     "replacements": 139,
     "changed_objects": [
       {
@@ -2993,7 +2993,7 @@
     ]
   },
   {
-    "bundle_file": "741b419afea674ceef34b061059b9eed__remote_assets__project__storyscenario_data_character017_story_2017007.bundle",
+    "bundle_file": "43201b61dc1cbb339ae6c24a84d3b17b__remote_assets__project__storyscenario_data_character017_story_2017007.bundle",
     "replacements": 34,
     "changed_objects": [
       {
@@ -3004,13 +3004,101 @@
     ]
   },
   {
-    "bundle_file": "26c06c4169efdd459d7b8d370a600c98__remote_assets__project__storyscenario_data_character017_story_2017008.bundle",
+    "bundle_file": "4f3513db12f6ebeb181647e53e978d43__remote_assets__project__storyscenario_data_character017_story_2017008.bundle",
     "replacements": 92,
     "changed_objects": [
       {
         "path_id": -7808031302463440509,
         "type": "MonoBehaviour",
         "replacements": 92
+      }
+    ]
+  },
+  {
+    "bundle_file": "c5e32acb544579c3fbe7caf5915b00de__remote_assets__project__storyscenario_data_character018_story_2018001.bundle",
+    "replacements": 28,
+    "changed_objects": [
+      {
+        "path_id": -4546949455872736114,
+        "type": "MonoBehaviour",
+        "replacements": 28
+      }
+    ]
+  },
+  {
+    "bundle_file": "e6ccd2a9ac1b32a19d50dcf57b8e2413__remote_assets__project__storyscenario_data_character018_story_2018002.bundle",
+    "replacements": 57,
+    "changed_objects": [
+      {
+        "path_id": -2768344683083069694,
+        "type": "MonoBehaviour",
+        "replacements": 57
+      }
+    ]
+  },
+  {
+    "bundle_file": "26d605f50a8ae4104b1bad45efd005ad__remote_assets__project__storyscenario_data_character018_story_2018003.bundle",
+    "replacements": 56,
+    "changed_objects": [
+      {
+        "path_id": 3001458893366430051,
+        "type": "MonoBehaviour",
+        "replacements": 56
+      }
+    ]
+  },
+  {
+    "bundle_file": "de1e9a8ac41e7d4192976e59727231e3__remote_assets__project__storyscenario_data_character018_story_2018004.bundle",
+    "replacements": 108,
+    "changed_objects": [
+      {
+        "path_id": 355052906239762319,
+        "type": "MonoBehaviour",
+        "replacements": 108
+      }
+    ]
+  },
+  {
+    "bundle_file": "ad985a1a9b0a20ba21cec93c22ed18bd__remote_assets__project__storyscenario_data_character018_story_2018005.bundle",
+    "replacements": 116,
+    "changed_objects": [
+      {
+        "path_id": -593998791116877947,
+        "type": "MonoBehaviour",
+        "replacements": 116
+      }
+    ]
+  },
+  {
+    "bundle_file": "854efe45eee98ae5fa37e86cb830b4c9__remote_assets__project__storyscenario_data_character018_story_2018006.bundle",
+    "replacements": 172,
+    "changed_objects": [
+      {
+        "path_id": 1548307965519766749,
+        "type": "MonoBehaviour",
+        "replacements": 172
+      }
+    ]
+  },
+  {
+    "bundle_file": "921b2e297f407098658eb03452ca56dd__remote_assets__project__storyscenario_data_character018_story_2018007.bundle",
+    "replacements": 37,
+    "changed_objects": [
+      {
+        "path_id": 4518514258716433221,
+        "type": "MonoBehaviour",
+        "replacements": 37
+      }
+    ]
+  },
+  {
+    "bundle_file": "78b9341936f795a63a8e8052595b6888__remote_assets__project__storyscenario_data_character018_story_2018008.bundle",
+    "replacements": 129,
+    "changed_objects": [
+      {
+        "path_id": -7925011711310343538,
+        "type": "MonoBehaviour",
+        "replacements": 129
       }
     ]
   },
@@ -3662,7 +3750,7 @@
     ]
   },
   {
-    "bundle_file": "c51314c3ffb4299e7bf238c6042dcddd__remote_assets__project_composition_prefab_ui_overlay_implement_formationpopup_formationdetailpopupview.bundle",
+    "bundle_file": "b7ed25ad238383437b8431fdfe3a0a3f__remote_assets__project_composition_prefab_ui_overlay_implement_formationpopup_formationdetailpopupview.bundle",
     "replacements": 18,
     "changed_objects": [
       {
@@ -10920,16 +11008,16 @@
     ]
   },
   {
-    "bundle_file": "ba2069af279d058cc74654b49f7f0eff__remote_assets__project_masterdata_runtimemasterdata.bundle",
-    "replacements": 1568,
+    "bundle_file": "c66a895b31adf64138bd5cf376a975e2__remote_assets__project_masterdata_runtimemasterdata.bundle",
+    "replacements": 1602,
     "changed_objects": [
       {
         "path_id": -3577660058741299233,
         "type": "TextAsset",
         "name": "RuntimeMasterData",
-        "replacements": 1568,
-        "script_bytes_before": 303381,
-        "script_bytes_after": 280024,
+        "replacements": 1602,
+        "script_bytes_before": 307702,
+        "script_bytes_after": 284199,
         "strings": [
           {
             "source": "自分の対局を将棋AIが詳しく分析してくれる、30日間有効のパスです。\n「あの一手は本当に最善だった？」を、棋譜から振り返ることができます。\n\n【価格】\n・650円（税込）\n\n【獲得奉納ポイント】\n・37pt\n\n【有効期間】\n・購入日から30日間\n\n【解放される機能】\n・評価値グラフ：一手ごとの形勢を折れ線グラフで可視化\n・推奨手順：AIが選ぶ最善手と、その後の進行を表示\n・指し手評価：自分の指した手の良し悪しをマーク表示（好手・悪手・疑問手 等）\n\n【追加購入について】\n・有効期間中でも追加購入が可能です\n・1回の購入で有効期間が30日加算されます\n・追加購入は最大1年分まで可能です\n\n※棋譜再生・手順リスト・KIFコピー・盤面画像共有は、パスがなくても利用できます。\n※棋譜再生画面の「解析を利用する」ボタンからも購入できます。",
@@ -10986,6 +11074,20 @@
             "replacements": 1,
             "source_bytes": 465,
             "target_bytes": 376
+          },
+          {
+            "source": "気の向くままにバイクで旅する自由人。\n各地を回っては将棋教室を開き、将棋の楽しさを広めている。\n幼いころから八雲 龍玄の弟子として教えを請うていた。\nしかし、バイクに乗れるようになると走ることに夢中になり、免許皆伝を前に龍玄のもとを飛び出してしまった。\nハンドルを握ると口調が変わるようで……？",
+            "target": "A free spirit who travels wherever the mood takes her by motorcycle.\nShe visits towns across the country, holding shogi classes and sharing the joy of the game.\nFrom childhood, she studied under Yakumo Ryugen.\nBut once she learned to ride, she became obsessed with the open road and ran away before receiving full transmission of his teachings.\nHer manner of speaking seems to change when she grips the handlebars...?",
+            "replacements": 1,
+            "source_bytes": 431,
+            "target_bytes": 417
+          },
+          {
+            "source": "気の向くままにバイクで旅する自由人。\n各地を回っては将棋教室を開き、将棋を布教している。\n幼いころから八雲 龍玄の弟子として教えを請うていた。\nしかし、バイクに乗れるようになると旅に夢中になり、免許皆伝を前に龍玄のもとを去ってしまった。\nハンドルを握ると口調が変わるようで……？",
+            "target": "A free spirit who travels wherever the mood takes her by motorcycle.\nShe visits towns across the country, holding shogi classes and spreading her love of shogi.\nFrom childhood, she studied under Yakumo Ryugen.\nBut once she learned to ride, she became absorbed in travel and left him before receiving full transmission of his teachings.\nHer manner of speaking seems to change when she grips the handlebars...?",
+            "replacements": 1,
+            "source_bytes": 407,
+            "target_bytes": 408
           },
           {
             "source": "「やるからには全力で楽しむわっ！トリック・オア・トリートっ！さあ、お菓子を出しなさいっ！」\nハロウィンイベントに合わせ、小悪魔に大変身！\n悪魔の角と羽、装飾があしらわれたドレスを身に纏い、お菓子を求めて彷徨う！！\nお菓子を出さないと、「ガオーッ！」とイタズラされてしまうかも？",
@@ -12262,6 +12364,13 @@
             "target_bytes": 205
           },
           {
+            "source": "教室のあと、晴と1局。\n相掛かりを避けた晴の風車に、のらりくらりとかわされて完敗する。\nしかし感想戦の最中、相掛かりの話になったとたん、晴の表情がふっと曇り......。",
+            "target": "After class, you play Haru. Her Windmill formation avoids the Double Wing Attack and dances around every attempt, leaving you soundly defeated.\nBut during the post-game review, the moment Double Wing Attack comes up, a shadow crosses Haru's face...",
+            "replacements": 1,
+            "source_bytes": 237,
+            "target_bytes": 248
+          },
+          {
             "source": "銀の位置に金を置いた、美濃の変形です。片美濃より上からの攻めに強い形です。その代わり、下段からの攻めには弱くなります。ゴキゲン中飛車の対急戦や相振り飛車で現れる形です。",
             "target": "A Mino Castle variation where a gold, rather than a silver, handles the upper defense. Gold is more defensive than silver and is strong against king-head attacks, but the side defense can become thinner.",
             "replacements": 1,
@@ -12351,6 +12460,13 @@
             "replacements": 1,
             "source_bytes": 250,
             "target_bytes": 276
+          },
+          {
+            "source": "晴を「師匠」として迎えた、新たな青空教室の日々がスタート。\nいい加減な一手を厳しく諭されるかと思えば、良い手を指すと子供たちの前でも思いきり甘やかされて......！？",
+            "target": "A new chapter of open-air lessons begins with Haru as your master.\nOne moment she sternly corrects a careless move; the next, she openly showers you with praise in front of the children when you play well...!?",
+            "replacements": 1,
+            "source_bytes": 238,
+            "target_bytes": 209
           },
           {
             "source": "金矢倉にもう一枚の銀を加え、金銀をひし形に連ねた囲いです。中央が厚くなり、角のにらみにめっぽう強いのが持ち味。しかも加えた銀は、局面によっては攻めにも転じられる一枚。",
@@ -12612,6 +12728,20 @@
             "target_bytes": 165
           },
           {
+            "source": "来月から次の町へ移るという晴の頼みで、隣町の下見につき合うことに。\nハンドルを握ると性格が変わる彼女に圧倒されつつも、休憩中の会話から思わぬ誘いを受ける。",
+            "target": "At Haru's request, you join her in scouting the neighboring town before she moves there next month.\nOverwhelmed by how completely her personality changes behind the handlebars, you receive an unexpected invitation during a break.",
+            "replacements": 1,
+            "source_bytes": 229,
+            "target_bytes": 229
+          },
+          {
+            "source": "隣町の青空教室を手伝った帰り道。\n立ち寄った夜のサービスエリアで、晴はかつて師匠のもとを飛び出した過去と、妹弟子との果たせなかった約束を静かに打ち明ける。",
+            "target": "On the way home from helping with an open-air class in the neighboring town, you stop at a service area at night.\nThere, Haru quietly reveals how she once ran away from her master—and the promise she never kept with her junior disciple.",
+            "replacements": 1,
+            "source_bytes": 229,
+            "target_bytes": 238
+          },
+          {
             "source": "玉を右へ寄せ、金と銀で支えるこぢんまりとした囲いです。深く囲う手数を省き、そのぶんを他の駒に回します。同じ読みで、大住囲いと書かれることもあるようです。",
             "target": "A Mino Castle variation with a somewhat unusual gold and silver placement. It is a modest shape that can appear naturally in practical games.",
             "replacements": 1,
@@ -12724,11 +12854,25 @@
             "target_bytes": 173
           },
           {
+            "source": "青空教室に通うようになり、晴から特別メニューの詰将棋を渡される。\n盤面とにらめっこして悩んでいると、ふいに彼女の手が伸びてきて......？",
+            "target": "As you begin attending the open-air class, Haru gives you a special set of tsume-shogi problems.\nWhile you stare at the board and struggle for an answer, her hand suddenly reaches toward you...",
+            "replacements": 1,
+            "source_bytes": 196,
+            "target_bytes": 193
+          },
+          {
             "source": "将棋センターで出会ったのは、ベレー帽に大きな伊達眼鏡の女の子「モモ」。\n受付の学生は、どうやら彼女のことを知っているようで......。",
             "target": "At a shogi center, you meet Momo, a girl wearing a beret and oversized fashion glasses.\nThe student at reception seems to recognize her...",
             "replacements": 1,
             "source_bytes": 190,
             "target_bytes": 138
+          },
+          {
+            "source": "覚悟を決めた晴の付き添いとして、共に八雲家の門をくぐる。\n妹弟子の八雲龍菜に案内された先には、盤の前に座る師匠・八雲龍玄の姿があった。",
+            "target": "Determined to face her past, Haru asks you to accompany her through the Yakumo family gate.\nHer junior disciple Yakumo Takina guides you to her master, Yakumo Ryugen, seated before the board.",
+            "replacements": 1,
+            "source_bytes": 199,
+            "target_bytes": 191
           },
           {
             "source": "塗りつぶされた一行、それは「将棋の大会に出る」こと。\n積み重ねてきた練習のすべてを懸けて、モモは1人の指し手として盤に向かう。",
@@ -12764,6 +12908,13 @@
             "replacements": 1,
             "source_bytes": 164,
             "target_bytes": 130
+          },
+          {
+            "source": "休日の公園で、「青空将棋教室」を開く風美晴と出会う。\n彼女の勢いに押されるまま、子供と1局指すことに......。",
+            "target": "At a park on your day off, you meet Kazami Haru holding an Open-Air Shogi Class.\nSwept up in her enthusiasm, you end up playing a game with one of the children...",
+            "replacements": 1,
+            "source_bytes": 155,
+            "target_bytes": 162
           },
           {
             "source": "金箔と螺鈿で彩られた最高級扇子。棋士にあげると親密度が5,000上昇。『扇子』が好きな棋士にあげるとさらに増加。",
@@ -13088,6 +13239,13 @@
             "target_bytes": 92
           },
           {
+            "source": "低く響く鼓動とともに走り出す、自由な旅路。宿舎で設定することでBGMを変更できる。",
+            "target": "A free journey begins with the low rumble of an engine. Change the BGM from the Lodge.",
+            "replacements": 1,
+            "source_bytes": 117,
+            "target_bytes": 86
+          },
+          {
             "source": "常夏の花々が、眩い陽射しの中で咲き誇る。宿舎で設定することでBGMを変更できる。",
             "target": "Everlasting-summer flowers bloom beneath dazzling sunlight. Set it in Lodging to change your BGM.",
             "replacements": 1,
@@ -13142,6 +13300,13 @@
             "replacements": 1,
             "source_bytes": 111,
             "target_bytes": 100
+          },
+          {
+            "source": "晴が次の町へ発つ前日。\n2人が出会った公園で、晴と平手の真剣勝負をすることに。",
+            "target": "The day before Haru leaves for the next town, you meet at the park where you first met for a serious even match.",
+            "replacements": 1,
+            "source_bytes": 113,
+            "target_bytes": 112
           },
           {
             "source": "凛とした眼差しに、氷の静寂を宿す。宿舎で設定することでアイコンを変更できる。",
@@ -13214,6 +13379,13 @@
             "target_bytes": 84
           },
           {
+            "source": "すべてを置き去りにする、紅の疾風。宿舎で設定することでBGMを変更できる。",
+            "target": "A crimson gale that leaves everything behind. Change the BGM from the Lodge.",
+            "replacements": 1,
+            "source_bytes": 105,
+            "target_bytes": 76
+          },
+          {
             "source": "春風と共に微笑む、桜色の少女。宿舎で設定することでアイコンを変更できる。",
             "target": "A cherry-colored girl smiling with the spring breeze. Set it in Lodging to change your icon.",
             "replacements": 1,
@@ -13261,6 +13433,13 @@
             "replacements": 1,
             "source_bytes": 108,
             "target_bytes": 87
+          },
+          {
+            "source": "太陽のように笑う、自由な旅人。宿舎で設定することでアイコンを変更できる。",
+            "target": "A free-spirited traveler smiling like the sun. Change the icon from the Lodge.",
+            "replacements": 1,
+            "source_bytes": 108,
+            "target_bytes": 78
           },
           {
             "source": "ゴシックレースと蝶が舞う盤面。宿舎で設定することで将棋盤を変更できる。",
@@ -13340,6 +13519,13 @@
             "target_bytes": 92
           },
           {
+            "source": "果てなく続く旅路を感じる盤面。宿舎で設定することで将棋盤を変更できる。",
+            "target": "A board that evokes a journey stretching endlessly onward. Change your board from the Lodge.",
+            "replacements": 1,
+            "source_bytes": 105,
+            "target_bytes": 92
+          },
+          {
             "source": "妖艶な笑みに、棘を秘める。宿舎で設定することでアイコンを変更できる。",
             "target": "A bewitching smile hiding thorns. Set it in Lodging to change your icon.",
             "replacements": 1,
@@ -13384,6 +13570,13 @@
           {
             "source": "花よりも眩しい、夏の少女。宿舎で設定することでアイコンを変更できる。",
             "target": "A summer girl more radiant than flowers. Set it in Lodging to change your icon.",
+            "replacements": 1,
+            "source_bytes": 102,
+            "target_bytes": 79
+          },
+          {
+            "source": "紅く磨かれた鋼の輝きを宿した駒。宿舎で設定することで駒を変更できる。",
+            "target": "Pieces gleaming like polished crimson steel. Change your pieces from the Lodge.",
             "replacements": 1,
             "source_bytes": 102,
             "target_bytes": 79
@@ -14586,6 +14779,27 @@
             "target_bytes": 17
           },
           {
+            "source": "ソフトクリームふたつ",
+            "target": "Two Soft-Serve Cones",
+            "replacements": 1,
+            "source_bytes": 30,
+            "target_bytes": 20
+          },
+          {
+            "source": "帰りのサービスエリア",
+            "target": "The Service Area on the Way Home",
+            "replacements": 1,
+            "source_bytes": 30,
+            "target_bytes": 32
+          },
+          {
+            "source": "アイコン「風美 晴」",
+            "target": "Icon: Kazami Haru",
+            "replacements": 1,
+            "source_bytes": 28,
+            "target_bytes": 17
+          },
+          {
             "source": "とくなが としぞう",
             "target": "Tokunaga Rizo",
             "replacements": 1,
@@ -15195,6 +15409,13 @@
             "target_bytes": 12
           },
           {
+            "source": "ビシバシ青空教室",
+            "target": "No-Nonsense Open-Air Class",
+            "replacements": 1,
+            "source_bytes": 24,
+            "target_bytes": 26
+          },
+          {
             "source": "期待の駆け出し",
             "target": "Promising Beginner",
             "replacements": 1,
@@ -15620,6 +15841,13 @@
             "replacements": 1,
             "source_bytes": 19,
             "target_bytes": 12
+          },
+          {
+            "source": "内緒の相掛かり",
+            "target": "A Secret Double Wing Attack",
+            "replacements": 1,
+            "source_bytes": 21,
+            "target_bytes": 27
           },
           {
             "source": "新鋭の指し手",
@@ -16054,6 +16282,27 @@
             "replacements": 1,
             "source_bytes": 18,
             "target_bytes": 12
+          },
+          {
+            "source": "かざみ はる",
+            "target": "Kazami Haru",
+            "replacements": 1,
+            "source_bytes": 16,
+            "target_bytes": 11
+          },
+          {
+            "source": "よしよーし！",
+            "target": "There, there!",
+            "replacements": 1,
+            "source_bytes": 18,
+            "target_bytes": 13
+          },
+          {
+            "source": "行ってきます",
+            "target": "I'm Off",
+            "replacements": 1,
+            "source_bytes": 18,
+            "target_bytes": 7
           },
           {
             "source": "盤上の新兵",
@@ -17288,6 +17537,41 @@
             "target_bytes": 19
           },
           {
+            "source": "高柳 知葉",
+            "target": "Tomoyo Takayanagi",
+            "replacements": 1,
+            "source_bytes": 13,
+            "target_bytes": 17
+          },
+          {
+            "source": "ハァーイ！",
+            "target": "Hii!",
+            "replacements": 1,
+            "source_bytes": 15,
+            "target_bytes": 4
+          },
+          {
+            "source": "鉄騎-本章",
+            "target": "Iron Steed - Main Chapter",
+            "replacements": 1,
+            "source_bytes": 13,
+            "target_bytes": 25
+          },
+          {
+            "source": "鉄騎-終章",
+            "target": "Iron Steed - Final Chapter",
+            "replacements": 1,
+            "source_bytes": 13,
+            "target_bytes": 26
+          },
+          {
+            "source": "鉄騎の盤面",
+            "target": "Iron Steed Board",
+            "replacements": 1,
+            "source_bytes": 15,
+            "target_bytes": 16
+          },
+          {
             "source": "ソフィア",
             "target": "Sophia",
             "replacements": 2,
@@ -18142,6 +18426,34 @@
             "target_bytes": 17
           },
           {
+            "source": "風美 晴",
+            "target": "Kazami Haru",
+            "replacements": 2,
+            "source_bytes": 10,
+            "target_bytes": 11
+          },
+          {
+            "source": "9月6日",
+            "target": "September 6",
+            "replacements": 1,
+            "source_bytes": 8,
+            "target_bytes": 11
+          },
+          {
+            "source": "八雲の門",
+            "target": "The Yakumo Gate",
+            "replacements": 1,
+            "source_bytes": 12,
+            "target_bytes": 15
+          },
+          {
+            "source": "鉄騎の駒",
+            "target": "Iron Steed Pieces",
+            "replacements": 1,
+            "source_bytes": 12,
+            "target_bytes": 17
+          },
+          {
             "source": "15歳",
             "target": "15 years old",
             "replacements": 2,
@@ -18165,7 +18477,7 @@
           {
             "source": "27歳",
             "target": "27 years old",
-            "replacements": 1,
+            "replacements": 2,
             "source_bytes": 5,
             "target_bytes": 12
           },
@@ -44913,6 +45225,1440 @@
             "cueName": "voice_017_506",
             "source": "あれれ？",
             "target": "Huh?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "bundle_file": "392e6c4c36fde8d862caa744e5509d7b__remote_assets__project_sound_generated_voice_catalog_voice018_g.bundle",
+    "replacements": 284,
+    "changed_objects": [
+      {
+        "path_id": 419669210451556558,
+        "type": "TextAsset",
+        "name": "voice_catalog_Voice018.g",
+        "replacements": 284,
+        "strings": [
+          {
+            "cueName": "voice_018_001",
+            "source": "ハァーイ！私は風美晴！\nお姉さんと一緒にツーリングしない？",
+            "target": "Hii! I'm Kazami Haru!\nWant to go touring with me?"
+          },
+          {
+            "cueName": "voice_018_002",
+            "source": "今日もいい風が吹いてるわね！",
+            "target": "Another nice breeze today!"
+          },
+          {
+            "cueName": "voice_018_003",
+            "source": "よろしくお願いします。",
+            "target": "Nice to meet you."
+          },
+          {
+            "cueName": "voice_018_004",
+            "source": "どんな手を見せてくれるのかしら？",
+            "target": "I wonder what kind of moves you'll show me?"
+          },
+          {
+            "cueName": "voice_018_005",
+            "source": "勝利の風はこちらに吹いたわね！",
+            "target": "The winds of victory blew my way!"
+          },
+          {
+            "cueName": "voice_018_006",
+            "source": "トップスピードで決まったわね！",
+            "target": "That was settled at top speed!"
+          },
+          {
+            "cueName": "voice_018_007",
+            "source": "快勝、快勝！絶好調ねっ！",
+            "target": "A clean win! I'm in top form!"
+          },
+          {
+            "cueName": "voice_018_008",
+            "source": "お姉さんの本気、見せられたかしら！",
+            "target": "Did I show you what I'm really capable of?"
+          },
+          {
+            "cueName": "voice_018_009",
+            "source": "おはよう！\n朝の風って気持ちいいわよね。さっそく盤を広げましょう！",
+            "target": "Good morning!\nThe morning breeze feels wonderful. Let's set up the board!"
+          },
+          {
+            "cueName": "voice_018_010",
+            "source": "お疲れ様！頑張ってるアナタにご褒美！\nお姉さんの特別対局とハグをプレゼント！",
+            "target": "Good work! Here's a reward for trying so hard!\nA special match with me—and a hug!"
+          },
+          {
+            "cueName": "voice_018_011",
+            "source": "風車はね、最下段で飛車をスイスイ走らせて中央をガッチリ固める、超トリッキーな戦法なんだよ！\n相手の攻めをヒラリと受け流して、鋭いカウンターを撃ち込む快感がたまんないの！\n相手を翻弄したいならお姉さんイチオシね！",
+            "target": "The Windmill keeps the rook racing along the back rank while locking down the center—it's a super-tricky strategy!\nThere's nothing like slipping past an attack and firing back with a sharp counter!\nIf you want to keep your opponent guessing, it's my top recommendation!"
+          },
+          {
+            "cueName": "voice_018_012",
+            "source": "私、運転すると性格変わるねってよく言われるのよね。\nそんなに変わってるかしら？\n試しに今度、後ろに乗ってくれない？",
+            "target": "People often say my personality changes when I ride.\nAm I really that different?\nWhy don't you ride behind me next time and find out?"
+          },
+          {
+            "cueName": "voice_018_013",
+            "source": "バイクのメンテナンスって大変でさ～。\n今度、キミに手伝ってもらおうかな？",
+            "target": "Motorcycle maintenance is a lot of work.\nMaybe I'll have you help me next time?"
+          },
+          {
+            "cueName": "voice_018_014",
+            "source": "龍玄師匠の話？……うっ、その名前を聞くと、お腹が……。\n何があったか？それは内緒！",
+            "target": "Master Ryugen? Ugh... Just hearing that name makes my stomach hurt.\nWhat happened? That's a secret!"
+          },
+          {
+            "cueName": "voice_018_015",
+            "source": "行き先は風まかせ！\n気の向くままにバイクを走らせるのが、お姉さん流のルール。\n迷子になったら、そこで将棋教室を開けばいいしね！",
+            "target": "I go wherever the wind takes me!\nRiding wherever I feel like is my rule.\nAnd if I get lost, I can just hold a shogi class there!"
+          },
+          {
+            "cueName": "voice_018_016",
+            "source": "サービスエリアのソフトクリームって最高よねっ！\nご当地限定の味を見つけるのが、旅の楽しみでもあるの。",
+            "target": "Soft serve at service areas is the best!\nFinding exclusive local flavors is one of the joys of traveling."
+          },
+          {
+            "cueName": "voice_018_017",
+            "source": "疲れた時は無理しないで、お姉さんに甘えていいのよ？\nほら、頭なでなでしてあげる！よしよーし！",
+            "target": "Don't push yourself when you're tired. You can lean on me, okay?\nHere, I'll pat your head. There, there!"
+          },
+          {
+            "cueName": "voice_018_018",
+            "source": "バイクで行けるところなら、どこだって私の居場所…だったけど、これから先の居場所は、ずっとキミのとなりかな？",
+            "target": "Anywhere I could reach by motorcycle used to feel like home... but from now on, maybe my home will always be beside you?"
+          },
+          {
+            "cueName": "voice_018_019",
+            "source": "あら、ありがとう！\nお姉さん嬉しいわ！",
+            "target": "Oh, thank you!\nThat makes me so happy!"
+          },
+          {
+            "cueName": "voice_018_020",
+            "source": "えっ、いいの！？\nキミってば、お姉さんの好みバッチリ分かってるじゃない！",
+            "target": "Really!?\nYou know exactly what I like!"
+          },
+          {
+            "cueName": "voice_018_021",
+            "source": "最近、将棋教室に顔を出してくれてるわよね！\nお姉さん、すっごく嬉しいわ！",
+            "target": "He's been showing up at my shogi class lately!\nSister, I'm so happy!"
+          },
+          {
+            "cueName": "voice_018_022",
+            "source": "あら？もうこんな時間？\nキミと指していると時間があっという間に過ぎるわね！",
+            "target": "Oh, is it this late already?\nTime flies when I'm playing with you!"
+          },
+          {
+            "cueName": "voice_018_023",
+            "source": "キミと一緒なら絶対旅も楽しいと思うのよね。\n目的地なんてない自由旅！\nね、どう？お姉さんと一緒に行かない？",
+            "target": "Traveling with you would definitely be fun.\nA free journey with no destination!\nWell? Want to come with me?"
+          },
+          {
+            "cueName": "voice_018_024",
+            "source": "一緒にいろんな土地を巡って、将棋を指して、二人で笑い合う……。\n一人旅も好きだったけど、キミがいる今の旅のほうが最高だわ！",
+            "target": "Traveling to different places together, playing shogi, and laughing with each other...\nI liked traveling alone, but traveling with you is the best!"
+          },
+          {
+            "cueName": "voice_018_025",
+            "source": "師匠から教わった将棋も、自分で選んだバイクの道も、全部キミと出会うためのものだったのかもしれないね。\nふふっ……お姉さん、すっかりキミに夢中みたい。\nこれからも、ずっと隣にいてね！",
+            "target": "The shogi my master taught me and the road I chose on my motorcycle... maybe all of it led me to you.\nHehe... It seems I've fallen completely for you.\nStay by my side forever, okay?"
+          },
+          {
+            "cueName": "voice_018_026",
+            "source": "私が師匠かぁ……。\n龍玄師匠もこんな気持ちで私を見てたのかな……なんてね！\nよーし！キミをビシバシ鍛えていくから、お姉さんにしっかりついて来てね！",
+            "target": "Me, a master...?\nI wonder if Master Ryugen felt this way when he watched me... Just kidding!\nAll right! I'm going to train you hard, so make sure you keep up!"
+          },
+          {
+            "cueName": "voice_018_027",
+            "source": "王手！",
+            "target": "Check!"
+          },
+          {
+            "cueName": "voice_018_028",
+            "source": "使うわ！",
+            "target": "I'll use it!"
+          },
+          {
+            "cueName": "voice_018_029",
+            "source": "詰みよっ！",
+            "target": "Checkmate!"
+          },
+          {
+            "cueName": "voice_018_030",
+            "source": "ま、参りましたっ！",
+            "target": "I-I resign!"
+          },
+          {
+            "cueName": "voice_018_031",
+            "source": "引き分けね。",
+            "target": "It's a draw."
+          },
+          {
+            "cueName": "voice_018_032",
+            "source": "時間切れね。",
+            "target": "Time's up."
+          },
+          {
+            "cueName": "voice_018_033",
+            "source": "ギアを上げていくわっ！",
+            "target": "Time to shift up a gear!"
+          },
+          {
+            "cueName": "voice_018_034",
+            "source": "成りっ！",
+            "target": "Promote!"
+          },
+          {
+            "cueName": "voice_018_035",
+            "source": "勢いが落ちてきたわね……",
+            "target": "You're losing momentum..."
+          },
+          {
+            "cueName": "voice_018_036",
+            "source": "さぁ、上げていくわよっ！",
+            "target": "Let's pick up the pace!"
+          },
+          {
+            "cueName": "voice_018_037",
+            "source": "むかい風でも楽しんでいくわ！",
+            "target": "I'll enjoy even a headwind!"
+          },
+          {
+            "cueName": "voice_018_038",
+            "source": "一気に駆け抜けるわ！",
+            "target": "I'll race straight through!"
+          },
+          {
+            "cueName": "voice_018_039",
+            "source": "金矢倉",
+            "target": "Gold Yagura"
+          },
+          {
+            "cueName": "voice_018_040",
+            "source": "銀矢倉",
+            "target": "Silver Yagura"
+          },
+          {
+            "cueName": "voice_018_041",
+            "source": "片矢倉",
+            "target": "Half Yagura"
+          },
+          {
+            "cueName": "voice_018_042",
+            "source": "菊水矢倉",
+            "target": "Kikusui Yagura"
+          },
+          {
+            "cueName": "voice_018_043",
+            "source": "菱矢倉",
+            "target": "Hishi Yagura"
+          },
+          {
+            "cueName": "voice_018_044",
+            "source": "土居矢倉",
+            "target": "Doi Yagura"
+          },
+          {
+            "cueName": "voice_018_045",
+            "source": "総矢倉",
+            "target": "Full Yagura"
+          },
+          {
+            "cueName": "voice_018_046",
+            "source": "銀立ち矢倉",
+            "target": "Standing Silver Yagura"
+          },
+          {
+            "cueName": "voice_018_047",
+            "source": "矢倉穴熊",
+            "target": "Yagura Anaguma"
+          },
+          {
+            "cueName": "voice_018_048",
+            "source": "カブト囲い",
+            "target": "Helmet Castle"
+          },
+          {
+            "cueName": "voice_018_049",
+            "source": "右矢倉",
+            "target": "Right Yagura"
+          },
+          {
+            "cueName": "voice_018_050",
+            "source": "雁木囲い",
+            "target": "Gangi Castle"
+          },
+          {
+            "cueName": "voice_018_051",
+            "source": "居飛車穴熊",
+            "target": "Static Rook Anaguma"
+          },
+          {
+            "cueName": "voice_018_052",
+            "source": "居飛穴音無しの構え",
+            "target": "Silent Static Rook Anaguma"
+          },
+          {
+            "cueName": "voice_018_053",
+            "source": "松尾流穴熊",
+            "target": "Matsuo Anaguma"
+          },
+          {
+            "cueName": "voice_018_054",
+            "source": "銀冠穴熊",
+            "target": "Silver Crown Anaguma"
+          },
+          {
+            "cueName": "voice_018_055",
+            "source": "左美濃",
+            "target": "Left Mino"
+          },
+          {
+            "cueName": "voice_018_056",
+            "source": "天守閣美濃",
+            "target": "Castle Tower Mino"
+          },
+          {
+            "cueName": "voice_018_057",
+            "source": "カニ囲い",
+            "target": "Crab Castle"
+          },
+          {
+            "cueName": "voice_018_058",
+            "source": "早囲い",
+            "target": "Quick Castle"
+          },
+          {
+            "cueName": "voice_018_059",
+            "source": "中住まい",
+            "target": "Central House"
+          },
+          {
+            "cueName": "voice_018_060",
+            "source": "中原囲い",
+            "target": "Nakahara Castle"
+          },
+          {
+            "cueName": "voice_018_061",
+            "source": "elmo囲い",
+            "target": "elmo Castle"
+          },
+          {
+            "cueName": "voice_018_062",
+            "source": "美濃囲い",
+            "target": "Mino Castle"
+          },
+          {
+            "cueName": "voice_018_063",
+            "source": "片美濃囲い",
+            "target": "Half Mino"
+          },
+          {
+            "cueName": "voice_018_064",
+            "source": "高美濃囲い",
+            "target": "High Mino"
+          },
+          {
+            "cueName": "voice_018_065",
+            "source": "木村美濃",
+            "target": "Kimura Mino"
+          },
+          {
+            "cueName": "voice_018_066",
+            "source": "金美濃",
+            "target": "Gold Mino"
+          },
+          {
+            "cueName": "voice_018_067",
+            "source": "銀美濃",
+            "target": "Silver Mino"
+          },
+          {
+            "cueName": "voice_018_068",
+            "source": "ダイヤモンド美濃",
+            "target": "Diamond Mino"
+          },
+          {
+            "cueName": "voice_018_069",
+            "source": "ちょんまげ美濃",
+            "target": "Topknot Mino"
+          },
+          {
+            "cueName": "voice_018_070",
+            "source": "大山美濃",
+            "target": "Oyama Mino"
+          },
+          {
+            "cueName": "voice_018_071",
+            "source": "ずれ美濃",
+            "target": "Offset Mino"
+          },
+          {
+            "cueName": "voice_018_072",
+            "source": "坊主美濃",
+            "target": "Monk Mino"
+          },
+          {
+            "cueName": "voice_018_073",
+            "source": "升田美濃",
+            "target": "Masuda Mino"
+          },
+          {
+            "cueName": "voice_018_074",
+            "source": "プラチナ美濃",
+            "target": "Platinum Mino"
+          },
+          {
+            "cueName": "voice_018_075",
+            "source": "四枚美濃",
+            "target": "Four-Piece Mino"
+          },
+          {
+            "cueName": "voice_018_076",
+            "source": "美濃熊囲い",
+            "target": "Mino Anaguma"
+          },
+          {
+            "cueName": "voice_018_077",
+            "source": "振り飛車穴熊",
+            "target": "Ranging Rook Anaguma"
+          },
+          {
+            "cueName": "voice_018_078",
+            "source": "銀冠",
+            "target": "Silver Crown"
+          },
+          {
+            "cueName": "voice_018_079",
+            "source": "端玉銀冠",
+            "target": "Edge King Silver Crown"
+          },
+          {
+            "cueName": "voice_018_080",
+            "source": "金冠",
+            "target": "Gold Crown"
+          },
+          {
+            "cueName": "voice_018_081",
+            "source": "金盾囲い",
+            "target": "Gold Shield Castle"
+          },
+          {
+            "cueName": "voice_018_082",
+            "source": "金無双",
+            "target": "Gold Peerless"
+          },
+          {
+            "cueName": "voice_018_083",
+            "source": "アヒル囲い",
+            "target": "Duck Castle"
+          },
+          {
+            "cueName": "voice_018_085",
+            "source": "いちご囲い",
+            "target": "Strawberry Castle"
+          },
+          {
+            "cueName": "voice_018_086",
+            "source": "大隅囲い",
+            "target": "Osumi Castle"
+          },
+          {
+            "cueName": "voice_018_087",
+            "source": "空中楼閣",
+            "target": "Castle in the Air"
+          },
+          {
+            "cueName": "voice_018_088",
+            "source": "串カツ囲い",
+            "target": "Kushikatsu Castle"
+          },
+          {
+            "cueName": "voice_018_089",
+            "source": "裾固め",
+            "target": "Hem Fortification"
+          },
+          {
+            "cueName": "voice_018_090",
+            "source": "箱入り娘",
+            "target": "Boxed-In Daughter"
+          },
+          {
+            "cueName": "voice_018_091",
+            "source": "舟囲い",
+            "target": "Boat Castle"
+          },
+          {
+            "cueName": "voice_018_092",
+            "source": "ビッグ４",
+            "target": "Big Four"
+          },
+          {
+            "cueName": "voice_018_093",
+            "source": "ボナンザ囲い",
+            "target": "Bonanza Castle"
+          },
+          {
+            "cueName": "voice_018_094",
+            "source": "ミレニアム囲い",
+            "target": "Millennium Castle"
+          },
+          {
+            "cueName": "voice_018_095",
+            "source": "無敵囲い",
+            "target": "Invincible Castle"
+          },
+          {
+            "cueName": "voice_018_096",
+            "source": "相掛かり",
+            "target": "Double Wing Attack"
+          },
+          {
+            "cueName": "voice_018_097",
+            "source": "相掛かり棒銀",
+            "target": "Double Wing Climbing Silver"
+          },
+          {
+            "cueName": "voice_018_098",
+            "source": "飯島流相掛かり引き角",
+            "target": "Iijima Double Wing Retreating Bishop"
+          },
+          {
+            "cueName": "voice_018_099",
+            "source": "中原流相掛かり",
+            "target": "Nakahara Double Wing Attack"
+          },
+          {
+            "cueName": "voice_018_100",
+            "source": "ひねり飛車",
+            "target": "Twisting Rook"
+          },
+          {
+            "cueName": "voice_018_101",
+            "source": "塚田スペシャル",
+            "target": "Tsukada Special"
+          },
+          {
+            "cueName": "voice_018_102",
+            "source": "UFO銀",
+            "target": "UFO Silver"
+          },
+          {
+            "cueName": "voice_018_103",
+            "source": "横歩取り",
+            "target": "Side Pawn Picker"
+          },
+          {
+            "cueName": "voice_018_104",
+            "source": "相横歩取り",
+            "target": "Double Side Pawn Picker"
+          },
+          {
+            "cueName": "voice_018_105",
+            "source": "青野流",
+            "target": "Aono Style"
+          },
+          {
+            "cueName": "voice_018_106",
+            "source": "８五飛車",
+            "target": "８五 Rook"
+          },
+          {
+            "cueName": "voice_018_107",
+            "source": "４五角戦法",
+            "target": "４五 Bishop Strategy"
+          },
+          {
+            "cueName": "voice_018_108",
+            "source": "勇気流",
+            "target": "Yuki Style"
+          },
+          {
+            "cueName": "voice_018_109",
+            "source": "竹部スペシャル",
+            "target": "Takebe Special"
+          },
+          {
+            "cueName": "voice_018_110",
+            "source": "２三歩戦法",
+            "target": "２三 Pawn Strategy"
+          },
+          {
+            "cueName": "voice_018_111",
+            "source": "３三角型空中戦法",
+            "target": "３三 Bishop Aerial Strategy"
+          },
+          {
+            "cueName": "voice_018_112",
+            "source": "３三桂戦法",
+            "target": "３三 Knight Strategy"
+          },
+          {
+            "cueName": "voice_018_113",
+            "source": "角換わり",
+            "target": "Bishop Exchange"
+          },
+          {
+            "cueName": "voice_018_114",
+            "source": "腰掛け銀",
+            "target": "Reclining Silver"
+          },
+          {
+            "cueName": "voice_018_115",
+            "source": "角換わり棒銀",
+            "target": "Bishop Exchange Climbing Silver"
+          },
+          {
+            "cueName": "voice_018_116",
+            "source": "角換わり右玉",
+            "target": "Bishop Exchange Right King"
+          },
+          {
+            "cueName": "voice_018_117",
+            "source": "一手損角換わり",
+            "target": "Tempo-Loss Bishop Exchange"
+          },
+          {
+            "cueName": "voice_018_118",
+            "source": "木村定跡",
+            "target": "Kimura Joseki"
+          },
+          {
+            "cueName": "voice_018_119",
+            "source": "阿久津流急戦矢倉",
+            "target": "Akutsu Rapid Yagura"
+          },
+          {
+            "cueName": "voice_018_120",
+            "source": "中原流急戦矢倉",
+            "target": "Nakahara Rapid Yagura"
+          },
+          {
+            "cueName": "voice_018_121",
+            "source": "米長流急戦矢倉",
+            "target": "Yonenaga Rapid Yagura"
+          },
+          {
+            "cueName": "voice_018_122",
+            "source": "矢倉棒銀",
+            "target": "Yagura Climbing Silver"
+          },
+          {
+            "cueName": "voice_018_123",
+            "source": "脇システム",
+            "target": "Waki System"
+          },
+          {
+            "cueName": "voice_018_124",
+            "source": "森下システム",
+            "target": "Morishita System"
+          },
+          {
+            "cueName": "voice_018_125",
+            "source": "３七銀戦法",
+            "target": "３七 Silver Strategy"
+          },
+          {
+            "cueName": "voice_018_126",
+            "source": "四手角",
+            "target": "Four-Move Bishop"
+          },
+          {
+            "cueName": "voice_018_127",
+            "source": "ウソ矢倉",
+            "target": "Fake Yagura"
+          },
+          {
+            "cueName": "voice_018_128",
+            "source": "左美濃急戦",
+            "target": "Left Mino Rapid Attack"
+          },
+          {
+            "cueName": "voice_018_129",
+            "source": "居角左美濃急戦",
+            "target": "Unmoved Bishop Left Mino Rapid Attack"
+          },
+          {
+            "cueName": "voice_018_130",
+            "source": "忍者銀",
+            "target": "Ninja Silver"
+          },
+          {
+            "cueName": "voice_018_131",
+            "source": "新型雁木",
+            "target": "Modern Gangi"
+          },
+          {
+            "cueName": "voice_018_132",
+            "source": "ツノ銀雁木",
+            "target": "Horned Silver Gangi"
+          },
+          {
+            "cueName": "voice_018_133",
+            "source": "対振り飛車持久戦",
+            "target": "Slow Game vs Ranging Rook"
+          },
+          {
+            "cueName": "voice_018_134",
+            "source": "飯島流引き角戦法",
+            "target": "Iijima Retreating Bishop Strategy"
+          },
+          {
+            "cueName": "voice_018_135",
+            "source": "鷺宮定跡",
+            "target": "Saginomiya Joseki"
+          },
+          {
+            "cueName": "voice_018_136",
+            "source": "４六銀左急戦",
+            "target": "４六 Left Silver Rapid Attack"
+          },
+          {
+            "cueName": "voice_018_137",
+            "source": "４六銀右急戦",
+            "target": "４六 Right Silver Rapid Attack"
+          },
+          {
+            "cueName": "voice_018_138",
+            "source": "４五歩早仕掛け",
+            "target": "４五 Pawn Quick Attack"
+          },
+          {
+            "cueName": "voice_018_139",
+            "source": "山田定跡",
+            "target": "Yamada Joseki"
+          },
+          {
+            "cueName": "voice_018_140",
+            "source": "エルモ急戦",
+            "target": "elmo Rapid Attack"
+          },
+          {
+            "cueName": "voice_018_141",
+            "source": "へなちょこ急戦",
+            "target": "Henachoko Rapid Attack"
+          },
+          {
+            "cueName": "voice_018_142",
+            "source": "玉頭位取り",
+            "target": "King-Head Vanguard Pawn"
+          },
+          {
+            "cueName": "voice_018_143",
+            "source": "５筋位取り",
+            "target": "５th File Vanguard Pawn"
+          },
+          {
+            "cueName": "voice_018_144",
+            "source": "５七金戦法",
+            "target": "５七 Gold Strategy"
+          },
+          {
+            "cueName": "voice_018_145",
+            "source": "超急戦",
+            "target": "Ultra-Rapid Attack"
+          },
+          {
+            "cueName": "voice_018_146",
+            "source": "超速",
+            "target": "Super Speed"
+          },
+          {
+            "cueName": "voice_018_147",
+            "source": "丸山ワクチン",
+            "target": "Maruyama Vaccine"
+          },
+          {
+            "cueName": "voice_018_148",
+            "source": "棒金",
+            "target": "Climbing Gold"
+          },
+          {
+            "cueName": "voice_018_149",
+            "source": "棒銀",
+            "target": "Climbing Silver"
+          },
+          {
+            "cueName": "voice_018_150",
+            "source": "原始棒銀",
+            "target": "Primitive Climbing Silver"
+          },
+          {
+            "cueName": "voice_018_151",
+            "source": "早繰り銀",
+            "target": "Rapid Advancing Silver"
+          },
+          {
+            "cueName": "voice_018_152",
+            "source": "右四間飛車",
+            "target": "Right Fourth File Rook"
+          },
+          {
+            "cueName": "voice_018_153",
+            "source": "右四間飛車急戦",
+            "target": "Right Fourth File Rook Rapid Attack"
+          },
+          {
+            "cueName": "voice_018_154",
+            "source": "右四間飛車左美濃",
+            "target": "Right Fourth File Rook Left Mino"
+          },
+          {
+            "cueName": "voice_018_155",
+            "source": "袖飛車",
+            "target": "Sleeve Rook"
+          },
+          {
+            "cueName": "voice_018_156",
+            "source": "羽生式袖飛車",
+            "target": "Habu-Style Sleeve Rook"
+          },
+          {
+            "cueName": "voice_018_157",
+            "source": "加藤流袖飛車",
+            "target": "Kato-Style Sleeve Rook"
+          },
+          {
+            "cueName": "voice_018_158",
+            "source": "中原飛車",
+            "target": "Nakahara Rook"
+          },
+          {
+            "cueName": "voice_018_159",
+            "source": "地下鉄飛車",
+            "target": "Underground Rook"
+          },
+          {
+            "cueName": "voice_018_160",
+            "source": "腰掛け銀",
+            "target": "Reclining Silver"
+          },
+          {
+            "cueName": "voice_018_161",
+            "source": "腰掛け金",
+            "target": "Reclining Gold"
+          },
+          {
+            "cueName": "voice_018_162",
+            "source": "雀刺し",
+            "target": "Spearing the Sparrow"
+          },
+          {
+            "cueName": "voice_018_163",
+            "source": "鳥刺し",
+            "target": "Bird Spearing"
+          },
+          {
+            "cueName": "voice_018_164",
+            "source": "鎖鎌銀",
+            "target": "Kusarigama Silver"
+          },
+          {
+            "cueName": "voice_018_165",
+            "source": "ポンポン桂",
+            "target": "Popping Knights"
+          },
+          {
+            "cueName": "voice_018_166",
+            "source": "新米長玉",
+            "target": "New Yonenaga King"
+          },
+          {
+            "cueName": "voice_018_167",
+            "source": "四間飛車",
+            "target": "Fourth File Rook"
+          },
+          {
+            "cueName": "voice_018_168",
+            "source": "角道オープン四間飛車",
+            "target": "Open Bishop Path Fourth File Rook"
+          },
+          {
+            "cueName": "voice_018_169",
+            "source": "藤井システム",
+            "target": "Fujii System"
+          },
+          {
+            "cueName": "voice_018_170",
+            "source": "はく式四間飛車",
+            "target": "Haku-Style Fourth File Rook"
+          },
+          {
+            "cueName": "voice_018_171",
+            "source": "魔界四間飛車",
+            "target": "Demon World Fourth File Rook"
+          },
+          {
+            "cueName": "voice_018_172",
+            "source": "耀龍四間飛車",
+            "target": "Yoryu Fourth File Rook"
+          },
+          {
+            "cueName": "voice_018_173",
+            "source": "立石流",
+            "target": "Tateishi Style"
+          },
+          {
+            "cueName": "voice_018_174",
+            "source": "錆刀戦法",
+            "target": "Rusty Sword Strategy"
+          },
+          {
+            "cueName": "voice_018_175",
+            "source": "レグスペ",
+            "target": "Leg Special"
+          },
+          {
+            "cueName": "voice_018_176",
+            "source": "三間飛車",
+            "target": "Third File Rook"
+          },
+          {
+            "cueName": "voice_018_177",
+            "source": "石田流",
+            "target": "Ishida Style"
+          },
+          {
+            "cueName": "voice_018_178",
+            "source": "石田流本組み",
+            "target": "Ishida Main Formation"
+          },
+          {
+            "cueName": "voice_018_179",
+            "source": "新石田流",
+            "target": "New Ishida Style"
+          },
+          {
+            "cueName": "voice_018_180",
+            "source": "早石田",
+            "target": "Quick Ishida"
+          },
+          {
+            "cueName": "voice_018_181",
+            "source": "升田式石田流",
+            "target": "Masuda-Style Ishida"
+          },
+          {
+            "cueName": "voice_018_182",
+            "source": "楠本式石田流",
+            "target": "Kusumoto-Style Ishida"
+          },
+          {
+            "cueName": "voice_018_183",
+            "source": "ムリヤリ早石田",
+            "target": "Forced Quick Ishida"
+          },
+          {
+            "cueName": "voice_018_184",
+            "source": "４→３戦法",
+            "target": "４ to ３ Strategy"
+          },
+          {
+            "cueName": "voice_018_185",
+            "source": "菅井流三間飛車",
+            "target": "Sugai-Style Third File Rook"
+          },
+          {
+            "cueName": "voice_018_186",
+            "source": "菅井流ゴキゲン三間飛車",
+            "target": "Sugai Cheerful Third File Rook"
+          },
+          {
+            "cueName": "voice_018_187",
+            "source": "トマホーク",
+            "target": "Tomahawk"
+          },
+          {
+            "cueName": "voice_018_188",
+            "source": "中田功ＸＰ",
+            "target": "Isao Nakata XP"
+          },
+          {
+            "cueName": "voice_018_189",
+            "source": "７八飛戦法",
+            "target": "７八 Rook Strategy"
+          },
+          {
+            "cueName": "voice_018_190",
+            "source": "カナケンシステム",
+            "target": "Kanaken System"
+          },
+          {
+            "cueName": "voice_018_191",
+            "source": "３ニ飛戦法",
+            "target": "３ニ Rook Strategy"
+          },
+          {
+            "cueName": "voice_018_192",
+            "source": "つくつくぼうし戦法",
+            "target": "Tsukutsukuboshi Strategy"
+          },
+          {
+            "cueName": "voice_018_193",
+            "source": "真部流",
+            "target": "Manabe Style"
+          },
+          {
+            "cueName": "voice_018_194",
+            "source": "中飛車",
+            "target": "Central Rook"
+          },
+          {
+            "cueName": "voice_018_195",
+            "source": "ゴキゲン中飛車",
+            "target": "Cheerful Central Rook"
+          },
+          {
+            "cueName": "voice_018_196",
+            "source": "先手中飛車",
+            "target": "Sente Central Rook"
+          },
+          {
+            "cueName": "voice_018_197",
+            "source": "原始中飛車",
+            "target": "Primitive Central Rook"
+          },
+          {
+            "cueName": "voice_018_198",
+            "source": "ツノ銀中飛車",
+            "target": "Horned Silver Central Rook"
+          },
+          {
+            "cueName": "voice_018_199",
+            "source": "英ちゃん流中飛車",
+            "target": "Ei-chan Central Rook"
+          },
+          {
+            "cueName": "voice_018_200",
+            "source": "中飛車左穴熊",
+            "target": "Central Rook Left Anaguma"
+          },
+          {
+            "cueName": "voice_018_201",
+            "source": "遠山流",
+            "target": "Toyama Style"
+          },
+          {
+            "cueName": "voice_018_202",
+            "source": "矢倉中飛車",
+            "target": "Yagura Central Rook"
+          },
+          {
+            "cueName": "voice_018_203",
+            "source": "平目",
+            "target": "Flounder"
+          },
+          {
+            "cueName": "voice_018_204",
+            "source": "向飛車",
+            "target": "Opposing Rook"
+          },
+          {
+            "cueName": "voice_018_205",
+            "source": "ダイレクト向かい飛車",
+            "target": "Direct Opposing Rook"
+          },
+          {
+            "cueName": "voice_018_206",
+            "source": "鬼殺し向かい飛車",
+            "target": "Demon Killer Opposing Rook"
+          },
+          {
+            "cueName": "voice_018_207",
+            "source": "メリケン向かい飛車",
+            "target": "American Opposing Rook"
+          },
+          {
+            "cueName": "voice_018_208",
+            "source": "天彦流向かい飛車",
+            "target": "Amahiko-Style Opposing Rook"
+          },
+          {
+            "cueName": "voice_018_209",
+            "source": "菜々河流向かい飛車",
+            "target": "Nanakawa-Style Opposing Rook"
+          },
+          {
+            "cueName": "voice_018_210",
+            "source": "阪田流向飛車",
+            "target": "Sakata-Style Opposing Rook"
+          },
+          {
+            "cueName": "voice_018_211",
+            "source": "天彦流▲6六角",
+            "target": "Amahiko-Style ▲6六 Bishop"
+          },
+          {
+            "cueName": "voice_018_212",
+            "source": "菜々河流△4四角",
+            "target": "Nanakawa-Style △4四 Bishop"
+          },
+          {
+            "cueName": "voice_018_213",
+            "source": "相振り飛車",
+            "target": "Double Ranging Rook"
+          },
+          {
+            "cueName": "voice_018_214",
+            "source": "角交換振り飛車",
+            "target": "Bishop Exchange Ranging Rook"
+          },
+          {
+            "cueName": "voice_018_215",
+            "source": "陽動振り飛車",
+            "target": "Feint Ranging Rook"
+          },
+          {
+            "cueName": "voice_018_216",
+            "source": "振り飛車ミレニアム",
+            "target": "Ranging Rook Millennium"
+          },
+          {
+            "cueName": "voice_018_217",
+            "source": "一間飛車",
+            "target": "First File Rook"
+          },
+          {
+            "cueName": "voice_018_218",
+            "source": "一間飛車穴熊",
+            "target": "First File Rook Anaguma"
+          },
+          {
+            "cueName": "voice_018_219",
+            "source": "九間飛車",
+            "target": "Ninth File Rook"
+          },
+          {
+            "cueName": "voice_018_220",
+            "source": "Uターン飛車",
+            "target": "U-Turn Rook"
+          },
+          {
+            "cueName": "voice_018_221",
+            "source": "７二飛亜急戦",
+            "target": "７二 Rook Semi-Rapid Attack"
+          },
+          {
+            "cueName": "voice_018_222",
+            "source": "玉頭銀",
+            "target": "King-Head Silver"
+          },
+          {
+            "cueName": "voice_018_223",
+            "source": "右玉",
+            "target": "Right King"
+          },
+          {
+            "cueName": "voice_018_224",
+            "source": "糸谷流右玉",
+            "target": "Itodani-Style Right King"
+          },
+          {
+            "cueName": "voice_018_225",
+            "source": "こいなぎ流右玉",
+            "target": "Koinagi-Style Right King"
+          },
+          {
+            "cueName": "voice_018_226",
+            "source": "セカステ右玉",
+            "target": "Second Stage Right King"
+          },
+          {
+            "cueName": "voice_018_227",
+            "source": "高田流左玉",
+            "target": "Takada-Style Left King"
+          },
+          {
+            "cueName": "voice_018_228",
+            "source": "嬉野流",
+            "target": "Ureshino Style"
+          },
+          {
+            "cueName": "voice_018_229",
+            "source": "新嬉野流",
+            "target": "New Ureshino Style"
+          },
+          {
+            "cueName": "voice_018_230",
+            "source": "鬼殺し",
+            "target": "Demon Killer"
+          },
+          {
+            "cueName": "voice_018_231",
+            "source": "新鬼殺し",
+            "target": "New Demon Killer"
+          },
+          {
+            "cueName": "voice_018_232",
+            "source": "かまいたち戦法",
+            "target": "Kamaitachi Strategy"
+          },
+          {
+            "cueName": "voice_018_233",
+            "source": "筋違い角",
+            "target": "Wrong-Diagonal Bishop"
+          },
+          {
+            "cueName": "voice_018_234",
+            "source": "相筋違い角",
+            "target": "Double Wrong-Diagonal Bishop"
+          },
+          {
+            "cueName": "voice_018_235",
+            "source": "筋違い角阪田流",
+            "target": "Sakata Wrong-Diagonal Bishop"
+          },
+          {
+            "cueName": "voice_018_236",
+            "source": "稲庭戦法",
+            "target": "Inaniwa Strategy"
+          },
+          {
+            "cueName": "voice_018_237",
+            "source": "阪田流2手目△9四歩",
+            "target": "Sakata-Style Move 2 △9四 Pawn"
+          },
+          {
+            "cueName": "voice_018_238",
+            "source": "角頭歩戦法",
+            "target": "Bishop-Head Pawn Strategy"
+          },
+          {
+            "cueName": "voice_018_239",
+            "source": "5手爆弾",
+            "target": "5-Move Bomb"
+          },
+          {
+            "cueName": "voice_018_240",
+            "source": "目くらまし戦法",
+            "target": "Blinding Strategy"
+          },
+          {
+            "cueName": "voice_018_241",
+            "source": "暴銀",
+            "target": "Rampaging Silver"
+          },
+          {
+            "cueName": "voice_018_242",
+            "source": "風車",
+            "target": "Windmill"
+          },
+          {
+            "cueName": "voice_018_243",
+            "source": "きmきm金",
+            "target": "Kim Kim Gold"
+          },
+          {
+            "cueName": "voice_018_244",
+            "source": "カニカニ金",
+            "target": "Crab-Crab Gold"
+          },
+          {
+            "cueName": "voice_018_245",
+            "source": "カニカニ銀",
+            "target": "Crab-Crab Silver"
+          },
+          {
+            "cueName": "voice_018_246",
+            "source": "ゴリゴリ金",
+            "target": "Grinding Gold"
+          },
+          {
+            "cueName": "voice_018_247",
+            "source": "間宮久夢流",
+            "target": "Mamiya Kyumu Style"
+          },
+          {
+            "cueName": "voice_018_248",
+            "source": "金沢流",
+            "target": "Kanazawa Style"
+          },
+          {
+            "cueName": "voice_018_249",
+            "source": "都成流",
+            "target": "Tonari Style"
+          },
+          {
+            "cueName": "voice_018_250",
+            "source": "やばボーズ流",
+            "target": "Yaba-Bozu Style"
+          },
+          {
+            "cueName": "voice_018_251",
+            "source": "xaby角",
+            "target": "xaby Bishop"
+          },
+          {
+            "cueName": "voice_018_252",
+            "source": "GAVA角",
+            "target": "GAVA Bishop"
+          },
+          {
+            "cueName": "voice_018_253",
+            "source": "パックマン戦法",
+            "target": "Pac-Man Strategy"
+          },
+          {
+            "cueName": "voice_018_254",
+            "source": "カメレオン戦法",
+            "target": "Chameleon Strategy"
+          },
+          {
+            "cueName": "voice_018_255",
+            "source": "カリスマウィルス",
+            "target": "Charisma Virus"
+          },
+          {
+            "cueName": "voice_018_256",
+            "source": "ショーダンシステム",
+            "target": "Shodan System"
+          },
+          {
+            "cueName": "voice_018_257",
+            "source": "ハチワンシステム",
+            "target": "81 System"
+          },
+          {
+            "cueName": "voice_018_258",
+            "source": "メイドシステム",
+            "target": "Maid System"
+          },
+          {
+            "cueName": "voice_018_259",
+            "source": "村田システム",
+            "target": "Murata System"
+          },
+          {
+            "cueName": "voice_018_260",
+            "source": "ドラゴンスペシャル",
+            "target": "Dragon Special"
+          },
+          {
+            "cueName": "voice_018_261",
+            "source": "アユムスペシャル",
+            "target": "Ayumu Special"
+          },
+          {
+            "cueName": "voice_018_262",
+            "source": "あけましておめでとー！\n新年は、やっぱり初日の出を見に行かなくちゃね！\nほらっ！お姉さんの後ろに乗って乗って！\nとばすからしっかりつかまってろよ！",
+            "target": "Happy New Year!\nWe have to go see the first sunrise of the year!\nCome on, hop on behind me!\nI'm going fast, so hold on tight!"
+          },
+          {
+            "cueName": "voice_018_263",
+            "source": "はい！お姉さんとお揃いのシガレットチョコ！\n二人でくわえて、ツーリングへレッツゴーーッ！",
+            "target": "Here! Matching candy cigarettes!\nLet's put them in our mouths and go touring!"
+          },
+          {
+            "cueName": "voice_018_265",
+            "source": "やったー！",
+            "target": "Yay!"
+          },
+          {
+            "cueName": "voice_018_266",
+            "source": "やるわよっ！",
+            "target": "I'll do it!"
+          },
+          {
+            "cueName": "voice_018_267",
+            "source": "あははっ！",
+            "target": "Ahaha!"
+          },
+          {
+            "cueName": "voice_018_270",
+            "source": "こっちこっち！",
+            "target": "Here, here!"
+          },
+          {
+            "cueName": "voice_018_271",
+            "source": "どうしようかな。",
+            "target": "What should I do?"
+          },
+          {
+            "cueName": "voice_018_273",
+            "source": "私は！",
+            "target": "I...!"
+          },
+          {
+            "cueName": "voice_018_274",
+            "source": "なるほどね",
+            "target": "I see."
+          },
+          {
+            "cueName": "voice_018_275",
+            "source": "こらっ！",
+            "target": "Hey!"
+          },
+          {
+            "cueName": "voice_018_277",
+            "source": "あー……お腹痛い。",
+            "target": "Ah... my stomach hurts."
+          },
+          {
+            "cueName": "voice_018_279",
+            "source": "信じてるよ！",
+            "target": "I believe in you!"
+          },
+          {
+            "cueName": "voice_018_280",
+            "source": "わおっ！",
+            "target": "Wow!"
+          },
+          {
+            "cueName": "voice_018_281",
+            "source": "あらっ！",
+            "target": "Oh my!"
+          },
+          {
+            "cueName": "voice_018_282",
+            "source": "でもっ！",
+            "target": "But!"
+          },
+          {
+            "cueName": "voice_018_296",
+            "source": "工藤流陽動振り飛車",
+            "target": "Kudo-Style Feint Ranging Rook"
+          },
+          {
+            "cueName": "voice_018_312",
+            "source": "ハァーイ！",
+            "target": "Hii!"
+          },
+          {
+            "cueName": "voice_018_313",
+            "source": "ありがとうね！",
+            "target": "Thank you!"
+          },
+          {
+            "cueName": "voice_018_501",
+            "source": "よろしくね～",
+            "target": "Nice to meet you~"
+          },
+          {
+            "cueName": "voice_018_502",
+            "source": "やるじゃない！",
+            "target": "Not bad!"
+          },
+          {
+            "cueName": "voice_018_503",
+            "source": "なるほどね",
+            "target": "I see."
+          },
+          {
+            "cueName": "voice_018_504",
+            "source": "ふ～む……",
+            "target": "Hmm..."
+          },
+          {
+            "cueName": "voice_018_505",
+            "source": "ごめんなさい！",
+            "target": "sorry!"
+          },
+          {
+            "cueName": "voice_018_506",
+            "source": "ええっ……",
+            "target": "Yeah..."
           }
         ]
       }
