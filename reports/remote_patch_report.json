@@ -22,196 +22,11 @@
     ]
   },
   {
-    "bundle_file": "31e49b70c81bd99d107d5745e506d37a__remote_assets__project__game_gamescene.bundle",
-    "replacements": 125,
+    "bundle_file": "8f5db71badfb0192e9407de37518ff4d__remote_assets__project__game_gamescene.bundle",
+    "replacements": 129,
     "changed_objects": [
       {
-        "path_id": 2244,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2245,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2246,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2248,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2251,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2257,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2258,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2259,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2261,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2262,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2263,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2264,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2265,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2268,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2269,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2271,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2272,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2275,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2276,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2277,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2280,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2282,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2283,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2285,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2286,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2287,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2290,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2294,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2295,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2296,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2297,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2298,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2299,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2300,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2302,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2303,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2304,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2305,
+        "path_id": 2306,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -221,12 +36,12 @@
         "replacements": 1
       },
       {
-        "path_id": 2311,
+        "path_id": 2308,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 2312,
+        "path_id": 2310,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -236,27 +51,12 @@
         "replacements": 1
       },
       {
-        "path_id": 2314,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2315,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2317,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2318,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
         "path_id": 2319,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2320,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -271,17 +71,27 @@
         "replacements": 1
       },
       {
+        "path_id": 2324,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2325,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2326,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
         "path_id": 2327,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 2328,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2329,
+        "path_id": 2330,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -291,12 +101,22 @@
         "replacements": 1
       },
       {
-        "path_id": 2332,
+        "path_id": 2333,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 2335,
+        "path_id": 2334,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2337,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2338,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -311,7 +131,7 @@
         "replacements": 1
       },
       {
-        "path_id": 2343,
+        "path_id": 2344,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -326,6 +146,11 @@
         "replacements": 1
       },
       {
+        "path_id": 2348,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
         "path_id": 2349,
         "type": "MonoBehaviour",
         "replacements": 1
@@ -336,12 +161,22 @@
         "replacements": 1
       },
       {
-        "path_id": 2354,
+        "path_id": 2353,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 2355,
+        "path_id": 2357,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2358,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2359,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -361,7 +196,12 @@
         "replacements": 1
       },
       {
-        "path_id": 2365,
+        "path_id": 2363,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2364,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -371,22 +211,32 @@
         "replacements": 1
       },
       {
+        "path_id": 2367,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
         "path_id": 2368,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 2370,
+        "path_id": 2369,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 2373,
+        "path_id": 2371,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 2374,
+        "path_id": 2375,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2376,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -411,22 +261,22 @@
         "replacements": 1
       },
       {
+        "path_id": 2382,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
         "path_id": 2383,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 2384,
+        "path_id": 2385,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 2389,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2390,
+        "path_id": 2387,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -436,12 +286,12 @@
         "replacements": 1
       },
       {
-        "path_id": 2393,
+        "path_id": 2392,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 2394,
+        "path_id": 2393,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -456,37 +306,17 @@
         "replacements": 1
       },
       {
-        "path_id": 2397,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
         "path_id": 2398,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 2402,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2403,
+        "path_id": 2400,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
         "path_id": 2404,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2405,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2406,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -511,11 +341,6 @@
         "replacements": 1
       },
       {
-        "path_id": 2413,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
         "path_id": 2414,
         "type": "MonoBehaviour",
         "replacements": 1
@@ -526,22 +351,12 @@
         "replacements": 1
       },
       {
-        "path_id": 2416,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2417,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
         "path_id": 2419,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 2421,
+        "path_id": 2420,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -551,17 +366,7 @@
         "replacements": 1
       },
       {
-        "path_id": 2423,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2424,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 2425,
+        "path_id": 2426,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -571,27 +376,242 @@
         "replacements": 1
       },
       {
-        "path_id": 2454,
+        "path_id": 2428,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2431,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2432,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2434,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2436,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2439,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2440,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2443,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2444,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2445,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2447,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2449,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2450,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2456,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2457,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2458,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2460,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2461,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2462,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2463,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2464,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2465,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2469,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2470,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2471,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2472,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2473,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2474,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2475,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2477,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2479,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2480,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2481,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2482,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2483,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2484,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2486,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2488,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2490,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2491,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2492,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2493,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2495,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2522,
         "type": "MonoBehaviour",
         "replacements": 4
       },
       {
-        "path_id": 2840,
+        "path_id": 2922,
         "type": "MonoBehaviour",
         "replacements": 3
       },
       {
-        "path_id": 2866,
+        "path_id": 2949,
         "type": "MonoBehaviour",
         "replacements": 3
       },
       {
-        "path_id": 3012,
+        "path_id": 3103,
         "type": "MonoBehaviour",
         "replacements": 3
       },
       {
-        "path_id": 3343,
+        "path_id": 3451,
         "type": "MonoBehaviour",
         "replacements": 3
       }
@@ -619,7 +639,7 @@
     ]
   },
   {
-    "bundle_file": "5933a104a3985f6169f90ca602bb34ed__remote_assets__project__menu_prefab_overlay_homecharacterchangeoverlay_homecharacterchangeoverlayview.bundle",
+    "bundle_file": "3cc0c062f569af833f8b18b19ccb29b1__remote_assets__project__menu_prefab_overlay_homecharacterchangeoverlay_homecharacterchangeoverlayview.bundle",
     "replacements": 7,
     "changed_objects": [
       {
@@ -951,8 +971,8 @@
     ]
   },
   {
-    "bundle_file": "b2e0255f16e33a8c2108a64021b027bf__remote_assets__project__menu_prefab_overlay_lobbymatchroomsettingspopup_lobbymatchroomsettingspopupview.bundle",
-    "replacements": 17,
+    "bundle_file": "149c7d2e21bc90b82f8de8a062ec4d9d__remote_assets__project__menu_prefab_overlay_lobbymatchroomsettingspopup_lobbymatchroomsettingspopupview.bundle",
+    "replacements": 18,
     "changed_objects": [
       {
         "path_id": -8419727604934925721,
@@ -986,6 +1006,11 @@
       },
       {
         "path_id": -946445867394948505,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -252270324712431001,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -1042,8 +1067,8 @@
     ]
   },
   {
-    "bundle_file": "66a501b8ab9395987df31d2284ba4fd0__remote_assets__project__menu_prefab_overlay_shogiexperiencepopup_shogiexperiencepopupview.bundle",
-    "replacements": 9,
+    "bundle_file": "87bade6f5ebeb873d374214718823a74__remote_assets__project__menu_prefab_overlay_shogiexperiencepopup_shogiexperiencepopupview.bundle",
+    "replacements": 10,
     "changed_objects": [
       {
         "path_id": -8273857921800162753,
@@ -1077,6 +1102,11 @@
       },
       {
         "path_id": 1953225990102299199,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 6445385793123955263,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -1277,8 +1307,8 @@
     ]
   },
   {
-    "bundle_file": "ff06dae325e46cc761b389d2cff8f291__remote_assets__project__menu_prefab_page_collection__component_charactergiftsheet.bundle",
-    "replacements": 6,
+    "bundle_file": "9faa562c47e663238e839b7d964bf633__remote_assets__project__menu_prefab_page_collection__component_charactergiftsheet.bundle",
+    "replacements": 8,
     "changed_objects": [
       {
         "path_id": -8856582329685160440,
@@ -1303,7 +1333,7 @@
       {
         "path_id": 5748319528028360200,
         "type": "MonoBehaviour",
-        "replacements": 1
+        "replacements": 3
       },
       {
         "path_id": 6624279036387151368,
@@ -1313,8 +1343,54 @@
     ]
   },
   {
-    "bundle_file": "71008ec376ad4cd5975452041650d62e__remote_assets__project__menu_prefab_page_collection__component_characterintimacysheet.bundle",
-    "replacements": 27,
+    "bundle_file": "0265b2a66ac76cc26c946b583d99f96c__remote_assets__project__menu_prefab_page_collection__component_characterintimacyrankingsheet.bundle",
+    "replacements": 8,
+    "changed_objects": [
+      {
+        "path_id": -8380238634038089520,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -5910545527543387952,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -5794731581362689840,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -3352786048264197936,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1955479656015550256,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1386874683418650832,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 1458479988073212112,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 2079629899157317840,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "809d54375d9b7f0f27f326e95b4cea3d__remote_assets__project__menu_prefab_page_collection__component_characterintimacysheet.bundle",
+    "replacements": 28,
     "changed_objects": [
       {
         "path_id": -7949279941131555761,
@@ -1343,6 +1419,11 @@
       },
       {
         "path_id": -3851333152800101297,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -3359029048338797489,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -1495,7 +1576,7 @@
     ]
   },
   {
-    "bundle_file": "980af17e9bd84b1a10ff20df801a3dff__remote_assets__project__menu_prefab_page_collection__component_characterstorysheet.bundle",
+    "bundle_file": "8696ad4493b51a8d520c743b2b161c27__remote_assets__project__menu_prefab_page_collection__component_characterstorysheet.bundle",
     "replacements": 10,
     "changed_objects": [
       {
@@ -1603,8 +1684,8 @@
     ]
   },
   {
-    "bundle_file": "7a6437353b5629bde8b10a304c34e219__remote_assets__project__menu_prefab_page_collection_charactertoppage.bundle",
-    "replacements": 31,
+    "bundle_file": "c9595ef0348a130f93df0f058e81e47e__remote_assets__project__menu_prefab_page_collection_charactertoppage.bundle",
+    "replacements": 37,
     "changed_objects": [
       {
         "path_id": -8523876515146970828,
@@ -1613,6 +1694,11 @@
       },
       {
         "path_id": -7830717154943186636,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -7681202219078727372,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -1638,6 +1724,16 @@
       },
       {
         "path_id": -6740674939764618956,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -4619030056184985292,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -4415342738172884684,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -1682,6 +1778,11 @@
         "replacements": 1
       },
       {
+        "path_id": -1146998880841643724,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
         "path_id": -918431920484923084,
         "type": "MonoBehaviour",
         "replacements": 1
@@ -1717,7 +1818,7 @@
         "replacements": 1
       },
       {
-        "path_id": 4305471856278882612,
+        "path_id": 3866365446940707124,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -1728,6 +1829,11 @@
       },
       {
         "path_id": 4713910853091772724,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 5280441634197784884,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -1757,6 +1863,11 @@
         "replacements": 1
       },
       {
+        "path_id": 8220851290585942324,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
         "path_id": 8607761179353270580,
         "type": "MonoBehaviour",
         "replacements": 1
@@ -1764,7 +1875,7 @@
     ]
   },
   {
-    "bundle_file": "f3be1944152a56f80646a855d6ffa69d__remote_assets__project__menu_prefab_page_gachatoppage_gachatoppage.bundle",
+    "bundle_file": "d628232ee374cd82a56f9fa2ff837a14__remote_assets__project__menu_prefab_page_gachatoppage_gachatoppage.bundle",
     "replacements": 16,
     "changed_objects": [
       {
@@ -1830,7 +1941,7 @@
     ]
   },
   {
-    "bundle_file": "48fa751955bbd98d1060226290e81f6d__remote_assets__project__menu_prefab_page_home_homepage.bundle",
+    "bundle_file": "88de3f92fdbbaf45669cd6812ae65c90__remote_assets__project__menu_prefab_page_home_homepage.bundle",
     "replacements": 8,
     "changed_objects": [
       {
@@ -1876,9 +1987,14 @@
     ]
   },
   {
-    "bundle_file": "fc276f1daa268533b4b6049aeceb62ce__remote_assets__project__menu_prefab_page_lobbymatchroompage_lobbymatchroompage.bundle",
-    "replacements": 51,
+    "bundle_file": "03ec67dc82bc1a3de9d3c65c36ed8485__remote_assets__project__menu_prefab_page_lobbymatchroompage_lobbymatchroompage.bundle",
+    "replacements": 75,
     "changed_objects": [
+      {
+        "path_id": -9194680619397017756,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
       {
         "path_id": -8990667945711235228,
         "type": "MonoBehaviour",
@@ -1895,22 +2011,17 @@
         "replacements": 1
       },
       {
+        "path_id": -7568670525573689500,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
         "path_id": -7340614701220688028,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
         "path_id": -7288288502520148124,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -6499275419604742300,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": -6345413994172313756,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -1925,7 +2036,7 @@
         "replacements": 1
       },
       {
-        "path_id": -4755825229210316956,
+        "path_id": -5030001050185035932,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -1933,6 +2044,11 @@
         "path_id": -4356142075284549788,
         "type": "MonoBehaviour",
         "replacements": 2
+      },
+      {
+        "path_id": -4299070347019546780,
+        "type": "MonoBehaviour",
+        "replacements": 3
       },
       {
         "path_id": -3836162316713193628,
@@ -1961,6 +2077,11 @@
       },
       {
         "path_id": -1965425063872622748,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1823947042675749020,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -2005,7 +2126,17 @@
         "replacements": 1
       },
       {
+        "path_id": 1796864924054589284,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
         "path_id": 2719146659495808868,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 3071272047292321636,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -2016,11 +2147,6 @@
       },
       {
         "path_id": 3332023743648894820,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 3365508603215744868,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -2045,14 +2171,34 @@
         "replacements": 1
       },
       {
-        "path_id": 4324093006260735844,
+        "path_id": 4994278392273964900,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
-        "path_id": 4346710024226738020,
+        "path_id": 5040660065220693860,
         "type": "MonoBehaviour",
-        "replacements": 1
+        "replacements": 3
+      },
+      {
+        "path_id": 5116458872297492324,
+        "type": "MonoBehaviour",
+        "replacements": 3
+      },
+      {
+        "path_id": 5155920896423366500,
+        "type": "MonoBehaviour",
+        "replacements": 3
+      },
+      {
+        "path_id": 5175262545166798692,
+        "type": "MonoBehaviour",
+        "replacements": 3
+      },
+      {
+        "path_id": 5362955098315820900,
+        "type": "MonoBehaviour",
+        "replacements": 3
       },
       {
         "path_id": 6028527142325653348,
@@ -2060,7 +2206,17 @@
         "replacements": 1
       },
       {
-        "path_id": 6430238690459193188,
+        "path_id": 6125732940622008164,
+        "type": "MonoBehaviour",
+        "replacements": 3
+      },
+      {
+        "path_id": 6430303734188150628,
+        "type": "MonoBehaviour",
+        "replacements": 3
+      },
+      {
+        "path_id": 6536574091445473124,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -2076,11 +2232,6 @@
       },
       {
         "path_id": 6799495543938158436,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 7068441479760777060,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -2117,7 +2268,7 @@
     ]
   },
   {
-    "bundle_file": "8abfbdd3a1cae0a1c402399a6876dc97__remote_assets__project__menu_prefab_page_matchselectionpage_matchselectionpage.bundle",
+    "bundle_file": "91d184a8cd1fdbb77ebce0ac41ad0a40__remote_assets__project__menu_prefab_page_matchselectionpage_matchselectionpage.bundle",
     "replacements": 18,
     "changed_objects": [
       {
@@ -2198,7 +2349,7 @@
     ]
   },
   {
-    "bundle_file": "8b421a82928a2cebcad9fdf4d9f5daf9__remote_assets__project__menu_prefab_page_tsumeshogibookpage_tsumeshogibookpage.bundle",
+    "bundle_file": "3c8e9050db15b5101691e064d45e0f4d__remote_assets__project__menu_prefab_page_tsumeshogibookpage_tsumeshogibookpage.bundle",
     "replacements": 12,
     "changed_objects": [
       {
@@ -2264,7 +2415,7 @@
     ]
   },
   {
-    "bundle_file": "9b8c16f4e50fc8bbe11fc77820fd74fb__remote_assets__project__menu_prefab_page_tsumeshogicoursedetailpage_tsumeshogicoursedetailpage.bundle",
+    "bundle_file": "55d21b48e62b719b8458ef1a9f407e68__remote_assets__project__menu_prefab_page_tsumeshogicoursedetailpage_tsumeshogicoursedetailpage.bundle",
     "replacements": 26,
     "changed_objects": [
       {
@@ -2400,7 +2551,7 @@
     ]
   },
   {
-    "bundle_file": "3985b9cff98e169f24525a30c233c4e2__remote_assets__project__menu_prefab_page_tsumeshogipage_tsumeshogipage.bundle",
+    "bundle_file": "0bb5a65db9d6ddb87c827896820b9e1f__remote_assets__project__menu_prefab_page_tsumeshogipage_tsumeshogipage.bundle",
     "replacements": 28,
     "changed_objects": [
       {
@@ -2546,7 +2697,7 @@
     ]
   },
   {
-    "bundle_file": "e06423f0d21c7a10615eba7527782192__remote_assets__project__menu_prefab_page_tsumeshogiplaypage_tsumeshogiplaypage.bundle",
+    "bundle_file": "171f8494ab109126816382bb74ad848e__remote_assets__project__menu_prefab_page_tsumeshogiplaypage_tsumeshogiplaypage.bundle",
     "replacements": 75,
     "changed_objects": [
       {
@@ -3103,7 +3254,7 @@
     ]
   },
   {
-    "bundle_file": "88da73ffdcf7413e0389413394fa36bc__remote_assets__project__storyscenario_script_runtime_storyscenarioscene.bundle",
+    "bundle_file": "8b143cfb64470b8fc653372b6b11a2df__remote_assets__project__storyscenario_script_runtime_storyscenarioscene.bundle",
     "replacements": 7,
     "changed_objects": [
       {
@@ -3237,7 +3388,7 @@
     ]
   },
   {
-    "bundle_file": "8ea584a74aaf428da24e4591fe2b62ec__remote_assets__project_composition_prefab_ui_overlay_implement_charactercontractcompleteoverlayview.bundle",
+    "bundle_file": "2723680791a36736de66927c0eb2dc28__remote_assets__project_composition_prefab_ui_overlay_implement_charactercontractcompleteoverlayview.bundle",
     "replacements": 4,
     "changed_objects": [
       {
@@ -3324,7 +3475,7 @@
     ]
   },
   {
-    "bundle_file": "9a53a8c553cd8781ec627bb5912b2898__remote_assets__project_composition_prefab_ui_overlay_implement_characterintimacylevelupoverlayview.bundle",
+    "bundle_file": "bfe06833920289dd94d7a192ea98d6e4__remote_assets__project_composition_prefab_ui_overlay_implement_characterintimacylevelupoverlayview.bundle",
     "replacements": 3,
     "changed_objects": [
       {
@@ -3714,6 +3865,22 @@
     ]
   },
   {
+    "bundle_file": "100c14335146f7aff8b46579ec90c176__remote_assets__project_composition_prefab_ui_overlay_implement_favoritestrategyselectpopup_favoritestrategyselectpopupview.bundle",
+    "replacements": 2,
+    "changed_objects": [
+      {
+        "path_id": -1338749616024720345,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 5172977251330944039,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
     "bundle_file": "e608c7748f13a76a6948e223a6312a1f__remote_assets__project_composition_prefab_ui_overlay_implement_formationpopup_formationcollectionpopupview.bundle",
     "replacements": 6,
     "changed_objects": [
@@ -3750,7 +3917,7 @@
     ]
   },
   {
-    "bundle_file": "b7ed25ad238383437b8431fdfe3a0a3f__remote_assets__project_composition_prefab_ui_overlay_implement_formationpopup_formationdetailpopupview.bundle",
+    "bundle_file": "4abe2c6663fcffded73f3293cd0e1c9e__remote_assets__project_composition_prefab_ui_overlay_implement_formationpopup_formationdetailpopupview.bundle",
     "replacements": 18,
     "changed_objects": [
       {
@@ -4343,8 +4510,8 @@
     ]
   },
   {
-    "bundle_file": "fd41a7f9d442008165d77dd20c42963d__remote_assets__project_composition_prefab_ui_overlay_implement_gameresulteffectoverlay_gameresulteffectoverlayview.bundle",
-    "replacements": 10,
+    "bundle_file": "d845992d6f71f4162256bb7719413e95__remote_assets__project_composition_prefab_ui_overlay_implement_gameresulteffectoverlay_gameresulteffectoverlayview.bundle",
+    "replacements": 11,
     "changed_objects": [
       {
         "path_id": -6364130640672972660,
@@ -4363,6 +4530,11 @@
       },
       {
         "path_id": -1491840230421815156,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -626800098236292980,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -4958,6 +5130,77 @@
     ]
   },
   {
+    "bundle_file": "98acdc13614774fc647ff429b255a777__remote_assets__project_composition_prefab_ui_overlay_implement_initialcharacterselectoverlayview.bundle",
+    "replacements": 13,
+    "changed_objects": [
+      {
+        "path_id": -7661622969685095252,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -7550934905223557972,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -6969387481075331924,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -3968252770413228884,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -3426705025608495956,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 473844695820684460,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 989704205569576108,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 3786664173752569004,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 4568187505643506860,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 6752549307767540908,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 6776917091908078764,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 7349615254371454124,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 9155350634877111468,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
     "bundle_file": "cc7a3ff70b147fb8645341c2cb6e29c7__remote_assets__project_composition_prefab_ui_overlay_implement_itemamountselectionpopupview.bundle",
     "replacements": 3,
     "changed_objects": [
@@ -5130,7 +5373,7 @@
     ]
   },
   {
-    "bundle_file": "f8d49816348b6514a9d970bd72e73401__remote_assets__project_composition_prefab_ui_overlay_implement_kifudetail_boardsequencepopupview.bundle",
+    "bundle_file": "4a32470660a6b860d3ea5ea9c49df8b5__remote_assets__project_composition_prefab_ui_overlay_implement_kifudetail_boardsequencepopupview.bundle",
     "replacements": 16,
     "changed_objects": [
       {
@@ -5216,7 +5459,7 @@
     ]
   },
   {
-    "bundle_file": "402053473170bdd16845e8729e7f055b__remote_assets__project_composition_prefab_ui_overlay_implement_kifudetail_kifudetailpopupview.bundle",
+    "bundle_file": "02c1ac5d8679eee15a14d4ebe94cb573__remote_assets__project_composition_prefab_ui_overlay_implement_kifudetail_kifudetailpopupview.bundle",
     "replacements": 186,
     "changed_objects": [
       {
@@ -5357,7 +5600,7 @@
     ]
   },
   {
-    "bundle_file": "8686a31aab8ff86caf396d9013552534__remote_assets__project_composition_prefab_ui_overlay_implement_kifudetail_tsumepopupview.bundle",
+    "bundle_file": "df90c565ee0b225d3de405f1f940522c__remote_assets__project_composition_prefab_ui_overlay_implement_kifudetail_tsumepopupview.bundle",
     "replacements": 17,
     "changed_objects": [
       {
@@ -5578,8 +5821,8 @@
     ]
   },
   {
-    "bundle_file": "03b61c2f21268c2f141dc656d192871c__remote_assets__project_composition_prefab_ui_overlay_implement_paymentpointdashboardoverlay_paymentpointdashboardpopupview.bundle",
-    "replacements": 18,
+    "bundle_file": "a053a1544596cae179688555de40315b__remote_assets__project_composition_prefab_ui_overlay_implement_paymentpointdashboardoverlay_paymentpointdashboardpopupview.bundle",
+    "replacements": 19,
     "changed_objects": [
       {
         "path_id": -8718540387251075502,
@@ -5642,6 +5885,11 @@
         "replacements": 1
       },
       {
+        "path_id": 5734017570793178706,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
         "path_id": 5826885081183209042,
         "type": "MonoBehaviour",
         "replacements": 1
@@ -5659,6 +5907,22 @@
     ]
   },
   {
+    "bundle_file": "f510fd3bc69c3ab121470bb536fdde7f__remote_assets__project_composition_prefab_ui_overlay_implement_playthanksansweredpopupview.bundle",
+    "replacements": 2,
+    "changed_objects": [
+      {
+        "path_id": -3921943515089620632,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -652001187685158552,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
     "bundle_file": "c0590810ff9561b7413d245cb1f26896__remote_assets__project_composition_prefab_ui_overlay_implement_playthankspopupview.bundle",
     "replacements": 2,
     "changed_objects": [
@@ -5669,6 +5933,32 @@
       },
       {
         "path_id": 5722899514456775462,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "4e7a8610c7e394451973d850dc00e9fc__remote_assets__project_composition_prefab_ui_overlay_implement_playthanksstarratingpopupview.bundle",
+    "replacements": 4,
+    "changed_objects": [
+      {
+        "path_id": -7356597848804684776,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -3367473121581265896,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 5665389651791121432,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 7023622985205287960,
         "type": "MonoBehaviour",
         "replacements": 1
       }
@@ -5915,7 +6205,7 @@
     ]
   },
   {
-    "bundle_file": "3c11f0df40ef26c74ead90bf313d98d6__remote_assets__project_composition_prefab_ui_overlay_implement_shogirulepopup_shogirulepopupview.bundle",
+    "bundle_file": "cfb9800be487405437fea20fb5b6a8ba__remote_assets__project_composition_prefab_ui_overlay_implement_shogirulepopup_shogirulepopupview.bundle",
     "replacements": 18,
     "changed_objects": [
       {
@@ -6011,8 +6301,8 @@
     ]
   },
   {
-    "bundle_file": "c4c486800d0c693475011bf3540c7d22__remote_assets__project_composition_prefab_ui_overlay_implement_shopoverlay_shopoverlayview.bundle",
-    "replacements": 128,
+    "bundle_file": "a23393241b3368a8cc0a766f1ec22d39__remote_assets__project_composition_prefab_ui_overlay_implement_shopoverlay_shopoverlayview.bundle",
+    "replacements": 130,
     "changed_objects": [
       {
         "path_id": -9178529564910950309,
@@ -6081,6 +6371,11 @@
       },
       {
         "path_id": -6768306292785878949,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -6333632071558502309,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -6211,6 +6506,11 @@
       },
       {
         "path_id": -718353982084356005,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -412830771199743909,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -6844,8 +7144,8 @@
     ]
   },
   {
-    "bundle_file": "e1b8f55cf68b51804ff83af697591ab4__remote_assets__project_composition_prefab_ui_overlay_implement_supplypresetoverlay_supplypresetoverlayview.bundle",
-    "replacements": 13,
+    "bundle_file": "d9875dfc63563aed39e08625f5184493__remote_assets__project_composition_prefab_ui_overlay_implement_supplypresetoverlay_supplypresetoverlayview.bundle",
+    "replacements": 14,
     "changed_objects": [
       {
         "path_id": -9200900096620219569,
@@ -6889,6 +7189,11 @@
       },
       {
         "path_id": -1102011142434245809,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -279387132598734001,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -6967,8 +7272,8 @@
     ]
   },
   {
-    "bundle_file": "50cbb8310b89243ab330c0e3bfe725e0__remote_assets__project_composition_prefab_ui_overlay_implement_userprofilepopup_userprofilepopupview.bundle",
-    "replacements": 34,
+    "bundle_file": "9c49b3bfefcfd7d25ad464ee79168b58__remote_assets__project_composition_prefab_ui_overlay_implement_userprofilepopup_userprofilepopupview.bundle",
+    "replacements": 35,
     "changed_objects": [
       {
         "path_id": -8852537784977957892,
@@ -6982,6 +7287,11 @@
       },
       {
         "path_id": -6965419963788993540,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -5298889379121636356,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -7233,18 +7543,18 @@
     ]
   },
   {
-    "bundle_file": "8c19af1217a6a59313b3c01bd0e6c071__remote_share_assets__project__game_design_settings.bundle",
-    "replacements": 8,
+    "bundle_file": "a869eb921818ef79d8426a3d602b07c5__remote_share_assets__project__game_design_settings.bundle",
+    "replacements": 11,
     "changed_objects": [
       {
         "path_id": 8585727256196504375,
         "type": "MonoBehaviour",
-        "replacements": 8
+        "replacements": 11
       }
     ]
   },
   {
-    "bundle_file": "4c31bbaead74dacca1c3d43e443d2909__remote_share_assets__project__game_design_tsume_pools.bundle",
+    "bundle_file": "11ccd025922217c678e1d3720a639f68__remote_share_assets__project__game_design_tsume_pools.bundle",
     "replacements": 22,
     "changed_objects": [
       {
@@ -7305,8 +7615,29 @@
     ]
   },
   {
-    "bundle_file": "ba76d7c4526f720afa159a534940ec2d__remote_share_assets__project__game_prefab.bundle",
-    "replacements": 142,
+    "bundle_file": "d57dca65ac9a23b039f7974304e01bff__remote_share_assets__project__game_design_tsume_sets.bundle",
+    "replacements": 3,
+    "changed_objects": [
+      {
+        "path_id": -3360787594885500344,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -138009151924956482,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 273895530990834699,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      }
+    ]
+  },
+  {
+    "bundle_file": "7c603259dff55c913c96761e91390b15__remote_share_assets__project__game_prefab.bundle",
+    "replacements": 146,
     "changed_objects": [
       {
         "path_id": -9078031139473375753,
@@ -7449,6 +7780,11 @@
         "replacements": 1
       },
       {
+        "path_id": -4232592326895911433,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
         "path_id": -4155618855227483814,
         "type": "MonoBehaviour",
         "replacements": 1
@@ -7574,6 +7910,11 @@
         "replacements": 1
       },
       {
+        "path_id": -1679426890059727369,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
         "path_id": -1572274135779608158,
         "type": "MonoBehaviour",
         "replacements": 1
@@ -7610,6 +7951,11 @@
       },
       {
         "path_id": -990454374397252980,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -632642526957954694,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -7929,6 +8275,11 @@
         "replacements": 1
       },
       {
+        "path_id": 7685041604142668154,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
         "path_id": 7827939316517800699,
         "type": "MonoBehaviour",
         "replacements": 1
@@ -8155,7 +8506,7 @@
     ]
   },
   {
-    "bundle_file": "15afccd4cf918cef57622c9f54a12427__remote_share_assets__project__menu_prefab_page_collection__component.bundle",
+    "bundle_file": "c0ebbc16c7efb4ec52e930ccb8e04e9e__remote_share_assets__project__menu_prefab_page_collection__component.bundle",
     "replacements": 10,
     "changed_objects": [
       {
@@ -8232,9 +8583,24 @@
     ]
   },
   {
-    "bundle_file": "8ef749c916da5b53bbbfa8c7c8b91fc0__remote_share_assets__project__menu_prefab_page_lobbymatchroompage.bundle",
-    "replacements": 13,
+    "bundle_file": "7a1f60f9c4e39a20e850a5530b2b1f7b__remote_share_assets__project__menu_prefab_page_lobbymatchroompage.bundle",
+    "replacements": 23,
     "changed_objects": [
+      {
+        "path_id": -9162679089134374873,
+        "type": "MonoBehaviour",
+        "replacements": 3
+      },
+      {
+        "path_id": -4495995211793703167,
+        "type": "MonoBehaviour",
+        "replacements": 3
+      },
+      {
+        "path_id": -4354393767208755455,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
       {
         "path_id": -2896482272041439193,
         "type": "MonoBehaviour",
@@ -8251,17 +8617,17 @@
         "replacements": 1
       },
       {
+        "path_id": -416979155954896857,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
         "path_id": -124242935487926233,
         "type": "MonoBehaviour",
         "replacements": 1
       },
       {
         "path_id": 512133385007263783,
-        "type": "MonoBehaviour",
-        "replacements": 1
-      },
-      {
-        "path_id": 1301697359586390055,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -8281,9 +8647,14 @@
         "replacements": 1
       },
       {
-        "path_id": 8460130276854394919,
+        "path_id": 4735545166199124007,
         "type": "MonoBehaviour",
         "replacements": 1
+      },
+      {
+        "path_id": 8048182530776625191,
+        "type": "MonoBehaviour",
+        "replacements": 3
       },
       {
         "path_id": 8621070095540875303,
@@ -8391,9 +8762,14 @@
     ]
   },
   {
-    "bundle_file": "ca35b078b0f1aad05d5d7f98160889d4__remote_share_assets__project_composition_prefab_ui.bundle",
-    "replacements": 6,
+    "bundle_file": "703b03340de7fb470a187ca6fdaae58b__remote_share_assets__project_composition_prefab_ui.bundle",
+    "replacements": 9,
     "changed_objects": [
+      {
+        "path_id": -8789941657833142837,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
       {
         "path_id": -6528820556627140762,
         "type": "MonoBehaviour",
@@ -8415,7 +8791,17 @@
         "replacements": 1
       },
       {
+        "path_id": -2884565091861802892,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
         "path_id": -978347039935246220,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 6193242915573302056,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -8427,8 +8813,8 @@
     ]
   },
   {
-    "bundle_file": "9e093d4d15bcceb967046df476a09a2f__remote_share_assets__project_composition_prefab_ui_character.bundle",
-    "replacements": 32,
+    "bundle_file": "5f8933f6f97c8c29652229e3e7baf18a__remote_share_assets__project_composition_prefab_ui_character.bundle",
+    "replacements": 43,
     "changed_objects": [
       {
         "path_id": -9136829909560469682,
@@ -8442,6 +8828,16 @@
       },
       {
         "path_id": -8848823233447014054,
+        "type": "MonoBehaviour",
+        "replacements": 3
+      },
+      {
+        "path_id": -8515128089441398806,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -8332783840864587715,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -8486,6 +8882,11 @@
         "replacements": 1
       },
       {
+        "path_id": -3875042971459514390,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
         "path_id": -3679737892073973938,
         "type": "MonoBehaviour",
         "replacements": 1
@@ -8502,6 +8903,11 @@
       },
       {
         "path_id": -3471325839063656626,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": -1357647919309647894,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -8531,6 +8937,11 @@
         "replacements": 1
       },
       {
+        "path_id": 1999448303847870442,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
         "path_id": 3099639620398395453,
         "type": "MonoBehaviour",
         "replacements": 1
@@ -8542,6 +8953,11 @@
       },
       {
         "path_id": 3619892474302672957,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 3705326974133240140,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -8561,7 +8977,22 @@
         "replacements": 1
       },
       {
+        "path_id": 6013198023462817770,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 6590472159646417228,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
         "path_id": 7224972583114037070,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
+        "path_id": 7689851211705815018,
         "type": "MonoBehaviour",
         "replacements": 1
       },
@@ -9679,7 +10110,7 @@
     ]
   },
   {
-    "bundle_file": "a03f5c735af225116b3890e5b96270c8__remote_share_assets__project_composition_prefab_ui_overlay_implement_shogirulepopup.bundle",
+    "bundle_file": "44dea7264b7c5fb5f39a2b1f7acd1b15__remote_share_assets__project_composition_prefab_ui_overlay_implement_shogirulepopup.bundle",
     "replacements": 15,
     "changed_objects": [
       {
@@ -9822,8 +10253,8 @@
     ]
   },
   {
-    "bundle_file": "20a717b8c71131c2a8ba02fa34aacbd0__remote_share_assets__project_composition_prefab_ui_overlay_implement_userprofilepopup_section.bundle",
-    "replacements": 37,
+    "bundle_file": "4bba5c09d0325ce0b0d00cca52e9f14f__remote_share_assets__project_composition_prefab_ui_overlay_implement_userprofilepopup_section.bundle",
+    "replacements": 39,
     "changed_objects": [
       {
         "path_id": -8517648285357735208,
@@ -9941,6 +10372,11 @@
         "replacements": 1
       },
       {
+        "path_id": 4329101623243938896,
+        "type": "MonoBehaviour",
+        "replacements": 1
+      },
+      {
         "path_id": 4997419919172112088,
         "type": "MonoBehaviour",
         "replacements": 1
@@ -9964,6 +10400,11 @@
         "path_id": 7699551283018877128,
         "type": "MonoBehaviour",
         "replacements": 4
+      },
+      {
+        "path_id": 7763985296426139969,
+        "type": "MonoBehaviour",
+        "replacements": 1
       },
       {
         "path_id": 7784368399093121210,
@@ -10055,7 +10496,7 @@
     ]
   },
   {
-    "bundle_file": "a3749482ff0bdc2e48253e17b1dd2fa2__remote_share_assets__project_composition_prefab_ui_shop_paidshopproductscroller.bundle",
+    "bundle_file": "86136684d25af516a5e698ecfa42cd34__remote_share_assets__project_composition_prefab_ui_shop_paidshopproductscroller.bundle",
     "replacements": 13,
     "changed_objects": [
       {
@@ -10106,7 +10547,7 @@
     ]
   },
   {
-    "bundle_file": "6291e42c05c6938a7677543b0ec2706e__remote_share_assets__project_composition_prefab_ui_shop_shopcontent.bundle",
+    "bundle_file": "bbdd80346ad17b63bd9643a8857b4cce__remote_share_assets__project_composition_prefab_ui_shop_shopcontent.bundle",
     "replacements": 109,
     "changed_objects": [
       {
@@ -10619,7 +11060,7 @@
     ]
   },
   {
-    "bundle_file": "2a125e9fc5e9e1478fb1262050125e67__remote_share_assets__project_composition_prefab_ui_uishogi.bundle",
+    "bundle_file": "00547e935c3bade3f6bddb24a6d3798e__remote_share_assets__project_composition_prefab_ui_uishogi.bundle",
     "replacements": 18,
     "changed_objects": [
       {
@@ -10715,7 +11156,7 @@
     ]
   },
   {
-    "bundle_file": "eea03e50b108136a0c94e0bc615a83d4__remote_share_assets__project_data_howtoplay.bundle",
+    "bundle_file": "2349baffc9eee485d47cf2347cf2ce1d__remote_share_assets__project_data_howtoplay.bundle",
     "replacements": 17,
     "changed_objects": [
       {
@@ -10756,8 +11197,8 @@
     ]
   },
   {
-    "bundle_file": "9916ef9b4976b7c65925685d2e0b26d6__remote_share_assets__project_data_tutorial.bundle",
-    "replacements": 22,
+    "bundle_file": "7b9166423d570c704c35d4e29bd98287__remote_share_assets__project_data_tutorial.bundle",
+    "replacements": 23,
     "changed_objects": [
       {
         "path_id": -8757109650819145396,
@@ -10783,6 +11224,11 @@
         "path_id": -1315680233090735796,
         "type": "MonoBehaviour",
         "replacements": 4
+      },
+      {
+        "path_id": 1384607424120922444,
+        "type": "MonoBehaviour",
+        "replacements": 1
       },
       {
         "path_id": 2812015273585844556,
@@ -10859,7 +11305,7 @@
     ]
   },
   {
-    "bundle_file": "1ec90001dac03c4adfb27eeae83172a4__remote_share_assets__project_scenario_prefab.bundle",
+    "bundle_file": "38dc7eeca77cb31ed4a8b3a3721cf266__remote_share_assets__project_scenario_prefab.bundle",
     "replacements": 7,
     "changed_objects": [
       {
@@ -10900,7 +11346,7 @@
     ]
   },
   {
-    "bundle_file": "21d46f8f5360a3e64ceefee28b3568d2__remote_share_assets__project_scenario_prefab_hud.bundle",
+    "bundle_file": "c6e974de03127e1de72b369ff8a7e900__remote_share_assets__project_scenario_prefab_hud.bundle",
     "replacements": 11,
     "changed_objects": [
       {
@@ -11008,16 +11454,16 @@
     ]
   },
   {
-    "bundle_file": "c66a895b31adf64138bd5cf376a975e2__remote_assets__project_masterdata_runtimemasterdata.bundle",
-    "replacements": 1602,
+    "bundle_file": "ee9f0d1f06d0126bb36f5f35da8ca1d2__remote_assets__project_masterdata_runtimemasterdata.bundle",
+    "replacements": 1614,
     "changed_objects": [
       {
         "path_id": -3577660058741299233,
         "type": "TextAsset",
         "name": "RuntimeMasterData",
-        "replacements": 1602,
-        "script_bytes_before": 307702,
-        "script_bytes_after": 284199,
+        "replacements": 1614,
+        "script_bytes_before": 308525,
+        "script_bytes_after": 285056,
         "strings": [
           {
             "source": "自分の対局を将棋AIが詳しく分析してくれる、30日間有効のパスです。\n「あの一手は本当に最善だった？」を、棋譜から振り返ることができます。\n\n【価格】\n・650円（税込）\n\n【獲得奉納ポイント】\n・37pt\n\n【有効期間】\n・購入日から30日間\n\n【解放される機能】\n・評価値グラフ：一手ごとの形勢を折れ線グラフで可視化\n・推奨手順：AIが選ぶ最善手と、その後の進行を表示\n・指し手評価：自分の指した手の良し悪しをマーク表示（好手・悪手・疑問手 等）\n\n【追加購入について】\n・有効期間中でも追加購入が可能です\n・1回の購入で有効期間が30日加算されます\n・追加購入は最大1年分まで可能です\n\n※棋譜再生・手順リスト・KIFコピー・盤面画像共有は、パスがなくても利用できます。\n※棋譜再生画面の「解析を利用する」ボタンからも購入できます。",
@@ -14800,6 +15246,13 @@
             "target_bytes": 17
           },
           {
+            "source": "ガチャタイトルコール",
+            "target": "Gacha Title Call",
+            "replacements": 1,
+            "source_bytes": 30,
+            "target_bytes": 16
+          },
+          {
             "source": "とくなが としぞう",
             "target": "Tokunaga Rizo",
             "replacements": 1,
@@ -14973,6 +15426,20 @@
             "replacements": 1,
             "source_bytes": 27,
             "target_bytes": 32
+          },
+          {
+            "source": "棋桜覚醒 使用時1",
+            "target": "Kiou Awakening - Activation 1",
+            "replacements": 1,
+            "source_bytes": 23,
+            "target_bytes": 29
+          },
+          {
+            "source": "棋桜覚醒 使用時2",
+            "target": "Kiou Awakening - Activation 2",
+            "replacements": 1,
+            "source_bytes": 23,
+            "target_bytes": 29
           },
           {
             "source": "ねこみや さくら",
@@ -15416,6 +15883,13 @@
             "target_bytes": 26
           },
           {
+            "source": "棋桜覚醒 終了時",
+            "target": "Kiou Awakening - End",
+            "replacements": 1,
+            "source_bytes": 22,
+            "target_bytes": 20
+          },
+          {
             "source": "期待の駆け出し",
             "target": "Promising Beginner",
             "replacements": 1,
@@ -15848,6 +16322,13 @@
             "replacements": 1,
             "source_bytes": 21,
             "target_bytes": 27
+          },
+          {
+            "source": "月夜のはじまり",
+            "target": "Moonlit Beginning",
+            "replacements": 1,
+            "source_bytes": 21,
+            "target_bytes": 17
           },
           {
             "source": "新鋭の指し手",
@@ -16303,6 +16784,20 @@
             "replacements": 1,
             "source_bytes": 18,
             "target_bytes": 7
+          },
+          {
+            "source": "ふたりの月見",
+            "target": "Moon Viewing Together",
+            "replacements": 1,
+            "source_bytes": 18,
+            "target_bytes": 21
+          },
+          {
+            "source": "団子屋の灯り",
+            "target": "Lights of the Dango Shop",
+            "replacements": 1,
+            "source_bytes": 18,
+            "target_bytes": 24
           },
           {
             "source": "盤上の新兵",
@@ -17570,6 +18065,41 @@
             "replacements": 1,
             "source_bytes": 15,
             "target_bytes": 16
+          },
+          {
+            "source": "団子と一手",
+            "target": "Dango and a Move",
+            "replacements": 1,
+            "source_bytes": 15,
+            "target_bytes": 16
+          },
+          {
+            "source": "満月の約束",
+            "target": "Promise Under the Full Moon",
+            "replacements": 1,
+            "source_bytes": 15,
+            "target_bytes": 27
+          },
+          {
+            "source": "静かな対局",
+            "target": "A Quiet Match",
+            "replacements": 1,
+            "source_bytes": 15,
+            "target_bytes": 13
+          },
+          {
+            "source": "月影の秘手",
+            "target": "Secret Move in the Moonlight",
+            "replacements": 1,
+            "source_bytes": 15,
+            "target_bytes": 28
+          },
+          {
+            "source": "月下の一勝",
+            "target": "A Victory Under the Moon",
+            "replacements": 1,
+            "source_bytes": 15,
+            "target_bytes": 24
           },
           {
             "source": "ソフィア",
@@ -20408,14 +20938,14 @@
     ]
   },
   {
-    "bundle_file": "2157b7465bc6f11e6c333ca1c8d6f90c__remote_assets__project_sound_generated_voice_catalog_voice001_g.bundle",
-    "replacements": 290,
+    "bundle_file": "a36b7fb8c8f1b89b599ccce40cb00229__remote_assets__project_sound_generated_voice_catalog_voice001_g.bundle",
+    "replacements": 292,
     "changed_objects": [
       {
         "path_id": 2949881471595906457,
         "type": "TextAsset",
         "name": "voice_catalog_Voice001.g",
-        "replacements": 290,
+        "replacements": 292,
         "strings": [
           {
             "cueName": "voice_001_001",
@@ -21828,6 +22358,16 @@
             "target": "Kudo-Style Feint Ranging Rook"
           },
           {
+            "cueName": "voice_001_300",
+            "source": "すっごくいい手を見つけちゃった！",
+            "target": "I found an amazing move!"
+          },
+          {
+            "cueName": "voice_001_301",
+            "source": "どんな手も突破しちゃうんだから！",
+            "target": "I'll break through anything you play!"
+          },
+          {
             "cueName": "voice_001_312",
             "source": "よろしくねっ！",
             "target": "Nice to meet you!"
@@ -21872,14 +22412,14 @@
     ]
   },
   {
-    "bundle_file": "557b272ffd6a59e510ae9d4a68ed5d5e__remote_assets__project_sound_generated_voice_catalog_voice002_g.bundle",
-    "replacements": 290,
+    "bundle_file": "3f17ea17b7d8c1800ce09a78984b56fc__remote_assets__project_sound_generated_voice_catalog_voice002_g.bundle",
+    "replacements": 292,
     "changed_objects": [
       {
         "path_id": 3835839905487270857,
         "type": "TextAsset",
         "name": "voice_catalog_Voice002.g",
-        "replacements": 290,
+        "replacements": 292,
         "strings": [
           {
             "cueName": "voice_002_001",
@@ -23292,6 +23832,16 @@
             "target": "Kudo-Style Feint Ranging Rook"
           },
           {
+            "cueName": "voice_002_300",
+            "source": "この形です",
+            "target": "This is the formation."
+          },
+          {
+            "cueName": "voice_002_301",
+            "source": "この一手で、流れを変えます",
+            "target": "This move will turn the tide."
+          },
+          {
             "cueName": "voice_002_312",
             "source": "よろしくお願いいたします。",
             "target": "It is a pleasure to meet you."
@@ -23336,14 +23886,14 @@
     ]
   },
   {
-    "bundle_file": "61dac3934b31ca1b4c5f2fca371574c2__remote_assets__project_sound_generated_voice_catalog_voice003_g.bundle",
-    "replacements": 289,
+    "bundle_file": "075b9c9952f9cdfdd040234d1a18cdb9__remote_assets__project_sound_generated_voice_catalog_voice003_g.bundle",
+    "replacements": 291,
     "changed_objects": [
       {
         "path_id": 7076454576422422264,
         "type": "TextAsset",
         "name": "voice_catalog_Voice003.g",
-        "replacements": 289,
+        "replacements": 291,
         "strings": [
           {
             "cueName": "voice_003_001",
@@ -24756,6 +25306,16 @@
             "target": "Kudo-Style Feint Ranging Rook"
           },
           {
+            "cueName": "voice_003_300",
+            "source": "この手で行こうかねぇ",
+            "target": "Let's go with this move."
+          },
+          {
+            "cueName": "voice_003_301",
+            "source": "ここを突っ走るとしよう！",
+            "target": "Let's charge straight through here!"
+          },
+          {
             "cueName": "voice_003_312",
             "source": "よろしく頼むよ",
             "target": "I'm counting on you."
@@ -24795,14 +25355,14 @@
     ]
   },
   {
-    "bundle_file": "b69d1360cc115fd47e111e51b80254ab__remote_assets__project_sound_generated_voice_catalog_voice004_g.bundle",
-    "replacements": 289,
+    "bundle_file": "aa0bc58c3c8ec9d416ef29a10e679777__remote_assets__project_sound_generated_voice_catalog_voice004_g.bundle",
+    "replacements": 291,
     "changed_objects": [
       {
         "path_id": 8418274433812461946,
         "type": "TextAsset",
         "name": "voice_catalog_Voice004.g",
-        "replacements": 289,
+        "replacements": 291,
         "strings": [
           {
             "cueName": "voice_004_001",
@@ -26215,6 +26775,16 @@
             "target": "Kudo-Style Feint Ranging Rook"
           },
           {
+            "cueName": "voice_004_300",
+            "source": "この一手が、勝利への最短ルートよ",
+            "target": "This move is the shortest path to victory."
+          },
+          {
+            "cueName": "voice_004_301",
+            "source": "全ては私の筋書き通り",
+            "target": "Everything is going according to my plan."
+          },
+          {
             "cueName": "voice_004_312",
             "source": "よろしくお願いします",
             "target": "Nice to meet you."
@@ -26254,14 +26824,14 @@
     ]
   },
   {
-    "bundle_file": "75a9b10e9c1eab908090fd0524e30afd__remote_assets__project_sound_generated_voice_catalog_voice005_g.bundle",
-    "replacements": 289,
+    "bundle_file": "ea6423595313213b5462b8b7f717b1f1__remote_assets__project_sound_generated_voice_catalog_voice005_g.bundle",
+    "replacements": 291,
     "changed_objects": [
       {
         "path_id": 6609702509617421741,
         "type": "TextAsset",
         "name": "voice_catalog_Voice005.g",
-        "replacements": 289,
+        "replacements": 291,
         "strings": [
           {
             "cueName": "voice_005_001",
@@ -27674,6 +28244,16 @@
             "target": "Kudo-Style Feint Ranging Rook"
           },
           {
+            "cueName": "voice_005_300",
+            "source": "視えた。",
+            "target": "I see it."
+          },
+          {
+            "cueName": "voice_005_301",
+            "source": "我が理、導こう。",
+            "target": "My reason shall guide the way."
+          },
+          {
             "cueName": "voice_005_312",
             "source": "此度の対局、嘉すに足るか見定めよう",
             "target": "Let us see whether this match is worthy of praise."
@@ -27713,14 +28293,14 @@
     ]
   },
   {
-    "bundle_file": "dd4fd1544684f7c17e3ab757c6d4fedc__remote_assets__project_sound_generated_voice_catalog_voice006_g.bundle",
-    "replacements": 290,
+    "bundle_file": "d588f1ca755bd0579ab24a6cd252f831__remote_assets__project_sound_generated_voice_catalog_voice006_g.bundle",
+    "replacements": 292,
     "changed_objects": [
       {
         "path_id": 928831031877064332,
         "type": "TextAsset",
         "name": "voice_catalog_Voice006.g",
-        "replacements": 290,
+        "replacements": 292,
         "strings": [
           {
             "cueName": "voice_006_001",
@@ -29133,6 +29713,16 @@
             "target": "Kudo-Style Feint Ranging Rook"
           },
           {
+            "cueName": "voice_006_300",
+            "source": "勝利への一手が見えたわ！",
+            "target": "I see the move that leads to victory!"
+          },
+          {
+            "cueName": "voice_006_301",
+            "source": "この一手で道を切り開くわ！",
+            "target": "This move will clear the way!"
+          },
+          {
             "cueName": "voice_006_312",
             "source": "よろしくね！",
             "target": "Nice to meet you!"
@@ -29177,14 +29767,14 @@
     ]
   },
   {
-    "bundle_file": "3f87af185d4aae26538cc8147611f693__remote_assets__project_sound_generated_voice_catalog_voice007_g.bundle",
-    "replacements": 289,
+    "bundle_file": "00abd98fe557d9f7a42ca4db236d601e__remote_assets__project_sound_generated_voice_catalog_voice007_g.bundle",
+    "replacements": 291,
     "changed_objects": [
       {
         "path_id": -6908046885324176778,
         "type": "TextAsset",
         "name": "voice_catalog_Voice007.g",
-        "replacements": 289,
+        "replacements": 291,
         "strings": [
           {
             "cueName": "voice_007_001",
@@ -30597,6 +31187,16 @@
             "target": "Kudo-Style Feint Ranging Rook"
           },
           {
+            "cueName": "voice_007_300",
+            "source": "神のお導きが見えました",
+            "target": "I see God's guidance."
+          },
+          {
+            "cueName": "voice_007_301",
+            "source": "では……神の御心に沿うよう、導きましょう",
+            "target": "Then... let me guide us according to God's will."
+          },
+          {
             "cueName": "voice_007_312",
             "source": "よろしくお願いします",
             "target": "Nice to meet you."
@@ -30636,14 +31236,14 @@
     ]
   },
   {
-    "bundle_file": "f4bcf207538f44d8d5c228976eabc07c__remote_assets__project_sound_generated_voice_catalog_voice008_g.bundle",
-    "replacements": 290,
+    "bundle_file": "8840ac11f04749472e11e32f001e6f8e__remote_assets__project_sound_generated_voice_catalog_voice008_g.bundle",
+    "replacements": 292,
     "changed_objects": [
       {
         "path_id": 8098614384933120958,
         "type": "TextAsset",
         "name": "voice_catalog_Voice008.g",
-        "replacements": 290,
+        "replacements": 292,
         "strings": [
           {
             "cueName": "voice_008_001",
@@ -32056,6 +32656,16 @@
             "target": "Kudo-Style Feint Ranging Rook"
           },
           {
+            "cueName": "voice_008_300",
+            "source": "迷わず、踏み込みましょう。",
+            "target": "Let us advance without hesitation."
+          },
+          {
+            "cueName": "voice_008_301",
+            "source": "この一手こそ、勝利への道です",
+            "target": "This move is the path to victory."
+          },
+          {
             "cueName": "voice_008_312",
             "source": "よろしくお願いいたします",
             "target": "It is a pleasure to meet you."
@@ -32100,14 +32710,14 @@
     ]
   },
   {
-    "bundle_file": "251ebfe153398184a0cf087f849be1ec__remote_assets__project_sound_generated_voice_catalog_voice009_g.bundle",
-    "replacements": 289,
+    "bundle_file": "3a4c126927fc4f459fbf527a4e3c500e__remote_assets__project_sound_generated_voice_catalog_voice009_g.bundle",
+    "replacements": 291,
     "changed_objects": [
       {
         "path_id": 6735160103154270012,
         "type": "TextAsset",
         "name": "voice_catalog_Voice009.g",
-        "replacements": 289,
+        "replacements": 291,
         "strings": [
           {
             "cueName": "voice_009_001",
@@ -33520,6 +34130,16 @@
             "target": "Kudo-Style Feint Ranging Rook"
           },
           {
+            "cueName": "voice_009_300",
+            "source": "見えた！",
+            "target": "I see it!"
+          },
+          {
+            "cueName": "voice_009_301",
+            "source": "道を示そう。",
+            "target": "I shall show the way."
+          },
+          {
             "cueName": "voice_009_312",
             "source": "よろしく頼む",
             "target": "I'm counting on you."
@@ -33559,14 +34179,14 @@
     ]
   },
   {
-    "bundle_file": "fdfd6750122611a8c8dd3324ae90bb91__remote_assets__project_sound_generated_voice_catalog_voice010_g.bundle",
-    "replacements": 289,
+    "bundle_file": "394a424487c98a715383af7294286d5a__remote_assets__project_sound_generated_voice_catalog_voice010_g.bundle",
+    "replacements": 291,
     "changed_objects": [
       {
         "path_id": 8646270171052638161,
         "type": "TextAsset",
         "name": "voice_catalog_Voice010.g",
-        "replacements": 289,
+        "replacements": 291,
         "strings": [
           {
             "cueName": "voice_010_001",
@@ -34979,6 +35599,16 @@
             "target": "Kudo-Style Feint Ranging Rook"
           },
           {
+            "cueName": "voice_010_300",
+            "source": "見えた",
+            "target": "I see it."
+          },
+          {
+            "cueName": "voice_010_301",
+            "source": "この手に限る",
+            "target": "This is the only move."
+          },
+          {
             "cueName": "voice_010_312",
             "source": "よろしく頼む",
             "target": "I'm counting on you."
@@ -35018,14 +35648,14 @@
     ]
   },
   {
-    "bundle_file": "c49d51b17c577ccd4f288e6b039c4bdc__remote_assets__project_sound_generated_voice_catalog_voice011_g.bundle",
-    "replacements": 289,
+    "bundle_file": "2dfed3679eb1278cd5b65b3d484c7e17__remote_assets__project_sound_generated_voice_catalog_voice011_g.bundle",
+    "replacements": 291,
     "changed_objects": [
       {
         "path_id": 5465214592638477,
         "type": "TextAsset",
         "name": "voice_catalog_Voice011.g",
-        "replacements": 289,
+        "replacements": 291,
         "strings": [
           {
             "cueName": "voice_011_001",
@@ -36438,6 +37068,16 @@
             "target": "Kudo-Style Feint Ranging Rook"
           },
           {
+            "cueName": "voice_011_300",
+            "source": "この手でいくか！",
+            "target": "Let's go with this move!"
+          },
+          {
+            "cueName": "voice_011_301",
+            "source": "この手が熱いぜ！",
+            "target": "Now that's a hot move!"
+          },
+          {
             "cueName": "voice_011_312",
             "source": "よろしく頼む！",
             "target": "I'm counting on you!"
@@ -36477,14 +37117,14 @@
     ]
   },
   {
-    "bundle_file": "dbb675c724ffff59feab2c069b80bd69__remote_assets__project_sound_generated_voice_catalog_voice012_g.bundle",
-    "replacements": 289,
+    "bundle_file": "8b27f2eb472a6bdd4e2c5a0920159099__remote_assets__project_sound_generated_voice_catalog_voice012_g.bundle",
+    "replacements": 291,
     "changed_objects": [
       {
         "path_id": -7533288986723877529,
         "type": "TextAsset",
         "name": "voice_catalog_Voice012.g",
-        "replacements": 289,
+        "replacements": 291,
         "strings": [
           {
             "cueName": "voice_012_001",
@@ -37897,6 +38537,16 @@
             "target": "Kudo-Style Feint Ranging Rook"
           },
           {
+            "cueName": "voice_012_300",
+            "source": "ここがいいだろう",
+            "target": "This should be the right spot."
+          },
+          {
+            "cueName": "voice_012_301",
+            "source": "これが最適解だ",
+            "target": "This is the optimal solution."
+          },
+          {
             "cueName": "voice_012_312",
             "source": "よろしくお願いします",
             "target": "Nice to meet you."
@@ -37936,14 +38586,14 @@
     ]
   },
   {
-    "bundle_file": "87ff5a3dd5e7c85c8fddaf925627aa5c__remote_assets__project_sound_generated_voice_catalog_voice013_g.bundle",
-    "replacements": 289,
+    "bundle_file": "8e6fe0961b44290281a8be9141511b10__remote_assets__project_sound_generated_voice_catalog_voice013_g.bundle",
+    "replacements": 291,
     "changed_objects": [
       {
         "path_id": -3378493045938594507,
         "type": "TextAsset",
         "name": "voice_catalog_Voice013.g",
-        "replacements": 289,
+        "replacements": 291,
         "strings": [
           {
             "cueName": "voice_013_001",
@@ -39356,6 +40006,16 @@
             "target": "Kudo-Style Feint Ranging Rook"
           },
           {
+            "cueName": "voice_013_300",
+            "source": "これが最善手だ",
+            "target": "This is the best move."
+          },
+          {
+            "cueName": "voice_013_301",
+            "source": "この一手が、道を切り拓く",
+            "target": "This move will open the way."
+          },
+          {
             "cueName": "voice_013_312",
             "source": "よろしく頼もう",
             "target": "I'm counting on you."
@@ -39395,14 +40055,14 @@
     ]
   },
   {
-    "bundle_file": "274ffb4bda9e77321722943c56dc34c4__remote_assets__project_sound_generated_voice_catalog_voice014_g.bundle",
-    "replacements": 289,
+    "bundle_file": "1836125f0d6573328e6744d13e6fd254__remote_assets__project_sound_generated_voice_catalog_voice014_g.bundle",
+    "replacements": 291,
     "changed_objects": [
       {
         "path_id": 3582444929879739120,
         "type": "TextAsset",
         "name": "voice_catalog_Voice014.g",
-        "replacements": 289,
+        "replacements": 291,
         "strings": [
           {
             "cueName": "voice_014_001",
@@ -40815,6 +41475,16 @@
             "target": "Kudo-Style Feint Ranging Rook"
           },
           {
+            "cueName": "voice_014_300",
+            "source": "この手ね！",
+            "target": "This move!"
+          },
+          {
+            "cueName": "voice_014_301",
+            "source": "勝利への道、見せてあげるわ！",
+            "target": "I'll show you the road to victory!"
+          },
+          {
             "cueName": "voice_014_312",
             "source": "よろしくお願いします",
             "target": "Nice to meet you."
@@ -40854,14 +41524,14 @@
     ]
   },
   {
-    "bundle_file": "76a7e3ec08bcedbf6c571e94ab93b8b4__remote_assets__project_sound_generated_voice_catalog_voice015_g.bundle",
-    "replacements": 289,
+    "bundle_file": "12cdb305d2a04f6d0f04055c956c3afe__remote_assets__project_sound_generated_voice_catalog_voice015_g.bundle",
+    "replacements": 292,
     "changed_objects": [
       {
         "path_id": 5212649312301137133,
         "type": "TextAsset",
         "name": "voice_catalog_Voice015.g",
-        "replacements": 289,
+        "replacements": 292,
         "strings": [
           {
             "cueName": "voice_015_001",
@@ -42269,6 +42939,21 @@
             "target": "Kudo-Style Feint Ranging Rook"
           },
           {
+            "cueName": "voice_015_300",
+            "source": "直伝の一手！",
+            "target": "A move taught to me directly!"
+          },
+          {
+            "cueName": "voice_015_301",
+            "source": "行くよっ！",
+            "target": "Here I go!"
+          },
+          {
+            "cueName": "voice_015_311",
+            "source": "ふぅ……ここまで。",
+            "target": "Whew... that's enough for now."
+          },
+          {
             "cueName": "voice_015_312",
             "source": "おはよう",
             "target": "Good morning."
@@ -42313,14 +42998,14 @@
     ]
   },
   {
-    "bundle_file": "9db1006b8732b6a83ab2b2a51347d113__remote_assets__project_sound_generated_voice_catalog_voice016_g.bundle",
-    "replacements": 289,
+    "bundle_file": "95366cfa2750b6caf068b77de8083c9a__remote_assets__project_sound_generated_voice_catalog_voice016_g.bundle",
+    "replacements": 292,
     "changed_objects": [
       {
         "path_id": -8485057480170553258,
         "type": "TextAsset",
         "name": "voice_catalog_Voice016.g",
-        "replacements": 289,
+        "replacements": 292,
         "strings": [
           {
             "cueName": "voice_016_001",
@@ -43728,6 +44413,21 @@
             "target": "Kudo-Style Feint Ranging Rook"
           },
           {
+            "cueName": "voice_016_300",
+            "source": "お稽古の成果をここで",
+            "target": "Time to show the fruits of my training."
+          },
+          {
+            "cueName": "voice_016_301",
+            "source": "淑女の真髄、お見せいたします。",
+            "target": "Allow me to show you the essence of a true lady."
+          },
+          {
+            "cueName": "voice_016_311",
+            "source": "全力を出し切れました",
+            "target": "I gave it everything I had."
+          },
+          {
             "cueName": "voice_016_312",
             "source": "ごきげんよう。",
             "target": "Good day."
@@ -43772,14 +44472,14 @@
     ]
   },
   {
-    "bundle_file": "052b686cea0156f3f68efebc49ef531d__remote_assets__project_sound_generated_voice_catalog_voice017_g.bundle",
-    "replacements": 289,
+    "bundle_file": "cb4d86295ba86db0c337c165ab98e292__remote_assets__project_sound_generated_voice_catalog_voice017_g.bundle",
+    "replacements": 292,
     "changed_objects": [
       {
         "path_id": 2480204085918327634,
         "type": "TextAsset",
         "name": "voice_catalog_Voice017.g",
-        "replacements": 289,
+        "replacements": 292,
         "strings": [
           {
             "cueName": "voice_017_001",
@@ -45187,6 +45887,21 @@
             "target": "Kudo-Style Feint Ranging Rook"
           },
           {
+            "cueName": "voice_017_300",
+            "source": "ライブスタートっ！",
+            "target": "The show starts now!"
+          },
+          {
+            "cueName": "voice_017_301",
+            "source": "閃いたっ！",
+            "target": "I've got it!"
+          },
+          {
+            "cueName": "voice_017_311",
+            "source": "まだまだいくよーっ！",
+            "target": "I'm just getting started!"
+          },
+          {
             "cueName": "voice_017_312",
             "source": "よろしくねっ！",
             "target": "Nice to meet you!"
@@ -45231,14 +45946,14 @@
     ]
   },
   {
-    "bundle_file": "392e6c4c36fde8d862caa744e5509d7b__remote_assets__project_sound_generated_voice_catalog_voice018_g.bundle",
-    "replacements": 284,
+    "bundle_file": "924c4bb4f9bc5a49f1d8868262eafef4__remote_assets__project_sound_generated_voice_catalog_voice018_g.bundle",
+    "replacements": 287,
     "changed_objects": [
       {
         "path_id": 419669210451556558,
         "type": "TextAsset",
         "name": "voice_catalog_Voice018.g",
-        "replacements": 284,
+        "replacements": 287,
         "strings": [
           {
             "cueName": "voice_018_001",
@@ -46621,6 +47336,21 @@
             "target": "Kudo-Style Feint Ranging Rook"
           },
           {
+            "cueName": "voice_018_300",
+            "source": "風が、私に道を示してる！",
+            "target": "The wind is showing me the way!"
+          },
+          {
+            "cueName": "voice_018_301",
+            "source": "お姉さんの直感だと、ここ！",
+            "target": "My intuition says: here!"
+          },
+          {
+            "cueName": "voice_018_311",
+            "source": "戻るわね",
+            "target": "I'll go back."
+          },
+          {
             "cueName": "voice_018_312",
             "source": "ハァーイ！",
             "target": "Hii!"
@@ -46665,7 +47395,7 @@
     ]
   },
   {
-    "bundle_file": "3b36e4deb8a6ccf11828c27e23980968__remote_assets__project_sound_generated_voice_catalog_voice900_g.bundle",
+    "bundle_file": "eed825f2d4dd286c2c521e66b74baa74__remote_assets__project_sound_generated_voice_catalog_voice900_g.bundle",
     "replacements": 0,
     "changed_objects": []
   }
